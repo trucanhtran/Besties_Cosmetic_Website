@@ -1,0 +1,49 @@
+.item {
+  width: 200px;
+}
+.ratings {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.star {
+  position: relative;
+  display: inline-block;
+  transition: color 0.2s ease;
+  color: #fddb3a;
+}
+
+.star:before {
+  content: "\2605";
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+}
+
+.star:hover,
+.star.selected,
+.star:hover ~ .star,
+.star.selected ~ .star {
+  transition: color 0.8s ease;
+  color: black;
+}
+
+.item-images {
+  position: relative;
+}
+.item-images p:hover {
+  color: #ff8e71;
+}
+.item-images a {
+  text-decoration: none;
+  color: black;
+}
+
+.item-star {
+  position: absolute;
+  top: 8px;
+  left: 30px;
+  margin: auto;
+}
