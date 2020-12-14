@@ -467,34 +467,20 @@
             </script>
           </td>
           <td>
-            <table
-              style="width: 100%"
-              ng-app="angularApp"
-              ng-controller="EyeController"
-              class="products-table"
-            >
-              <tbody>
-                <tr ng-repeat="eye in eyes | filter:search">
-                  <td>{{eye.TenSP}}</td>
-                  <td>{{eye.Ma}}</td>
-                  <td>
-                    <div class="wrap-product-images">
-                      <div
-                        ng-repeat="image in eye.images.split(',') track by $index"
-                      >
-                        <a href="{{image}}" target="_blank">
-                          <img
-                            ng-src="{{image}}"
-                            alt="{{eye.TenSP}}"
-                            class="product-image"
-                          />
-                        </a>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              Muốn tìm gì: <input ng-model="search" />
+              <div>
+                  <div style="width: 100%"
+                   ng-app="angularApp"
+                   ng-controller="EyeController"
+                   class="products-table">
+                  <div style="display:inline-block"
+                       ng-repeat="eye in eyes | filter:search">
+                      <img ng-src="{{eye.image}}" style="width:300px; height:300px"/><br />
+                      <div style="width:300px">{{eye.TenSP}}</div><br />
+                      {{eye.Giaban}}<br />
+                  </div>
+              </div>
+              </div>
           </td>
         </tr>
       </tbody>
