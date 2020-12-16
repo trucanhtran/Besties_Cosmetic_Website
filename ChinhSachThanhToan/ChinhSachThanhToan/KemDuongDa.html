@@ -260,16 +260,32 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
       }
+      .wrap-paging {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+      .item-paging {
+        padding: 4px;
+      }
+      .item-paging > a:visited {
+        color: #0001ee;
+      }
     </style>
     <script>
       var app = angular.module("angularApp", []);
       app.controller("KemDuongDaController", function ($scope, $http) {
+        const page = parseInt(window.location.href.split("?page=")[1]);
+        const totalPerPage = 9;
         $http({
           method: "GET",
           url: "http://localhost:3000/kemDuongDa",
         }).then(
           function mySucces(respone) {
-            $scope.datas = respone.data;
+            $scope.datas = respone.data.slice(
+              (page - 1) * totalPerPage,
+              page * totalPerPage
+            );
           },
           function myError(respone) {
             $scope.dataError = respone.statusText;
@@ -504,6 +520,35 @@
                   <br />
                   {{data.Giaban}}<br />
                 </div>
+              </div>
+            </div>
+            <div class="wrap-paging">
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=1">Trang 1</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=2">Trang 2</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=3">Trang 3</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=4">Trang 4</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=5">Trang 5</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=6">Trang 6</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=7">Trang 7</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=8">Trang 8</a>
+              </div>
+              <div class="item-paging">
+                <a href="KemDuongDa.html?page=9">Trang 9</a>
               </div>
             </div>
           </td>
