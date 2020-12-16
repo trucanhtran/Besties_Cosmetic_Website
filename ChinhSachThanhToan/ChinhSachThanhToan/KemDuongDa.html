@@ -275,7 +275,7 @@
     <script>
       var app = angular.module("angularApp", []);
       app.controller("KemDuongDaController", function ($scope, $http) {
-        const page = parseInt(window.location.href.split("?page=")[1]);
+        const page = parseInt(window.location.href.split("?page=")[1]) || 1;
         const totalPerPage = 9;
         $http({
           method: "GET",
