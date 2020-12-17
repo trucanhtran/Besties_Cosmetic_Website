@@ -242,11 +242,13 @@
       table.products-table > tbody > tr > td {
         border: 1px solid black;
       }
+
       .wrap-product-images {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
       }
+
       .product-image {
         width: 80px;
         height: 80px;
@@ -259,6 +261,7 @@
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
+        padding: 0px 20px 0px 0px;
       }
       .wrap-paging {
         display: flex;
@@ -269,9 +272,16 @@
       .item-paging {
         padding: 4px;
       }
-      .item-paging > a:visited {
-        color: #0001ee;
+      .item-paging > a {
+        color: black;
+        text-decoration: none;
       }
+      .item-paging > a:hover {
+        color: #ffa5a5;
+      }
+      /*.item-paging > a:visited {
+        color: #393e46;
+      }*/
     </style>
     <script>
       var app = angular.module("angularApp", []);
@@ -509,7 +519,7 @@
                 >
                   <img
                     ng-src="{{eye.image}}"
-                    style="width: 300px; height: 300px"
+                    style="width: 300px; height: 300px; padding: 10px"
                     onerror="showNoImage(this)"
                   /><br />
                   <div class="ellipsis-title">{{eye.TenSP}}</div>
@@ -519,7 +529,7 @@
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
                     <a ng-href="{{'EyesMakeup.html?page=' + (item+1)}}"
-                      >{{'Trang' + (item+1)}}</a
+                      >{{'Trang ' + (item+1)+ ' |'}}</a
                     >
                   </div>
                 </div>
