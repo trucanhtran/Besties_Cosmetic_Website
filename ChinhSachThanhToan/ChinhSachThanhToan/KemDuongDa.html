@@ -276,7 +276,7 @@
       var app = angular.module("angularApp", []);
       app.controller("KemDuongDaController", function ($scope, $http) {
         const page = parseInt(window.location.href.split("?page=")[1]) || 1;
-        const totalPerPage = 9;
+        const totalPerPage = 18;
         $http({
           method: "GET",
           url: "http://localhost:3000/kemDuongDa",
@@ -286,6 +286,9 @@
               (page - 1) * totalPerPage,
               page * totalPerPage
             );
+
+            const totalPage = Math.ceil(respone.data.length / totalPerPage);
+            $scope.total = [...Array(totalPage).keys()];
           },
           function myError(respone) {
             $scope.dataError = respone.statusText;
@@ -520,35 +523,13 @@
                   <br />
                   {{data.Giaban}}<br />
                 </div>
-              </div>
-            </div>
-            <div class="wrap-paging">
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=1">Trang 1</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=2">Trang 2</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=3">Trang 3</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=4">Trang 4</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=5">Trang 5</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=6">Trang 6</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=7">Trang 7</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=8">Trang 8</a>
-              </div>
-              <div class="item-paging">
-                <a href="KemDuongDa.html?page=9">Trang 9</a>
+                <div class="wrap-paging">
+                  <div class="item-paging" ng-repeat="item in total">
+                    <a ng-href="{{'KemDuongDa.html?page=' + (item+1)}}"
+                      >{{'Trang' + (item+1)}}</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </td>
