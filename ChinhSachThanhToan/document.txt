@@ -1,0 +1,25 @@
+Hướng dẫn cách chạy dự án:
+Bước 1:
+Cài đặt nodejs
+https://nodejs.org/en/
+Tải nodejs về và tiến hành cài đặt như bình thường.
+
+Bước 2:
+Sau khi cài nodejs xong, mở windows powershell lên và kiểm tra xem nodejs đã được cài thành công chưa qua lênh:
+nodejs -v 
+
+Bước 3:
+Cài đặt json-server như sau:
+npm install -g json-server
+
+Bước 4:
+Dùng lênh cd vào dự án, và chạy lênh sau:
+npm link json-server
+
+node server.js
+
+Bước 5: 
+Mở trình duyệt web lên và gõ: 
+localhost:3000
+
+Sẽ hiện ra danh sách api json
