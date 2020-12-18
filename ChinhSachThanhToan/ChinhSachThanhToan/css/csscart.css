@@ -1,0 +1,4 @@
+table.cart tbody tr td table.receipt {
+  border: 1px solid;
+  width: 40%;
+}

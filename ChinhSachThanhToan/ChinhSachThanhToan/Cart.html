@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
+    <link rel="stylesheet" href="css/csscart.css" type="text/csss" />
     <style type="text/css">
       .auto-style1 {
         width: 274px;
@@ -165,6 +166,42 @@
       .cssheader table tr td .sub-menu li {
         margin-left: 0 !important;
       }
+      /* tbody*/
+
+      table.receipt {
+        width: 40%;
+        border-color: whitesmoke;
+      }
+      table.receipt .myreceipt {
+        height: 3px;
+        padding-top: 15px;
+        background-color: #ffa5a5;
+      }
+      table.receipt .myreceipt div {
+        text-align: center;
+        width: fit-content;
+        padding-bottom: 10px;
+        color: #fff;
+      }
+      .btn-order {
+        background-color: #ffa5a5;
+        border: none;
+        border-radius: 10px;
+        height: 30px;
+        width: 150px;
+        color: white;
+        margin: 10px 10px;
+        padding-left: 0px;
+      }
+      .btn-order:hover {
+        background-color: whitesmoke;
+        color: black;
+      }
+
+      .button-order {
+        margin-left: 500px;
+      }
+
       /* Fixed sidenav, full height */
       .sidenav {
         height: 100%;
@@ -234,7 +271,7 @@
     </style>
   </head>
   <body>
-    <table>
+    <table class="cart">
       <thead class="cssheader">
         <tr>
           <td colspan="2">
@@ -337,24 +374,17 @@
             </table>
           </td>
           <td>
-            <table>
+            <table class="receipt" border="1px" cellspacing="0">
               <tr>
-                <td>Hóa đơn của bạn</td>
-              </tr>
-              <tr>
-                <td>
-                  <span>Tạm tính:</span>
-                  <span>500.000đ</span>
+                <td class="myreceipt">
+                  <div>Hóa đơn của bạn</div>
                 </td>
               </tr>
               <tr>
-                <td>
-                  <span>Tổng tiền:</span>
-                  <span>500.000đ</span>
-                </td>
-              </tr>
-              <tr>
-                <td>
+                <td colspan="3">
+                  <div><span>Tạm tính:</span> <span>500.000đ</span></div>
+                  <div><span>Tổng tiền:</span> <span>500.000đ</span></div>
+
                   <button class="btn-order">Tiến hành đặt hàng</button>
                 </td>
               </tr>
@@ -365,10 +395,89 @@
           <td>
             <a href="#"><img src="images/back.png" width="20px" /></a>
             <span>Tiếp tục mua hàng</span>
-            <button class="btn-order">Tiến hành đặt hàng</button>
+            <span class="button-order"
+              ><button class="btn-order">Tiến hành đặt hàng</button></span
+            >
           </td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" style="background-color: #fcdada">
+            <table>
+              <tr>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="LienHe.html" style="text-decoration: none"
+                      ><strong>THÔNG TIN LIÊN HỆ</strong></a
+                    >
+                  </p>
+                  <div>
+                    <p>
+                      <strong>BESTIES COSMETICS</strong> <br />
+                      Số 1 Võ Văn Ngân,Linh Trung,<br />
+                      Thủ Đức, TP HCM
+                    </p>
+                    <p>Hotline: 1900 0274</p>
+                    <p>Email: cskh@besties.vn</p>
+                  </div>
+                </td>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>VỀ CHÚNG TÔI</strong></a
+                    >
+                  </p>
+                  <div style="padding-left: 18px">
+                    <p>
+                      <a href="#">Giới thiệu <strong>Besties.vn</strong></a>
+                    </p>
+                    <p><a href="#">Tuyển dụng</a></p>
+                    <p><a href="#">Chính sách bảo mật</a></p>
+                    <p><a href="#">Điều khoản sử dụng</a></p>
+                  </div>
+                </td>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>CHĂM SÓC KHÁCH HÀNG</strong></a
+                    >
+                  </p>
+                  <div style="margin-left: -13px">
+                    <p><a href="#">Các câu hỏi thường gặp</a></p>
+                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
+                    <p><a href="#">Vận chuyển</a></p>
+                  </div>
+                </td>
+                <td style="text-align: end">
+                  <div>
+                    <img src="images/fb.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/ins.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/yt.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: left">
+                  <hr />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" style="text-align: left">
+                  <img src="images/logobesties.png" style="width: 40%" />
+                </td>
+                <td style="text-align: right">
+                  Copy right © 2020 Cosmetics. All right reserved<br />
+                  <img src="images/bct.png" style="width: 30%" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>

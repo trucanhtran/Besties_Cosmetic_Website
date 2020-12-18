@@ -42,8 +42,6 @@
 }
 
 .item-star {
-  position: absolute;
-  top: 8px;
-  left: 30px;
+  /* position: absolute;*/
   margin: auto;
 }
