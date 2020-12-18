@@ -45,3 +45,6 @@
   /* position: absolute;*/
   margin: auto;
 }
+.sub-menu {
+  z-index: 1;
+}
