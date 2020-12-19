@@ -304,7 +304,14 @@
                 <img src="images/logobesties.png" class="logo" width="20%" />
               </div>
               <div style="margin-top: 2px; padding: 10px">
-                <input type="Search" id="Search" placeholder="Search" />
+                <form action="Search.html">
+                  <input
+                    type="Search"
+                    id="Search"
+                    name="q"
+                    placeholder="Search"
+                  />
+                </form>
               </div>
               <a href="#"
                 ><img src="images/cart.png" class="cart" width="10%"
@@ -510,16 +517,13 @@
                   </div>
                   <br />
                   <div class="giaban">
-                    {{data.Giaban}}
-                    <br />
-                    <input
+                    {{data.Giaban}}<br /><input
                       type="button"
                       value="ADD TO CART"
                       class="addtocart"
                     />
                   </div>
                 </div>
-                <br />
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
                     <a
