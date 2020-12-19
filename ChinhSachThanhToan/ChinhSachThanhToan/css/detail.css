@@ -164,6 +164,15 @@
   padding: 10px;
   word-break: break-word;
 }
+.info-description p {
+  font-size: 14px;
+}
+.info-description h1 {
+  font-size: 28px;
+}
+.info-description h2 {
+  font-size: 16px;
+}
 .wrap-comment-style {
   display: flex;
   width: 68%;
@@ -236,7 +245,7 @@
   -webkit-box-orient: vertical;
   font-size: 11px;
 }
-p > img {
-  width: 600px;
-  height: 600px;
+p img {
+  width: 400px;
+  height: 400px;
 }
