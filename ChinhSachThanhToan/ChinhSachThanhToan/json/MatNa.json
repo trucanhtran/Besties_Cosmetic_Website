@@ -3,6 +3,7 @@
         "sku": "8809707270189",
         "Giaban": "249,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Đất Sét Innisfree Super Volcanic Pore Clay Mask là mặt nạ có chứa đất sét lấy từ vùng núi lửa tại hòn đảo nổi tiếng JEJU mang đến sự tươi mới cho làn da. Sản phẩm giúp hấp thụ mạnh các bã nhờn và hiệu quá làm mát của đát sét giúp các lỗ chân lông se lại. Hạn chế hiện tưởng mụn mủ, mụn thâm đỏ do bụi bẩn và vi khuẩn ở trong lỗ chân lông.",
         "images": "https://product.hstatic.net/1000379579/product/4_677f801d443044d0b5bcb7fb5d3b216e_master.jpg,https://product.hstatic.net/1000379579/product/59375430-2298686693532056-8445070626839956067-n-600x600_09431d44c18e499097e9b440686b9e6f_master.jpg,https://product.hstatic.net/1000379579/product/82976257-m-500_dd930ae2188f47b0be08750758cfb2af_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-super-volcanic-pore-clay-mask-2x-bici-cosmetics11-1-600x600_5244e600b84747e18aa9d03bdc8c5283_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-super-volcanic-pore-clay-mask-2x-bici-cosmetics13-1-600x600_77e27e0190e44fe092fcf9436d104c07_master.jpg,https://product.hstatic.net/1000379579/product/62055270-452180445328033-5972643474027626351-n-600x600_b0739a570623404b806b4005848cc66b_master.jpg,https://product.hstatic.net/1000379579/product/59448548-141776736940689-8427856436832889283-n-600x600_c854c0905a3347498d433eb5b1b29cbb_master.jpg,https://product.hstatic.net/1000379579/product/super-clay-mask_a41dc7decf0e4962bb3865d067b9027c_master.png,https://product.hstatic.net/1000379579/product/innisfree-super-volcanic-pore-clay-mask-2x-sample-bici-cosmetics-min_b47faf49aa9946109c38431245ce5578_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/4_677f801d443044d0b5bcb7fb5d3b216e_master.jpg",
         "TenSP": "[NEW 2019] Mặt Nạ Tro Núi Lửa Trị Mụn Đầu Đen Innisfree Super Volcanic Pore Clay Mask 2X",
@@ -10,12 +11,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "Mẫu Thử Sample,Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "0a8bf31d-a021-4eb7-8712-fe56cc7608df"
+        "id": "601c1bac-d5b6-42a2-ac3c-387f033ee9af",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/new-2019-mat-na-tro-nui-lua-tri-mun-dau-den-innisfree-super-volcanic-pore-clay-mask-2x"
     },
     {
         "sku": "8806182557101",
         "Giaban": "25,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ giấy Real Nature Face Mask 2017 của The Face Shop với chiết xuất thiên nhiên, serum đặc biệt và collagen với nhiều dạng khác nhau cho nhiều tác dụng và loại da.",
         "images": "https://product.hstatic.net/1000379579/product/1901-20-f1368423-1-92df46b779bb40c6a8f5783e22c4a0e6-master-min-600x600_efedeba01aa140d8aef151dc587cf300_master.jpeg,https://product.hstatic.net/1000379579/product/mat-na-the-face-shop-real-nature-face-mask-bici-cosmetics_be70a33d61614203ba75bfbbd2cedb9c_master.jpg,https://product.hstatic.net/1000379579/product/timthumb_11b44fc92a9649a6ba1c8f6c40a299af_master.jpg,https://product.hstatic.net/1000379579/product/the-face-shop-real-nature-sheet-mask-10-min-600x600_d2e3d1b707f240339a8fbc41e1687c1b_master.jpg,https://product.hstatic.net/1000379579/product/34544ba46db4cbff2d442e56f25f2b3e-min-600x600_0fa52c8e0ba446eeb888dd926cfa47f3_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/1901-20-f1368423-1-92df46b779bb40c6a8f5783e22c4a0e6-master-min-600x600_efedeba01aa140d8aef151dc587cf300_master.jpeg",
         "TenSP": "Mặt Nạ The Face Shop Real Nature Face Mask",
@@ -23,12 +26,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "THE FACE SHOP",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "13401893-c5d7-4119-bd70-15cbc055ddd7"
+        "id": "34ea1f2f-135f-4bb2-b74e-35dedc1194cf",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-the-face-shop-real-nature-face-mask"
     },
     {
         "sku": "4711542265081",
         "Giaban": "25,000₫",
         "category": "MatNa",
+        "description": "Naruko là hãng mỹ phẩm nội địa Đài Loan. Mặt nạ giấy của hãng đang rất được săn đón trong thời gian gần đây. Hiện BiCi đang có 2 loại, màu xanh hỗ trợ trị mụn, màu đỏ giúp sáng da và se khít lỗ chân lông.",
         "images": "https://product.hstatic.net/1000379579/product/4-58_9eb6ba2b47544be28248910e4acd0db4_master.jpg,https://product.hstatic.net/1000379579/product/1-33_e669ebc59035472987d72645ea03c639_master.jpg,https://product.hstatic.net/1000379579/product/2-56_cd12685ab58f4396867cbadf1e4dfc5f_master.jpg,https://product.hstatic.net/1000379579/product/3-60_e1e9bf18ee174bdbb8bdcfd26b73b472_master.jpg,https://product.hstatic.net/1000379579/product/naruko_1-min_ddadb0b3a3f5483280d3d8a381920d91_master.jpg,https://product.hstatic.net/1000379579/product/naruko_2-min_cc66650d9c4a464f8d6097b2d6a24769_master.jpg,https://product.hstatic.net/1000379579/product/naruko_4-min_90bc06190df54c0a804ed101144791a6_master.jpg,https://product.hstatic.net/1000379579/product/naruko_7-min_3d074fd69a6140508cde82b3db5a2ef3_master.jpg,https://product.hstatic.net/1000379579/product/naruko_8-min_360c09057129493c88105ee820699f76_master.jpg,https://product.hstatic.net/1000379579/product/naruko_9-min_173453d3035b4bee9514331cae9620ea_master.jpg,https://product.hstatic.net/1000379579/product/naruko_6-min_55d4a56e253a493080e8536de6ce1a6d_master.jpg,https://product.hstatic.net/1000379579/product/naruko-min_5b88a03d818e459eaa1926b547c46191_master.jpg,https://product.hstatic.net/1000379579/product/naruko_5-min_6b5c71defd4448c2806e3983da35f653_master.jpg,https://product.hstatic.net/1000379579/product/naruko_3-min_e0cfa66cdde449b4bce01d6f1d79e65a_master.jpg,https://product.hstatic.net/1000379579/product/naruko-b-min_1ba8df16b7da4b698ef23f275145432d_master.jpg,https://product.hstatic.net/1000379579/product/naruko-c_fbbe437492c546008579c6cbae3a4835_master.jpg,https://product.hstatic.net/1000379579/product/60e0ce92a0014b0d97635fbf683c6ee6_f9a87604ece441eca8acaacceedd9c48_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/4-58_9eb6ba2b47544be28248910e4acd0db4_master.jpg",
         "TenSP": "Mặt nạ Naruko nội địa Đài Loan (không tích điểm)",
@@ -36,25 +41,14 @@
         "XuatXu": "ĐÀI LOAN",
         "ThuongHieu": "NARUKO",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "99c764dc-1be4-49ec-9b4c-686d887250ff"
-    },
-    {
-        "sku": "98762253",
-        "Giaban": "9,000₫",
-        "category": "MatNa",
-        "images": "https://product.hstatic.net/1000379579/product/18_315568f9a6f54c6b857fbc52421aabc2_master.jpg,https://product.hstatic.net/1000379579/product/bacccccccccccccccccccccc_d7ae15e4d0544ab0a783a9cd7ccba244_master.jpg,https://product.hstatic.net/1000379579/product/3-10_c15a6d8d9fa6498a984f2245d849a4be_master.jpg,https://product.hstatic.net/1000379579/product/3b_e81b39436c56479ca2a1ccebb8272d81_master.jpg,https://product.hstatic.net/1000379579/product/5b_37fea12f7ac747fab786c905864d8634_master.jpg,https://product.hstatic.net/1000379579/product/5c_d2e3c585ac2d45e7a6937f527ba3b52c_master.jpg,https://product.hstatic.net/1000379579/product/6-4_7562fda87e9340d6b9cea92ab464c0e1_master.jpg,https://product.hstatic.net/1000379579/product/tn_c4bba113bd7a461fb983d7076244c881_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-sum_c0b3d172989044f6b09187148383d68a_master.jpg",
-        "image": "https://product.hstatic.net/1000379579/product/18_315568f9a6f54c6b857fbc52421aabc2_master.jpg",
-        "TenSP": "Mặt Nạ Sủi Bọt Thải Độc Da Su:m 37",
-        "Ma": "98762253",
-        "XuatXu": "KOREA",
-        "ThuongHieu": "SU:M 37",
-        "DanhMuc": "Hot Trend,Mặt nạ,Skincare",
-        "Id": "0406e39c-0c7c-4990-ab08-9f4e425522ad"
+        "id": "b6fc04ce-28c0-4aa2-90ec-42c47e832de8",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-naruko-noi-dia-dai-loan"
     },
     {
         "sku": "8809348600734",
         "Giaban": "19,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ giấy 3D Foodaholic Natural Essence Mask là mặt nạ được chiết cuất 100% từ thiên nhiên. Cung cấp dưỡng chất giúp dưỡng da mềm,mịn trẻ hóa da và còn giúp làm chất làm tăng độ đàn hồi cũng như xóa mờ tàn nhang trên da.",
         "images": "https://product.hstatic.net/1000379579/product/iuhoi_e0d0e6867215404aaec7456313575a92_master.jpg,https://product.hstatic.net/1000379579/product/6acd3db0baef58fd059098b135b157c6_3085c6937af04e1ab3788382ac16f121_master.jpg,https://product.hstatic.net/1000379579/product/43510930_887252501663481_8899979038328619008_n_c4fcb75781964d5c8f754e93884ecab2_master.jpg,https://product.hstatic.net/1000379579/product/8bd23bfa9eb1d6e486481b73ad4aa6aa_9648e9c3fb7643e88e18b31195d1c63f_master.jpg,https://product.hstatic.net/1000379579/product/agfg_f995faf9eb3d43ee87f440e54cd02fa0_master.jpg,https://product.hstatic.net/1000379579/product/blueberry_3ebb9990131a46b480f4b0d9140010ca_master.jpg,https://product.hstatic.net/1000379579/product/cucumber_e03450050ed447a1900cc2d51801a9f7_master.jpg,https://product.hstatic.net/1000379579/product/dgsdfg_4bb00a7d28db41129d4961164d86735e_master.jpg,https://product.hstatic.net/1000379579/product/azhdfh_21ca64c39a1c4129b645588ca50679e8_master.jpg,https://product.hstatic.net/1000379579/product/zdfgfx_a35e337126fe4470be96032761be88f2_master.jpg,https://product.hstatic.net/1000379579/product/fdhdghgt_902838b576e94d91a1a9c8451f45443d_master.jpg,https://product.hstatic.net/1000379579/product/agfgdfh_8046c758c49f4b26ad068a3dc6618787_master.jpg,https://product.hstatic.net/1000379579/product/adgvdfbh_2f268aa9fe38495ca40c6e303490581a_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/iuhoi_e0d0e6867215404aaec7456313575a92_master.jpg",
         "TenSP": "Mặt Nạ 3D FoodaHolic Natural Essence Mask",
@@ -62,12 +56,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "FoodaHolic",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "325102d8-9387-422f-b5b0-9688a55d6c83"
+        "id": "103f0316-02aa-4ee4-9b72-eb6e9d3b171b",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-3d-foodaholic-natural-essence-mask"
     },
     {
         "sku": "8809626565540",
         "Giaban": "29,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ lạnh Aroh Centella Herb Cooling Mask Pack là mặt nạ làm mát lạnh hạ nhiệt làn da mùa hè. Thành phần đặc biệt từ Rau Má, Tràm Trà, Lô Hội là những thành phần đỉnh cao vừa giúp thư giãn sảng khoái, xoa dịu, giảm kích ứng, làm đẹp da và phục hồi da trong mùa nắng nóng oi bức này. ",
         "images": "https://product.hstatic.net/1000379579/product/db5fd5d2c84d42d5b82ee22f94159d54_e1a13037ccd54b05826916fdfcfd6186_master.jpg,https://product.hstatic.net/1000379579/product/bici-centella-herb-cooling-mask_12a7eb33486646efb13627b845e73e30_master.jpg,https://product.hstatic.net/1000379579/product/bici-centella-herb-cooling-mask3_06a0ac23cf3f4dac821ff9a764758c56_master.jpg,https://product.hstatic.net/1000379579/product/bici-centella-herb-cooling-mask1_b40cdbcffad74658a9cd67436ab824e8_master.jpg,https://product.hstatic.net/1000379579/product/bici-centella-herb-cooling-mask4_f4ea1b4e429e4e53948ee47e0ac0b68f_master.jpg,https://product.hstatic.net/1000379579/product/bici-centella-herb-cooling-mask9_df96c6e6b3dc4532b11b6eaf725b154c_master.jpg,https://product.hstatic.net/1000379579/product/bici-centella-herb-cooling-mask7_c5f848f8dee7475ba590d7fb7654233e_master.jpg,https://product.hstatic.net/1000379579/product/bici-centella-herb-cooling-mask6_051dd0ff21b54f4d91930269fbbcbf1c_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/db5fd5d2c84d42d5b82ee22f94159d54_e1a13037ccd54b05826916fdfcfd6186_master.jpg",
         "TenSP": "Mặt Nạ Lạnh Aróh Centella Herb Cooling Mask Pack",
@@ -75,12 +71,29 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Aróh",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "066cc394-ea9a-4fc5-b636-97222a4c116b"
+        "id": "d7673dae-e193-4d72-aab5-4b625104f3c6",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-lanh-aroh-centella-herb-cooling-mask-pack"
+    },
+    {
+        "sku": "98762253",
+        "Giaban": "9,000₫",
+        "category": "MatNa",
+        "description": "su:m trong tiếng Hàn được hiểu là hô hấp, ở đây chỉ sự hô hấp của làn da, dấu hai chấm chỉ sự nghỉ ngơi, còn số 37 chỉ nhiệt độ hoàn hảo của cơ thể, cũng là nhiệt độ chuẩn của các sản phẩm lên men. Hình dáng chai đơn giản, mềm mại lấy cảm hứng từ chiếc áo Hanbok truyền thống của người Hàn.",
+        "images": "https://product.hstatic.net/1000379579/product/18_315568f9a6f54c6b857fbc52421aabc2_master.jpg,https://product.hstatic.net/1000379579/product/bacccccccccccccccccccccc_d7ae15e4d0544ab0a783a9cd7ccba244_master.jpg,https://product.hstatic.net/1000379579/product/3-10_c15a6d8d9fa6498a984f2245d849a4be_master.jpg,https://product.hstatic.net/1000379579/product/3b_e81b39436c56479ca2a1ccebb8272d81_master.jpg,https://product.hstatic.net/1000379579/product/5b_37fea12f7ac747fab786c905864d8634_master.jpg,https://product.hstatic.net/1000379579/product/5c_d2e3c585ac2d45e7a6937f527ba3b52c_master.jpg,https://product.hstatic.net/1000379579/product/6-4_7562fda87e9340d6b9cea92ab464c0e1_master.jpg,https://product.hstatic.net/1000379579/product/tn_c4bba113bd7a461fb983d7076244c881_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-sum_c0b3d172989044f6b09187148383d68a_master.jpg",
+        "image": "https://product.hstatic.net/1000379579/product/18_315568f9a6f54c6b857fbc52421aabc2_master.jpg",
+        "TenSP": "Mặt Nạ Sủi Bọt Thải Độc Da Su:m 37",
+        "Ma": "98762253",
+        "XuatXu": "KOREA",
+        "ThuongHieu": "SU:M 37",
+        "DanhMuc": "Hot Trend,Mặt nạ,Skincare",
+        "id": "785fe69f-aa2a-4d21-a60c-a171d65bd121",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-sui-bot-thai-doc-da-su-m-37"
     },
     {
         "sku": "8938527255127",
         "Giaban": "373,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Lấp Lánh Wonder Crush Glow Glitter Mask mang lại phép màu biến đổi cho làn da thêm phần lung linh. Giúp bóc sạch lớp sừng già,  cải thiện mọi vấn đề bên dưới da mang lại cho làn da sự  trẻ trung, tươi mới hơn.",
         "images": "https://product.hstatic.net/1000379579/product/wonder_crush_glow_glitter_mask_-_bici_cosmetics-min_92422489e4ec4a8eaf1451544ad381ff_master.jpg,https://product.hstatic.net/1000379579/product/wonder_crush_glow_glitter_mask_-_bici_cosmetics2-min_b570192785c0448985021deb5d2a8172_master.jpg,https://product.hstatic.net/1000379579/product/54511533_336794726946106_6972256460039499473_n-min_bbb9cb742e28465ebc7a298f69aed81a_master.jpg,https://product.hstatic.net/1000379579/product/56775665_812700012424853_6115953783630462976_o-min_ae2d09e29990434ea4bbefd5d83ffc99_master.jpg,https://product.hstatic.net/1000379579/product/ggg_models21451_edited_31e6c28e6c664e208efbea9a49c77a4f_master-min_713458a7f4e846f69c19330c91aa47f4_master.jpg,https://product.hstatic.net/1000379579/product/111_eff3501e6e7f4ad190343d668fa1f5e5_master-min_95eabcc072e649cab02518b92eba70f6_master.jpg,https://product.hstatic.net/1000379579/product/64323371_856267111401476_6380434867536003072_n-min_3060752809504d69acd21fd00eaf91b3_master.jpg,https://product.hstatic.net/1000379579/product/60506072_594060767747507_1870629488718780914_n-min_6b0c433ddaad44928715d4ed1791ba0c_master.jpg,https://product.hstatic.net/1000379579/product/wonder_crush_glow_glitter_mask_-_bici_cosmetics1-min_99f102cd37ce4d788818006f5e2bbfde_master.jpg,https://product.hstatic.net/1000379579/product/65026806_862565357438318_1263693452814581760_n-min_45641c93c76a48b5bfae32e76b95a8f0_master.jpg,https://product.hstatic.net/1000379579/product/69258699_900487636979423_1468651040231391232_n-min_02f7dd8cdd6e485f8a9a90224103535a_master.jpg,https://product.hstatic.net/1000379579/product/a54fc27c453043eaa08809b66fc9447e_098e9b0343e24658b53a3d1bbd73f1ce_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/wonder_crush_glow_glitter_mask_-_bici_cosmetics-min_92422489e4ec4a8eaf1451544ad381ff_master.jpg",
         "TenSP": "Mặt Nạ Lấp Lánh Wonder Crush Glow Glitter Mask",
@@ -88,12 +101,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "G.G.G",
         "DanhMuc": "xu hướng,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "13cf561c-b8d4-4331-abd4-496caa58d485"
+        "id": "27eaee32-2dec-4d8d-b985-e693f385441d",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-lap-lanh-wonder-crush-glow-glitter-mask"
     },
     {
         "sku": "8938527255134",
         "Giaban": "373,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Lấp Lánh Wonder Crush Moistar Glitter Mask  được xem là anh tài của nhà G.G.G- vừa xuất hiện nhưng đã gây ồn ào trên IG và FB gần đây với Wonder Crush Glitter Mask với 2 màu ấn tượng và khác biệt hơn hẳn. Mặt nạ lấp lánh nhà G.G.G vừa kết hợp được yếu tố bling bling cho bạn selfie tuyệt đẹp và cả yếu tố lột sạch da chết, nuôi dưỡng cho da đẹp ngay tức thì.",
         "images": "https://product.hstatic.net/1000379579/product/wonder_crush_moistar_glitter_mask_-_bici_cosmetics4-min_d8c2cabc897a4e47845847fb695b224f_master.jpg,https://product.hstatic.net/1000379579/product/wonder_crush_moistar_glitter_mask_-_bici_cosmetics5-min_3604a08150584623839defcb8863b236_master.jpg,https://product.hstatic.net/1000379579/product/ggg_models21614_edited_1a8c125a42fe49588d5d328e7be19175_master-min_e8ee96e52446420fb083286ac6fc4eca_master.jpg,https://product.hstatic.net/1000379579/product/57227926_222450102044747_1932556439694291834_n-min_26c9422120c84b1f8b38b47da857a5d2_master.jpg,https://product.hstatic.net/1000379579/product/66653679_875601386134715_5381655379790790656_o-min_0f6bb315df9049a9b514b7ade9e08427_master.jpg,https://product.hstatic.net/1000379579/product/g3_edited_9a14b2a0af0249d8ac79b9e9d3fa72da_master-min_de812eda39f14672bddfc0430884e47e_master.jpg,https://product.hstatic.net/1000379579/product/64815456_646003422583207_5519145142453906718_n-min_2eb6f4f96a564a578e3bf57aff5482f6_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/wonder_crush_moistar_glitter_mask_-_bici_cosmetics4-min_d8c2cabc897a4e47845847fb695b224f_master.jpg",
         "TenSP": "Mặt Nạ Lấp Lánh Wonder Crush Moistar Glitter Mask (60g)",
@@ -101,12 +116,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "G.G.G",
         "DanhMuc": "Hot Trend,xu hướng,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "bb4f1afa-6da7-489f-9c08-1573f14ca512"
+        "id": "10d2bcb3-de38-4935-abca-d268fea59e64",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-lap-lanh-wonder-crush-moistar-glitter-mask-60g"
     },
     {
         "sku": "8807080003370",
         "Giaban": "19,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Giấy Jant Blanc là loại mặt nạ đến từ Hàn Quốc. Có chiết xuất thiên nhiên với các loại dưỡng chất khác nhau phục vụ cho nhu cầu làm đẹp đa dạng của chị em.",
         "images": "https://product.hstatic.net/1000379579/product/jantblanc1_4825d42a5f4d48b6bd988d9e88674711_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc_9ba0b1c2b97d42ab98e2f326646401c6_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc3_6abc8a5bc6f74b3f9f81360a4158d2f7_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc7_dfc7b34cfd054299af63ef75ab2122bc_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc9_7d73206d3d724b1882193faadd4850f5_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc2_ab32517e93284a56958c0ce6d293faa7_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc4_847e68fbdaa24f13abbed940516a1506_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc6_96cc1d1e3f0b4a5990c63072ba22f62d_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc8_1a49a7ebabfc421abf294e1023ca9957_master.jpg,https://product.hstatic.net/1000379579/product/jantblanc5_0bb18fb338e94307b96f6ecc60c73ebd_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/jantblanc1_4825d42a5f4d48b6bd988d9e88674711_master.jpg",
         "TenSP": "Mặt Nạ Giấy Jant Blanc",
@@ -114,12 +131,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Khác",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "eaa020c6-08c6-4e01-9c62-23be3900f569"
+        "id": "e4570bcc-5b2d-4511-a704-96b5f7a1c635",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-giay-jant-blanc"
     },
     {
         "sku": "3605971023538",
         "Giaban": "195,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ đất sét Kiehl’s Rare Earth Deep Pore Cleansing Masque là một sản phẩm tiêu biểu trong dòng mặt nạ Kiehl’s bởi khả năng thải độc và đẩy mụn đáng kinh ngạc.",
         "images": "https://product.hstatic.net/1000379579/product/fdgxzdfh_d47fa9159e5045cbb109e12cbbd90187_master.jpg,https://product.hstatic.net/1000379579/product/a15f2b9a1a5630a69e28d335d7992b12_ab7f5808355643a0b1c438265c678666_master.jpg,https://product.hstatic.net/1000379579/product/23bd59ee559bf355a3a336cfa91e8743_454d899188444d4892f5dab4fc129162_master.jpg,https://product.hstatic.net/1000379579/product/14ml_1de22a121ed54c6280882436201525b1_master.jpg,https://product.hstatic.net/1000379579/product/cae0c1ef6e226f7b8b25f5f1cb69d5bd_653658f3301f43cc82d3a0bb279debc2_master.jpg,https://product.hstatic.net/1000379579/product/t2_092e3d2494cc49f1ad11a4494ee4e0db_master_29b6a6416ac94cc5b13f71bf8de78385_master.jpg,https://product.hstatic.net/1000379579/product/xgnhcfxgmn_1e117e8945f7467897610505410ada67_master.jpg,https://product.hstatic.net/1000379579/product/zdfhbdf_a79e6a2657004f5ba7f3a44844fe4b4f_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/fdgxzdfh_d47fa9159e5045cbb109e12cbbd90187_master.jpg",
         "TenSP": "Mặt Nạ Đất Sét Kiehl’s Rare Earth Deep Pore Cleansing Masque 14ml",
@@ -127,12 +146,14 @@
         "XuatXu": "USA",
         "ThuongHieu": "KIEHL''S",
         "DanhMuc": "Hot Trend,Mặt nạ,Skincare",
-        "Id": "3349eca8-3814-4929-a61e-97b4d090f61f"
+        "id": "03e3a9b9-bdb7-4791-9b28-b2977de6ccee",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-dat-set-kiehl-s-rare-earth-deep-pore-cleansing-masque"
     },
     {
         "sku": "8809689370037",
         "Giaban": "20,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ 3W Clinic Fresh Lemon Mask Sheet mang công thức đặc biệt để các thành phần hoạt động của các loại chiết xuất dễ dàng thẩm thấu vào làn da trong khi vẫn giữ độ thông thoáng cho làn da. Do đó, làm cho làn da có được độ ẩm đầy đủ, da đàn hồi, dẻo dai, sạch sẽ và dấu hiệu của mệt mỏi, stress.",
         "images": "https://product.hstatic.net/1000379579/product/73504711_123044005797757_4502734406208716800_n_0fa48fc1dbcc498899b94760c5ba9214_master.jpg,https://product.hstatic.net/1000379579/product/8c8887ce613c0c099ec8e8e1eb0ca01c_0c006f5b7c1f41f7bb19a8f05860a049_master.jpeg,https://product.hstatic.net/1000379579/product/126816876_112831193978034_3187772341017140650_n_a5ee3034c64f47a38fdfa1ba5ae12222_master.jpg,https://product.hstatic.net/1000379579/product/2020_01_21-5916_ec5b94bb57c643318f0c0d217e46580f_master.jpg,https://product.hstatic.net/1000379579/product/2020_01_21-5917_08ce6c1f5f88427fa1a3ed684eebd63d_master.jpg,https://product.hstatic.net/1000379579/product/2020.02.14-6397__1__7565a468e05346fa8c44e39cb17ac01c_master.jpg,https://product.hstatic.net/1000379579/product/2020_01_21-5915_9d01ad50dea940f089be3eb60d56ad9f_master.jpg,https://product.hstatic.net/1000379579/product/2020_01_21-5911_6fa96a1f10d84b59bf4834a13e0fe051_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/73504711_123044005797757_4502734406208716800_n_0fa48fc1dbcc498899b94760c5ba9214_master.jpg",
         "TenSP": "Mặt Nạ 3W Clinic Fresh Lemon Mask Sheet",
@@ -140,12 +161,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "3W CLINIC",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "bcf59a8d-e378-49ab-bde7-ea05b9bb0bf8"
+        "id": "f646bda4-44aa-47e4-aaa7-5f56ff7b336c",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-3w-clinic-fresh-lemon-mask-sheet"
     },
     {
         "sku": "8806182577956",
         "Giaban": "75,000₫",
         "category": "MatNa",
+        "description": "Jeju Volcanic Lava Peel – off Clay Nose Mask The Face Shop giúp lấy sạch mụn đầu đen, bã nhờn, mụn cám và bụi bẩn.",
         "images": "https://product.hstatic.net/1000379579/product/ava-36_5b38c73cb3e14796a2ea68d8e2ac1679_master.jpg,https://product.hstatic.net/1000379579/product/1-42_a58c2c8e74eb4a85ae4567e95377a8f5_master.jpg,https://product.hstatic.net/1000379579/product/2-39_af35423eb99f4d2f94e891850156b7d7_master.jpg,https://product.hstatic.net/1000379579/product/3-39_235d8182a9564cbda49509380cf64ad5_master.jpg,https://product.hstatic.net/1000379579/product/4-36_da114b76797d4852873463d45752f75a_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/ava-36_5b38c73cb3e14796a2ea68d8e2ac1679_master.jpg",
         "TenSP": "Gel Lột Mụn Jeju Volcanic Lava Peel – off Clay Nose Mask The Face Shop",
@@ -153,12 +176,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "THE FACE SHOP",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "b15aebc1-6172-471f-a2c2-6d8f0819327a"
+        "id": "8c16d2f8-87fa-44bb-9392-dd3a687a7fec",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/gel-lot-mun-jeju-volcanic-lava-peel-off-clay-nose-mask-the-face-shop"
     },
     {
         "sku": "8856036000888",
         "Giaban": "29,000₫",
         "category": "MatNa",
+        "description": "Thương hiệu Kociety đã quá nổi tiếng trong khu vực Châu Á nói chung. Khi nhắc đến thương hiệu Kociety thì chúng ta liền suy nghĩ đến những sản phẩm dành cho tuổi teem với giá thành cực rẻ nhưng chất lượng lại cực tốt.",
         "images": "https://product.hstatic.net/1000379579/product/1-600x600_1021fcced52e42b39b5ee08fdae7510b_master.jpg,https://product.hstatic.net/1000379579/product/2-600x600_5117f24c9e52489c8682c6b6cfefbbcf_master.png,https://product.hstatic.net/1000379579/product/3-2-600x600_621019374a744ce1988f39ea1b24e047_master.jpg,https://product.hstatic.net/1000379579/product/4-600x600_b3bcece2fbc7495482ccc789a0a18a27_master.jpg,https://product.hstatic.net/1000379579/product/5-3-600x600_9a5a949510fc40718dabdbdd9b55488c_master.jpg,https://product.hstatic.net/1000379579/product/6-3-600x600_a4348820d45b419ab8754dbca81d97ea_master.jpg,https://product.hstatic.net/1000379579/product/7-2-600x600_006d9c625dbd4e778ff0a2e0584ab713_master.jpg,https://product.hstatic.net/1000379579/product/646039548e8045faa14dfaccfe760742_b5fea89daea54353bf502dc8cea8a9e2_master.jpg,https://product.hstatic.net/1000379579/product/3e747263a9e64a18b73b766f27c85164_3af5cbc2148849e1a838d8de093833f8_master.jpg,https://product.hstatic.net/1000379579/product/bcf56c5fb4d843d283347c3a2f9fdab6_0803aa79f51d4d6da2b50219891a6e3b_master.jpg,https://product.hstatic.net/1000379579/product/aa148522b7c440fd98a05516fe30638a_67ab1dccc44f4b8e8df3cc73dc6aab41_master.jpg,https://product.hstatic.net/1000379579/product/5db173515a974488ad7a5a6a570b73d5_3b673ec4adfd44e695fdbff9bef9bec8_master.jpg,https://product.hstatic.net/1000379579/product/54abbef954f740ed8830527139441ff5_554df2a58aca4efb8665add6849893f0_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/1-600x600_1021fcced52e42b39b5ee08fdae7510b_master.jpg",
         "TenSP": "Mặt Nạ Giấy Kociety Facial Mask",
@@ -166,12 +191,14 @@
         "XuatXu": "THÁI LAN",
         "ThuongHieu": "KOCIETY",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "8f606f1a-7d86-45d7-b376-6e95692833a6"
+        "id": "4dc6fd23-b6fe-42b5-9af3-c8ab74169925",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-giay-kociety-facial-mask"
     },
     {
         "sku": "8809495890118",
         "Giaban": "390,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Jayjun Real Water Brightening Black Mask 1 hộp 10 miếng bao gồm 3 bước có xuất xứ từ Hàn Quốc. ",
         "images": "https://product.hstatic.net/1000379579/product/bici-jayjun-brightening-newc_57cacb6373504d62b7e35bba54248f88_master.jpg,https://product.hstatic.net/1000379579/product/jayjun-real-water-brightening-black-mask-review1_9d413808012f4db6ae364b46cea0e59e_master.jpg,https://product.hstatic.net/1000379579/product/bici-jayjun-brightening-m_d75a24d8b74544c0adf8e3af77d02e96_master.jpg,https://product.hstatic.net/1000379579/product/bici-jayjun-brightening-newb_54bd8cbc0b9e406fb6daa5a4c759bb1a_master.jpg,https://product.hstatic.net/1000379579/product/bici-jayjun-brightening-newa_49f1473025dd4566b3b843c8c6730628_master.jpg,https://product.hstatic.net/1000379579/product/bici-jayjun-mask_8c8fb616ffb84bf889043d16e43e92d4_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-jayjun-brightening-newc_57cacb6373504d62b7e35bba54248f88_master.jpg",
         "TenSP": "Mặt Nạ Jayjun Real Water Brightening Black Mask",
@@ -179,25 +206,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Jayjun",
         "DanhMuc": "Mặt nạ,Essense - Serum - Ampoule,Skincare,Sữa rửa mặt",
-        "Id": "14007180-4eff-4865-8a0f-a216bd88945f"
-    },
-    {
-        "sku": "8809305995989",
-        "Giaban": "159,000₫",
-        "category": "MatNa",
-        "images": "https://product.hstatic.net/1000379579/product/mat-na-trang-da-toan-than-snow-white-milky-pack-secret-key-8_96669ea1442d4915a720941768bbd0d6_master.jpg,https://product.hstatic.net/1000379579/product/jhyumfty_8911ab739de245f7bf65ad842281e2d0_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-4_19ab136dba574486a23cecf316ad1f1f_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-bici-cosmetics-600x600_3b8916c50f0e4c94853378595492a135_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-1-bici-cosmetics-768x669_0414eb4dfdb347cd943fb4772d327dcf_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-2-bici-cosmetics-668x1024_0e2b05f8f79145a1a1efb0bd64d57d6f_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-3-bici-cosmetics-768x716_b55fd8163d4e4b178a80c5d8af719576_master.jpg",
-        "image": "https://product.hstatic.net/1000379579/product/mat-na-trang-da-toan-than-snow-white-milky-pack-secret-key-8_96669ea1442d4915a720941768bbd0d6_master.jpg",
-        "TenSP": "Kem tắm trắng da Secret Key Snow White Milky Pack",
-        "Ma": "8809305995989",
-        "XuatXu": "HÀN QUỐC",
-        "ThuongHieu": "SECRET KEY",
-        "DanhMuc": "HÀNG MỚI VỀ,CHĂM SÓC BODY,Mặt nạ,Skincare",
-        "Id": "d7521dbd-7c80-4a1a-bd91-651ab52bfb11"
+        "id": "297b2f77-5758-407c-86fa-ead1b0dca76c",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-jayjun-real-water-brightening-black-mask"
     },
     {
         "sku": "8809305998751",
         "Giaban": "249,000₫",
         "category": "MatNa",
+        "description": "Mắt sáng má xinh với siêu phẩm \"trái tim\" nhà Secret Key đang cực kỳ hot tại Hàn Quốc luôn nè bà con ơi!!!",
         "images": "https://product.hstatic.net/1000379579/product/27581738_2031862723728849_4651107435883266048_n_ef4cea1088104809b390e68f08ca58f6_master.jpg,https://product.hstatic.net/1000379579/product/33e8a9e92957e9b16d476fde430a218a_e39cb12b65c54a1faba8b8ee928944ec_master.jpg,https://product.hstatic.net/1000379579/product/6a16eb8f5f46251ac55a21df008dd894_83dbbd2749384a61a0c68e7609c85f04_master.jpg,https://product.hstatic.net/1000379579/product/107097573_3334262709957755_2837871972957154733_n_592f626100b648e4b93176c9ca03fe6c_master.jpg,https://product.hstatic.net/1000379579/product/9410b26b9e2b4198533b01b55394ad4e_ad62e6eb2ce94f639c9f4ab503e0b180_master.jpg,https://product.hstatic.net/1000379579/product/77243539_482092155757986_943740526633533385_n_53ae7f1fa452423594718f0a343c04ce_master.jpg,https://product.hstatic.net/1000379579/product/74411475_138190054184405_5934458070752583776_n_c61671088097441da73c5fd80a30c154_master.jpg,https://product.hstatic.net/1000379579/product/74402882_2242562642702330_7918067097965959921_n_a9ec545933a246dc8eb76bb360aa4a1a_master.jpg,https://product.hstatic.net/1000379579/product/74957145_129869485115001_7911576232974888085_n_f16ff28f572345c7ba563f1236926d86_master.jpg,https://product.hstatic.net/1000379579/product/71jumtj-nbl._ac_sl1500__01acef44f98a40bd95a93e5d508dbaad_master.jpg,https://product.hstatic.net/1000379579/product/77245772_2012101472268485_4762338838778906161_n_9953d1924d034c489680496a466d3d12_master.jpg,https://product.hstatic.net/1000379579/product/77159747827-7973704242126913536-n-c17b1d74-264a-4377-b5bf-e35bfc339ff3_4231e121e25a4d55a394a1409e1fd5d9_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/27581738_2031862723728849_4651107435883266048_n_ef4cea1088104809b390e68f08ca58f6_master.jpg",
         "TenSP": "Mặt Nạ Dưỡng Mắt & Má Secret Key Pink Racoony Hydrogel Eye & Cheek Patch",
@@ -205,12 +221,29 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "SECRET KEY",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "ebc034da-e593-4611-a6bb-5d9d05847449"
+        "id": "9d52a0e6-e11b-46e1-96f0-30ff7d12964c",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-duong-mat-ma-secret-key-pink-racoony-hydrogel-eye-cheek-patch"
+    },
+    {
+        "sku": "8809305995989",
+        "Giaban": "159,000₫",
+        "category": "MatNa",
+        "description": "Da sáng hơn, mịn màng hơn và trông khỏe mạnh, đầy sức sống hơn là những kết quả sớm thấy được khi bạn sử dụng Kem tắm trắng da Snow White Milky Pack.",
+        "images": "https://product.hstatic.net/1000379579/product/mat-na-trang-da-toan-than-snow-white-milky-pack-secret-key-8_96669ea1442d4915a720941768bbd0d6_master.jpg,https://product.hstatic.net/1000379579/product/jhyumfty_8911ab739de245f7bf65ad842281e2d0_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-4_19ab136dba574486a23cecf316ad1f1f_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-bici-cosmetics-600x600_3b8916c50f0e4c94853378595492a135_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-1-bici-cosmetics-768x669_0414eb4dfdb347cd943fb4772d327dcf_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-2-bici-cosmetics-668x1024_0e2b05f8f79145a1a1efb0bd64d57d6f_master.jpg,https://product.hstatic.net/1000379579/product/kem-tam-trang-da-snow-white-milky-pack-3-bici-cosmetics-768x716_b55fd8163d4e4b178a80c5d8af719576_master.jpg",
+        "image": "https://product.hstatic.net/1000379579/product/mat-na-trang-da-toan-than-snow-white-milky-pack-secret-key-8_96669ea1442d4915a720941768bbd0d6_master.jpg",
+        "TenSP": "Kem tắm trắng da Secret Key Snow White Milky Pack",
+        "Ma": "8809305995989",
+        "XuatXu": "KOREA",
+        "ThuongHieu": "SECRET KEY",
+        "DanhMuc": "HÀNG MỚI VỀ,CHĂM SÓC BODY,Mặt nạ,Skincare",
+        "id": "a403b73c-e108-40d9-ae7b-5150e3956876",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/kem-tam-trang-da-snow-white-milky-pack"
     },
     {
         "sku": "8809263876108",
         "Giaban": "439,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Lột Mụn So Natural Pink Eraser Calamine Mask với thành phần chính là Calamine. Sản phẩm hỗ trợ làm sạch nhờn và làn da mịn màng dịu nhẹ hơn.",
         "images": "https://product.hstatic.net/1000379579/product/000-600x600_34e47ecf41fd454287c8cd4bb7868421_master.jpg,https://product.hstatic.net/1000379579/product/55-1-600x600_99ed677577754f0ba18f4e15c4d8a77c_master.png,https://product.hstatic.net/1000379579/product/5-1-1-600x293_ff192f0976e54ddaa450ae554117cfa9_master.png,https://product.hstatic.net/1000379579/product/4-2-1-600x600_7ef05ea448d04fdd843e01f137a081c6_master.png,https://product.hstatic.net/1000379579/product/3-2-1-600x478_a26582c429804a0597537c91c10b48d6_master.png,https://product.hstatic.net/1000379579/product/3-10-600x600_51cac21b502b480a96eb30c8baa32b17_master.png,https://product.hstatic.net/1000379579/product/1-1-1-600x600_163abff7ee424ce1ba654343c47b88a0_master.png",
         "image": "https://product.hstatic.net/1000379579/product/000-600x600_34e47ecf41fd454287c8cd4bb7868421_master.jpg",
         "TenSP": "Mặt Nạ So’ Natural Special Care Pink Eraser Calamine Mask",
@@ -218,12 +251,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "SO''NATURAL",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "72d69776-9b1e-462a-8fd8-b49b67df52fb"
+        "id": "bd89718d-c085-4586-a5ea-c69abd59f799",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-so-natural-special-care-pink-eraser-calamine-mask"
     },
     {
         "sku": "8809505542624",
         "Giaban": "169,000₫",
         "category": "MatNa",
+        "description": "Duy trì làn da đôi mắt sáng khỏe, không hằn dấu thời gian. Hãy để cửa sổ tâm hồn sáng bừng sức sống với dòng mặt nạ mắt cấp ẩm, dưỡng mắt chiết xuất gel mật ong JMsolution Honey Luminous Royal Propolis Eye Patch.",
         "images": "https://product.hstatic.net/1000379579/product/82667622_569315653618050_2561523584120027344_n_24651645ab7e47b6a79d665f3c1a4294_master.jpg,https://product.hstatic.net/1000379579/product/dfb_f74e807a0d7c4038bbdabc3fc9778111_master.jpg,https://product.hstatic.net/1000379579/product/44634033_279570726000628_2795585279066193317_n_8b96319a34774549a97094d34832fc62_master.jpg,https://product.hstatic.net/1000379579/product/52958378_1180949988753045_8904158139079862571_n_4d1552ec23fd4397bef3689c77368485_master.jpg,https://product.hstatic.net/1000379579/product/75534284_133015531443237_4522085462965223424_n_d20cec7774c24dc79c8690a7e1916ad9_master.jpg,https://product.hstatic.net/1000379579/product/59429909_681670128931261_6462404072977137743_n_5c491db4f68c486d8259c839b62d3c14_master.jpg,https://product.hstatic.net/1000379579/product/65091348_457452671752054_5806601475274401905_n_fa8fd57b5dbb4bd1abff19b50840a609_master.jpg,https://product.hstatic.net/1000379579/product/ee691585eaffb42a_8c90cdcd783d4492a569239c3b8f218d_master.jpg,https://product.hstatic.net/1000379579/product/gvbh_c2ef0fc5276e4bc98b71501f74bce7c2_master.jpg,https://product.hstatic.net/1000379579/product/125277441_2457268801241457_555124048811450714_n_87846925b1b749a6a659aaad65f26616_master.jpg,https://product.hstatic.net/1000379579/product/dsgfdfhgyik_61116e9484e847f887f47510f1e86dec_master.jpg,https://product.hstatic.net/1000379579/product/ghngfn_141e8399c443434d90e54baa927582dd_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/82667622_569315653618050_2561523584120027344_n_24651645ab7e47b6a79d665f3c1a4294_master.jpg",
         "TenSP": "Mặt Nạ Mắt JM Solution Marine Luminous Royal Propolis Eyes Mask",
@@ -231,12 +266,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "JM Solutions",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "de3ba2e1-d748-4b28-aabe-d3dc668ce395"
+        "id": "4b90da5a-cdb4-421a-8e2b-a84bedb55b52",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-mat-jm-solution-marine-luminous-royal-propolis-eyes-mask"
     },
     {
         "sku": "8806173566372",
         "Giaban": "415,000₫",
         "category": "MatNa",
+        "description": "Innisfree Black Green Tea Mask EX là mặt nạ được cải tiến vượt bật được chiết xuất từ 100% trà xanh guyên chất tự nhiên sau khi lên men trở thành (Black Green Tea), được nuôi trồng kĩ lưỡng trong môi trường trong sạch ở đảo Jeju không chứa thuốc trừ sâu, quá trình lên men qua nhiều công đoạn từ trà xanh trở thành Black Green Tea.",
         "images": "https://product.hstatic.net/1000379579/product/innisfree_black_green_tea_mask_ex10-min_3ff5d28e11c6495faf88c23e88a5f906_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_black_green_tea_mask_ex5-min_f557afeafc9b4b4bb58bd37fdf8afa4c_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_black_green_tea_mask_ex6-min_92d2f731692647d29e32b595e69b7f38_master.jpg,https://product.hstatic.net/1000379579/product/4-32_efdaceb196034845ac19e525df41f48b_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_black_green_tea_mask_ex4-min_b34340261cfa4cf896604d28d3f4b47c_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_black_green_tea_mask_ex-min_5b40b2aec3854068b8a72bc8027fd979_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_black_green_tea_mask_ex9-min_28eaa277879247fb904d07af1e2b323c_master.jpg,https://product.hstatic.net/1000379579/product/01c777cc3a0f47048a87378d2f75e436_3be49b692e5b44ec8636000554999ace_master.png",
         "image": "https://product.hstatic.net/1000379579/product/innisfree_black_green_tea_mask_ex10-min_3ff5d28e11c6495faf88c23e88a5f906_master.jpg",
         "TenSP": "[NEW UPDATE 2019] Mặt Nạ Trà Xanh Đen Innisfree Black Green Tea Mask EX",
@@ -244,12 +281,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "b4853a25-4fd9-4a3d-9f95-b38f0837e50e"
+        "id": "964f16bb-ea6f-4220-a8a4-dd6eaf165c71",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-innisfree-black-green-tea-mask-ex-80ml"
     },
     {
         "sku": "8809406893832",
         "Giaban": "199,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Đất Sét Bạc Hà Dreamworks I'm The Real Shrek Pack 110g Mặt Nạ Đất Sét Bạc Hà Dreamworks I'm The Real Shrek Pack 110g siêu phẩm từ xứ Hàn đã về lại rồi nha các nàng ơi. Em này chuyên trị mụn đầu đen, sợi bã nhờn, mụn ẩn và lỗ chân lông to, dùng xong da cực thích luôn nha.",
         "images": "https://product.hstatic.net/1000379579/product/output_3472031206_8051464e869a4a0a8a34fb0983b83ceb_master.jpg,https://product.hstatic.net/1000379579/product/_.lo_-_copy_5a040e1b21e24715886dc9b6442245f4_master.jpg,https://product.hstatic.net/1000379579/product/20969355_363150264120635_4631021158035095552_n_-_copy_b0260e8aef7c42d6969752da189af946_master.jpg,https://product.hstatic.net/1000379579/product/123606220_3640431279374153_229762686477010918_n_-_copy_45046a77743845b99b5aa583d3a6eadb_master.jpg,https://product.hstatic.net/1000379579/product/124502326_191608449159078_3353264486058469568_n_-_copy_c09f7723a19a47d08ce2ae4ac8dc13de_master.jpg,https://product.hstatic.net/1000379579/product/120997753_680800852868211_99296336306995924_n_-_copy_a49cf18f8df442268ff013ac4d024a9a_master.jpg,https://product.hstatic.net/1000379579/product/33226243_530090127389166_5179097497976438784_n_-_copy_933afb7224b540fd97730186c82be8c3_master.jpg,https://product.hstatic.net/1000379579/product/121061052_154598946330077_1312278443008176769_n_-_copy_2b2c725f78fc474f99dccc8b404e8a27_master.jpg,https://product.hstatic.net/1000379579/product/34326643_448645702245799_6930140228443176960_n_-_copy_978ecb355bd741fb9e53d6db59549d3d_master.jpg,https://product.hstatic.net/1000379579/product/125893755_1420550291484731_2673836699331072005_n_-_copy_7fe1a57c1c804644961642f28fe7ba96_master.jpg,https://product.hstatic.net/1000379579/product/se-e650778e-3e13-4802-876f-8b9896e40196_7abfb3f841dd46a1a5fe54a3b272e54e_master.jpg,https://product.hstatic.net/1000379579/product/img_4341_c9662c86ceac4e5b9ff29c814a4baf1c_master.jpg,https://product.hstatic.net/1000379579/product/___________________aa1091720fb84239a476b3297d77f0d7_master.jpg,https://product.hstatic.net/1000379579/product/unnamed__2__9528148ae6c54bc187acff79ba7af9a0_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/output_3472031206_8051464e869a4a0a8a34fb0983b83ceb_master.jpg",
         "TenSP": "Mặt Nạ Đất Sét Bạc Hà Dreamworks I'm The Real Shrek Pack 110g",
@@ -257,12 +296,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Olive Young",
         "DanhMuc": "Hot Trend,Mặt nạ,Skincare",
-        "Id": "a07999c1-571d-4d09-9da1-03fcf47980b3"
+        "id": "4e68e951-d9cc-421f-8c66-ab5ba380e458",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-dat-set-bac-ha-dreamworks-i-m-the-real-shrek-pack-110g"
     },
     {
         "sku": "KH03510",
         "Giaban": "185,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Bơ Cấp Ẩm siêu hot nhà Kiehl's nè các nàng - Xài chỉ có nghiền thôi nha",
         "images": "https://product.hstatic.net/1000379579/product/75225398_154890672413204_2984609079813933264_n_5f9cd84bec0d4037be50ce31d5418f8b_master.jpg,https://product.hstatic.net/1000379579/product/76fbab24a2117cdea8e24ed485c713ee_c4022d64a549458eb60fad7227cdd098_master.jpg,https://product.hstatic.net/1000379579/product/mask-kiehls-5c122fe7-161c-40dd-8da7-dd6505b18927_897235c92926430f9267c53a205e589c_master.jpg,https://product.hstatic.net/1000379579/product/se-f3afdaad-57f4-422d-9e3e-61a78d7f19a0_e5a8625d792e40ceb5cdeb06a6228d6c_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-bo-kiehls-avocado-nourishing-hydration-mask4_c1a4c64584b44e64a4aa30a9904f598d_master.jpg,https://product.hstatic.net/1000379579/product/87478204_669961713739380_8074270414185727227_n_24ed0c6fe597405e960502b78e8f6671_master.jpg,https://product.hstatic.net/1000379579/product/se-f7fcb8af-b49f-4db5-a67b-6102a3ff1060_664daa5f96a54b9bbab969fc6a887730_master.jpg,https://product.hstatic.net/1000379579/product/69909723_1383919171767332_8316981312695087645_n_c9f1348fabe34c16920b99050af76632_master.jpg,https://product.hstatic.net/1000379579/product/78910467_2874044285960125_3785388781747880958_n_12c92348663543468e12d093f904485e_master.jpg,https://product.hstatic.net/1000379579/product/108230365_285277929250380_2239829693854820843_n_b84b9059e9ae432b8e10fdb248f3f785_master.jpg,https://product.hstatic.net/1000379579/product/77026078_603886267094578_6901123937983779763_n_4603a453840943c4a888d18daeb857cb_master.jpg,https://product.hstatic.net/1000379579/product/91493801_247786499687406_6623660398121937682_n_4fbcf043a19044c88336e2e5474b8d8a_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/75225398_154890672413204_2984609079813933264_n_5f9cd84bec0d4037be50ce31d5418f8b_master.jpg",
         "TenSP": "Mặt Nạ Bơ Cấp Ẩm Kiehl's Avocado Nourishing Hydrating Mask Mini Size",
@@ -270,12 +311,14 @@
         "XuatXu": "USA",
         "ThuongHieu": "KIEHL''S",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "e9f6359d-47b8-494c-92bb-1c7630521d8c"
+        "id": "963a26dc-da3f-4439-92c8-16ff4fee08e0",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-bo-cap-am-kiehl-s-avocado-nourishing-hydrating-mask-mini-size"
     },
     {
         "sku": "8809535802057",
         "Giaban": "145,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ Dr.Jart+ Shake & Shot đang là một trong những sản phẩm hot nhất hiện nay bắt kịp với trào lưu mặt nạ đang lên ngôi, điểm khác biệt đó là Mặt nạ Dr.Jart+ Shake & Shot thuộc dòng mặt nạ cao sư (rubber mask).",
         "images": "https://product.hstatic.net/1000379579/product/bici-dr.jart-shakeandshotcam_ce67f608606949098638a4b6998d3a02_master.jpg,https://product.hstatic.net/1000379579/product/drjart-the-mask-shaking-rubber-shot-xanh_231a505a11a64730933d57dde17dc477_master.jpg,https://product.hstatic.net/1000379579/product/album1-5_ac75390775834979a95e9c0b1793b065_master.jpg,https://product.hstatic.net/1000379579/product/album2-4_984cfe371abc4e70b2c798a0c889636b_master.jpg,https://product.hstatic.net/1000379579/product/album3-3_7fc73902b1a04c4fbe2277d942e8c8b7_master.jpg,https://product.hstatic.net/1000379579/product/album4-2_f1eb752e9b6a4991996567de986f0cd6_master.jpg,https://product.hstatic.net/1000379579/product/album5-2_702b8f12e9624debab4ff9ecda3fbc06_master.jpg,https://product.hstatic.net/1000379579/product/bici-dr.jart-shakeandshot-tim_0842c9ba1ad74426ac24db89b9df998b_master.jpg,https://product.hstatic.net/1000379579/product/bici-dr.jart-shakeandshot-xanh_918a012ed8ab4eb7bae75370717073b4_master.jpg,https://product.hstatic.net/1000379579/product/bici-dr.jart-shakeandshot-vang_2f28cfd0199e474a9570b34a17d7803f_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-dr.jart-shakeandshotcam_ce67f608606949098638a4b6998d3a02_master.jpg",
         "TenSP": "Mặt Nạ Cao Su Dr.Jart+ Shake & Shot",
@@ -283,12 +326,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "DR.JART+",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "a9c19089-7121-4703-a423-94f1d68475fe"
+        "id": "0ea0e2f1-9a05-4fe4-8bc8-05a1b8d9ad9e",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-cao-su-dr-jart-shake-shot"
     },
     {
         "sku": "8809086207806",
         "Giaban": "119,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ cao su Suiskin Shaking Modeling Mask là mặt nạ dạng cao su với thành phần chính là 11 hỗn hợp thảo mộc từ núi cao của Thụy Sỹ cùng các thành phần khác như: chiết xuất ngọc trai, chiết xuất hoa dâm bụt, hoa hồng giúp cung cấp dưỡng ẩm, làm dịu da và cân bằng nhiệt độ da.",
         "images": "https://product.hstatic.net/1000379579/product/0220070000172-min_8da76471580146c7ae40c3a1f47ce7cc_master.jpg,https://product.hstatic.net/1000379579/product/51662338-474436836424442-1597023471340993238-n-min-600x617_7141f8c60083417ca4fb37729cdb1ca9_master.jpg,https://product.hstatic.net/1000379579/product/51576621-2279959805657824-3604203142069821629-n-min-600x600_d22783883b604533a60c0e3a56919011_master.jpg,https://product.hstatic.net/1000379579/product/20-min-2-600x600_e947c7362eb94aa7af77bfeca6e710fb_master.jpg,https://product.hstatic.net/1000379579/product/45361608-2070642073048942-6995790878031740928-n-min-600x600_c22cdc848efc4b0481cd97cf51885471_master.jpg,https://product.hstatic.net/1000379579/product/screenshot-1-min-1-600x605_1dcf9cc62523444bb12c3952209a57ba_master.jpg,https://product.hstatic.net/1000379579/product/f4c279f4847c1ecdf409fb7b624c424e-min-600x600_56880477830f490a9fdd74e7dd5a425e_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/0220070000172-min_8da76471580146c7ae40c3a1f47ce7cc_master.jpg",
         "TenSP": "Mặt nạ cao su dưỡng ẩm, làm dịu và làm trắng da Suiskin Shaking Modeling Mask (33ml)",
@@ -296,12 +341,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "SUISKIN",
         "DanhMuc": "xu hướng,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "d00904c6-20df-4422-9b3a-d79a2dc0432a"
+        "id": "1e80dcd6-c771-41c5-8c67-86c851e39398",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-cao-su-duong-am-lam-diu-va-lam-trang-da-suiskin-shaking-modeling-mask-33ml"
     },
     {
         "sku": "8809422533187",
         "Giaban": "79,000₫",
         "category": "MatNa",
+        "description": "Chăm sóc da hai bước liên tiếp, vừa tẩy tế bào chết dư thừa vừa cung cấp các chất dinh dưỡng cho da với mặt nạ tẩy tế bào chết Huxley Secret Of Sahara Scrub Mask Sweet. Nhất là những bạn gái có làn da dầu",
         "images": "https://product.hstatic.net/1000379579/product/huxley3093325_9960eb8c36fd4820902ecf70b2fe6ec0_master.jpg,https://product.hstatic.net/1000379579/product/7319205-212988336070808-3034218640267280384-n-bici-cosmetics-1-600x600_5e25c3a40bab4b76a30823afcce7cfbf_master.jpg,https://product.hstatic.net/1000379579/product/te-bao-chet-huxley-secret-of-sahara-scrub-mask-sweet-therapy-15-88ae63_82d30ed46861424d8082d2fd05bc9918_master.jpg,https://product.hstatic.net/1000379579/product/7-bici-cosmetics-1_60537e354d88418b81f428570665620e_a7e3c3a0def74fd5b65edd973d3b0e23_master.jpg,https://product.hstatic.net/1000379579/product/70e6bf71267c546c55d1fad5f157e910_b2ecb245f15f434dbb4ba76c477686c1_master.jpg,https://product.hstatic.net/1000379579/product/77c24ceb8cd981a24706aee9dd9d45c9_d2ad3ff33bdd453db3c8c51071a08468_master.jpg,https://product.hstatic.net/1000379579/product/a13747f0665b3385999250a3b9101a27_49809d8dd26e4dd98646457d497e4862_master.jpeg",
         "image": "https://product.hstatic.net/1000379579/product/huxley3093325_9960eb8c36fd4820902ecf70b2fe6ec0_master.jpg",
         "TenSP": "Tẩy Tế Bào Chết Huxley Secret Of Sahara Scrub Mask Sweet Therapy (không tích điểm)",
@@ -309,12 +356,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "HUXLEY",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Tẩy tế bào chết,Skincare",
-        "Id": "6f46813e-0d44-446f-b81d-48f0d31e4be5"
+        "id": "e5bd5a80-c821-4d37-aeeb-d3cc8b20d69d",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/tay-te-bao-chet-huxley-secret-of-sahara-scrub-mask-sweet-therapy"
     },
     {
         "sku": "8856036001366",
         "Giaban": "120,000₫",
         "category": "MatNa",
+        "description": "Lột Mụn Mũi Kociety 3 Step Blackhead Remover",
         "images": "https://product.hstatic.net/1000379579/product/bici-kociety_4adf58d7077946fa9d436324eadb6d53_master.jpg,https://product.hstatic.net/1000379579/product/bici-kociety-2_7c08d814eba34981bbac299dddf95c9a_master.jpg,https://product.hstatic.net/1000379579/product/bici-kociety-3_ddc7f79927f64898b3ab3aaaa6274b5f_master.jpg,https://product.hstatic.net/1000379579/product/mieng-dan-mun-dau-den-3-buoc-kociett-bici_4a95bae5013f4973903c7abaf426f0ab_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-kociety_4adf58d7077946fa9d436324eadb6d53_master.jpg",
         "TenSP": "Lột Mụn Mũi Kociety 3 Step Blackhead Remover",
@@ -322,12 +371,14 @@
         "XuatXu": "THÁI LAN",
         "ThuongHieu": "KOCIETY",
         "DanhMuc": "TRỊ MỤN - TRỊ THÂM,Mặt nạ",
-        "Id": "31a68bd1-392b-4591-8a00-9a6f8cdfd150"
+        "id": "02ae59f7-1a83-4582-a9cc-d29cf75d85d0",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/lot-mun-mui-kociety-3-step-blackhead-remover"
     },
     {
         "sku": "8809578320259",
         "Giaban": "15,000₫",
         "category": "MatNa",
+        "description": "PackYangee là thương hiệu mặt nạ nội địa đến từ xứ sở Kim Chi. Hãng chủ yếu sản xuất sản phẩm các loại mặt nạ giấy là chủ lực. Sản phẩm được ưa chuộng nhờ làm từ chất liệu sợi tơ tằm cao cấp và thành phần chiết xuất thiên nhiên. Từ đó cung cấp dinh dưỡng, cấp ẩm nuôi da trắng sáng, mềm mại.",
         "images": "https://product.hstatic.net/1000379579/product/2-min-3-600x600_91d031e82c864fe09b7b11eab7660cb5_master.png,https://product.hstatic.net/1000379579/product/5-min-600x600_ab47ccd1d91e43bf8085a7a65ebd5181_master.png,https://product.hstatic.net/1000379579/product/1-min-600x600_fd050f2ea85b43c9841c8aac20b48b48_master.png,https://product.hstatic.net/1000379579/product/4-min-3-600x600_2a2e248aad064afaa02167588c56ab2c_master.png",
         "image": "https://product.hstatic.net/1000379579/product/2-min-3-600x600_91d031e82c864fe09b7b11eab7660cb5_master.png",
         "TenSP": "Mặt Nạ Dưỡng Da PackYangee",
@@ -335,12 +386,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "PACKYANGEE",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "3f0ac584-92b7-47bc-b6e1-5c9397ec12bb"
+        "id": "a8e4589f-0499-4d91-8407-50f7f052774c",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-duong-da-packyangee"
     },
     {
         "sku": "8809311915681",
         "Giaban": "30,000₫",
         "category": "MatNa",
+        "description": "Trải qua một thời gian dài nghiên cứu và chọn lọc các thành phần từ thiên nhiên tốt cho da, SeoulRose chính thức cho ra đời dòng sản phẩm chăm sóc da: Mặt Nạ SeoulRose Rosie Hydrating Seagrass Mask với nhiều ưu điểm vượt trội.",
         "images": "https://product.hstatic.net/1000379579/product/ulrose-rosie-hydrating-seagrass-mask-2-8809311915681-1024x1024-600x600_47ef2c78d76b46248a8545f695a89a93_master.jpg,https://product.hstatic.net/1000379579/product/seoulrose-rosie-hydrating-seagrass-mask-1-8809311915681-600x600_dfdd01fff2054aecac9623908e1ed183_master.jpg,https://product.hstatic.net/1000379579/product/rosie_mask-a_ed66c3f9516b4f8cb59da7ca7d5d3e98_master.jpg,https://product.hstatic.net/1000379579/product/rosie-mask_79562d647c9445c69521cabbec5d630e_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/ulrose-rosie-hydrating-seagrass-mask-2-8809311915681-1024x1024-600x600_47ef2c78d76b46248a8545f695a89a93_master.jpg",
         "TenSP": "Mặt Nạ SeoulRose Rosie Hydrating Seagrass Mask",
@@ -348,12 +401,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "SEOULROSE",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "97ae368c-dc0b-4c16-a9ba-2ab53eedd5e7"
+        "id": "f8792a45-664a-4f2c-9749-c67b99f1bdc0",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-seoulrose-rosie-hydrating-seagrass-mask"
     },
     {
         "sku": "8809192577466",
         "Giaban": "19,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Dưỡng Da Pure Mind Intensive Essence Mask có thành phần chiết xuất từ các thành phần trái cây và rau quả thiên nhiên nên cực kì lành tính và an toàn với mọi loại da, kể cả da nhạy cảm.",
         "images": "https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-18-min_349e2dc52e79484c99fe7e2375c8dd41_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-19-min_8cf9221301214283b0fb718e01b7447a_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-20-min_f44d93fbac4547f385583e6d58685fc4_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-22-min_8a0e05eb0eb44df58820d255b210a494_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-21-min_84427e783abc442ca9c276672fd65f08_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-10_1647ef12f12a48938deb565e07fe9ead_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic_57e4a73d9ae7426386d024345713c46b_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-12_94f9430b0f0d487fb488f799294bcc6a_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-6_381ff27c91804c849d0c4e2ea82da448_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-14_8349c315128b43f79aaa81d99d4994a9_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-8_650437fe22a84b9e9d0378d1ce95ab8f_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-4_d8d835826a3e41c19a33a4d0f0fe3a82_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-2_a89875f28fad4ffba8752e88d2f6b857_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/mat-na-duong-da-pure-mind-bici-cosmetic-18-min_349e2dc52e79484c99fe7e2375c8dd41_master.jpg",
         "TenSP": "Mặt Nạ Dưỡng Da Pure Mind Intensive Essence Mask 23ml",
@@ -361,12 +416,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Khác",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "11bc4159-f158-4886-9e8f-de47654c9b34"
+        "id": "ea3f4bdc-976a-4ce2-ae84-17485f89348d",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-duong-da-pure-mind-intensive-essence-mask-23ml"
     },
     {
         "sku": "8809470128205",
         "Giaban": "25,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Chiết Xuất Từ Hoa Quả Mediheal Vita Mask là bộ 5 loại mặt nạ trái cây chăm sóc da. Với các thành phần từ thiên nhiên phong phú như: trái Việt Quất, trái Lựu, Táo Xanh và Kiwi, Ca Cao và Cà Phê, Chanh và Tắc, Bí Ngô. Các dưỡng chất chiết xuất từ trái cây tự nhiên giúp cung cấp dưỡng chất, làm da đàn hồi và căng mịn. Tùy theo nhu cầu chăm sóc da của các nàng mà lựa chọn loại phù hợp nhé. ",
         "images": "https://product.hstatic.net/1000379579/product/mediheal_vita_mask_-_bici_cosmetics-min_0e3c4d6220ad4e6f8cd9f441ddef4d4b_master.jpg,https://product.hstatic.net/1000379579/product/vita-2-min_b865f5920f6a41ce94f5dfef093c9d58_master.jpg,https://product.hstatic.net/1000379579/product/fefd0159d842972de75ea6b0601c9f47-min_b60a54069e8f4650a99252c0f62b1d45_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-mediheal-25ml-bi-ngo_1-min_99d3c24c07484bcc9f00c3b8277db61a_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-mediheal-25ml-luu_1-min_5a642b5cd3524f4bb705e332342707fc_master.jpg,https://product.hstatic.net/1000379579/product/fbaa0e9313290912e9b471dd47c0e699-min_e1c2e754e5e542678dc99ba878113e8c_master.jpg,https://product.hstatic.net/1000379579/product/d59f038b80510b3bdddfe1b6abde354e-min_0a8d739270b14fa9bd45b7ba6b43b9ee_master.jpg,https://product.hstatic.net/1000379579/product/60540188_560513037806563_9195021455950086144_o_1815bbf83d8149aa8a00355ce01e8150_master.jpg,https://product.hstatic.net/1000379579/product/2c5f747f6dacacc8a978706b90d36967-min_aee5057aadee4245bd361800eecce883_master.jpg,https://product.hstatic.net/1000379579/product/data-min_88f0dc6f2e5f41109276c4339dbfe9be_master.jpeg,https://product.hstatic.net/1000379579/product/_7b2cd561491b57265173f9275b414553_29dc502c34ac459ea6037ca31d462a7e-min_09453c91da534256ac010a817a026a99_master.jpg,https://product.hstatic.net/1000379579/product/mediheal_vita_mask_-_bici_cosmetics1-min_c508ba8c782740c1afa098ba2f8a4137_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-mediheal-25ml-cacao_1-min_4e0be218b0a046758608016b4faa79a0_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/mediheal_vita_mask_-_bici_cosmetics-min_0e3c4d6220ad4e6f8cd9f441ddef4d4b_master.jpg",
         "TenSP": "Mặt Nạ Chiết Xuất Từ Hoa Quả Mediheal Vita Mask",
@@ -374,25 +431,29 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "f4f764dc-2fe7-4597-acbf-755ea4553aa5"
+        "id": "89c309e1-cb8e-4b32-99e7-3dbb20a45165",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-mediheal-vita-mask"
     },
     {
         "sku": "8809470120957",
         "Giaban": "350,000₫",
         "category": "MatNa",
+        "description": "Các mặt nạ giấy Mediheal Proatin Face Mask khác biệt với những dòng mặt nạ khác ở chỗ tinh chất dày và đặc hơn, có độ dưỡng cao và có cả một phức hợp 19 loại amino acids. Chức năng chính của  P:EP Proatin mask là truyền sinh khí cho làn da. làm đàn hồi da, chống lại sự hình thành nếp nhăn. Ngoài ra các loại mask khác cùng dòng với những chức năng khác nhau phù hợp với mỗi bạn gái. ",
         "images": "https://product.hstatic.net/1000379579/product/mediheal_proatin_face_mask_-_bici_cosmetics-min_063ab8b62dd14bacb4ebe08e9bee4d9b_master.jpg,https://product.hstatic.net/1000379579/product/mediheal_proatin_face_mask_-_bici_cosmetics1-min_f2a501d8f12e4ffab3f9f62617ae8f23_master.jpg,https://product.hstatic.net/1000379579/product/img_1225-1024x1024-min_8ae0b1bf9e1a4a049be66c86c2dfa0ef_master.jpg,https://product.hstatic.net/1000379579/product/061322_dna_uew-min_487d1b3674b14ccb9b29d051a43d51ba_master.jpg,https://product.hstatic.net/1000379579/product/mediheal_rna_whitening_proatin_mask__4_-min_d9aa623ccd044343b55bd7a1c5402ba0_master.jpg,https://product.hstatic.net/1000379579/product/featured21-min_6df46e2681c4465f84e7df483709c0e6_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-mediheal-25ml1-rna-2-min_2e93fd659e554976b9d9f7c51dffdc82_master.jpg,https://product.hstatic.net/1000379579/product/566_detail_074_2a08eb923460444a85e423678ca122aa_master.jpg,https://product.hstatic.net/1000379579/product/565_detail_023_5ceedf21518647d6a7e0e26775fbf54e_master.jpg,https://product.hstatic.net/1000379579/product/564_detail_094_9c40f9d19433407a8ac7d5c8eca2cbc7_master.jpg,https://product.hstatic.net/1000379579/product/561_detail_039_fca65a624e91467fae120b1b797f42c6_master.jpg,https://product.hstatic.net/1000379579/product/3574975b056448b596da891cfdd845d1_4cb43d4e16cd4464b0261c829dcd6cf2_master.jpg,https://product.hstatic.net/1000379579/product/54b40bca71f143009a1d2ea25cc29312_aaf92db763ce4b1ab0b9228c1ae160a9_master.jpg,https://product.hstatic.net/1000379579/product/d028fcd4-aa2b-4757-a589-7e4f5f81351c_40465269d4d048ccbb4cad33e825a94a_master.jpg,https://product.hstatic.net/1000379579/product/sk-27ml-maschera-viso-coreana-amminoacidi-e-peptidi-lifting-schiarente_f58e11a239a04eb0805ee665c5191c8b_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/mediheal_proatin_face_mask_-_bici_cosmetics-min_063ab8b62dd14bacb4ebe08e9bee4d9b_master.jpg",
         "TenSP": "Mặt Nạ Giấy Mediheal Proatin Face Mask",
         "Ma": "8809470120957",
-        "XuatXu": "HÀN QUỐC",
+        "XuatXu": "KOREA",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "d5206f90-5b63-4697-a471-36a927b8518a"
+        "id": "843f7dc3-65df-4be5-a328-bc11abcd37b8",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-mediheal-proatin-face-mask"
     },
     {
         "sku": "8809323738155",
         "Giaban": "30,000₫",
         "category": "MatNa",
+        "description": "Cung cấp cấp tốc dưỡng chất và độ ẩm cho da, mang lại sự hồi sinh cho da, có thể cảm nhận đươc ngay sau lần đắp đầu tiên. Mang lại làn da trắng hồng và độ căng mướt trong trẻo cho da.",
         "images": "https://product.hstatic.net/1000379579/product/1e63d2bc24fe559054cbb831ce347866-min_b3283c61278642a78b941250e44fe6b6_master.jpg,https://product.hstatic.net/1000379579/product/1ff8a4b6a5be39ca948868060d90603f9180c297_662b95c68833433cab3c670e24027a33_master.jpg,https://product.hstatic.net/1000379579/product/1fd501fdc7611b36ef5c1044866f0d64_8a9604ea30fb436c82dd0aad7969d64e_master.jpg,https://product.hstatic.net/1000379579/product/_i__cncc_i___au___a__ic___a_e___18_oai_cd_u___a_ae_i_a_a___9__7ff9c3f1c3954012966bebdbbff35d6c_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/1e63d2bc24fe559054cbb831ce347866-min_b3283c61278642a78b941250e44fe6b6_master.jpg",
         "TenSP": "Mặt Nạ It's Skin The Fresh Mask Sheet",
@@ -400,12 +461,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "IT'S SKIN",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "fc026292-8aa4-4539-9a4e-c1b3078c7072"
+        "id": "5de4178b-ebcb-4d51-aad2-91b6297ccbcc",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-it-s-skin-the-fresh-mask-sheet"
     },
     {
         "sku": "8809498360724",
         "Giaban": "59,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ ampoule với công thức giàu dưỡng chất chứa đựng năng lượng của các loài thực vật. Các công thức thành phần độc đáo dành riêng cho mọi loại da và các vấn đề về da mà bạn đang quan tâm. ",
         "images": "https://product.hstatic.net/1000379579/product/096ffb60993c134dc48c03d4de28be0d_262a67991e6240188cb152a71a33b683_master.jpg,https://product.hstatic.net/1000379579/product/12e8e6f06afc8d2356ef14a763d389a2_1e5e562bf0834ffb8ce804d8ffd0d2f3_master.jpg,https://product.hstatic.net/1000379579/product/71b6kdkzbwl._sl1200__c096acb838f5473eaa2c3186be9466f8_master.jpg,https://product.hstatic.net/1000379579/product/1e63d2bc24fe559054cbb831ce347866_25eb7fd8bb1a48b89b882b8cfc2a0510_master.jpg,https://product.hstatic.net/1000379579/product/1fd501fdc7611b36ef5c1044866f0d64_a0e44c1dc2b84114b8c9c4286856a8c2_master.jpg,https://product.hstatic.net/1000379579/product/1ff8a4b6a5be39ca948868060d90603f9180c297_553e3eba951746c9b6c0852a7a5713ee_master.jpg,https://product.hstatic.net/1000379579/product/_i__cncc_i___au___a__ic___a_e___18_oai_cd_u___a_ae_i_a_a___9__f6acc766c0d245058cc646f1fb7efcbb_master.jpg,https://product.hstatic.net/1000379579/product/1-min_54f047cfe651497897958c0e01128f67_master.jpg,https://product.hstatic.net/1000379579/product/tea-ampoule-mask_fa8deb304bd44cf1953de7d137a55912_master.jpg,https://product.hstatic.net/1000379579/product/tea-ampoule-mask3_cfbb050cfd6e49f1aa2c9d4227ce9c0e_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/096ffb60993c134dc48c03d4de28be0d_262a67991e6240188cb152a71a33b683_master.jpg",
         "TenSP": "Mặt Nạ Cosmetea Tea Ampoule Mask",
@@ -413,12 +476,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Cosmetea",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "ec448871-7763-4434-9180-249dbf4f1d88"
+        "id": "1f4d3857-a882-4d92-b8ad-a29493ebb99f",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-cosmetea-tea-ampoule-mask"
     },
     {
         "sku": "8809615052136",
         "Giaban": "209,000₫",
         "category": "MatNa",
+        "description": "Set Mặt Nạ Mediheal Love Me Capsulin Mask ( Phiên Bản BTS) là bộ sưu tập 3 loại mặt nạ giấy: Dưỡng ẩm, Xoa Dịu và Nâng Tông. Sự kết hợp giữa nhóm nhạc hàng đầu Hàn Quốc và thương hiệu mặt nạ giấy số 1 Mediheal hứa hẹn sẽ làm bạn gái hài lòng và thỏa mãn. ",
         "images": "https://product.hstatic.net/1000379579/product/613597-5-zoom_8484fcd734624c63b7e61c12d57f7ab9_master.jpg,https://product.hstatic.net/1000379579/product/mediheal6_1f74d9c83cfd4bd9be14b95ce43b8911_master.jpg,https://product.hstatic.net/1000379579/product/bts_ba3060aa1baf47b2a853b9486ff98d6c_master.jpg,https://product.hstatic.net/1000379579/product/mediheal5_8c206c63d48847bb900f57811bb996fa_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/613597-5-zoom_8484fcd734624c63b7e61c12d57f7ab9_master.jpg",
         "TenSP": "Set Mặt Nạ Mediheal Love Me Capsulin Mask ( Phiên Bản BTS)",
@@ -426,12 +491,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "90ab18ae-4fc0-45d8-a2b6-3582f9324433"
+        "id": "2d1cb9df-279d-493b-be00-3fbb6293db8c",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/set-mat-na-mediheal-love-me-capsulin-mask-phien-ban-bts"
     },
     {
         "sku": "8809052591922",
         "Giaban": "13,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Mayan Lucidum Collagen 3D Mask",
         "images": "https://product.hstatic.net/1000379579/product/1d2f395c89d644a0b3ca15eebee2f1b1_785ed2403e924984a724be64629b8d3a_master.jpg,https://product.hstatic.net/1000379579/product/3869450689fc418bb0eba825437244c1_460b6dc83f534f079336625af92669a5_master.jpg,https://product.hstatic.net/1000379579/product/54319f520bb24fd89d6e51ca31c60339_2b106fc119b1453ca3f6db679e14b706_master.jpg,https://product.hstatic.net/1000379579/product/daf242192df64457bfc37b79fc557726_cd7a86e08e004fb7917c8ef413dfe777_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/1d2f395c89d644a0b3ca15eebee2f1b1_785ed2403e924984a724be64629b8d3a_master.jpg",
         "TenSP": "Mặt Nạ Mayan Lucidum Collagen 3D Mask",
@@ -439,12 +506,14 @@
         "XuatXu": null,
         "ThuongHieu": "Khác",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "685ff06c-136f-4975-8781-4de48bb0d346"
+        "id": "32b5023f-74b7-449f-818b-947777a51e90",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-mayan-lucidum-collagen-3d-mask"
     },
     {
         "sku": "8809612864183",
         "Giaban": "289,000₫",
         "category": "MatNa",
+        "description": "Innisfree Super Volcanic Clay Mousse Mask EX là dòng mặt nạ đất sét siêu dưỡng dạng mousse thuộc dòng Volcanic Pore Clay Mask – rất nổi tiếng của Innisfree. Sản phẩm là phiên bản update mới nhất của năm 2019 và cũng làm một trong những “con át chủ bài” của thương hiệu Innisfree khi luôn nằm trong Top bán chạy nhất.",
         "images": "https://product.hstatic.net/1000379579/product/innisfree_super_volcanic_clay_mousse_mask_ex1-min_9a15289019f2425191e26ed9afa51aa5_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_super_volcanic_clay_mousse_mask_ex8-min_95f528cbe86a412a93805581dca42cff_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_super_volcanic_clay_mousse_mask_ex9-min_71648ed1fee8493f8287657cc452cf3a_master.jpg,https://product.hstatic.net/1000379579/product/adb54f3752dc60907d965c43387cd29f-min_2b7b70e4e7034a57aa5f3f98a1768f5c_master.jpg,https://product.hstatic.net/1000379579/product/60085174_170647363938137_2344252889597069956_n-min_d081e193021546cd8b1f67c87ff9626e_master.jpg,https://product.hstatic.net/1000379579/product/innisfree_super_volcanic_clay_mousse_mask_ex3-min_c19309ade31b47bc90f9630a2c409f5f_master.jpg,https://product.hstatic.net/1000379579/product/80bd14bb72c28cc5305af550d58aa22c61-min_c62c391c76ff422295034a52714e533d_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/innisfree_super_volcanic_clay_mousse_mask_ex1-min_9a15289019f2425191e26ed9afa51aa5_master.jpg",
         "TenSP": "[NEW UPDATE 2019] Mặt Nạ Dạng Xốp Innisfree Super Volcanic Clay Mousse Mask EX 100ml",
@@ -452,12 +521,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Tẩy tế bào chết,Skincare",
-        "Id": "f2f2129e-17a5-460e-a20b-f2ff05abed99"
+        "id": "3bb252fd-9d47-4235-a46a-498749a80c33",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/new-update-2019-mat-na-innisfree-super-volcanic-clay-mousse-mask-ex-100ml"
     },
     {
         "sku": "8809516835005",
         "Giaban": "271,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Đất Sét Mamonde Pore Clean Clay Mask có công dụng hấp thụ dầu dư thừa, loại bỏ chất bã nhờn, đầy lùi quá trình lão hóa và ngăn ngừa mụn hình thành và phát triển. Mang tới làn da trắng sáng, mịn màng và khỏe đẹp",
         "images": "https://product.hstatic.net/1000379579/product/mamonde_pore_clean_clay_mask_74ca3dad364a4c6a947f15a0a5cb65f1_master.jpg,https://product.hstatic.net/1000379579/product/06f83ce9c14c49949e363c90059cb641_8f4fe03884da4b089bd65a28ea913818_master.jpg,https://product.hstatic.net/1000379579/product/mamonde_pore_clean_clay_masks_30d2cf4472e543599dbd7b31072d4bb2_master.jpg,https://product.hstatic.net/1000379579/product/mta_na_mamonde_pore_clean_clay_mask_73a879dc00934dba827865e356c6df3b_master.jpg,https://product.hstatic.net/1000379579/product/mat_na_mamonde_pore_clean_clay_masks_465955056a4f4468a9986c69712e4f2a_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/mamonde_pore_clean_clay_mask_74ca3dad364a4c6a947f15a0a5cb65f1_master.jpg",
         "TenSP": "Mặt Nạ Đất Sét Mamonde Pore Clean Clay Mask 100ml",
@@ -465,12 +536,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MAMONDE",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "11b7ba80-da4a-4be9-ac9e-bdc842c972c9"
+        "id": "fc1dad17-28d3-4b34-b6f3-9c882ec926ef",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-dat-set-mamonde-pore-clean-clay-mask-100ml"
     },
     {
         "sku": "8809495890125",
         "Giaban": "35,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ 3 Bước Dưỡng Ẩm Da Jayjun Intensive Shining Mask bao gồm Bước 1: tinh chất Blooming Essence 1,5 ml, Bước 2: mặt nạ giấy Baby Pure Shining Mask 25ml, Bước 3: kem mắt Hydro Eye cream 1,5 ml",
         "images": "https://product.hstatic.net/1000379579/product/bici-jayjun_c2c37a866d8f4999931bb51282decfd3_master.jpg,https://product.hstatic.net/1000379579/product/bici-jayjun-mask4_8ec54b307eca49d5929771adc8748481_master.jpg,https://product.hstatic.net/1000379579/product/bici-jayjun-mask6_0a7d8e5f64334b1fa7fdef27349f2f3a_master.jpg,https://product.hstatic.net/1000379579/product/bici-maskjayjun_c390c45d1ddb4efa8ca17ad21fb84a74_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-jayjun-bici_21b3e87d3a8043df8aae0d32a6c9be48_master.jpg,https://product.hstatic.net/1000379579/product/bici-jayjun-mask3_a7d2882eecad40089ff47919b2b03cf4_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-jayjun_c2c37a866d8f4999931bb51282decfd3_master.jpg",
         "TenSP": "Mặt Nạ 3 Bước Dưỡng Ẩm Da Jayjun Intensive Shining Mask",
@@ -478,12 +551,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "Jayjun",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "fb641851-a1f8-452a-9649-1ba8846925bf"
+        "id": "c3cccd5a-46e2-48c3-9625-92ce6cf07b8e",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-3-buoc-duong-am-da-intensive-shining-mask"
     },
     {
         "sku": "8806199463358",
         "Giaban": "270,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ giảm sưng tấy vùng da mụn \\\"AC Clean Up Pink Powder Mask\\\", không chỉ là mặt nạ đất sét thông thường. Đây là phiên bản cải tiến hơn với 100% thành phần nước chiết xuất cây Cypress mang lại hiệu quả tốt nhất cho làn da bị mụn đỏ sưng.",
         "images": "https://product.hstatic.net/1000379579/product/etude-house-ac-clean-up-pink-powder-mask_89c31c8845d840f3bc26ce8a1de7f4bd_master.jpg,https://product.hstatic.net/1000379579/product/6-10_51f3fe26f7b04574a406915b2e41862a_master.jpg,https://product.hstatic.net/1000379579/product/5-12_c5329b7ddf7144c9a5b1d1617db2ec6e_master.jpg,https://product.hstatic.net/1000379579/product/3-19_7249c3b2a2314d5da34d9a56206f3a38_master.jpg,https://product.hstatic.net/1000379579/product/7-9_46f8edf3a99d4764a4651ab32caa8caa_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/etude-house-ac-clean-up-pink-powder-mask_89c31c8845d840f3bc26ce8a1de7f4bd_master.jpg",
         "TenSP": "Mặt Nạ Giảm Sưng Mụn Ac Clean Up Pink Powder Mask",
@@ -491,12 +566,14 @@
         "XuatXu": null,
         "ThuongHieu": "ETUDE HOUSE",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "dc4bef11-c35f-4319-89df-5ebb215abcb2"
+        "id": "dd6fd2ab-9dd7-4d78-82b1-0055105a1bfa",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-giam-sung-mun-ac-clean-up-pink-powder-mask"
     },
     {
         "sku": "8809612846196",
         "Giaban": "17,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Giấy Innisfree bao gồm 18 loại chiết xuất từ những nguyên liệu thiên nhiên khác nhau, cung cấp độ ẩm và dưỡng chất cần thiết đối với từng loại da và các vấn đề khác nhau của da.",
         "images": "https://product.hstatic.net/1000379579/product/bici-h_8efe94f712d14abcbddcdb9a06b9fd5a_master.png,https://product.hstatic.net/1000379579/product/mask-innis-4-1_292163c655c64500b7ef153c90a9699b_master.jpg,https://product.hstatic.net/1000379579/product/3-6_352a59a14bdd4eddabe5ac921dfd690f_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-ginseng-bici-cosmetics-min_4c1d06ebffa34d28baa65f7c48ce3464_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-rose-bici-cosmetics-min_621c99e0b8ba494a80733ca71fdf5366_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-green-tea-new-bici-cosmetics-min_18cbed167e0c497f86a7d6a8d3939f68_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-aloe-new-bici-cosmetics-min_40b9bc096904406f9a5e5be93754bc4e_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-bamboo-new-bici-cosmetics-min_0e730e8c0e75470fbac7036d8b92454c_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-rice-bici-cosmetics-min_ae374614f05e47399915640e82727d47_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-acai-berry-bici-cosmetics-min_51aed4af4b794b9ebbf56be19b67b73d_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-tomato-bici-cosmetics-min_598a1a7e2c75479da9cc083493807708_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-pomegranate-bici-cosmetics-min_33dfa4d1ea9748a583382cf2fa006542_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-manuka-honey-bici-cosmetics-min_2c4fb0e29d1745f5af19f0dd4dd4cabd_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-fig-bici-cosmetics-min_8defb1085ae04849a2c585d5dc5c7305_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-cucumber-new-bici-cosmetics-min_46955bbde50549b5bcb3dc5ae55ff234_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-tea-tree-bici-cosmetics-min_31f228ab0899466b9f0eeda04c6b6441_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-lime-new-bici-cosmetics-min_c4707e01d7f24f37afb65a1089ae117b_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-bamboo-bici-cosmetics-min_2d8e88c75b5543838d547fd323f1eb48_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-rose-new-bici-cosmetics-min_d4669606a04a41db9f3474e333ba91bd_master.jpg,https://product.hstatic.net/1000379579/product/d8fed9a68ad54859a5ed2f484b609b6b_c08125d2c36c4cccad2986d1341067e4_master.jpg,https://product.hstatic.net/1000379579/product/111771001042_01_db4cd8bfa93f4bd084445107933f0053_master.png,https://product.hstatic.net/1000379579/product/f7eaf293ef374da488e8fa8decb0a2d3_9b15e52a6b694b04b1168da73605e82c_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-h_8efe94f712d14abcbddcdb9a06b9fd5a_master.png",
         "TenSP": "[NEW UPDATE 2019] Mặt Nạ Giấy Innisfree My Real Squeeze Mask EX (không tích điểm)",
@@ -504,12 +581,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "bbd519f6-9d3a-44a2-88f3-0c5d1f20df85"
+        "id": "636ace83-c031-41c1-ad2b-b36690b3d248",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/new-update-2019-mat-na-giay-innisfree-my-real-squeeze-mask-ex"
     },
     {
         "sku": "8856036001151",
         "Giaban": "25,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Bùn trị mụn Kociety Anti- Acne Mud Mask Sachet có tác dụng chính là kiểm soát lượng dầu thừa, cuốn bay lớp bụi mịn, cặn dơ trong lỗ chân lông. Từ đó ngăn ngừa mụn hiệu quả.",
         "images": "https://product.hstatic.net/1000379579/product/1_75286127bc974cc1b318868ff95fbbc8_master.png,https://product.hstatic.net/1000379579/product/c_09f89bce950c49149b3a3c909a594a94_master.jpg,https://product.hstatic.net/1000379579/product/e_0ca8245a65f5428a8e54b8035d7e1540_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/1_75286127bc974cc1b318868ff95fbbc8_master.png",
         "TenSP": "Mặt Nạ Bùn Kociety Anti-Acne Mud Mask",
@@ -517,12 +596,14 @@
         "XuatXu": "THÁI LAN",
         "ThuongHieu": "Khác",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "34226fff-bc74-4898-9c49-e3bd741972e9"
+        "id": "9cdd6c46-4b92-4fc4-858b-a0ea2177f00b",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-bun-kociety-anti-acne-mud-mask"
     },
     {
         "sku": "8806199441219",
         "Giaban": "19,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ giấy Etude house 0.2mm skin firming collagen với kết cấu siêu đặc biệt chỉ mỏng 0.2 mm nhưng được thấm đẫm dưỡng chất giúp mặt nạ ôm gọn khuôn mặt, không gây bí da hay nặng nề như những loại mặt nạ thông thường, là dòng mặt nạ cấp ẩm chiết xuất từ các thành phần trái cây thiên nhiên, bảo vệ và chăm sóc da một cách tối ưu và toàn diện.",
         "images": "https://product.hstatic.net/1000379579/product/etude-house-02mm-skin-firming-collagen-600x600_7e4b5f5f31fb4b88868112df881d2c69_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/etude-house-02mm-skin-firming-collagen-600x600_7e4b5f5f31fb4b88868112df881d2c69_master.jpg",
         "TenSP": "Mặt nạ giấy Etude house 0.2mm skin firming collagen",
@@ -530,12 +611,14 @@
         "XuatXu": null,
         "ThuongHieu": "ETUDE HOUSE",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "770bc4ee-7324-4a5f-ae38-5432b985e1d0"
+        "id": "5190a6b2-3df0-4979-bb36-64709705dd71",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-giay-etude-house-0-2mm-skin-firming-collagen"
     },
     {
         "sku": "8806182509728",
         "Giaban": "135,000₫",
         "category": "MatNa",
+        "description": "Gel Dưỡng Da Lô Hội The Face Shop Jeju Aloe Fresh Soothing với chiết xuất lô hội chiếm 99%. Sản phẩm giàu vitamin dưỡng chất có tác dụng làm chậm sự lão hoá của da, tạo độ ẩm trên da giúp da dễ đàn hồi, giảm bớt nếp nhăn, làm mềm mịn các tế bào da.",
         "images": "https://product.hstatic.net/1000379579/product/the-face-shop-jeju-aloe-fresh-soothing-91-600x600_f30a340e310c4bbca673b1f7c0db2b5a_master.png,https://product.hstatic.net/1000379579/product/the-face-shop-jeju-aloe-fresh-soothing-90-600x600_ad699caa6d2244c78202b2e72bd4ca40_master.png,https://product.hstatic.net/1000379579/product/the-face-shop-jeju-aloe-fresh-soothing-2-600x600_e922a7065fb44f15b7787a5cbfa9403d_master.png,https://product.hstatic.net/1000379579/product/the-face-shop-jeju-aloe-fresh-soothing-5-600x600_f74d7335cee84c0eb86dcf175b05909d_master.png",
         "image": "https://product.hstatic.net/1000379579/product/the-face-shop-jeju-aloe-fresh-soothing-91-600x600_f30a340e310c4bbca673b1f7c0db2b5a_master.png",
         "TenSP": "Gel Dưỡng Da Lô Hội The Face Shop Jeju Aloe Fresh Soothing",
@@ -543,12 +626,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "THE FACE SHOP",
         "DanhMuc": "Khác,Mặt nạ,Skincare",
-        "Id": "7683c54e-2e15-474f-a82c-ee1da65e824f"
+        "id": "d6a70b09-0343-41cb-86e0-e184174753b5",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/gel-duong-da-lo-hoi-the-face-shop-jeju-aloe-fresh-soothing"
     },
     {
         "sku": "8809612864374",
         "Giaban": "249,000₫",
         "category": "MatNa",
+        "description": "Innisfree Super Volcanic Peel Off Mask 2X (100ml) là mặt nạ chăm sóc da ở dạng lột, có công dụng làm sạch da, giúp da thông thoáng, loại bỏ các tế bào chết và bã nhờn. Từ đó, bạn sẽ có làn da căng bóng và mịn màng không tì vết",
         "images": "https://product.hstatic.net/1000379579/product/img_5999-min_fef2e85c44994e9b864fffc3a0ec059e_master.jpg,https://product.hstatic.net/1000379579/product/img_4348-min_81bfaba05a174922bfbf6ae3ff5d2720_master.jpg,https://product.hstatic.net/1000379579/product/review-thuc-te-innisfree-bici-1-600x600_fb9dda436cea40eabefa0a4cdbcb0274_master.jpg,https://product.hstatic.net/1000379579/product/anh-thuc-te-innisfree-super-volcanic-bici2-600x600_b042cb9d151046589f53a50e5485f3f5_master.jpg,https://product.hstatic.net/1000379579/product/review-thuc-te-innisfree-bici-8-600x600_c4b00fe6ba734dd19a2441953f8bb8c4_master.jpg,https://product.hstatic.net/1000379579/product/ution_jeju_volcanic_cluster_sphere_1562079518_580ae701_progressive-min_5a2177cff6224971830ecc0afe3d7363_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/img_5999-min_fef2e85c44994e9b864fffc3a0ec059e_master.jpg",
         "TenSP": "[NEW UPDATE 2019] Mặt Nạ Innisfree Super Volcanic Peel Off Mask 2X 100ml",
@@ -556,12 +641,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "79418692-6124-4c2a-b39a-47d4ba285ad9"
+        "id": "d45c968b-7754-448a-bebd-b8fa0237973a",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/new-update-2019-mat-na-innisfree-super-volcanic-peel-off-mask-2x-100ml"
     },
     {
         "sku": "8809505542617",
         "Giaban": "169,000₫",
         "category": "MatNa",
+        "description": "Dưỡng mắt luôn tươi trẻ, duy trì nét thanh xuấn với mặt nạ mắt cao cấp JM Solution Marine Luminous Pearl Deep Moisture Mask.",
         "images": "https://product.hstatic.net/1000379579/product/81070025_2543701782345540_2609797051326192723_n_ab07176217bc4100b8e22bc9ba78215a_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-mat-jm-solution-eye-xanh-jpg-1591782078-10062020164118_8e51525f8b0b4521ba8c7474d1b55789_master.jpg,https://product.hstatic.net/1000379579/product/o1cn01rnkygf1rgyoy70xxx___3329452085_6b3ada01fa00411d83e9c0712b04f684_master.jpg,https://product.hstatic.net/1000379579/product/dsgdfh_faf0ceeabf47472da277520ab76c8dce_master.jpg,https://product.hstatic.net/1000379579/product/44634033_279570726000628_2795585279066193317_n_9af983ce56ec4c9d90e28c73f6de8fb8_master.jpg,https://product.hstatic.net/1000379579/product/44096854-2215734592045418-7438912270391836672-n_a2ce5168cefa41cf9f323c92aa8c0c3c_master.jpg,https://product.hstatic.net/1000379579/product/124912951_190921395918519_9185891909926976365_n_b5590c4169a74d2dba8965d0846bdc7b_master.jpg,https://product.hstatic.net/1000379579/product/dsgdfhgh_d751a78fc10944a6883ccfb8f34e9062_master.jpg,https://product.hstatic.net/1000379579/product/fgdfhg_96935437a82e4305a18b199780979e55_master.jpg,https://product.hstatic.net/1000379579/product/53751192_451033762331751_4668920970856781995_n_2d6e92af2e8d4ed5820f23e3cf6afd97_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/81070025_2543701782345540_2609797051326192723_n_ab07176217bc4100b8e22bc9ba78215a_master.jpg",
         "TenSP": "Mặt Nạ Mắt JM Solution Marine Luminous Pearl Deep Moisture Eyes Mask",
@@ -569,12 +656,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "JM Solutions",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "9be3765f-049e-452b-b508-27a46d5385a7"
+        "id": "2089727c-ac5e-435b-b1b5-0f8965d705da",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-mat-jm-solution-marine-luminous-pearl-deep-moisture-eyes-mask"
     },
     {
         "sku": "8809380649418",
         "Giaban": "189,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ cao su Dr. Jart Dermask Rubber Mask (Bright Lover) chứa vitamin A,B,C và chiết xuất từ bưởi, làm sáng bừng những làn da thiếu sức sống, giúp da trở nên trắng sáng mịn màng, giúp da hồi phục hết sức có thể,cảm nhận rõ ràng sau khi đắp và tác dụng kéo dài như dưỡng da.",
         "images": "https://product.hstatic.net/1000379579/product/-firminglover-mask-10a4c3b12380f453776f660fbf52d75879a5c6f0-1523777856_7716b1d51f0d4e7cbb8a4ad2a858b81e_master.png,https://product.hstatic.net/1000379579/product/2-30_aa1e58c99ca84f1596bebfa718be23e3_master.jpg,https://product.hstatic.net/1000379579/product/3-29_8d9c9ed7ebd84d149c83cf30c2927ce2_master.jpg,https://product.hstatic.net/1000379579/product/4-26_e77c4a83b0f147439a4f0eefbe21a4e4_master.jpg,https://product.hstatic.net/1000379579/product/5-21_e832e3c8382e4bcf86055e43d57b3d66_master.jpg,https://product.hstatic.net/1000379579/product/7-12_e9617838d36a4dbe8bd40f5c145c6dda_master.jpg,https://product.hstatic.net/1000379579/product/9-10_ddef08b22dc743fbb3923a6c1fa6cf15_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/-firminglover-mask-10a4c3b12380f453776f660fbf52d75879a5c6f0-1523777856_7716b1d51f0d4e7cbb8a4ad2a858b81e_master.png",
         "TenSP": "Mặt nạ cao su Dr. Jart Dermask Rubber Mask",
@@ -582,12 +671,14 @@
         "XuatXu": null,
         "ThuongHieu": "DR.JART+",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "27bab25d-68f5-47eb-b8f4-7cdb75147fb5"
+        "id": "360e4baa-6953-491d-8b91-adcbd1f60451",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-cao-su-dr-jart-dermask-rubber-mask"
     },
     {
         "sku": "8809380645526",
         "Giaban": "59,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Dr.Jart+ Dermask ra đời dựa trên quá trình nghiên cứu chuyên sâu của các chuyên gia, bác sỹ da liễu, nghệ sỹ, nhà thiết kế và kỹ thuật viên có nhiều kiến thức, kinh nghiệm và bí quyết trong lĩnh vực chăm sóc da, kết hợp cùng công nghệ đột phá hiện đại.",
         "images": "https://product.hstatic.net/1000379579/product/2-28_9a3e39500e38455dab69bae2a477e5d9_master_c7558184868d49079721eadb0575a49e_master.jpg,https://product.hstatic.net/1000379579/product/porecting-d-600x645_01191e1fa9ff4fffa2082bb7904fa94c_master.jpg,https://product.hstatic.net/1000379579/product/soothing-d-600x645_101d4f71472f43058b9c0b91e4158bad_master.jpg,https://product.hstatic.net/1000379579/product/vital-d-600x645_0f4251dec8514ee49c296e92a8a2ac52_master.jpg,https://product.hstatic.net/1000379579/product/wrinkless-600x645_e7783e604ff54470bd42343072c21590_master.jpg,https://product.hstatic.net/1000379579/product/firming-d-600x645_5de07ae21e19416cb1c75303f58607ec_master.jpg,https://product.hstatic.net/1000379579/product/clearing-d-600x645_d37e488be07a407ba878ba1f0cdcc249_master.jpg,https://product.hstatic.net/1000379579/product/brightening-d-600x645_c2df6d0e7ad948cca2f58ae7509d2352_master.jpg,https://product.hstatic.net/1000379579/product/__57_5296df5031c8430196c32b971f79b6cf_master.jpg,https://product.hstatic.net/1000379579/product/2459-0__79310.1555837566_d83181ae74a74b4abaaac3b7d691cada_master.jpg,https://product.hstatic.net/1000379579/product/cover-800x800-master_e543ac0ce2074d269f5f04ba7b766606_master.jpg,https://product.hstatic.net/1000379579/product/23376518-1669455129782123-2807850426789415871-n_a8835d162f304e39a5c33bcfb1f87720_master.jpg,https://product.hstatic.net/1000379579/product/c1a5ea6af6ec497f9ca5ae9f972fd537_a9e1ff73aa0e422daf0669ddc253d695_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/2-28_9a3e39500e38455dab69bae2a477e5d9_master_c7558184868d49079721eadb0575a49e_master.jpg",
         "TenSP": "Mặt Nạ Dr.Jart+ Dermask Ultra Jet Solution",
@@ -595,12 +686,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "DR.JART+",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "46e8cb88-bfe7-4f03-9e3a-d478fc0aec3a"
+        "id": "9d89f732-e6fe-454e-9cc6-5ac3129939f1",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-dr-jart-dermask-ultra-jet-solution"
     },
     {
         "sku": "8809530031858",
         "Giaban": "25,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ sữa chua Apieu Real Big Yogurt One Bottle có nhiều vị trái cây khác nhau, hương thương ngọt ngào dễ chịu. Chắc chắn sẽ làm các nàng say đắm",
         "images": "https://product.hstatic.net/1000379579/product/2-9cd7a8c8c2cd-sheis-00d18887-e246-4fd3-8a1e-b2b25d9fbfb1pack2-600x600_8ed6e21758344971b599650f008cf1f2_master.jpg,https://product.hstatic.net/1000379579/product/image__2__97a0a0f991a84b6a9e89541cfa67533e_master.jpg,https://product.hstatic.net/1000379579/product/image__4__95859e33c78041f8b4c7b4793ff5bf2d_master.jpg,https://product.hstatic.net/1000379579/product/image__5__029938f35951421b8885bbdca66fc30b_master.jpg,https://product.hstatic.net/1000379579/product/image__3__54e562592a53465282999de85a4b2a2a_master.jpg,https://product.hstatic.net/1000379579/product/image__1__114b6d54a2914e19a9297061ddfce7f1_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/2-9cd7a8c8c2cd-sheis-00d18887-e246-4fd3-8a1e-b2b25d9fbfb1pack2-600x600_8ed6e21758344971b599650f008cf1f2_master.jpg",
         "TenSP": "Mặt Nạ Sữa Chua Apieu Real Big Yogurt One Bottle (Miếng)",
@@ -608,12 +701,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "A'PIEU",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "408820ca-5ea8-4eb9-975d-02ad517868af"
+        "id": "75de6541-7af5-4630-95ca-b3c3d2ccfe2b",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-sua-chua-apieu-real-big-yogurt-one-bottle-mieng"
     },
     {
         "sku": "8809581444058",
         "Giaban": "215,000₫",
         "category": "MatNa",
+        "description": "Tìm lại làn da mướt mịn, không mụn đầu đen, không sẹo thâm rỗ với dòng mặt nạ đất sét đến từ thương hiệu A’Pieu với cái tên A’Pieu Phyton Cide",
         "images": "https://product.hstatic.net/1000379579/product/ava-37_357c0b47be28430daf419c0b2faea0eb_master.jpg,https://product.hstatic.net/1000379579/product/1-42_94ae0938e5734ae1aa37e7b7f2df296e_master.jpg,https://product.hstatic.net/1000379579/product/2-40_7dc3ce70de4c4b4990fd805c4f7c6b3d_master.jpg,https://product.hstatic.net/1000379579/product/3-38_a4dc175a8ee64448a18123dd60604158_master.jpg,https://product.hstatic.net/1000379579/product/4-36_b198e63d90d94c5292df55a006ed5e4e_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/ava-37_357c0b47be28430daf419c0b2faea0eb_master.jpg",
         "TenSP": "Mặt Nạ Đất Sét A’Pieu Phyton Cide",
@@ -621,12 +716,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "A'PIEU",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "e5b980ba-3f49-444a-a657-cb9cf5fd6566"
+        "id": "9797bf4a-f8eb-4f50-8e26-751214ed9ca3",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-dat-set-a-pieu-phyton-cide"
     },
     {
         "sku": "8806164149546",
         "Giaban": "235,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ The Saem Natural Daily Original Coffee Mask là sự kết hợp giữa cà phê và đất sét tạo thành hỗn hợp tẩy da chết nhẹ nhàng cho làn da. Công dụng của cà phê giúp loại bỏ tế bào chết. Đồng thời cung cấp dinh dưỡng cho da. Bên cạnh đó đất sét lại có khả năng làm sáng da, hút dầu thừa bã nhờn hỗ trợ trong việc phòng và trị mụn hiệu quả",
         "images": "https://product.hstatic.net/1000379579/product/mat-na-the-saem-natural-daily-original-coffee-mask-1-600x600_1e7c568108ef4bc2aabb60ddb997db2b_master.png,https://product.hstatic.net/1000379579/product/mat-na-the-saem-natural-daily-original-coffee-mask-600x600_45fccfeccc3b4782b0fc7fb832957b24_master.png,https://product.hstatic.net/1000379579/product/mat-na-the-saem-natural-daily-original-coffee-mask-2-600x600_9b64175d28e04e5f8c73e224f1ea10de_master.png,https://product.hstatic.net/1000379579/product/mat-na-the-saem-natural-daily-original-coffee-mask-5-600x600_ff318b77325a4f5daea243be56337e97_master.png,https://product.hstatic.net/1000379579/product/mat-na-ngu-nature-republic-real-squeeze-aloe-vera-sleeping-pack-6-1_2c2146a087064dfbbb8d55aa2727433d_master.png",
         "image": "https://product.hstatic.net/1000379579/product/mat-na-the-saem-natural-daily-original-coffee-mask-1-600x600_1e7c568108ef4bc2aabb60ddb997db2b_master.png",
         "TenSP": "Mặt Nạ The Saem Natural Daily Original Coffee Mask",
@@ -634,12 +731,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "THE SAEM",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "0d831203-2159-46ca-9c63-5226efa3bf2b"
+        "id": "d6922b0d-705b-45e8-8173-81f0a40c80ba",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-the-saem-natural-daily-original-coffee-mask"
     },
     {
         "sku": "8809380648510",
         "Giaban": "69,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ Dr.Jart+ V7 Toning Mask với công thức tổng hợp từ 7 loại vitamin và các thành phần chăm sóc da có công dụng làm mờ vết đốm, giảm nám, mang lại làn da tươi sáng và sạch sẽ.",
         "images": "https://product.hstatic.net/1000379579/product/2a8620e25b2cec16d3dc03af87fcd7a1-600x600_9923b23f147d4ecbac9ecf06f50fcbb3_master.jpg,https://product.hstatic.net/1000379579/product/854dc33a6e4b739631d779a2adf29451-600x600_944a0c1cc8e94d9eae2b2419ee613999_master.jpg,https://product.hstatic.net/1000379579/product/322850b3166e5e0e3bea2b818a709c0f-600x600_75d9e5d76f404b62868cb2ac51652321_master.jpg,https://product.hstatic.net/1000379579/product/31217693661add2c6a5e20ea63e4d235-600x600_cf536b2f156e4d6cb01cc046e9f16124_master.jpg,https://product.hstatic.net/1000379579/product/d67521a00aece20d5d27867a82e971c6-600x600_17bb722c77af4c3f802a8428579708f5_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/2a8620e25b2cec16d3dc03af87fcd7a1-600x600_9923b23f147d4ecbac9ecf06f50fcbb3_master.jpg",
         "TenSP": "Mặt Nạ Vitamin Dưỡng Trắng Dr.Jart+ V7 Tone Up Mask",
@@ -647,12 +746,14 @@
         "XuatXu": null,
         "ThuongHieu": "DR.JART+",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "05730d0f-eeb3-459b-9e94-2062568eb18e"
+        "id": "711ffca1-c45f-421b-bf34-9779e9234bd7",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-vitamin-duong-trang-dr-jart-v7-tone-up-mask"
     },
     {
         "sku": "8809470122074",
         "Giaban": "19,000₫",
         "category": "MatNa",
+        "description": "Mediheal mask có chứa một lượng Ampoule, Essence  lớn, mang nhiều chức năng khác nhau, cung cấp lượng dưỡng chất dồi dào cho làn da.",
         "images": "https://product.hstatic.net/1000379579/product/bici-g_d99c39be5366445b93be48ab4e5649ff_master.png,https://product.hstatic.net/1000379579/product/1_158e75a5386a4581b06d32ffd290b165_master.png,https://product.hstatic.net/1000379579/product/478441541568886606815_3945c168109a42ae9b649c82da700dde_master.jpg,https://product.hstatic.net/1000379579/product/mediheal_747c5bc5b78e42e9af1148a4e27dedbb_master.jpg,https://product.hstatic.net/1000379579/product/500968551568886609537_688241a1f2174578878c627fed2df843_master.jpg,https://product.hstatic.net/1000379579/product/8782270b8360ba0f995298ad787cc2be_b8a7c7d254df4c3788597370aa2b11a7_master.jpg,https://product.hstatic.net/1000379579/product/e-g-t-min_5a013c431c574061bc0aebdb2da512f4_master.jpg,https://product.hstatic.net/1000379579/product/original__1__3f5dd9bd055c420b9c92b09cac705986_master.jpeg,https://product.hstatic.net/1000379579/product/80819081568886608117_789632751c4f4cc9a105037d3a43494c_master.jpg,https://product.hstatic.net/1000379579/product/bici-pdf-mediheal-mask_c1557199dc50464892d65ade9c987fb5_master.jpg,https://product.hstatic.net/1000379579/product/bici-vita-lightbeam_64686ab448924857b4a108248f05ff7a_master.jpg,https://product.hstatic.net/1000379579/product/bici-nmf-medihealmask_27f52d6cc9db4614b3d9eadf09885702_master.jpg,https://product.hstatic.net/1000379579/product/bici-ipi-meadihealmask_ff767bb0f2de44beb4045d3dcda7a368_master.jpg,https://product.hstatic.net/1000379579/product/bici-collagen-mediheal_60a501b0a98b4d49bdce2d451fe98a7b_master.jpg,https://product.hstatic.net/1000379579/product/bici-pdf--mediheal1_99140dfe4814403dab132a0daca73c7a_master.jpg,https://product.hstatic.net/1000379579/product/bici-placenta-mediheal_6f7fa412740945e992a1f34863da3d30_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-g_d99c39be5366445b93be48ab4e5649ff_master.png",
         "TenSP": "Mặt Nạ Giấy Mediheal Hàn Quốc",
@@ -660,25 +761,29 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "aba8c9a2-75af-413d-ad75-158833f24231"
+        "id": "ac2653cc-e606-4dc4-bcef-31d209c691fc",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-giay-mediheal-han-quoc"
     },
     {
         "sku": "8809499083196",
         "Giaban": "29,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ thải độc rau củ Super Vegitoks Mask 2 Step là sự kết hợp hoàn hảo giữa sữa rửa mặt Super Vegitoks Cleanser và dòng mask mới của hãng. 2 sản phẩm kết hợp với nhau, hỗ trợ cho nhau khiến tác động lên da mặt được mạnh mẽ hơn. Được chiết xuất từ thành phần rau củ thiên nhiên giàu dưỡng chất, Mặt Nạ Rau Củ Super Vegitoks Mask 2 Step thải độc da, se khít lỗ chân lông, dưỡng ẩm, cho bạn làn da trắng mịn, hồng hào tràn đầy sức sống.",
         "images": "https://product.hstatic.net/1000379579/product/2254-p-1525748570869-600x600_d30128ba02c44506b17f093167c58bca_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic5_382cc16e75f04aee9231282074c7a363_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic2-min_d8e757e2f4864e69a5bd985361a90eec_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic1-min_fd3198fcd232424fa887b24008a77eea_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic3-min_73a9daa628424872a9362239ba3e2245_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic4-min_8e51a8da76964daea2a052ceeec2c0fa_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic-min_56857399bf7d45eeaa00c27af36da9a5_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic11-min_0fc85b68e09e4c8488ede020a9427756_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic5-min_2ceb0352e16e4c68bfeac06c69bf60de_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic7-min_4fa01ebeebd448609d1b695caed019a2_master.jpg,https://product.hstatic.net/1000379579/product/super_vegitoks_mask_2_step_-_bicicosmetic9-min_3caf004dc7484160827ffcd534d443d9_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/2254-p-1525748570869-600x600_d30128ba02c44506b17f093167c58bca_master.jpg",
         "TenSP": "Mặt Nạ Rau Củ Super Vegitoks Mask 2 Step",
         "Ma": "8809499083196",
-        "XuatXu": "KOREA",
+        "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Byvibes Wonder Bath",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "2c7fc649-57b9-4d14-9fab-615933227f63"
+        "id": "7e59cdf1-abd1-41bc-8434-b7724b802997",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-rau-cu-super-vegitoks-mask-2-step"
     },
     {
         "sku": "8809559621009",
         "Giaban": "57,000₫",
         "category": "MatNa",
+        "description": "Làn da thiếu nước sẽ trở nên khô cằn thiếu sức sống. Các nàng cần cấp ẩm ngay thôi. Mặt nạ dưỡng ẩm là sự lựa chọn hoàn hảo cho chúng ta. Mặt nạ dưỡng ẩm VT Probiotics Moisturizing Mask cấp ẩm no nê làn da chúng ta. VT Probiotics Moisturizing Mask là mặt nạ thiên nhiên nhẹ dịu, an toàn với mọi loại da. Mặt nạ sẽ đem đến cho bạn cảm giác thư giãn dễ chịu.",
         "images": "https://product.hstatic.net/1000379579/product/0-500x500-600x600_92b89136daa14f1fb578604d16e697af_master.jpg,https://product.hstatic.net/1000379579/product/02-1-600x2653_df6b25afd57b43efb6b3d2de880ab26f_master.jpg,https://product.hstatic.net/1000379579/product/03-1-600x1364_eef7bca7a5bf485a9d26f2c973f37176_master.jpg,https://product.hstatic.net/1000379579/product/01-1-600x2411_5b02bc310ac14b38a38c6804d580d4ef_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/0-500x500-600x600_92b89136daa14f1fb578604d16e697af_master.jpg",
         "TenSP": "Mặt nạ dưỡng ẩm VT Probiotics Moisturizing Mask",
@@ -686,12 +791,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "VT Cosmetics",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "d1b6d918-db9a-44a0-9a77-41f20d37ac3b"
+        "id": "e1991ec4-cd47-4ec7-bba6-fccef358d44a",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-duong-am-vt-probiotics-moisturizing-mask"
     },
     {
         "sku": "8809261550727",
         "Giaban": "27,000₫",
         "category": "MatNa",
+        "description": "Vùng da mắt mỏng manh lại rất nhạy cảm và dễ lão hóa. Khi da mắt lão hóa, nhăn nheo cũng là dấu hiệu tố cáo tuổi tác của người phụ nữ. Thấu hiểu được điều này, hãng Mỹ phẩm MEDIHEAL đã cho ra đời mặt nạ Làm Giảm Bọng Mắt E.G.T Essence Gel Eye Fill Patch đẩy lùi nhân tố lão hóa vùng da mắt.",
         "images": "https://product.hstatic.net/1000379579/product/111-1_8da01504b71b493d8d1579fff338de61_master.png,https://product.hstatic.net/1000379579/product/mat-na-bong-mat-21-600x600_aafcc9b12400423cab829ba74a6a1e4d_master.png,https://product.hstatic.net/1000379579/product/7270149690165e3a3175cc09a81f908c1-600x466_f982c3e5b9b44d3ebca3b504c11c3fc3_master.png,https://product.hstatic.net/1000379579/product/87bf207f76ca5b16ecbbba8f410486b61-600x400_538d43ecce304c05819ee8ff49530857_master.png,https://product.hstatic.net/1000379579/product/mat-na-bong-mat-41_a0fcede9969244e0b5549f03dc9b35a8_master.png",
         "image": "https://product.hstatic.net/1000379579/product/111-1_8da01504b71b493d8d1579fff338de61_master.png",
         "TenSP": "Mặt Nạ Mediheal Làm Giảm Bọng Mắt E.G.T Essence Gel Eye Fill Patch",
@@ -699,12 +806,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "310e4996-26d7-4b58-8e5c-5c660ed2f20a"
+        "id": "de587b29-cc74-41f5-9fe3-ee537590f8f2",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-mediheal-lam-giam-bong-mat-e-g-t-essence-gel-eye-fill-patch"
     },
     {
         "sku": "8809470122470",
         "Giaban": "35,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Dưỡng Da Trắng Sáng Than Hoạt Tính Mediheal W.H.P White Hydrating Black Mask EX chứa than hoạt tính từ cacbon nguyên chất được sản xuất bởi cây dẻ gai chỉ có ở vùng Kyushu – Nhật Bản, thành phần chứa casto oil tự nhiên và chiết xuất từ trái cây tươi giúp lấy đi toàn bộ bụi bẩn, độc tố nằm sâu dưới lỗ chân lông da, mang lại cho làn da sự tươi mới, sạch sẽ. Bên cạnh đó, mặt nạ chứa dưỡng chất từ trái cây tự nhiên, cung cấp và bổ sung độ ẩm tối ưu cho da, cấp nước cho da duy trì độ ẩm, nuôi dưỡng làn da căng mịn, mịn màng tràn đầy sức sống.",
         "images": "https://product.hstatic.net/1000379579/product/whp-600x600_38cd700e5f4f49eb9406297cee8f2752_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-mediheal-w-h-p-white-hydrating-black-mask-ex-boshop-4-600x400_6729f75985174c1687d87922f274e803_master.jpg,https://product.hstatic.net/1000379579/product/whp-5-600x600_08278fd148f84cf98bf21b15ea0a341c_master.jpg,https://product.hstatic.net/1000379579/product/tinh-duong-trang-da-mediheal-whp-white-hydrating-black-mask-13-600x600_dbb36b850f2f4bc4b46f17b657dca25c_master.jpg,https://product.hstatic.net/1000379579/product/dscf1058-600x600_a740a43246794bef95a8709d85edf000_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/whp-600x600_38cd700e5f4f49eb9406297cee8f2752_master.jpg",
         "TenSP": "Mặt Nạ Than Hoạt Tính Giúp Làm Trắng Da Mediheal W.H.P White Hydrating Black Mask",
@@ -712,38 +821,29 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "48e97c4f-d4b9-42e2-b77c-7bd416288bbc"
-    },
-    {
-        "sku": "8801046321386",
-        "Giaban": "45,000₫",
-        "category": "MatNa",
-        "images": "https://product.hstatic.net/1000379579/product/1-min-600x600_b2cb15cbb2d4462fbd1c1e12b42e4bf8_master.png,https://product.hstatic.net/1000379579/product/cs-min-min_12ed28b7792d466691fa946e236a02b1_master.png,https://product.hstatic.net/1000379579/product/3-min-min-600x600_121ef3b335e34aa598244698dead09ae_master.png,https://product.hstatic.net/1000379579/product/0000-min-min-600x600_ef41353058af4614b338dce54b0e6324_master.png,https://product.hstatic.net/1000379579/product/00-min-min-600x600_e854f43273b7424b8a06982ac662f0dd_master.png",
-        "image": "https://product.hstatic.net/1000379579/product/1-min-600x600_b2cb15cbb2d4462fbd1c1e12b42e4bf8_master.png",
-        "TenSP": "Mặt Nạ Dưỡng Da Hằng Ngày Age 20’s SOS Day Mask",
-        "Ma": "8801046321386",
-        "XuatXu": "HÀN QUỐC",
-        "ThuongHieu": "AGE 20''S",
-        "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "1e76e48c-70de-4034-9e79-978637fd99ad"
+        "id": "ce9b7882-e09e-49d5-a179-3896e584456e",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-than-hoat-tinh-giup-lam-trang-da-mediheal-w-h-p-white-hydrating-black-mask"
     },
     {
         "sku": "8809495891306",
         "Giaban": "199,000₫",
         "category": "MatNa",
+        "description": "Đến từ thương hiệu Jayjun Hàn Quốc, Mặt Nạ Mắt Jayjun Eye Gel Patch chiết xuất từ trà xanh và hoa hibicus cung cấp ẩm và dưỡng ẩm hoàn hảo. Từ đó chống quầng thâm, bọng mắt, giảm nếp nhăn mang tới khỏe mạnh, mịn màng. Sản phẩm Mặt nạ mắt jayjun được chiết xuất từ hai loại: trà xanh và trà hoa hồng, cánh hoa dâm bụt. ",
         "images": "https://product.hstatic.net/1000379579/product/jayjun-eye-mask-bici-cosmetic_761bd45e9c3c42fcb4b3ffe1626b7ea2_master.jpg,https://product.hstatic.net/1000379579/product/_roselle-tea_670f6b532eb94a1f9ff779d72d196ef9_master.jpg,https://product.hstatic.net/1000379579/product/_green-tea_a05fd12e964149b0bf066418afe28306_master.jpg,https://product.hstatic.net/1000379579/product/65fec4b1a9b133c67b457f3399e07d33_2e5320347f8846b886a75969300383da_master.jpg,https://product.hstatic.net/1000379579/product/58626668_439168643485020_6846375122227577113_n_37cd2526fa1e4528aee6476b5eaddf53_master.jpg,https://product.hstatic.net/1000379579/product/51088043_2192297581020248_6089763227859392637_n_8e4fe53fcbd941f79645b1a53abdb12a_master.jpg,https://product.hstatic.net/1000379579/product/0c2085b884da517b197d8bdf3188ceb4_6af3cd7c0b44431781a5f32fa6486586_master.jpg,https://product.hstatic.net/1000379579/product/67410111_176179300081609_8140096602722672511_n_11c838bae06b488ebbe3a36e162f0e13_master.jpg,https://product.hstatic.net/1000379579/product/66304824_222216275426769_7575609144057024527_n_ecf57e121b9746428d6c94614597e051_master.jpg,https://product.hstatic.net/1000379579/product/jayjun_a79cfdb22f404bc78cb5809a9e46df7a_master.jpg,https://product.hstatic.net/1000379579/product/jayjun-b_0eebf99b7a5a4f499133d84e0d8ceb9a_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/jayjun-eye-mask-bici-cosmetic_761bd45e9c3c42fcb4b3ffe1626b7ea2_master.jpg",
         "TenSP": "Mặt Nạ Dưỡng Mắt Jayjun Eye Gel Patch",
         "Ma": "8809495891306",
-        "XuatXu": "KOREA",
+        "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Jayjun",
         "DanhMuc": "xu hướng,HÀNG MỚI VỀ,Mặt nạ,Kem dưỡng mắt,Skincare",
-        "Id": "65ffb9e7-0987-42d1-ad3a-0757bec6256e"
+        "id": "6a2c82b9-4798-442b-a2ba-7cf09e2ec215",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-duong-mat-jayjun-eye-gel-patch"
     },
     {
         "sku": "8856036000314",
         "Giaban": "179,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Đất Sét Kociety Whitening Clay Pack Bye Bye Dark Spot kết hợp Glutathione, Mahad tính năng hút đi lớp dầu thừa, bụi mịn, làm sạch sâu và thông thoáng lỗ chân lông. Đồng thời cung cấp khoáng chất, từ đó hỗ trợ se khít lỗ chân lông, ngừa mụn, sáng da.",
         "images": "https://product.hstatic.net/1000379579/product/0-1-600x600_6541f33d8c1c428499737f17aa53b1b6_master.jpg,https://product.hstatic.net/1000379579/product/12-min-1-600x600_e73ca64f42b0462fb256c99b18ef4f80_master.png,https://product.hstatic.net/1000379579/product/1a-min-600x600_ed7e1fd890ca4590a5a40f2bc57f0ca9_master.png,https://product.hstatic.net/1000379579/product/innisfree-super-volcanic-pore-clay-mask-2x-bici-cosmetics14-1-600x600_664e18a197b94431978044489b3a5cee_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/0-1-600x600_6541f33d8c1c428499737f17aa53b1b6_master.jpg",
         "TenSP": "Mặt Nạ Đất Sét Kociety Whitening Clay Pack Bye Bye Dark Spot",
@@ -751,12 +851,14 @@
         "XuatXu": "THÁI LAN",
         "ThuongHieu": "KOCIETY",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "954c59c6-eacc-40df-8831-31944034976c"
+        "id": "775fb831-e408-43ef-bb15-f2348829ccd8",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-dat-set-kociety-whitening-clay-pack-bye-bye-dark-spot"
     },
     {
         "sku": "8809581440784",
         "Giaban": "215,000₫",
         "category": "MatNa",
+        "description": "Tìm lại làn da mịn màng, trắng sáng không bị \\\"nhiễu\\\" bởi những lỗ chân lông xấu xa với mặt nạ đất sét kiểm soát bã nhờn, chăm sóc lỗ chân lông A’Pieu  Calamine Clay Pack.",
         "images": "https://product.hstatic.net/1000379579/product/ava-38_c4267b2d6324445ea3ad38d1b0ad59ee_master.jpg,https://product.hstatic.net/1000379579/product/1-44_a422bd232c9e489da29a5c9cee64cfa0_master.jpg,https://product.hstatic.net/1000379579/product/2-41_fef7a975e57b4dbd875f05883af0e8ee_master.jpg,https://product.hstatic.net/1000379579/product/3-39_c0a9c137168f437c9f6ecf939d683400_master.jpg,https://product.hstatic.net/1000379579/product/4-37_92b6f353944744cf89e26eda75611dc0_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/ava-38_c4267b2d6324445ea3ad38d1b0ad59ee_master.jpg",
         "TenSP": "Mặt Nạ Đất Sét A’pieu Calamine Clay Pack",
@@ -764,12 +866,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "A'PIEU",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "0b50a45b-99da-44a7-82fb-097669476c6d"
+        "id": "31a60a12-4db2-42a8-815a-148d1ee9654f",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-dat-set-a-pieu-calamine-clay-pack"
     },
     {
         "sku": "8809261556507",
         "Giaban": "35,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ MEDIHEAL Đất Sét Dưỡng Trắng Da W.H.P có sức mạnh thanh sạch, dưỡng trắng tuyệt vời, giúp cải thiện tone da nhanh chóng. Đồng thời, sản phẩm có tác dụng làm cân bằng độ ẩm, nuôi dưỡng làn da trắng mịn, hồng hào.",
         "images": "https://product.hstatic.net/1000379579/product/01-1_b20a36f4e95c4e8a9df7ae35aaafd053_master.png,https://product.hstatic.net/1000379579/product/000-1-600x351_fa02a6bc4efd451395018b89bcf79d69_master.png,https://product.hstatic.net/1000379579/product/00-1_01b09438b53c4ecf8ef623d186f048a6_master.png,https://product.hstatic.net/1000379579/product/02-1-600x600_46f593044c0642d38a7b1381795e1b53_master.png,https://product.hstatic.net/1000379579/product/03-1_cd4a119ce26b4c64ab9ea43ced63ef24_master.png",
         "image": "https://product.hstatic.net/1000379579/product/01-1_b20a36f4e95c4e8a9df7ae35aaafd053_master.png",
         "TenSP": "Mặt Nạ MEDIHEAL Đất Sét Dưỡng Trắng Da W.H.P",
@@ -777,12 +881,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "fae27d64-e585-4e92-bcbe-08618db6c336"
+        "id": "63a5f651-9982-426d-a46f-b58e848f74d7",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-mediheal-dat-set-duong-trang-da-w-h-p"
     },
     {
         "sku": "SP000654",
         "Giaban": "59,000₫",
         "category": "MatNa",
+        "description": "Mặt nạ ngủ Laneige Cica Sleeping Mask dựa trên 15 năm nghiên cứu từ các dòng mặt nạ ngủ của Laneige. Sử dụng thành phần “Forest Yeast” được phát triển dưới chuỗi dây chuyền hiện đại của Amore pacific R&D Center (Trung tâm nghiên cứu và phát triển của tập đoàn Amore pacific). Sản phẩm sẽ mang lại cho bạn một làn da tươi mới, đầy sức sống chỉ sau một đêm, giúp bảo vệ da nhạy cảm dịu nhẹ khỏi các tác động từ môi trường bên ngoài. Với chiết xuất hoàn toàn từ thiên nhiên bởi nấm men rừng có khả năng phục hồi làn da đang bị tổn thương, bị kích ứng.",
         "images": "https://product.hstatic.net/1000379579/product/bici-cica-sleeping-mask1._146f9338f6f0417292753087dd3517a9_master.jpg,https://product.hstatic.net/1000379579/product/69809714_557685551639607_8412811862106051629_n-min_e2b445d84f2749579321f13c2af9f3a7_master.jpg,https://product.hstatic.net/1000379579/product/73182185_2133922243571242_4940158668530822216_n-min_84bbae38e32148cbad58743c492257ac_master.jpg,https://product.hstatic.net/1000379579/product/71718425_140096063971684_5010329898367754597_n-min_82cac1d4db64491381c906ae3a546b83_master.jpg,https://product.hstatic.net/1000379579/product/laneige_cica_sleeping_mask_-_bici_cosmetics5-min_c0583343b6864aecba283744336d5665_master.jpg,https://product.hstatic.net/1000379579/product/laneige_cica_sleeping_mask_-_bici_cosmetics4-min_1f3283700b6d4049beff17cf5965ce72_master.jpg,https://product.hstatic.net/1000379579/product/laneige-cica-sleeping-mask-min_5e87c5c8804b400981c50dafedfdc60d_master.jpg,https://product.hstatic.net/1000379579/product/laneige-cica-sleeping-mask-4-min_b2c1bb1afb144a11a419c71f106e1713_master.jpg,https://product.hstatic.net/1000379579/product/laneige-cica-sleeping-mask-2-min_ca2b68e4961b4567a2686ca16a7fcf1c_master.jpg,https://product.hstatic.net/1000379579/product/laneige_cica_sleeping_mask_-_bici_cosmetics7-min_93130b3ac9b34602875e031beb52d9aa_master.jpg,https://product.hstatic.net/1000379579/product/laneige_cica_sleeping_mask_-_bici_cosmetics3-min_76aef485c052478e8dfe84fd56ea54d4_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-cica-sleeping-mask1._146f9338f6f0417292753087dd3517a9_master.jpg",
         "TenSP": "Mặt Nạ Ngủ Laneige Cica Sleeping Mask Mini",
@@ -790,12 +896,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "LANEIGE",
         "DanhMuc": "HÀNG MỚI VỀ,Mặt nạ,Mặt nạ ngủ,Skincare",
-        "Id": "2f9cb2a5-6f51-499f-8c9f-9d267bc2e19a"
+        "id": "0525ea0e-e38a-45ff-bdac-249206bccfe4",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-ngu-laneige-cica-sleeping-mask-mini"
     },
     {
         "sku": "8809261554954",
         "Giaban": "29,000₫",
         "category": "MatNa",
+        "description": "Thật tệ hại khi nhiều nàng lại bị tập trung mỡ ở vùng mặt, nọng cằm. Làm thế nào để bạn có thể giảm mỡ trên mặt, lấy lại dáng mặt thon gọn mà không cần nhờ đến phẫu thuật thẩm mỹ? Mặt Nạ Nâng Cơ, Giảm Mỡ Thừa Tạo Hình V-Line Mediheal Clinic V.t.r Stretching V-line Patch sẽ giúp các nàng giải quyết điều đó.",
         "images": "https://product.hstatic.net/1000379579/product/v-line-mediheal-clinic-v-t-r-stretching-v-line-patch-bici-cosmetic_472569061aac4211bd026a046bb3c6b2_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-nang-co-mat-thon-gon-v-line-mediheal-600x600_7a6e487f88244f6abb4b4299ccabdb15_master.jpeg,https://product.hstatic.net/1000379579/product/mediheal-vtr-stretching-patch-5-600x228_785160b680454f0e8600e2b5ce0b451b_master.jpg,https://product.hstatic.net/1000379579/product/mat-na-nang-co-v-line-mediheal-1-grande-600x600_60854a31331c49158926f2c641fc84da_master.jpg,https://product.hstatic.net/1000379579/product/t-na-nang-co-v-line-mediheal-1-72686200f24d48efb25033cd24d5f2cc-grande_a491ceedf8694439b587ee6a4c3392c4_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/v-line-mediheal-clinic-v-t-r-stretching-v-line-patch-bici-cosmetic_472569061aac4211bd026a046bb3c6b2_master.jpg",
         "TenSP": "Mặt Nạ Nâng Cơ, Giảm Mỡ Thừa Tạo Hình V-Line Mediheal Clinic V.t.r Stretching V-line Patch",
@@ -803,12 +911,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "6a060582-e111-4e7d-a5f1-b826e2fd64fc"
+        "id": "f42099f6-1fe1-42ff-94de-4691c99e2124",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-nang-co-giam-mo-thua-tao-hinh-v-line-mediheal-clinic-v-t-r-stretching-v-line-patch"
     },
     {
         "sku": "8809261552936",
         "Giaban": "35,000₫",
         "category": "MatNa",
+        "description": "Mặt Nạ Chống Nhăn Cho Vùng Khóe Môi Mediheal E.G.T Timetox Gel Smile-Line Patch được chiết xuất hoàn toàn tự nhiên từ thảo dược và Adenosine có tác dụng tăng cường hoạt động tế bào và giúp làm mờ nếp nhăn. Đồng thời, collagen biển sâu giúp cải thiện sự đàn hồi, ngăn ngừa các dấu hiện của sự lão hóa ở cùng khóe miếng mang đến cho bạn sự tươi tắn khi nở nụ cười.",
         "images": "https://product.hstatic.net/1000379579/product/22-min-600x600_aa766e799f3a47f49e39e4db8acd91a0_master.jpg,https://product.hstatic.net/1000379579/product/tb2c3eldnpufjszphxxbchpxa-43885358-min-600x600_045f0208777c40a4a6873bee57ad94c0_master.jpg,https://product.hstatic.net/1000379579/product/20582878-823000147877919-4903725725627973632-n-min-600x600_ac55f42c80a84ece8e763c57d58c2b88_master.jpg,https://product.hstatic.net/1000379579/product/12912542-258020267872775-1778472150-n-min-600x600_d5ee2778835740d4a2f6c0170d0176a6_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/22-min-600x600_aa766e799f3a47f49e39e4db8acd91a0_master.jpg",
         "TenSP": "Mặt Nạ Chống Nhăn Cho Vùng Khóe Môi Mediheal E.G.T Timetox Gel Smile-Line Patch",
@@ -816,12 +926,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "xu hướng,HÀNG MỚI VỀ,Mặt nạ,Skincare",
-        "Id": "5d6e2f10-81af-45d1-bead-37bb23801ce0"
+        "id": "3e5e55dd-5b8d-4e58-a91c-cbd7a7a142b6",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-chong-nhan-cho-vung-khoe-moi-mediheal-e-g-t-timetox-gel-smile-line-patch"
     },
     {
         "sku": "8809261553964",
         "Giaban": "23,000₫",
         "category": "MatNa",
+        "description": "Mediheal Black Eye Anti-Wrinkle Mask là mặt nạ chăm sóc da vùng mắt với công thức đặc biệt hỗ trợ xóa mờ nếp nhăn, vết chân chim đuôi mắt. Mặt nạ có khả năng dưỡng ẩm và tăng khả năng đàn hồi cho vùng da quanh mắt hiệu quả nhờ các thành phần dưỡng chất như Marine Collagen, Phyto Black Complex và Silk Peptide.",
         "images": "https://product.hstatic.net/1000379579/product/28s-1_47c31f953142401981cf0d42e96cbdea_master.png,https://product.hstatic.net/1000379579/product/2s-600x600_cc2d7f92329a456a92dfd820a57aec20_master.png,https://product.hstatic.net/1000379579/product/26-600x600_aec76ac327754b3cafef4a9621a85c56_master.png,https://product.hstatic.net/1000379579/product/24-600x465_884dfcd254dc41c4a4903f9eb711a80d_master.png,https://product.hstatic.net/1000379579/product/23-600x600_981fb0726554418f88af198ae59eb914_master.png",
         "image": "https://product.hstatic.net/1000379579/product/28s-1_47c31f953142401981cf0d42e96cbdea_master.png",
         "TenSP": "Mặt Nạ Chống Nhăn Cho Vùng Mắt MEDIHEAL Black Eye Anti-wrinkle Mask",
@@ -829,6 +941,7 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MEDIHEAL",
         "DanhMuc": "Mặt nạ,Skincare",
-        "Id": "b6501042-4ef8-418f-967f-24110c36fff4"
+        "id": "ab6b0735-1694-4851-91f6-f3c16f637f01",
+        "link": "https://bicicosmetics.vn/collections/mat-na/products/mat-na-chong-nhan-cho-vung-mat-mediheal-black-eye-anti-wrinkle-mask"
     }
 ]

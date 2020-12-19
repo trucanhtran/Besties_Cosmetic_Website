@@ -1,21 +1,9 @@
 [
     {
-        "sku": "8809612867085",
-        "Giaban": "7,000₫",
-        "category": "KemDuongMat",
-        "images": "https://product.hstatic.net/1000379579/product/bici-innisfree-sample_3e3f06637a724deea8c734df0e8cfb26_master.jpg",
-        "image": "https://product.hstatic.net/1000379579/product/bici-innisfree-sample_3e3f06637a724deea8c734df0e8cfb26_master.jpg",
-        "TenSP": "sample Innisfree wrinkle science spot treatment",
-        "Ma": "8809612867085",
-        "XuatXu": "HÀN QUỐC",
-        "ThuongHieu": "INNISFREE",
-        "DanhMuc": "Mẫu Thử Sample,HÀNG MỚI VỀ,Kem dưỡng mắt,Essense - Serum - Ampoule,Skincare",
-        "Id": "47640e79-ebaa-4587-9113-99189e208b88"
-    },
-    {
         "sku": "8809612867078",
         "Giaban": "7,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Dưỡng Mắt Innisfree Wrinkle Science Eye Cream giúp cải thiện nếp nhăn, ngăn ngừa lão hóa hiệu quả.",
         "images": "https://product.hstatic.net/1000379579/product/bici-innisfree-sample_55bacad2919f4f7c8609cb0670dce778_master.jpg,https://product.hstatic.net/1000379579/product/untitled-1_abbeb1d7f67a4698be021f85f6340dac_master.png,https://product.hstatic.net/1000379579/product/untitled-1_44d696a832cd40669d380af835401706_master.png,https://product.hstatic.net/1000379579/product/untitled-1_b80a1df6ec824c88bc2236015bed0fed_master.png",
         "image": "https://product.hstatic.net/1000379579/product/bici-innisfree-sample_55bacad2919f4f7c8609cb0670dce778_master.jpg",
         "TenSP": "Kem Dưỡng Mắt Innisfree Wrinkle Science Eye Cream - Sample 1ml",
@@ -23,25 +11,29 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "Mẫu Thử Sample,HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "096de467-056a-437d-85dc-2d2c541b3057"
+        "id": "702817db-eac2-410a-a784-b3352ada66d2",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-innisfree-wrinkle-science-eye-cream-sample-1ml"
     },
     {
         "sku": "8809611679764",
         "Giaban": "155,000₫",
         "category": "KemDuongMat",
-        "images": "https://product.hstatic.net/1000379579/product/118862449_175960984018047_3551928712991573108_n_0bbea53320d54adf9225ebc231d54acf_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-5-min_85dcc20d82f44358a739cd31cea65f06_master.jpg,https://product.hstatic.net/1000379579/product/m-duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-min_f0b4ac1cf50741fbb4e9c64009e1dcee_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-1-min_43bf7762fe0d4015bdec2ac1d8c34172_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-4-min_19b500ba978d410bb103a684c9c7ea9e_master.jpg,https://product.hstatic.net/1000379579/product/uong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-14-min_01defcc62cab4e93ac55e85595dc2e92_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-6-min_28d53a7879a94a23af50c538c58f777b_master.jpg,https://product.hstatic.net/1000379579/product/uong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-10-min_3e510a337a7f4afaaa8f9781c019191c_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-9-min_67dab4fb8465475a807beb26c5fa0994_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-7-min_8dd32259469945d99e285a1533ab93e5_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-8-min_fb56ba4625fd4e6cbbbde893750eef87_master.jpg,https://product.hstatic.net/1000379579/product/013c1f06692374c5b1d28bd14462c449_24abe49af0544ceb883513b2deb557d5_master.jpg,https://product.hstatic.net/1000379579/product/kem-duong-vung-mat-ahc-2_7e373533ff4a43a29ee5c4414ce9aa1b_master.jpg",
-        "image": "https://product.hstatic.net/1000379579/product/118862449_175960984018047_3551928712991573108_n_0bbea53320d54adf9225ebc231d54acf_master.jpg",
+        "description": "Dưỡng da vùng mắt cùng kem dưỡng mắt AHC Time Rewind Real Eye Cream For Face 30ml",
+        "images": "https://product.hstatic.net/1000379579/product/35_11d7f680959e48f98968bd8cd00490a1_master.jpg,https://product.hstatic.net/1000379579/product/118862449_175960984018047_3551928712991573108_n_0bbea53320d54adf9225ebc231d54acf_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-5-min_85dcc20d82f44358a739cd31cea65f06_master.jpg,https://product.hstatic.net/1000379579/product/m-duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-min_f0b4ac1cf50741fbb4e9c64009e1dcee_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-1-min_43bf7762fe0d4015bdec2ac1d8c34172_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-4-min_19b500ba978d410bb103a684c9c7ea9e_master.jpg,https://product.hstatic.net/1000379579/product/uong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-14-min_01defcc62cab4e93ac55e85595dc2e92_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-6-min_28d53a7879a94a23af50c538c58f777b_master.jpg,https://product.hstatic.net/1000379579/product/uong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-10-min_3e510a337a7f4afaaa8f9781c019191c_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-9-min_67dab4fb8465475a807beb26c5fa0994_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-7-min_8dd32259469945d99e285a1533ab93e5_master.jpg,https://product.hstatic.net/1000379579/product/duong-mat-ahc-time-rewind-real-eye-cream-for-face-bici-cosmetics-8-min_fb56ba4625fd4e6cbbbde893750eef87_master.jpg,https://product.hstatic.net/1000379579/product/013c1f06692374c5b1d28bd14462c449_24abe49af0544ceb883513b2deb557d5_master.jpg,https://product.hstatic.net/1000379579/product/kem-duong-vung-mat-ahc-2_7e373533ff4a43a29ee5c4414ce9aa1b_master.jpg",
+        "image": "https://product.hstatic.net/1000379579/product/35_11d7f680959e48f98968bd8cd00490a1_master.jpg",
         "TenSP": "Kem Dưỡng Mắt AHC Time Rewind Real Eye Cream For Face",
         "Ma": "8809611679764",
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "AHC",
-        "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "dffc38a3-9bdd-44fb-9758-b609cdb247c3"
+        "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
+        "id": "0b05b8e5-098e-4de2-ae54-6e71da2311c7",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-ahc-time-rewind-real-eye-cream-for-face-30ml"
     },
     {
         "sku": "8710447469378",
         "Giaban": "129,000₫",
         "category": "KemDuongMat",
+        "description": "Simple Kind To Eyes Revitalising Eye Roll-On là sản phẩm lăn dưỡng mắt của hãng Simple từ Anh Quốc, với thành phần chính la chiết xuất dưa leo cùng các loại vitamin khác (Pro-Vitamin B5, B3, Glycerin và Lupin) có tác dụng chính trong việc làm giảm thâm, bọng mắt, xóa tan các dấu hiệu của sự mệ mỏi, cung cấp dưỡng ẩm để chống nhăn vùng da nhạy cảm quanh mắt.",
         "images": "https://product.hstatic.net/1000379579/product/14_0fd56813af1d4e62ae6f83d0f6e71b4b_master.jpg,https://product.hstatic.net/1000379579/product/0c2d5e890e430dd4858516f700537ad3_cb69efa925c143968e4449a42e1995f2_master.jpg,https://product.hstatic.net/1000379579/product/0b3c1dd140b410d8be02642d05c8de17_c416957f855245f6908c9fddb6569206_master.jpg,https://product.hstatic.net/1000379579/product/125227076_222765809187945_6634565296069230607_n_82795b6ee5b4496a89a71cf7508ca3eb_master.jpg,https://product.hstatic.net/1000379579/product/330f10baf2b5cde6ea185492b86a9eeb_e56be71a87a543dc86456f5dfe19dfa5_master.jpg,https://product.hstatic.net/1000379579/product/feeb659b5bdd6ba665ca4e92583d566a_00722bcc0a584d49aacce259a6304000_master.jpg,https://product.hstatic.net/1000379579/product/8710447469378_e7ec7e46ee8e4fd0ada93fe6519041d4_master.jpeg,https://product.hstatic.net/1000379579/product/5989c3e57ce11740d0f159eebdcdbe46_d881fc8972cb419ea9da2752e82c1e47_master.jpg,https://product.hstatic.net/1000379579/product/bf8596e17495df9453e7aed39bec3cea_83e4d33eb48d432a8547f07b69c69a37_master.jpg,https://product.hstatic.net/1000379579/product/b8db64197e639d3dc472_d00afa86f832492c88fce1bcb9ea4cbf_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/14_0fd56813af1d4e62ae6f83d0f6e71b4b_master.jpg",
         "TenSP": "Lăn Dưỡng Mắt Simple Kind To Eyes Revitalising Eye Roll On",
@@ -49,12 +41,14 @@
         "XuatXu": "ANH",
         "ThuongHieu": "SIMPLE",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "64dbb77b-f4ac-4e97-afdb-98bfd74ee6b7"
+        "id": "ea87374d-4098-4286-b9fa-3b10ca5743e1",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/lan-duong-mat-simple-kind-to-eyes-revitalising-eye-roll-on"
     },
     {
         "sku": "8806164163825",
         "Giaban": "309,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Dưỡng Mắt The Saem Mervie Hydra Eye Cream 30ml là bí kíp làm đẹp khiến đôi mắt mắt bạn hoàn hảo trông thấy, trở lên tươi tắn, rạng ngời.",
         "images": "https://product.hstatic.net/1000379579/product/a323b3362e294a20a7c3ceb88cf26b28_57a337dc76744204850dc8d89abe8918_master.jpg,https://product.hstatic.net/1000379579/product/555_6f542c847c5741e593f3bf9c87a563ac_master.jpg,https://product.hstatic.net/1000379579/product/1_ef118ca4cfb8414aa076096d19188e30_master.png,https://product.hstatic.net/1000379579/product/2_29bd1e4005824a2296a95a4d0f6e53d3_master.png,https://product.hstatic.net/1000379579/product/4_df58b96884264aeb9bef282b42a5c893_master.png,https://product.hstatic.net/1000379579/product/666_bb80de88b8904e53ad8870b02e6d9795_master.jpg,https://product.hstatic.net/1000379579/product/000_a7b71effcd8146daa999876551d6c4ec_master.jpg,https://product.hstatic.net/1000379579/product/3_eb4ece84ca22439098169f24769de4d1_master.png",
         "image": "https://product.hstatic.net/1000379579/product/a323b3362e294a20a7c3ceb88cf26b28_57a337dc76744204850dc8d89abe8918_master.jpg",
         "TenSP": "Kem Dưỡng Mắt The Saem Mervie Hydra Eye Cream 30ml",
@@ -62,25 +56,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "THE SAEM",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "892e6f3a-14d6-4fe6-a99d-0250b7373a64"
-    },
-    {
-        "sku": "SP001180",
-        "Giaban": "249,000₫",
-        "category": "KemDuongMat",
-        "images": "https://product.hstatic.net/1000379579/product/cfv_37b26010b5854acea3e104c7f1ed7a16_master.jpg,https://product.hstatic.net/1000379579/product/76da35b3d4e3517d9f0db5e37214a030_0cc369eb796e4d94af7c96cf6e310f39_master.jpg,https://product.hstatic.net/1000379579/product/e-saying-moodshot_rnapower-radical-new-age-tile-what-people-are-saying_1ba1316ef5984dc8a885eaee6d135844_master.jpg,https://product.hstatic.net/1000379579/product/dfg_52e17ea0969a457f96e771c28660877b_master.jpg,https://product.hstatic.net/1000379579/product/238c02c5d19f113b4ed3ebaa412e980e_9d0568c90d0642a6a86eac2ddec93391_master.jpg,https://product.hstatic.net/1000379579/product/118497012_981211082303943_2546076311829958974_o_739923c2a8904b7898582a19abcb20ff_master.jpg,https://product.hstatic.net/1000379579/product/63448a9c0dda0ed0449a36aa311cbcf4_c4ce45b2e2d64339becb72b396dd930a_master.jpg,https://product.hstatic.net/1000379579/product/fgvb_3c94bd10bc8846ed83ba6ecb08bac6c3_master.jpg,https://product.hstatic.net/1000379579/product/82484470_2603268233247074_782454741098561536_o_23c6d4641b0d4806b56fe40c7688e710_master.jpg,https://product.hstatic.net/1000379579/product/zdxfv_09fc795b41bd4229aabcc39af8914df5_master.jpg,https://product.hstatic.net/1000379579/product/kem-mat-sk-ii-rna-power-eye-cream-radical-new-age-15g-noi-dia_3085c1b777e34bc6bedec7ec1b456c8b_master.jpg",
-        "image": "https://product.hstatic.net/1000379579/product/cfv_37b26010b5854acea3e104c7f1ed7a16_master.jpg",
-        "TenSP": "Kem Mắt SK-II RNA Power Eye Cream Radical New Age mini 2,5g",
-        "Ma": "SP001180",
-        "XuatXu": "NHẬT BẢN",
-        "ThuongHieu": "SK-II",
-        "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "90a39afe-d8c1-4a7b-bf77-1724a613c898"
+        "id": "f745771d-98a9-4c08-8748-5881cfe2fead",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-the-saem-mervie-hydra-eye-cream-30ml"
     },
     {
         "sku": "8809453570663",
         "Giaban": "339,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Mắt Zelyn Skin Snail Wrinkle Care Eye Cream là loại kem mắt xuất xứ từ Hàn Quốc giúp chăm sóc vấn đề nếp nhăn vùng da nhạy cảm xung quanh mắt. ",
         "images": "https://product.hstatic.net/1000379579/product/bici-zelyn-skin-eyecream_ba05ebd364184ee19ac0ec1d3b8e4bb0_master.jpg,https://product.hstatic.net/1000379579/product/d79742e1d78c4d12acdf84242f6b11da_5f2418702121440ea8d649e04e988676_master.jpg,https://product.hstatic.net/1000379579/product/bici-zelyn-skin-eyecream1_17f8aa5f99a94bb7817dc5fa4497bcdd_master.jpg,https://product.hstatic.net/1000379579/product/bici-zelyn-skin-eyecream2_2f40088fec9e4c979b7386ce5c72019a_master.jpg,https://product.hstatic.net/1000379579/product/bici-zelyn-skin-eyecreama_78c5508fad044370ac5bab631f931bba_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-zelyn-skin-eyecream_ba05ebd364184ee19ac0ec1d3b8e4bb0_master.jpg",
         "TenSP": "Kem Mắt Zelyn Skin Snail Wrinkle Care Eye Cream",
@@ -88,12 +71,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "ZELYN SKIN",
         "DanhMuc": "Kem dưỡng mắt,Skincare",
-        "Id": "8bfaed10-f1e9-4f13-8487-5f89f88d80ae"
+        "id": "804a407f-73e8-432d-91ce-5bdd342a379c",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-mat-zelyn-skin-snail-wrinkle-care-eye-cream"
     },
     {
         "sku": "4920124011729",
         "Giaban": "165,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Dưỡng Mắt Kumargic Eye Nhật Bản 20g",
         "images": "https://product.hstatic.net/1000379579/product/vbhmnj_8e3359084dba4d41be11130bd86213b5_master.jpg,https://product.hstatic.net/1000379579/product/sgv_7c58f5580e5a40a5b10e648bcc79ecf6_master.jpg,https://product.hstatic.net/1000379579/product/dfyhcf_3935bf81ed07428393914aee8e945020_master.jpg,https://product.hstatic.net/1000379579/product/42833499_172350910359500_1471176415944703990_n_ddc0b48cd4784a879bf87c96dcaf8457_master.jpg,https://product.hstatic.net/1000379579/product/64369117_639851549813808_1700161029170363928_n_b68259f8dd274e07bdc3586b6c93fb1c_master.jpg,https://product.hstatic.net/1000379579/product/69261256_2344285945812727_5482991946778090306_n_beb858488daa485aaf23e89cb6c776b9_master.jpg,https://product.hstatic.net/1000379579/product/127055656_3401830099852017_1645077731044115771_n_b054a1719e9443928ccefc5f0fb357fd_master.jpg,https://product.hstatic.net/1000379579/product/94615306_1150065512010244_1793150521117245440_n_051cbdd9f3ff415f8603b3159bde5a86_master.jpg,https://product.hstatic.net/1000379579/product/90398035_953616121764106_4624224880369843872_n_e13dda3aec1a4add8c9b8060e6d04231_master.jpg,https://product.hstatic.net/1000379579/product/107495043_1364538337075590_1324222265659035993_n_a49382cb97a4400e841d95d1b783427a_master.jpg,https://product.hstatic.net/1000379579/product/120937751_1351628645170183_1744504471828177426_n_d9bb54e83a9c4f76bd0e36fd45712e1f_master.jpg,https://product.hstatic.net/1000379579/product/105494283_3420814177931498_8481992899154242537_n_dd8ca65eea08466abcb8384d5cdb0052_master.jpg,https://product.hstatic.net/1000379579/product/80354983_111293030225207_1017146812738606229_n_39cffab01a914fee96bb324acfbc1ce6_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/vbhmnj_8e3359084dba4d41be11130bd86213b5_master.jpg",
         "TenSP": "Kem Dưỡng Mắt Kumargic Eye Nhật Bản 20g",
@@ -101,12 +86,29 @@
         "XuatXu": "JAPAN",
         "ThuongHieu": "KUMARGIC",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "842b9038-7658-4822-9405-f8593c8362d7"
+        "id": "dec700d2-9c00-435c-b75b-4f5975a7904a",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-kumargic-nhat-ban-20g"
+    },
+    {
+        "sku": "SP001180",
+        "Giaban": "249,000₫",
+        "category": "KemDuongMat",
+        "description": "Kem Mắt SK-II RNA Power Eye Cream Radical New Age mini 2,5g giúp tan ngay bọng mắt, vết nhăn và những vết chân chim cũng mờ đi, đôi mắt trở lên có thần và tươi trẻ hơn, quần thâm giảm thiểu hẳn sau khi dùng.",
+        "images": "https://product.hstatic.net/1000379579/product/cfv_37b26010b5854acea3e104c7f1ed7a16_master.jpg,https://product.hstatic.net/1000379579/product/76da35b3d4e3517d9f0db5e37214a030_0cc369eb796e4d94af7c96cf6e310f39_master.jpg,https://product.hstatic.net/1000379579/product/e-saying-moodshot_rnapower-radical-new-age-tile-what-people-are-saying_1ba1316ef5984dc8a885eaee6d135844_master.jpg,https://product.hstatic.net/1000379579/product/dfg_52e17ea0969a457f96e771c28660877b_master.jpg,https://product.hstatic.net/1000379579/product/238c02c5d19f113b4ed3ebaa412e980e_9d0568c90d0642a6a86eac2ddec93391_master.jpg,https://product.hstatic.net/1000379579/product/118497012_981211082303943_2546076311829958974_o_739923c2a8904b7898582a19abcb20ff_master.jpg,https://product.hstatic.net/1000379579/product/63448a9c0dda0ed0449a36aa311cbcf4_c4ce45b2e2d64339becb72b396dd930a_master.jpg,https://product.hstatic.net/1000379579/product/fgvb_3c94bd10bc8846ed83ba6ecb08bac6c3_master.jpg,https://product.hstatic.net/1000379579/product/82484470_2603268233247074_782454741098561536_o_23c6d4641b0d4806b56fe40c7688e710_master.jpg,https://product.hstatic.net/1000379579/product/zdxfv_09fc795b41bd4229aabcc39af8914df5_master.jpg,https://product.hstatic.net/1000379579/product/kem-mat-sk-ii-rna-power-eye-cream-radical-new-age-15g-noi-dia_3085c1b777e34bc6bedec7ec1b456c8b_master.jpg",
+        "image": "https://product.hstatic.net/1000379579/product/cfv_37b26010b5854acea3e104c7f1ed7a16_master.jpg",
+        "TenSP": "Kem Mắt SK-II RNA Power Eye Cream Radical New Age mini 2,5g",
+        "Ma": "SP001180",
+        "XuatXu": "JAPAN",
+        "ThuongHieu": "SK-II",
+        "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
+        "id": "c11c17db-fd55-4d5a-8085-8a9969fdee7d",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-mat-sk-ii-power-eye-cream-radical-new-age-mini-2-5g"
     },
     {
         "sku": "769915190670",
         "Giaban": "239,000₫",
         "category": "KemDuongMat",
+        "description": "Tạm biệt đôi mắt mệt mỏi, thiếu sức sống với thâm quầng, trũng sâu, bọng mắt ngay ngày hôm nay thôi. Thuốc thần mang lại nhựa sống cho cử sổ tâm hồn – Serum The Ordinary Caffeine Solution 5% + EGCG.Tạm biệt đôi mắt mệt mỏi, thiếu sức sống với thâm quầng, trũng sâu, bọng mắt ngay ngày hôm nay thôi. Thuốc thần mang lại nhựa sống cho cửa sổ tâm hồn.",
         "images": "https://product.hstatic.net/1000379579/product/inary_caffeine_solution_5___egcg4__1__24bae229f5f54fcfb490a4a3e9e71283_7d78b148124e4e5b957ef22cc423a69f_master.jpg,https://product.hstatic.net/1000379579/product/serum-the-ordinary-caffeine-3-bici-cosmetics-1-768x576_3355c44fbf404c0a8c753c30a928a030_master.jpg,https://product.hstatic.net/1000379579/product/serum-the-ordinary-caffeine-4-bici-cosmetics-1-768x532_974baae00a5646cdad4b96afc07d7fe6_master.jpg,https://product.hstatic.net/1000379579/product/serum-the-ordinary-caffeine-5-bici-cosmetics-1-768x512_6f9d8c5bffca4384b826e49ab0c9c350_master.jpg,https://product.hstatic.net/1000379579/product/zbhcfgnghm_e231ddb69aaf4fccbdaa624a7cff6d74_master.jpg,https://product.hstatic.net/1000379579/product/whatsapp-image-2020-10-21-at-11.19.02-am_643a5d9eb0cf4643a21cf1898a48a54c_master.jpeg,https://product.hstatic.net/1000379579/product/tinh-chat-duong-mat-the-ordinary-caffein-egcg6_1c58893af16c4130a92c782df0e886e3_master.jpg,https://product.hstatic.net/1000379579/product/17cc9341b55a1d8c040cdab016429712_6937b0fcb0ea4a77b01517faff707a5e_master.jpg,https://product.hstatic.net/1000379579/product/he_ordinary_the_ordinary_caffeine_solution_5__egcg_cross-dock_gs-dmm_3_39e0118361564e83a08b37af7c9d5f07_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/inary_caffeine_solution_5___egcg4__1__24bae229f5f54fcfb490a4a3e9e71283_7d78b148124e4e5b957ef22cc423a69f_master.jpg",
         "TenSP": "Dưỡng Mắt Serum The Ordinary Caffeine Solution 5% + EGCG",
@@ -114,12 +116,14 @@
         "XuatXu": "MỸ",
         "ThuongHieu": "The Ordinary",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Kem dưỡng mắt,Essense - Serum - Ampoule,Skincare",
-        "Id": "5cd2f2d4-900c-4e09-9dfe-b13dea903215"
+        "id": "852ab681-557f-479c-a4ed-6b85314e838a",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/duong-mat-serum-the-ordinary-caffeine-solution-5-egcg-ma-moi"
     },
     {
         "sku": "8809612850490",
         "Giaban": "299,000₫",
         "category": "KemDuongMat",
+        "description": "Thanh Kem Lăn Massage Mắt Innisfree Green Tea Seed Eye & Face Ball được chiết xuất từ lá và hạt mầm trà xanh tự nhiên. Chứa hơn 16 loại axit amin, tăng cường lượng dưỡng chất. Giúp tốc độ thấm sâu vào da nhanh hơn, cải thiện sự săn chắc trên da.",
         "images": "https://product.hstatic.net/1000379579/product/fghfcgj_de0d82c95ea64f5a84620bc8882bf1c6_master.jpg,https://product.hstatic.net/1000379579/product/56248138-345249289439068-6454981843030338581-n-min-600x600_0ebc7d1eae2e46a0bf1df8d9c0b5ceb7_master.jpg,https://product.hstatic.net/1000379579/product/d-min-600x600_65e34662186e4622a943d6aa57adb6be_master.jpg,https://product.hstatic.net/1000379579/product/aedgth_911bdbddcb614ed982de26cbde431c97_master.jpg,https://product.hstatic.net/1000379579/product/fghyuj_4efc8d6882e741058a95f2d8d9dcd7a1_master.jpg,https://product.hstatic.net/1000379579/product/51038123_5606959979144609559_n_cbb26636171540c89c57117acc1af525_master_a4961c1deb7246308f7eb81b833b2005_master.jpg,https://product.hstatic.net/1000379579/product/7217051af30c3d774d8ed0e2c7c97be1_06828e358f3146daa3017dac0098f5e4_master.jpg,https://product.hstatic.net/1000379579/product/fsdfgfh_8b872048038c4262bcacc3cef6788230_master.jpg,https://product.hstatic.net/1000379579/product/sdtgdfg_4cb69e0280404703b7b5e8cd17c9640c_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/fghfcgj_de0d82c95ea64f5a84620bc8882bf1c6_master.jpg",
         "TenSP": "[NEW 2019] Thanh Lăn Massage Mắt & Mặt Innisfree Green Tea Seed Eye & Face Ball (10 ml)]",
@@ -127,25 +131,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "Hot Trend,HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "45b0ee4f-5491-4c8e-a1cf-5e36cb5be7ae"
-    },
-    {
-        "sku": "8809611675643",
-        "Giaban": "63,000₫",
-        "category": "KemDuongMat",
-        "images": "https://product.hstatic.net/1000379579/product/eeef7d081c734f918530d400416017b3_7da57ea7940347489472ed17d0fa505a_master.jpg,https://product.hstatic.net/1000379579/product/new_26a822fcce8b458daeff00309e193787_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics1-600x600_88a5d5fa7b344089858bd303a64d9f40_master.jpg,https://product.hstatic.net/1000379579/product/ahcaaoooaeaaaeaeaao011-600x600_712dd818fe924a109e45d7e7146201e0_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics2-600x600_59b819cb0d6845d0ac627ac995463a4d_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics4-600x600_76f2e709eed34b3a98eeafd617ad2f27_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics5-600x600_2b011d28cecb49338cf1e9d5c8d88b47_master.jpg",
-        "image": "https://product.hstatic.net/1000379579/product/eeef7d081c734f918530d400416017b3_7da57ea7940347489472ed17d0fa505a_master.jpg",
-        "TenSP": "Kem Dưỡng Mắt, Cải Thiện Nếp Nhăn AHC Ageless Real Eye Cream For Face (không tích điểm)",
-        "Ma": "8809611675643",
-        "XuatXu": "HÀN QUỐC",
-        "ThuongHieu": "AHC",
-        "DanhMuc": "Hot Trend,xu hướng,Kem dưỡng mắt,Essense - Serum - Ampoule,Skincare",
-        "Id": "718c7767-d1ce-4d1b-9f76-3abf91323d70"
+        "id": "ad9e06e5-a68e-498d-9e4a-41202dc535d0",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/new-2019-thanh-lan-massage-mat-mat-innisfree-green-tea-seed-eye-face-ball-10-ml"
     },
     {
         "sku": "4941137691500",
         "Giaban": "429,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Nóng Triệt Tiêu Thâm Quầng Và Chống Lão Hóa Vùng Mắt Dream Coaster Hot Eye Pack chiết xuất từ collagen , hyaluronic Acid, mật ong nuôi dưỡng da mắt hiệu quả. Sản phẩm được sản xuất thep tiêu chí an toàn dành riêng cho vùng da mắt nhạy cảm. Sản phẩm hoàn toàn không chứa các chất gây hại cho da như chất tạo màu, cồn, paraben, chất phụ gia hay chất tạo mùi.",
         "images": "https://product.hstatic.net/1000379579/product/82b0c9fb9f5b49b28c411bfef15d5f6d_84488be9ea674151a28b2088825c3fb8_master.png,https://product.hstatic.net/1000379579/product/bici-dream-coaster-hot-eye-pack1_cb2fd1a0782847058dbe2eb894d855ad_master.jpg,https://product.hstatic.net/1000379579/product/bici-dream-coaster-hot-eye-pack_67260f433bcb4054b26d4ff1d220e889_master.jpg,https://product.hstatic.net/1000379579/product/bici-dream-coaster-hot-eye-pack2_3a56b9713e684fa9a65a2287b0e91503_master.jpg,https://product.hstatic.net/1000379579/product/bici-dream-coaster-hot-eye-pack3_803bf6dca93d4b3da305a2a8ec1d80cc_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/82b0c9fb9f5b49b28c411bfef15d5f6d_84488be9ea674151a28b2088825c3fb8_master.png",
         "TenSP": "Kem Nóng Triệt Tiêu Thâm Quầng Và Chống Lão Hóa Vùng Mắt Dream Coaster Hot Eye Pack",
@@ -153,12 +146,29 @@
         "XuatXu": "JAPAN",
         "ThuongHieu": "MICCOSMO",
         "DanhMuc": "Kem dưỡng mắt",
-        "Id": "85033dfa-7802-459b-9e20-529642d3bd10"
+        "id": "533bf586-7300-4c52-8f00-670aff53274b",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-nong-triet-tieu-tham-quang-va-chong-lao-hoa-vung-mat-dream-coaster-hot-eye-pack"
+    },
+    {
+        "sku": "8809611675643",
+        "Giaban": "63,000₫",
+        "category": "KemDuongMat",
+        "description": "Kem mắt AHC Ageless Real Eye Cream For Face là sản phẩm chăm sóc riêng biệt dùng cho vùng mắt bán chạy nhất tại Hàn Quốc. Điều đặc biệt làm nên sự thành công của hãng là tính chuyên nghiệp, chất lượng đi cùng với hiệu quả.",
+        "images": "https://product.hstatic.net/1000379579/product/2_63696c91bd604b9d876a717f6a8b5467_master.jpg,https://product.hstatic.net/1000379579/product/eeef7d081c734f918530d400416017b3_7da57ea7940347489472ed17d0fa505a_master.jpg,https://product.hstatic.net/1000379579/product/new_26a822fcce8b458daeff00309e193787_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics1-600x600_88a5d5fa7b344089858bd303a64d9f40_master.jpg,https://product.hstatic.net/1000379579/product/ahcaaoooaeaaaeaeaao011-600x600_712dd818fe924a109e45d7e7146201e0_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics2-600x600_59b819cb0d6845d0ac627ac995463a4d_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics4-600x600_76f2e709eed34b3a98eeafd617ad2f27_master.jpg,https://product.hstatic.net/1000379579/product/ahc-ageless-real-eye-cream-for-face-bici-cosmetics5-600x600_2b011d28cecb49338cf1e9d5c8d88b47_master.jpg",
+        "image": "https://product.hstatic.net/1000379579/product/2_63696c91bd604b9d876a717f6a8b5467_master.jpg",
+        "TenSP": "Kem Dưỡng Mắt, Cải Thiện Nếp Nhăn AHC Ageless Real Eye Cream For Face (không tích điểm)",
+        "Ma": "8809611675643",
+        "XuatXu": "HÀN QUỐC",
+        "ThuongHieu": "AHC",
+        "DanhMuc": "Hot Trend,xu hướng,Kem dưỡng mắt,Essense - Serum - Ampoule,Skincare",
+        "id": "34124341-ac84-4683-bc35-09864e11f936",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-cai-thien-nep-nhan-ahc-ageless-real-eye-cream-for-face"
     },
     {
         "sku": "5012368040487",
         "Giaban": "129,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Dưỡng Mắt Balance Active Formula Snake Venom Eye Cream sẽ mang đến hiệu quả vượt trội chỉ trong 1 sản phẩm khi \\\"cải thiện\\\" được cả 3 dấu hiệu mệt mỏi của vùng mắt: Đường nhăn, quầng thâm và bọng mắt để \\\"trẻ hóa\\\" vùng da quanh mắt, giúp đôi mắt thêm rạng rỡ và tươi trẻ",
         "images": "https://product.hstatic.net/1000379579/product/images-2-1_7c3d065aac994afa95a6773315b30e71_master.jpg,https://product.hstatic.net/1000379579/product/39978483-1258470264295330-7906627530968664021-n-2-600x501_f75f0a48f2324c67854a8c865c639b8e_master.jpg,https://product.hstatic.net/1000379579/product/kem-duong-mat-balance-active-formula-snake-venom-eye-cream-1_f698a7151a974ce8bb72f0504ba53f78_master.png,https://product.hstatic.net/1000379579/product/46d3ce5765bf673fd1e79e4133c088da-768x512_fc1829ce602443e2b175e753550225bd_master.jpg,https://product.hstatic.net/1000379579/product/bcddffb4cebc2839239f0cf91275c55d-1-600x600_62f53e509d8e4c3aab10863f42f33727_master.jpg,https://product.hstatic.net/1000379579/product/sheis-b24f68b2-802b-40eb-8f65-f90e8e5af35d-20181025142059462_91e3b5ef3aa74a0783181b01dd399d43_master.jpg,https://product.hstatic.net/1000379579/product/serum-mat-balance-gold-collagen-rejuvenating-eye-serum-15ml_50d5c9fc9d4545ccac9d64a49e4be818_master.jpg,https://product.hstatic.net/1000379579/product/a3-07062019105545_cfac6c0c66a74394bb112d6ce5ba83a2_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/images-2-1_7c3d065aac994afa95a6773315b30e71_master.jpg",
         "TenSP": "Kem Dưỡng Mắt Balance Active Formula Snake Venom Eye Cream",
@@ -166,12 +176,14 @@
         "XuatXu": "UK",
         "ThuongHieu": "BALANCE",
         "DanhMuc": "Kem dưỡng mắt,Skincare",
-        "Id": "7ad95bfb-7d6f-4f9f-9156-b0b5d9a01498"
+        "id": "6361eb89-48ca-4a5d-9d27-72bea69eafeb",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-balance-active-formula-snake-venom-eye-cream"
     },
     {
         "sku": "aabbccddee",
         "Giaban": "399,000₫",
         "category": "KemDuongMat",
+        "description": "Bộ Đặc Trị Lão Hóa Ohui Tím Age Recovery Baby Collagen Special Set gồm 5 sản phẩm mini size từ nước làm mềm da, tinh chất essence, sữa dưỡng, kem mắt và kem dưỡng da mặt. Bộ sản phẩm là phiên bản thu nhỏ mỹ phẩm OHUI cao cấp để các nàng thỏa sức trải nghiệm mà không lăn tăn về giá.  ",
         "images": "https://product.hstatic.net/1000379579/product/bici-ohui-set_f77c1a32cddb4ecd9a942efd8d502e95_master.jpg,https://product.hstatic.net/1000379579/product/bici-ohui-a_59c97f2efd3c436db96e9154c8d6a7a3_master.jpg,https://product.hstatic.net/1000379579/product/bici-ohui-age-recovery-g_cf6b4874a09d457189a97071585780ca_master.jpg,https://product.hstatic.net/1000379579/product/bici-ohui-babycollagen-1_55126e6e69604db4aab13ec9d64ebc5c_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-ohui-set_f77c1a32cddb4ecd9a942efd8d502e95_master.jpg",
         "TenSP": "Bộ Đặc Trị Lão Hóa Ohui Tím Age Recovery Baby Collagen Special Set",
@@ -179,12 +191,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Ohui",
         "DanhMuc": "HÀNG MỚI VỀ,Lotion,Bộ Kit Sản Phẩm,KEM DƯỠNG DA,Kem dưỡng mắt,Essense - Serum - Ampoule,Toner - Nước hoa hồng,Skincare",
-        "Id": "0490dc6e-b217-4ef9-8071-cec6270df452"
+        "id": "255f3efb-c7a5-40b2-9032-488212952b85",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/bo-dac-tri-lao-hoa-ohui-tim-age-recovery-baby-collagen-special-set"
     },
     {
         "sku": "8809239669604",
         "Giaban": "361,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Mắt Dr.Jart+ Water Fuse Hydro Soothe Eye Gel có dạng gel giúp làm mát lạnh vùng da mắt. Sản phẩm là giải pháp cho đôi mắt mệt mỏi, chống bọng mắt, sưng mắt. Đặc biệt giúp làn da mắt săn chắc, ẩm mượt. ",
         "images": "https://product.hstatic.net/1000379579/product/bici-drjart_-eyegela_25b8f287b76c4a4bb2a3af8c82eaa02e_master.jpg,https://product.hstatic.net/1000379579/product/bici-drjart_e_a694db143a30429094597f58f182c33a_master.jpg,https://product.hstatic.net/1000379579/product/bici-drjart_-eyegel1_b80c51f12a2c42829636bc7217903a74_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bici-drjart_-eyegela_25b8f287b76c4a4bb2a3af8c82eaa02e_master.jpg",
         "TenSP": "Kem Mắt Dr.Jart+ Water Fuse Hydro Soothe Eye Gel",
@@ -192,12 +206,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "DR.JART+",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "5e039a93-91ac-4ac0-bd89-936e9c6437f5"
+        "id": "9eea9593-d93e-4642-8f15-3344519fa4b0",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-mat-dr-jart-water-fuse-hydro-soothe-eye-gel"
     },
     {
         "sku": "4968123624809",
         "Giaban": "379,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Làm Giảm Thâm Quầng Mắt Miccosmo White Label Premium Placenta Eye Cream với thành phần giàu  tinh chất nhau thai Placenta giúp đánh bay quầng thâm mắt, bọng mắt và vết chân chim mang tới làn da khỏe mạnh, hồng hào",
         "images": "https://product.hstatic.net/1000379579/product/5_c4602097033049a98d480191265cfbbe_master.jpg,https://product.hstatic.net/1000379579/product/1_3fbba1ee98bf438bb1db884b200f40f4_master.jpg,https://product.hstatic.net/1000379579/product/2_94532e49ed7344bea0e2e20886511001_master.jpg,https://product.hstatic.net/1000379579/product/3_2ed5424df4e443b8b43b6c171705d70d_master.jpg,https://product.hstatic.net/1000379579/product/4_3ba0f9b3f12f42bda0868b3a11e4c3fe_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/5_c4602097033049a98d480191265cfbbe_master.jpg",
         "TenSP": "Kem Làm Giảm Thâm Quầng Mắt Miccosmo White Label Premium Placenta Eye Cream",
@@ -205,12 +221,14 @@
         "XuatXu": "NHẬT BẢN",
         "ThuongHieu": "White Label",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "2f420529-ac3f-4f82-9701-db3d5f2234f4"
+        "id": "04de0b0e-8972-4c00-bd81-8763dd4ed017",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-lam-giam-tham-quang-mat-miccosmo-white-label-premium-placenta-eye-cream"
     },
     {
         "sku": "8809495891740",
         "Giaban": "259,000₫",
         "category": "KemDuongMat",
+        "description": "Xóa tan quần thâm và quần mắt cùng kem dưỡng chuyên nghiệp dành cho vùng da mắt mỏng manh, chứa thành phần từ các loại thực vật như jojoba, bơ hạt mỡ, hyalunoric acid và betaine giúp cung cấp độ ẩm cần thiết để vùng da mắt luôn mền mịn, hạn chế hình thành nếp nhăn hay quầng thâm dưới mắt. Giúp mờ quần thâm, giảm quần mắt hiệu quả.",
         "images": "https://product.hstatic.net/1000379579/product/1337d9a1df0f4630b982e276584ae46f_22540f2d0ab742849e7c556a028d54ae_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/1337d9a1df0f4630b982e276584ae46f_22540f2d0ab742849e7c556a028d54ae_master.jpg",
         "TenSP": "Kem Mắt Jayun Cosmetic Intensive Shining Eye Cream",
@@ -218,12 +236,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "Jayjun",
         "DanhMuc": "KEM DƯỠNG DA,Kem dưỡng mắt,Skincare",
-        "Id": "98c5f0d1-d0f8-4d85-8bf5-66ac77bbbd0e"
+        "id": "f5f1a61e-fed4-4985-96a7-7bee8dfc31dd",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/m-kem-mat-jayun-cosmetic-intensive-shining-eye-cream"
     },
     {
         "sku": "5011451105508",
         "Giaban": "165,000₫",
         "category": "KemDuongMat",
+        "description": "Kem dưỡng mắt Simple Kind To Eyes Soothing Eye Balm giúp làm dịu và bảo vệ da giúp chống lão hóa da và nếp nhăn, nuôi dưỡng và bổ sung dưỡng chất Shea Butter khi tiếp xúc với da sẽ tự động thẩm thấu vào trong, không gây cảm giác nhờn rít.",
         "images": "https://product.hstatic.net/1000379579/product/5011451105508-600x600_7078b49d638d443cba7a89b5247a73d1_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/5011451105508-600x600_7078b49d638d443cba7a89b5247a73d1_master.jpg",
         "TenSP": "Kem dưỡng mắt Simple Kind To Eyes Soothing Eye Balm",
@@ -231,12 +251,14 @@
         "XuatXu": "ANH",
         "ThuongHieu": "SIMPLE",
         "DanhMuc": "Kem dưỡng mắt,Skincare",
-        "Id": "c1eb3a9f-12a7-42fc-8790-82c356349590"
+        "id": "b697daf0-d694-4026-a665-aa3d37426170",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-simple-kind-to-eyes-soothing-eye-balm"
     },
     {
         "sku": "8806164141663",
         "Giaban": "109,000₫",
         "category": "KemDuongMat",
+        "description": "Thanh lăn mắt iceland hydrating eye stick chiết xuất từ đá băng có kết cấu khá dễ chịu và dễ trượt trên da để hấp thụ nhanh chóng mà không làm da căng, không để lại màng dính hay bóng nhờn",
         "images": "https://product.hstatic.net/1000379579/product/thoi-duong-mat-iceland-hydrating-eye-stick-open-600x600_9738f7428eb14b0abf41d06b051ad29c_master.jpg,https://product.hstatic.net/1000379579/product/untitled-1_ca0cf2beab3949889b1860841ecec193_master.jpg,https://product.hstatic.net/1000379579/product/v1_4e84f97095524de5aa3a65a17edd0ef5_master.jpg,https://product.hstatic.net/1000379579/product/v2_4afea5b7c5584a18a53a67330c13610d_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/thoi-duong-mat-iceland-hydrating-eye-stick-open-600x600_9738f7428eb14b0abf41d06b051ad29c_master.jpg",
         "TenSP": "Thanh Lăn Mắt The Saem Iceland Hydrating Eye Stick",
@@ -244,12 +266,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "THE SAEM",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "1fa488a6-7714-425b-9744-0a74fc5e1cf6"
+        "id": "67aebf79-4b83-413b-9225-9e0219cfdfbb",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/thanh-lan-mat-the-saem-iceland-hydrating-eye-stick"
     },
     {
         "sku": "8809454021256",
         "Giaban": "275,000₫",
         "category": "KemDuongMat",
+        "description": "Kem dưỡng mắt It’s Skin Hyaluronic Acid Moisture Eye Cream chứa Hyaluronic Acid, chiết xuất cây sam và trái sơ ri giúp dưỡng ẩm và mang lại vẻ rạng rỡ cho vùng da quanh mắt.",
         "images": "https://product.hstatic.net/1000379579/product/ic-acid-moisture-crema-contur-ochi-hidratanta-25-ml_19327_1_1544186981_be10d350e11f4e22aa967a5ce27c7903_master.jpg,https://product.hstatic.net/1000379579/product/29-min-600x600_0750ad126a87431580c8af50fe6d3a2e_master.jpg,https://product.hstatic.net/1000379579/product/31354775-1810364359258419-4533609465810780160-o-min-600x600_288047e43b5c48c4ac972d90adffca44_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/ic-acid-moisture-crema-contur-ochi-hidratanta-25-ml_19327_1_1544186981_be10d350e11f4e22aa967a5ce27c7903_master.jpg",
         "TenSP": "Kem dưỡng mắt It’S SKIN Hyaluronic Acid Moisture Eye Cream 25ml",
@@ -257,12 +281,14 @@
         "XuatXu": "KOREA",
         "ThuongHieu": "IT''S SKIN",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "39756b45-25e3-46f1-9900-04021f9ddd26"
+        "id": "4d79807d-d242-4fbb-9928-9f19736ed24c",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-it-s-skin-hyaluronic-acid-moisture-eye-cream-25ml"
     },
     {
         "sku": "SP000575",
         "Giaban": "45,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Dưỡng Mắt Innisfree Cauliflower Mushroom Vital Lip&Eye Cream với khả năng chống lão hóa tuyệt vời cho vùng da xung quanh mắt vô cùng nhạy cảm. Cùng thành phần được chiết xuất từ Nấm Cauliflower Mushroom giàu dưỡng chất quý giá. Đây sẽ là sự lựa chọn hoàn hảo cho những cô nàng ngăn chặn các dấu hiệu lão hóa.",
         "images": "https://product.hstatic.net/1000379579/product/17-1-600x600_0854a3e6433e45ce88920ba0fdfc35f9_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-cauliflower-mushroom-vital-lip-eye-cream5-600x600_0b617bca25744d4b98f5a0678cd74967_master.jpg,https://product.hstatic.net/1000379579/product/innisfree-cauliflower-mushroom-vital-lip-eye-cream4-600x600_3345f4abd4b247778a320462ab8019e0_master.jpg,https://product.hstatic.net/1000379579/product/sfree-cauliflower-mushroom-vital-lip-eye-cream-bici-cosmetics3-600x600_cc9627c982ea447da57100efa89c1407_master.jpg,https://product.hstatic.net/1000379579/product/sfree-cauliflower-mushroom-vital-lip-eye-cream-bici-cosmetics2-600x600_5c6184c992834b26b9f6329c26c5b0eb_master.jpg,https://product.hstatic.net/1000379579/product/mushroom_vital_lip__26_eye_cream_15ml_d9e3f2fe18a841c98ef022a4bbe26b5e_6aa2178f915b45d69ac1f1e0e700e338_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/17-1-600x600_0854a3e6433e45ce88920ba0fdfc35f9_master.jpg",
         "TenSP": "Kem Dưỡng Mắt Và Trị Thâm Môi Innisfree Cauliflower Mushroom Vital Lip & Eye Cream",
@@ -270,12 +296,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "INNISFREE",
         "DanhMuc": "xu hướng,HÀNG MỚI VỀ,KEM DƯỠNG DA,Kem dưỡng mắt,Skincare",
-        "Id": "f31f067c-37d9-4e11-91aa-0a001e59812a"
+        "id": "710a5396-d31b-4e41-8c89-65e4078f88cf",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-va-tri-tham-moi-innisfree-cauliflower-mushroom-vital-lip-eye-cream"
     },
     {
         "sku": "8809107356094",
         "Giaban": "189,000₫",
         "category": "KemDuongMat",
+        "description": "Kem mắt chống lão hóa và quầng thâm Milky Dress Wrinkle & Whitening Eye Cream sẽ là sản phẩm dưỡng giúp các nàng đẩy xa các dấu hiệu lão hóa để trở lại gương mặt luôn tươi trẻ.",
         "images": "https://product.hstatic.net/1000379579/product/0010010000932-600x600_c2ec848b87424865a41574b4a5b361f7_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/0010010000932-600x600_c2ec848b87424865a41574b4a5b361f7_master.jpg",
         "TenSP": "Kem Trị Thâm Vùng Mắt Milky Dress Wrinkle & Whitening Eye Cream",
@@ -283,12 +311,14 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MILKY DRESS",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "b9b9064e-3c19-4517-ac56-b90d82aabfee"
+        "id": "93e299f5-e5a5-4686-b14a-2a1680f4d3ab",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-tri-tham-vung-mat-milky-dress-wrinkle-whitening-eye-cream"
     },
     {
         "sku": "8809323737806",
         "Giaban": "275,000₫",
         "category": "KemDuongMat",
+        "description": "Kem dưỡng mắt It’S Skin Collagen Voluming Eye Cream – It’s Skin đã khẳng định được sự an toàn tối đa cho làn da, không chỉ nhờ những thành phần có nguồn gốc tự nhiên, tối giản hóa các chất khử trùng trong sản xuất mà còn hoàn hảo với tác dụng đánh thức năng lượng tiềm ẩn của làn da. It’s Skin mang lại năng lượng và sự rạng rỡ từ một làn da hoàn toàn khỏe mạnh và mộc mạc.",
         "images": "https://product.hstatic.net/1000379579/product/32-600x600_77ad405b069040d097c921dc2a588582_master.jpg,https://product.hstatic.net/1000379579/product/49988599-1132477366929917-1352274817273636398-n-min-600x600_74dad9fcae8c419db89a03107dcc9239_master.jpg,https://product.hstatic.net/1000379579/product/potent-c-eye-cropped-min-600x600_1e1800a9fcdd41a59bc0fe460619b868_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/32-600x600_77ad405b069040d097c921dc2a588582_master.jpg",
         "TenSP": "Kem dưỡng mắt It’S Skin Collagen Voluming Eye Cream 25ml",
@@ -296,12 +326,14 @@
         "XuatXu": null,
         "ThuongHieu": "IT''S SKIN",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare",
-        "Id": "57971099-2336-4521-b827-cbbc6fe4f5da"
+        "id": "adc240f8-a9d0-40ca-8c7f-4e12b86dd391",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/kem-duong-mat-it-s-skin-collagen-voluming-eye-cream-25ml"
     },
     {
         "sku": "8806390589208",
         "Giaban": "379,000₫",
         "category": "KemDuongMat",
+        "description": "Kem Dưỡng Mắt Mamonde Floral Hydro Eye Gel Cream có tác dụng phục hồi làn da, cung cấp độ ẩm cho da hiệu quả, có khả năng dưỡng ẩm lên tới 24h cho vùng da quanh mắt của bạn.",
         "images": "https://product.hstatic.net/1000379579/product/bicicosmetics-mamonde-floral-hydro-eye-gel-cream-ava_27befaa2cf8d4ec2a28a771315769bf2_master.jpg,https://product.hstatic.net/1000379579/product/bicicosmetics-1-1_516707fe87ea4847ad943ebb19a522a3_master.jpg,https://product.hstatic.net/1000379579/product/bicicosmetics-2-2_50dd716c51f74525be8396b2be2f9138_master.jpg,https://product.hstatic.net/1000379579/product/bicicosmetics-3-1_01666117aa1342fa968863e9d6a8fecf_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/bicicosmetics-mamonde-floral-hydro-eye-gel-cream-ava_27befaa2cf8d4ec2a28a771315769bf2_master.jpg",
         "TenSP": "Mamonde Floral Hydro Eye Gel Cream",
@@ -309,25 +341,29 @@
         "XuatXu": "HÀN QUỐC",
         "ThuongHieu": "MAMONDE",
         "DanhMuc": "Kem dưỡng mắt,Skincare",
-        "Id": "42e48edd-9577-47da-958b-e9c351026b4b"
+        "id": "e46f6473-4011-413d-ab73-79e133f335b3",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/mamonde-floral-hydro-eye-gel-cream"
     },
     {
         "sku": "8809495891306",
         "Giaban": "199,000₫",
         "category": "KemDuongMat",
+        "description": "Đến từ thương hiệu Jayjun Hàn Quốc, Mặt Nạ Mắt Jayjun Eye Gel Patch chiết xuất từ trà xanh và hoa hibicus cung cấp ẩm và dưỡng ẩm hoàn hảo. Từ đó chống quầng thâm, bọng mắt, giảm nếp nhăn mang tới khỏe mạnh, mịn màng. Sản phẩm Mặt nạ mắt jayjun được chiết xuất từ hai loại: trà xanh và trà hoa hồng, cánh hoa dâm bụt. ",
         "images": "https://product.hstatic.net/1000379579/product/jayjun-eye-mask-bici-cosmetic_761bd45e9c3c42fcb4b3ffe1626b7ea2_master.jpg,https://product.hstatic.net/1000379579/product/_roselle-tea_670f6b532eb94a1f9ff779d72d196ef9_master.jpg,https://product.hstatic.net/1000379579/product/_green-tea_a05fd12e964149b0bf066418afe28306_master.jpg,https://product.hstatic.net/1000379579/product/65fec4b1a9b133c67b457f3399e07d33_2e5320347f8846b886a75969300383da_master.jpg,https://product.hstatic.net/1000379579/product/58626668_439168643485020_6846375122227577113_n_37cd2526fa1e4528aee6476b5eaddf53_master.jpg,https://product.hstatic.net/1000379579/product/51088043_2192297581020248_6089763227859392637_n_8e4fe53fcbd941f79645b1a53abdb12a_master.jpg,https://product.hstatic.net/1000379579/product/0c2085b884da517b197d8bdf3188ceb4_6af3cd7c0b44431781a5f32fa6486586_master.jpg,https://product.hstatic.net/1000379579/product/67410111_176179300081609_8140096602722672511_n_11c838bae06b488ebbe3a36e162f0e13_master.jpg,https://product.hstatic.net/1000379579/product/66304824_222216275426769_7575609144057024527_n_ecf57e121b9746428d6c94614597e051_master.jpg,https://product.hstatic.net/1000379579/product/jayjun_a79cfdb22f404bc78cb5809a9e46df7a_master.jpg,https://product.hstatic.net/1000379579/product/jayjun-b_0eebf99b7a5a4f499133d84e0d8ceb9a_master.jpg",
         "image": "https://product.hstatic.net/1000379579/product/jayjun-eye-mask-bici-cosmetic_761bd45e9c3c42fcb4b3ffe1626b7ea2_master.jpg",
         "TenSP": "Mặt Nạ Dưỡng Mắt Jayjun Eye Gel Patch",
         "Ma": "8809495891306",
-        "XuatXu": "HÀN QUỐC",
+        "XuatXu": "KOREA",
         "ThuongHieu": "Jayjun",
         "DanhMuc": "xu hướng,HÀNG MỚI VỀ,Mặt nạ,Kem dưỡng mắt,Skincare",
-        "Id": "763b7887-1e77-4747-be5f-1a6181b1a95b"
+        "id": "7efbd997-e7e9-464d-8efa-84e372dbc870",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/mat-na-duong-mat-jayjun-eye-gel-patch"
     },
     {
         "sku": "5901761909982",
         "Giaban": "125,000₫",
         "category": "KemDuongMat",
+        "description": "Huyết thanh dưỡng dài mi Eveline – tuyệt phẩm đến từ nước Nga mộng mơ dành cho những nàng mong muốn có đôi mắt to tròn tự nhiên.",
         "images": "https://product.hstatic.net/1000379579/product/huyet-thanh-duong-dai-mi-eveline-8-in-13-bici-cosmetics-600x600_bd153373f20d4020a37638bfcac47143_master.jpg,https://product.hstatic.net/1000379579/product/huyet-thanh-duong-dai-mi-eveline-8-in-1-bici-cosmetics-2_d4fe322849b8493494ffcf3c585c8ef8_master.jpg,https://product.hstatic.net/1000379579/product/huyet-thanh-duong-dai-mi-eveline-8-in-1-bici-cosmetics-768x370_8b8659aae3444f59a9fdc2a95c9fec5b_master.png,https://product.hstatic.net/1000379579/product/huyet-thanh-duong-dai-mi-eveline-8-in-110-bici-cosmetics-600x600_951e6a4d1e45427fb6030951986c5e52_master.jpg,https://product.hstatic.net/1000379579/product/huyet-thanh-duong-dai-mi-eveline-8-in-11-bici-cosmetics-768x380_f3ad315de99e4bfd9dbf149f2309fbd9_master.png",
         "image": "https://product.hstatic.net/1000379579/product/huyet-thanh-duong-dai-mi-eveline-8-in-13-bici-cosmetics-600x600_bd153373f20d4020a37638bfcac47143_master.jpg",
         "TenSP": "Huyết Thanh Dưỡng Dài Mi Eveline 8 in 1",
@@ -335,6 +371,7 @@
         "XuatXu": "NGA",
         "ThuongHieu": "EVELINE",
         "DanhMuc": "HÀNG MỚI VỀ,Kem dưỡng mắt,Skincare,Dưỡng dài mi,Eyes Make up,Makeup",
-        "Id": "fa204a4e-a1e7-453e-ac9b-8980774ea3f8"
+        "id": "d6d7fcc7-cfb3-4c73-92e6-0055f11c91a8",
+        "link": "https://bicicosmetics.vn/collections/kem-duong-mat/products/huyet-thanh-duong-dai-mi-eveline-8-in-1"
     }
 ]

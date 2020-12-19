@@ -284,22 +284,25 @@
       }*/
     </style>
     <script>
-      var app = angular.module("angularApp", []);
-      app.controller("EyeController", function ($scope, $http) {
-        const page = parseInt(window.location.href.split("?page=")[1]) || 1;
+      var app = angular.module("searchApp", []);
+      app.controller("SearchController", function ($scope, $http) {
+        const page = parseInt(window.location.href.split("&page=")[1]) || 1;
         const totalPerPage = 18;
+        const keyword =
+          window.location.href.split("&page=")[0].split("?q=")[1] || "";
         $http({
           method: "GET",
-          url: "http://localhost:3000/eyesMakeup",
+          url: "http://localhost:3000/allProducts?TenSP_like=" + keyword,
         }).then(
           function mySucces(respone) {
-            $scope.eyes = respone.data.slice(
+            $scope.datas = respone.data.slice(
               (page - 1) * totalPerPage,
               page * totalPerPage
             );
 
             const totalPage = Math.ceil(respone.data.length / totalPerPage);
             $scope.total = [...Array(totalPage).keys()];
+            $scope.keyword = keyword;
           },
           function myError(respone) {
             $scope.dataError = respone.statusText;
@@ -516,26 +519,27 @@
             <div>
               <div
                 style="width: 100%"
-                ng-app="angularApp"
-                ng-controller="EyeController"
+                ng-app="searchApp"
+                ng-controller="SearchController"
                 class="products-table"
               >
                 <div
                   style="display: inline-block"
-                  ng-repeat="eye in eyes | filter:search"
+                  ng-repeat="data in datas | filter:search"
                 >
                   <img
-                    ng-src="{{eye.image}}"
+                    ng-src="{{data.image}}"
                     style="width: 300px; height: 300px; padding: 10px"
                     onerror="showNoImage(this)"
                   /><br />
-                  <div class="ellipsis-title">{{eye.TenSP}}</div>
+                  <div class="ellipsis-title">{{data.TenSP}}</div>
                   <br />
-                  {{eye.Giaban}}<br />
+                  {{data.Giaban}}<br />
                 </div>
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
-                    <a ng-href="{{'EyesMakeup.html?page=' + (item+1)}}"
+                    <a
+                      ng-href="{{'Search.html?q='+ keyword +'&page=' + (item+1)}}"
                       >{{'Trang ' + (item+1)+ ' |'}}</a
                     >
                   </div>
