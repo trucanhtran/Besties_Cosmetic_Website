@@ -234,6 +234,7 @@
   -webkit-line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  font-size: 11px;
 }
 p > img {
   width: 600px;
