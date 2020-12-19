@@ -110,9 +110,16 @@ class Bicicosmetics:
     def parse_description(self, detail, product_detail):
         description = detail.select("div.pro-short-des > p")
         if description != None:
-            product_detail["description"] = description[0].text
+            product_detail["short_description"] = description[0].text
             return
-        product_detail["description"] = None
+        product_detail["short_description"] = None
+
+    def parse_product_description(self, detail, product_detail):
+        description = detail.select("div.product-description")
+        if description != None:
+            product_detail["long_description"] = str(description[0])
+            return
+        product_detail["long_description"] = None
 
     # parse a product to get detail
     def parse_product(self, product):
@@ -131,6 +138,7 @@ class Bicicosmetics:
             product_detail["category"] = self.category[1]
 
             self.parse_description(detail, product_detail)
+            self.parse_product_description(detail, product_detail)
 
             images = detail.select(
                 'a[class="product-gallery__thumb-placeholder"]')
