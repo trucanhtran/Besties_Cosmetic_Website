@@ -235,3 +235,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
+p > img {
+  width: 600px;
+  height: 600px;
+}
