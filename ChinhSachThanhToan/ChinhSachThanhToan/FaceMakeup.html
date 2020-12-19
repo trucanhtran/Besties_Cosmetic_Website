@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -285,15 +285,15 @@
     </style>
     <script>
       var app = angular.module("angularApp", []);
-      app.controller("EyeController", function ($scope, $http) {
+      app.controller("FaceController", function ($scope, $http) {
         const page = parseInt(window.location.href.split("?page=")[1]) || 1;
         const totalPerPage = 18;
         $http({
           method: "GET",
-          url: "http://localhost:3000/eyesMakeup",
+          url: "http://localhost:3000/faceMakeup",
         }).then(
           function mySucces(respone) {
-            $scope.eyes = respone.data.slice(
+            $scope.faces = respone.data.slice(
               (page - 1) * totalPerPage,
               page * totalPerPage
             );
@@ -510,26 +510,25 @@
               <div
                 style="width: 100%"
                 ng-app="angularApp"
-                ng-controller="FakeMakeupController"
+                ng-controller="FaceController"
                 class="products-table"
               >
                 <div
                   style="display: inline-block"
-                  ng-repeat="data in datas | filter:search"
+                  ng-repeat="face in faces | filter:search"
                 >
                   <img
-                    ng-src="{{data.image}}"
+                    ng-src="{{face.image}}"
                     style="width: 300px; height: 300px; padding: 10px"
-                    onerror="showNoImage(this)"
                   /><br />
-                  <div class="ellipsis-title">{{data.TenSP}}</div>
+                  <div style="width: 300px">{{face.TenSP}}</div>
                   <br />
-                  {{data.Giaban}}<br />
+                  {{face.Giaban}}<br />
                 </div>
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
                     <a ng-href="{{'FaceMakeup.html?page=' + (item+1)}}"
-                      >{{'Trang ' + (item+1) +' |'}}</a
+                      >{{ (item+1)+ ' |'}}</a
                     >
                   </div>
                 </div>
