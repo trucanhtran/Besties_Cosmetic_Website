@@ -529,7 +529,12 @@
                     style="width: 300px; height: 300px; padding: 10px"
                     onerror="showNoImage(this)"
                   /><br />
-                  <div class="ellipsis-title">{{eye.TenSP}}</div>
+                  <div class="ellipsis-title">
+                    <a
+                      ng-href="{{'ProductDetails.html?&cat='+eye.category+'&id=' + eye.id}}"
+                      >{{eye.TenSP}}</a
+                    >
+                  </div>
                   <br />
                   {{eye.Giaban}}<br />
                 </div>
