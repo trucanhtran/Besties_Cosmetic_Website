@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
-
+    <link rel="stylesheet" href="css/cacsanpham.css" type="text/css" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
       .auto-style1 {
@@ -261,29 +261,10 @@
         -webkit-line-clamp: 2;
         padding: 0px 20px 0px 0px;
       }
-      .wrap-paging {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        padding-top: 40px;
-      }
-      .item-paging {
-        padding: 4px;
-      }
-      .item-paging > a {
-        color: black;
-        text-decoration: none;
-      }
-      .item-paging > a:hover {
-        color: #ffa5a5;
-      }
-      /* .item-paging > a:visited {
-        color: #0001ee;
-      }*/
     </style>
     <script>
       var app = angular.module("angularApp", []);
-      app.controller("otherController", function ($scope, $http) {
+      app.controller("OtherController", function ($scope, $http) {
         const page = parseInt(window.location.href.split("?page=")[1]) || 1;
         const totalPerPage = 18;
         $http({
@@ -516,26 +497,45 @@
               <div
                 style="width: 100%"
                 ng-app="angularApp"
-                ng-controller="otherController"
+                ng-controller="OtherController"
                 class="products-table"
               >
                 <div
+                  class="tungsanpham"
                   style="display: inline-block"
                   ng-repeat="data in datas | filter:search"
                 >
                   <img
                     ng-src="{{data.image}}"
-                    style="width: 300px; height: 300px; padding: 10px"
+                    class="image"
+                    style="width: 300px; height: 300px"
                     onerror="showNoImage(this)"
                   /><br />
-                  <div class="ellipsis-title">{{data.TenSP}}</div>
+                  <div class="ellipsis-title">
+                    <div style="text-align: center">
+                      <a
+                        class="tensp"
+                        ng-href="{{'ProductDetails.html?&cat='+data.category+'&id=' + data.id}}"
+                        >{{data.TenSP}}</a
+                      >
+                    </div>
+                  </div>
                   <br />
-                  {{data.Giaban}}<br />
+                  <div class="giaban">
+                    {{data.Giaban}}
+                    <br />
+                    <input
+                      type="button"
+                      value="ADD TO CART"
+                      class="addtocart"
+                    />
+                  </div>
                 </div>
+                <br />
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
-                    <a ng-href="{{'Other.html?page=' + (item+1)}}"
-                      >{{(item+1) +' |'}}</a
+                    <a class="page" ng-href="{{'Other.html?page=' + (item+1)}}"
+                      >{{(item+1)}}</a
                     >
                   </div>
                 </div>

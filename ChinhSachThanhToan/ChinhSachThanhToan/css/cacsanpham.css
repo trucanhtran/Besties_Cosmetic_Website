@@ -1,12 +1,17 @@
 .tensp {
+  text-decoration: none;
   padding: 10px 0px;
   text-align: center;
   margin-left: 60px;
+  color: black;
   height: 60px;
   z-index: 1;
   font-weight: bold;
-  font-family: iciel "#9Slide03 IcielSamsung Sharp Bo";
+  font-family: "#9Slide03 IcielSamsung Sharp Bo";
   font-size: 18px;
+}
+.tensp:hover {
+  color: #ffa5a5;
 }
 .giaban {
   text-align: center;

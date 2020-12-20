@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
-    <link rel="stylesheet" href="css/cacsanpham.css" type="tetx/css" />
+    <link rel="stylesheet" href="css/cacsanpham.css" type="text/css" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
       .auto-style1 {
@@ -242,13 +242,11 @@
       table.products-table > tbody > tr > td {
         border: 1px solid black;
       }
-
       .wrap-product-images {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
       }
-
       .product-image {
         width: 80px;
         height: 80px;
@@ -266,7 +264,7 @@
     </style>
     <script>
       var app = angular.module("angularApp", []);
-      app.controller("KemChongNangController", function ($scope, $http) {
+      app.controller("KcnController", function ($scope, $http) {
         const page = parseInt(window.location.href.split("?page=")[1]) || 1;
         const totalPerPage = 18;
         $http({
@@ -287,6 +285,12 @@
           }
         );
       });
+
+      function showNoImage(image) {
+        image.onerror = "";
+        image.src = "./images/no_image.jpg";
+        return true;
+      }
     </script>
   </head>
   <body>
@@ -333,6 +337,7 @@
                     <li><a href="#">FACE MAKE UP</a></li>
                     <li><a href="#">LIPS MAKE UP</a></li>
                     <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
                   </ul>
                 </li>
                 <li>
@@ -391,8 +396,8 @@
               <b>Make up</b>
             </a>
             >
-            <a href="EyesMakeup.html" class="linkdanhmuc" style="color: black">
-              <b>Eyes Make up</b>
+            <a href="KemDuongDa.html" class="linkdanhmuc" style="color: black">
+              <b>Kem Dưỡng Da</b>
             </a>
           </td>
         </tr>
@@ -429,7 +434,8 @@
               <div class="dropdown-container">
                 <a href="#">FACE MAKE UP</a>
                 <a href="#">LIPS MAKE UP</a>
-                <a href="#">EYES MAKE UP</a>
+                <a href="EyesMakeup.html">EYES MAKE UP</a>
+                <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
               </div>
               <button class="dropdown-btn">
                 SKIN CARE
@@ -491,7 +497,7 @@
               <div
                 style="width: 100%"
                 ng-app="angularApp"
-                ng-controller="KemChongNangController"
+                ng-controller="KcnController"
                 class="products-table"
               >
                 <div
@@ -502,11 +508,17 @@
                   <img
                     ng-src="{{data.image}}"
                     class="image"
-                    style="width: 300px; height: 300px; padding: 10px"
+                    style="width: 300px; height: 300px"
                     onerror="showNoImage(this)"
                   /><br />
                   <div class="ellipsis-title">
-                    <div class="tensp">{{data.TenSP}}</div>
+                    <div style="text-align: center">
+                      <a
+                        class="tensp"
+                        ng-href="{{'ProductDetails.html?&cat='+data.category+'&id=' + data.id}}"
+                        >{{data.TenSP}}</a
+                      >
+                    </div>
                   </div>
                   <br />
                   <div class="giaban">
