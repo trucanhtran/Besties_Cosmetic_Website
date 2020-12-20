@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
-    <link rel="stylesheet" href="css/cacsanpham.css" type="text/css" />
+
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
       .auto-style1 {
@@ -242,13 +242,11 @@
       table.products-table > tbody > tr > td {
         border: 1px solid black;
       }
-
       .wrap-product-images {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
       }
-
       .product-image {
         width: 80px;
         height: 80px;
@@ -263,15 +261,34 @@
         -webkit-line-clamp: 2;
         padding: 0px 20px 0px 0px;
       }
+      .wrap-paging {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        padding-top: 40px;
+      }
+      .item-paging {
+        padding: 4px;
+      }
+      .item-paging > a {
+        color: black;
+        text-decoration: none;
+      }
+      .item-paging > a:hover {
+        color: #ffa5a5;
+      }
+      /* .item-paging > a:visited {
+        color: #0001ee;
+      }*/
     </style>
     <script>
       var app = angular.module("angularApp", []);
-      app.controller("EyeController", function ($scope, $http) {
+      app.controller("otherController", function ($scope, $http) {
         const page = parseInt(window.location.href.split("?page=")[1]) || 1;
         const totalPerPage = 18;
         $http({
           method: "GET",
-          url: "http://localhost:3000/eyesMakeup",
+          url: "http://localhost:3000/other",
         }).then(
           function mySucces(respone) {
             $scope.datas = respone.data.slice(
@@ -287,6 +304,12 @@
           }
         );
       });
+
+      function showNoImage(image) {
+        image.onerror = "";
+        image.src = "./images/no_image.jpg";
+        return true;
+      }
     </script>
   </head>
   <body>
@@ -304,14 +327,7 @@
                 <img src="images/logobesties.png" class="logo" width="20%" />
               </div>
               <div style="margin-top: 2px; padding: 10px">
-                <form action="Search.html">
-                  <input
-                    type="Search"
-                    id="Search"
-                    name="q"
-                    placeholder="Search"
-                  />
-                </form>
+                <input type="Search" id="Search" placeholder="Search" />
               </div>
               <a href="#"
                 ><img src="images/cart.png" class="cart" width="10%"
@@ -340,6 +356,7 @@
                     <li><a href="#">FACE MAKE UP</a></li>
                     <li><a href="#">LIPS MAKE UP</a></li>
                     <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
                   </ul>
                 </li>
                 <li>
@@ -398,8 +415,8 @@
               <b>Make up</b>
             </a>
             >
-            <a href="EyesMakeup.html" class="linkdanhmuc" style="color: black">
-              <b>Eyes Make up</b>
+            <a href="KemDuongDa.html" class="linkdanhmuc" style="color: black">
+              <b>Kem Dưỡng Da</b>
             </a>
           </td>
         </tr>
@@ -436,7 +453,8 @@
               <div class="dropdown-container">
                 <a href="#">FACE MAKE UP</a>
                 <a href="#">LIPS MAKE UP</a>
-                <a href="#">EYES MAKE UP</a>
+                <a href="EyesMakeup.html">EYES MAKE UP</a>
+                <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
               </div>
               <button class="dropdown-btn">
                 SKIN CARE
@@ -498,38 +516,26 @@
               <div
                 style="width: 100%"
                 ng-app="angularApp"
-                ng-controller="EyeController"
+                ng-controller="otherController"
                 class="products-table"
               >
                 <div
-                  class="tungsanpham"
                   style="display: inline-block"
                   ng-repeat="data in datas | filter:search"
                 >
                   <img
                     ng-src="{{data.image}}"
-                    class="image"
                     style="width: 300px; height: 300px; padding: 10px"
                     onerror="showNoImage(this)"
                   /><br />
-                  <div class="ellipsis-title">
-                    <div class="tensp">{{data.TenSP}}</div>
-                  </div>
+                  <div class="ellipsis-title">{{data.TenSP}}</div>
                   <br />
-                  <div class="giaban">
-                    {{data.Giaban}}<br /><input
-                      type="button"
-                      value="ADD TO CART"
-                      class="addtocart"
-                    />
-                  </div>
+                  {{data.Giaban}}<br />
                 </div>
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
-                    <a
-                      class="page"
-                      ng-href="{{'EyesMakeup.html?page=' + (item+1)}}"
-                      >{{(item+1)}}</a
+                    <a ng-href="{{'Other.html?page=' + (item+1)}}"
+                      >{{(item+1) +' |'}}</a
                     >
                   </div>
                 </div>

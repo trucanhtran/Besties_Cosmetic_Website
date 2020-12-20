@@ -1,0 +1,69 @@
+.tensp {
+  padding: 10px 0px;
+  text-align: center;
+  margin-left: 60px;
+  height: 60px;
+  z-index: 1;
+  font-weight: bold;
+  font-family: iciel "#9Slide03 IcielSamsung Sharp Bo";
+  font-size: 18px;
+}
+.giaban {
+  text-align: center;
+  margin-left: 20px;
+  font-family: iciel "#9Slide03 IcielSamsung Sharp Bo";
+  font-size: 18px;
+}
+.image {
+  padding: 20px;
+  padding-left: 40px;
+  transition: transform 0.2s;
+}
+.image:hover {
+  transform: scale(1.15);
+}
+.addtocart {
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: transform 0.1s;
+}
+.addtocart:hover {
+  background-color: #ffa5a5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1.15);
+}
+
+.wrap-paging {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+.item-paging {
+  padding: 6px;
+}
+
+.item-paging > a {
+  text-decoration: none;
+}
+.page {
+  background-color: black;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.page:hover {
+  background-color: black;
+  color: #ffa5a5;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
