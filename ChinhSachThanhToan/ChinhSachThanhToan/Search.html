@@ -1,399 +1,373 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
-
+    <link rel="stylesheet" href="css/cacsanpham.css" type="text/css" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
-      .auto-style1 {
-        width: 274px;
-      }
+          .auto-style1 {
+              width: 274px;
+          }
 
-      .auto-style3 {
-        height: 50px;
-        padding-left: 50px;
-      }
+          .auto-style3 {
+              height: 50px;
+              padding-left: 50px;
+          }
 
-      body {
-        font-family: "Roboto", sans-serif;
-        margin-top: 10px;
-      }
+          body {
+              font-family: "Roboto", sans-serif;
+              margin-top: 10px;
+          }
 
-      table tr td .container {
-        display: flex;
-        justify-content: center;
-      }
+          table tr td .container {
+              display: flex;
+              justify-content: center;
+          }
 
-      table tr td .login {
-        margin-top: 30px;
-        text-align: center;
-        color: black;
-        border-radius: 8px;
-      }
+          table tr td .login {
+              margin-top: 30px;
+              text-align: center;
+              color: black;
+              border-radius: 8px;
+          }
 
-      table tr td .login:hover {
-        background-color: whitesmoke;
-      }
+              table tr td .login:hover {
+                  background-color: whitesmoke;
+              }
 
-      table tr td .login a {
-        text-decoration: none;
-        color: black;
-      }
+              table tr td .login a {
+                  text-decoration: none;
+                  color: black;
+              }
 
-      table tr td .login a:hover {
-        color: #ffa5a5;
-        font-weight: bold;
-        border: 1px solid whitesmoke;
-      }
+                  table tr td .login a:hover {
+                      color: #ffa5a5;
+                      font-weight: bold;
+                      border: 1px solid whitesmoke;
+                  }
 
-      table tr td .besties {
-        flex-grow: 1;
-        width: 20%;
-        text-align: center;
-        margin: 1%;
-      }
+          table tr td .besties {
+              flex-grow: 1;
+              width: 20%;
+              text-align: center;
+              margin: 1%;
+          }
 
-      table tr td .logo {
-        margin-top: -10px;
-      }
+          table tr td .logo {
+              margin-top: -10px;
+          }
 
-      table tr td div input {
-        margin-top: 30px;
-        border-radius: 8px;
-        padding: 10px;
-      }
+          table tr td div input {
+              margin-top: 30px;
+              border-radius: 8px;
+              padding: 10px;
+          }
 
-      table tr td .cart {
-        width: 40px;
-        height: 30px;
-        margin-top: 7px;
-        margin-right: 30px;
-      }
+          table tr td .cart {
+              width: 40px;
+              height: 30px;
+              margin-top: 7px;
+              margin-right: 30px;
+          }
 
-      table tr td .cart:hover {
-        cursor: pointer;
-      }
+              table tr td .cart:hover {
+                  cursor: pointer;
+              }
 
-      table tr td #search {
-        background-image: url(images/find.png);
-        background-repeat: no-repeat;
-        background-position: 200px;
-      }
+          table tr td #search {
+              background-image: url(images/find.png);
+              background-repeat: no-repeat;
+              background-position: 200px;
+          }
 
-      .cssheader form table {
-        border: none;
-      }
+          .cssheader form table {
+              border: none;
+          }
 
-      .cssheader form table tr td div a {
-        text-decoration: none;
-      }
+              .cssheader form table tr td div a {
+                  text-decoration: none;
+              }
 
-      .cssheader * {
-        margin: 0;
-        padding: 0;
-      }
+          .cssheader * {
+              margin: 0;
+              padding: 0;
+          }
 
-      .cssheader table tr td #menu ul {
-        background: white;
-        color: black;
-        text-align: center;
-        list-style-type: none;
-        border: none;
-      }
+          .cssheader table tr td #menu ul {
+              background: white;
+              color: black;
+              text-align: center;
+              list-style-type: none;
+              border: none;
+          }
 
-      .cssheader table tr td #menu ul li {
-        display: inline-block;
-        width: 160px;
-        height: 40px;
-        line-height: 40px;
-        margin-left: -5px;
-      }
+              .cssheader table tr td #menu ul li {
+                  display: inline-block;
+                  width: 160px;
+                  height: 40px;
+                  line-height: 40px;
+                  margin-left: -5px;
+              }
 
-      .cssheader table tr td #menu ul li a {
-        text-decoration: none;
-        color: black;
-        display: block;
-      }
+                  .cssheader table tr td #menu ul li a {
+                      text-decoration: none;
+                      color: black;
+                      display: block;
+                  }
 
-      .cssheader table tr td #menu ul li a:hover {
-        background: whitesmoke;
-        color: #ffa5a5;
-        font-weight: bold;
-      }
+                      .cssheader table tr td #menu ul li a:hover {
+                          background: whitesmoke;
+                          color: #ffa5a5;
+                          font-weight: bold;
+                      }
 
-      .cssheader table tr td #menu ul li ul {
-        list-style-type: none;
-        background: white;
-        text-align: center;
-      }
+                  .cssheader table tr td #menu ul li ul {
+                      list-style-type: none;
+                      background: white;
+                      text-align: center;
+                  }
 
-      .cssheader table tr td #menu ul li ul li {
-        color: black;
-        display: inline-block;
-        font-size: 10px;
-        border: 1px;
-        width: 160px;
-        height: 15px;
-        margin-left: -5px;
-      }
+                      .cssheader table tr td #menu ul li ul li {
+                          color: black;
+                          display: inline-block;
+                          font-size: 10px;
+                          border: 1px;
+                          width: 160px;
+                          height: 15px;
+                          margin-left: -5px;
+                      }
 
-      .cssheader table tr td #menu ul li ul li a {
-        text-decoration: none;
-        color: black;
-        display: block;
-      }
+                          .cssheader table tr td #menu ul li ul li a {
+                              text-decoration: none;
+                              color: black;
+                              display: block;
+                          }
 
-      .cssheader table tr td #menu ul li ul li a:hover {
-        background: whitesmoke;
-        color: gray;
-        font-weight: bold;
-      }
+                              .cssheader table tr td #menu ul li ul li a:hover {
+                                  background: whitesmoke;
+                                  color: gray;
+                                  font-weight: bold;
+                              }
 
-      .cssheader table tr td .sub-menu {
-        display: none;
-        position: absolute;
-      }
+          .cssheader table tr td .sub-menu {
+              display: none;
+              position: absolute;
+          }
 
-      .cssheader table tr td #menu li {
-        position: relative; /*hiển thị gần menu mẹ*/
-      }
+          .cssheader table tr td #menu li {
+              position: relative; /*hiển thị gần menu mẹ*/
+          }
 
-      .cssheader table tr td #menu li:hover .sub-menu {
-        display: block;
-      }
+              .cssheader table tr td #menu li:hover .sub-menu {
+                  display: block;
+              }
 
-      .cssheader table tr td .sub-menu li {
-        margin-left: 0 !important;
-      }
-      /* Fixed sidenav, full height */
-      .sidenav {
-        height: 100%;
-        font-weight: bold;
-        width: 280px;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: whitesmoke;
-        color: black;
-        overflow-x: hidden;
-        padding-top: 20px;
-        line-height: 30px;
-      }
+          .cssheader table tr td .sub-menu li {
+              margin-left: 0 !important;
+          }
+          /* Fixed sidenav, full height */
+          .sidenav {
+              height: 100%;
+              font-weight: bold;
+              width: 280px;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: whitesmoke;
+              color: black;
+              overflow-x: hidden;
+              padding-top: 20px;
+              line-height: 30px;
+          }
 
-      /* Style the sidenav links and the dropdown button */
-      .sidenav a,
-      .dropdown-btn {
-        padding: 6px 8px 6px 16px;
-        line-height: 30px;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 15px;
-        color: black;
-        display: block;
-        border: none;
-        background: none;
-        width: 100%;
-        text-align: left;
-        cursor: pointer;
-        outline: none;
-      }
+              /* Style the sidenav links and the dropdown button */
+              .sidenav a,
+              .dropdown-btn {
+                  padding: 6px 8px 6px 16px;
+                  line-height: 30px;
+                  text-decoration: none;
+                  font-weight: 500;
+                  font-size: 15px;
+                  color: black;
+                  display: block;
+                  border: none;
+                  background: none;
+                  width: 100%;
+                  text-align: left;
+                  cursor: pointer;
+                  outline: none;
+              }
 
-      /* On mouse-over */
-      .sidenav a:hover,
-      .dropdown-btn:hover {
-        color: #ffa5a5;
-      }
-      /* Main content */
-      .main {
-        margin-left: 200px; /* Same as the width of the sidenav */
-        font-size: 20px; /* Increased text to enable scrolling */
-        padding: 0px 10px;
-      }
+                  /* On mouse-over */
+                  .sidenav a:hover,
+                  .dropdown-btn:hover {
+                      color: #ffa5a5;
+                  }
+          /* Main content */
+          .main {
+              margin-left: 200px; /* Same as the width of the sidenav */
+              font-size: 20px; /* Increased text to enable scrolling */
+              padding: 0px 10px;
+          }
 
-      /* Add an active class to the active dropdown button */
-      .active {
-        background-color: #e8e8e8;
-        color: black;
-      }
+          /* Add an active class to the active dropdown button */
+          .active {
+              background-color: #e8e8e8;
+              color: black;
+          }
 
-      /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-      .dropdown-container {
-        display: none;
-        background-color: #eeeded;
-        padding-left: 30px;
-        font-weight: lighter;
-      }
-      .dropdown-container a {
-        font-weight: 400;
-        font-size: 14px;
-      }
-      /* Optional: Style the caret down icon */
-      .fa-caret-down {
-        float: right;
-        padding-right: 8px;
-      }
+          /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+          .dropdown-container {
+              display: none;
+              background-color: #eeeded;
+              padding-left: 30px;
+              font-weight: lighter;
+          }
 
-      /* css for products table */
-      table.products-table {
-        border: 1px solid black;
-      }
-      table.products-table > tbody > tr > td {
-        border: 1px solid black;
-      }
+              .dropdown-container a {
+                  font-weight: 400;
+                  font-size: 14px;
+              }
+          /* Optional: Style the caret down icon */
+          .fa-caret-down {
+              float: right;
+              padding-right: 8px;
+          }
 
-      .wrap-product-images {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
+          /* css for products table */
+          table.products-table {
+              border: 1px solid black;
+          }
 
-      .product-image {
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-      }
-      .ellipsis-title {
-        width: 300px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        padding: 0px 20px 0px 0px;
-      }
-      .wrap-paging {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        padding-top: 40px;
-      }
-      .item-paging {
-        padding: 4px;
-      }
-      .item-paging > a {
-        color: black;
-        text-decoration: none;
-      }
-      .item-paging > a:hover {
-        color: #ffa5a5;
-      }
-      /*.item-paging > a:visited {
-        color: #393e46;
-      }*/
+              table.products-table > tbody > tr > td {
+                  border: 1px solid black;
+              }
+
+          .wrap-product-images {
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+          }
+
+          .product-image {
+              width: 80px;
+              height: 80px;
+              object-fit: cover;
+          }
+
+          .ellipsis-title {
+              width: 300px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              padding: 0px 20px 0px 0px;
+          }
+
+         
     </style>
     <script>
-      var app = angular.module("searchApp", []);
-      app.controller("SearchController", function ($scope, $http) {
-        const page = parseInt(window.location.href.split("&page=")[1]) || 1;
-        const totalPerPage = 18;
-        const keyword =
-          window.location.href.split("&page=")[0].split("?q=")[1] || "";
-        $http({
-          method: "GET",
-          url: "http://localhost:3000/allProducts?TenSP_like=" + keyword,
-        }).then(
-          function mySucces(respone) {
-            $scope.datas = respone.data.slice(
-              (page - 1) * totalPerPage,
-              page * totalPerPage
-            );
+        var app = angular.module("searchApp", []);
+        app.controller("SearchController", function ($scope, $http) {
+            const page = parseInt(window.location.href.split("&page=")[1]) || 1;
+            const totalPerPage = 18;
+            const keyword =
+                window.location.href.split("&page=")[0].split("?q=")[1] || "";
+            $http({
+                method: "GET",
+                url: "http://localhost:3000/allProducts?TenSP_like=" + keyword,
+            }).then(
+                function mySucces(respone) {
+                    $scope.datas = respone.data.slice(
+                        (page - 1) * totalPerPage,
+                        page * totalPerPage
+                    );
 
-            const totalPage = Math.ceil(respone.data.length / totalPerPage);
-            $scope.total = [...Array(totalPage).keys()];
-            $scope.keyword = keyword;
-          },
-          function myError(respone) {
-            $scope.dataError = respone.statusText;
-          }
-        );
-      });
+                    const totalPage = Math.ceil(respone.data.length / totalPerPage);
+                    $scope.total = [...Array(totalPage).keys()];
+                    $scope.keyword = keyword;
+                },
+                function myError(respone) {
+                    $scope.dataError = respone.statusText;
+                }
+            );
+        });
     </script>
-  </head>
-  <body>
+</head>
+  <body style="width:100%">
     <table>
       <thead class="cssheader">
+          <tr>
+              <td colspan="2">
+                  <div class="container">
+                      <div class="container">
+                          <div class="login" style="text-align:center">
+                              <a href="dangky.html">Đăng ký </a>
+                              /
+                              <a href="DangNhap.html">Đăng nhập</a>
+                          </div>
+                          <div class="besties">
+                              <a href="HomePage.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
+                          </div>
+                          <div style="margin-top: 2px; padding: 10px">
+                              <form action="Search.html">
+                                  <input type="Search"
+                                         id="Search"
+                                         name="q"
+                                         placeholder="Search" />
+                              </form>
+                          </div>
+                          <a href="Cart.html"><img src="images/cart.png" class="cart" width="10%" /></a>
+                      </div>
+                  </div>
+              </td>
+          </tr>
         <tr>
           <td colspan="2">
-            <div class="container">
-              <div class="login" style="text-align: center">
-                <a href="#">Đăng ký </a>
-                /
-                <a href="#">Đăng nhập</a>
+              <div id="menu" style="font-family:'Arial'">
+                  <ul>
+                      <li><a href="HomePage.html">TRANG CHỦ</a> </li>
+                      <li>
+                          <a href="#" style="text-decoration:none">MAKE UP</a>
+                          <ul class="sub-menu" style="z-index:9999">
+                              <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                              <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                              <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#" style="text-decoration:none">SKINCARE</a>
+                          <ul class="sub-menu" style="z-index:9999">
+                              <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                              <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
+                              <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                              <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                              <li><a href="MatNa.html">MẶT NẠ</a></li>
+                              <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                              <li><a href="Lotion.html">LOTION</a></li>
+                              <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                              <li><a href="Toner.html">TONER</a></li>
+                              <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                              <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="Other.html" style="text-decoration:none">KHÁC</a>
+                      </li>
+                      <li>
+                          <a href="#" style="text-decoration:none">CẨM NANG</a>
+                          <ul class="sub-menu" style="z-index:9999">
+                              <li><a href="Review.html">REVIEWS</a></li>
+                              <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                              <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="LienHe.html" style="text-decoration:none">LIÊN HỆ</a> </li>
+                  </ul>
               </div>
-              <div class="besties">
-                <img src="images/logobesties.png" class="logo" width="20%" />
-              </div>
-              <div style="margin-top: 2px; padding: 10px">
-                <form action="Search.html">
-                  <input
-                    type="Search"
-                    id="Search"
-                    name="q"
-                    placeholder="Search"
-                  />
-                </form>
-              </div>
-              <a href="#"
-                ><img src="images/cart.png" class="cart" width="10%"
-              /></a>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <div id="menu" style="font-family: 'Arial'">
-              <ul>
-                <li><a href="TrangChu.html">TRANG CHỦ</a></li>
-                <li>
-                  <a href="#">BLACK FRIDAY</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">FLASH SALE</a></li>
-                    <li><a href="#">WEEK SALE</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">HOT TREND</a>
-                </li>
-                <li>
-                  <a href="#">MAKE UP</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">FACE MAKE UP</a></li>
-                    <li><a href="#">LIPS MAKE UP</a></li>
-                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">SKINCARE</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">SỮA RỬA MẶT</a></li>
-                    <li><a href="#">KEM CHỐNG NẮNG</a></li>
-                    <li><a href="#">MẶT NẠ</a></li>
-                    <li><a href="#">TẨY TRANG</a></li>
-                    <li><a href="#">TẨY TẾ BÀO CHẾT</a></li>
-                    <li><a href="#">ESSENCE - SERUM - AMPOULE</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">KHÁC</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">CHĂM SÓC RĂNG MIỆNG</a></li>
-                    <li><a href="#">BỘ KIT SẢN PHẨM</a></li>
-                    <li><a href="#">MẪU THỬ SAMPLE</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">CẨM NANG</a>
-                  <ul class="sub-menu">
-                    <li><a href="Review.html">REVIEWS</a></li>
-                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
-                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
-                  </ul>
-                </li>
-                <li><a href="LienHe.html">LIÊN HỆ</a></li>
-              </ul>
-            </div>
           </td>
         </tr>
         <tr>
@@ -403,119 +377,22 @@
       <tbody>
         <tr>
           <td colspan="2" style="text-align: justify">
-            <img src="images/BannerDoiTra.png" width="100%" />
+            <img src="images/BannerDoiTra.png" style="width:100%"/>
           </td>
         </tr>
         <tr>
           <td
             colspan="2"
             class="auto-style3 , colordanhmuc"
-            style="vertical-align: middle"
-          >
-            <a href="TrangChu.html" class="linkdanhmuc" style="color: black">
-              Trang chủ
-            </a>
-            >
-            <a href="#" class="linkdanhmuc" style="color: black">
-              <b>Make up</b>
-            </a>
-            >
-            <a href="EyesMakeup.html" class="linkdanhmuc" style="color: black">
-              <b>Eyes Make up</b>
+            style="vertical-align: middle">
+            <a href="#" class="linkdanhmuc" style="color: black;font-weight:bold">
+              Kết quả Tìm Kiếm
             </a>
           </td>
         </tr>
         <tr>
-          <td>Sort by</td>
-        </tr>
-        <tr>
-          <td class="auto-style1" style="align-content: center">
-            <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
-            <hr />
-            <div class="sidenav">
-              <button class="dropdown-btn" href="TrangChu.html">
-                TRANG CHỦ
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div></div>
-              <button class="dropdown-btn">
-                BLACK FRIDAY
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">FLASH SALE</a>
-                <a href="#">WEEK SALE</a>
-              </div>
-              <button class="dropdown-btn">
-                HOT TREND
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div></div>
-              <button class="dropdown-btn">
-                MAKE UP
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">FACE MAKE UP</a>
-                <a href="#">LIPS MAKE UP</a>
-                <a href="#">EYES MAKE UP</a>
-              </div>
-              <button class="dropdown-btn">
-                SKIN CARE
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">SỮA RỬA MẶT</a>
-                <a href="#">KEM CHỐNG NẮNG</a>
-                <a href="#">MẶT NẠ</a>
-                <a href="#">TẨY TRANG</a>
-                <a href="#">TẨY TẾ BÀO CHẾT</a>
-                <a href="#">ESSENCE - SERUM - AMPOULE</a>
-              </div>
-              <button class="dropdown-btn">
-                KHÁC
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">CHĂM SÓC RĂNG MIỆNG</a>
-                <a href="#">BỘ KIT SẢN PHẨM</a>
-                <a href="#">MẪU THỬ SAMPLE</a>
-              </div>
-              <button class="dropdown-btn">
-                CẨM NANG
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">REVIEWS</a>
-                <a href="#">CHÍNH SÁCH ĐỔI TRẢ</a>
-                <a href="#">CHÍNH SÁCH THANH TOÁN</a>
-              </div>
-              <button class="dropdown-btn">
-                LIÊN HỆ
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div></div>
-            </div>
-            <script>
-              //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-              var dropdown = document.getElementsByClassName("dropdown-btn");
-              var i;
-
-              for (i = 0; i < dropdown.length; i++) {
-                dropdown[i].addEventListener("click", function () {
-                  this.classList.toggle("active");
-                  var dropdownContent = this.nextElementSibling;
-                  if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none";
-                  } else {
-                    dropdownContent.style.display = "block";
-                  }
-                });
-              }
-            </script>
-          </td>
+            <td style="width:18%"></td>
           <td>
-            Muốn tìm gì: <input ng-model="search" />
             <div>
               <div
                 style="width: 100%"
@@ -523,24 +400,25 @@
                 ng-controller="SearchController"
                 class="products-table"
               >
-                <div
-                  style="display: inline-block"
-                  ng-repeat="data in datas | filter:search"
-                >
-                  <img
-                    ng-src="{{data.image}}"
-                    style="width: 300px; height: 300px; padding: 10px"
-                    onerror="showNoImage(this)"
-                  /><br />
-                  <div class="ellipsis-title">{{data.TenSP}}</div>
-                  <br />
-                  {{data.Giaban}}<br />
-                </div>
+                  <div style="display: inline-block"
+                       ng-repeat="data in datas | filter:search">
+                      <img ng-src="{{data.image}}" class="image"
+                           style="width: 300px; height: 300px"
+                           onerror="showNoImage(this)" /><br />
+                      <div class="ellipsis-title"><div class="tensp">{{data.TenSP}}</div></div>
+                      <br />
+                      <div class="giaban">
+                          {{data.Giaban}}<br />
+                          <input type="button"
+                                 value="ADD TO CART"
+                                 class="addtocart" />
+                      </div>
+                  </div>
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
-                    <a
+                    <a class="page"
                       ng-href="{{'Search.html?q='+ keyword +'&page=' + (item+1)}}"
-                      >{{'Trang ' + (item+1)+ ' |'}}</a
+                      >{{(item+1)}}</a
                     >
                   </div>
                 </div>

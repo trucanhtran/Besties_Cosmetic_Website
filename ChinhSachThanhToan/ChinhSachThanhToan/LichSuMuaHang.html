@@ -22,13 +22,13 @@
         table tr td .container {
             display: flex;
             justify-content: center;
+            padding-top: 5px;
         }
 
         table tr td .login {
-            margin-top: 30px;
-            text-align: center;
             color: black;
             border-radius: 8px;
+            align-items: center;
         }
 
             table tr td .login:hover {
@@ -132,7 +132,7 @@
                     .cssheader table tr td #menu ul li ul li {
                         color: black;
                         display: inline-block;
-                        font-size: 10px;
+                        font-size: 13px;
                         border: 1px;
                         width: 160px;
                         height: 15px;
@@ -167,15 +167,42 @@
         .cssheader table tr td .sub-menu li {
             margin-left: 0 !important;
         }
-        .padding {
-            padding-right: 20px;
-            padding-bottom: 30px;
-            padding-left: 30px;
-            padding-top: 30px;
-            font-size: 18px;
-            font-family: iciel '#9Slide03 IcielSamsung Sharp Bo';
-            vertical-align:middle;
+
+        .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            line-height: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            color: black;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
         }
+
+            /* On mouse-over */
+            .sidenav a:hover,
+            .dropdown-btn:hover {
+                color: #ffa5a5;
+            }
+        /* Main content */
+        .main {
+            margin-left: 200px; /* Same as the width of the sidenav */
+            font-size: 20px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        /* Add an active class to the active dropdown button */
+        .active {
+            background-color: #e8e8e8;
+            color: black;
+        }
+
+        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
         .dropdown-container {
             display: none;
             background-color: #eeeded;
@@ -192,7 +219,74 @@
             float: right;
             padding-right: 8px;
         }
+        .lichsu-tensp {
+            font-weight: bold;
+            text-decoration: none;
+            margin-left:50px;
+            color: black;
+            width: 300px;
+            height: 100px
+        }
+
+            .lichsu-tensp:hover {
+                color: #ffa5a5;
+            }
+
+        .mualannua {
+            padding: 15px;
+            width: 150px;
+            background-color: black;
+            color: white;
+            border: 2px solid #ffa5a5;
+            font-size: 18px;
+            border-radius: 5px;
+            font-family: '#9Slide03 Open Sans'
+        }
+
+            .mualannua:hover {
+                background-color: #ffa5a5;
+                border: 2px solid black;
+                cursor: pointer
+            }
+
+        .danhgia {
+            padding: 15px;
+            width: 150px;
+            background-color: white;
+            color: black;
+            border: 2px solid #ffa5a5;
+            font-size: 18px;
+            border-radius: 5px;
+            font-family: '#9Slide03 Open Sans'
+        }
+
+            .danhgia:hover {
+                background-color: #ffa5a5;
+                border: 2px solid black;
+                cursor: pointer;
+            }
+        .danhmuc:hover {
+            background-color: lightgray;
+        }
+
+        .danhmuctrai {
+            width: 300px;
+        }
+
+        .menutrai {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: 15px;
+            vertical-align: bottom;
+            margin-top: 20px;
+        }
+
+            .menutrai:hover {
+                color: #ffa5a5;
+            }
     </style>
+
 </head>
 <body>
     <table>
@@ -267,80 +361,168 @@
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td>
+                </td>
+            </tr>
         </thead>
         <tbody>
             <tr>
                 <td colspan="2" style="text-align:justify">
-                    <img src="images/BannerDoiTra.png" width="100%" />
+                    <img src="images/BannerDoiTra.png" style="width:100%" />
                 </td>
             </tr>
             <tr>
-                <td colspan="2" class="auto-style3 , colordanhmuc" style="vertical-align:middle;">
-                    <a href="HomePage.html" class="linkdanhmuc" style="color:black; font-weight:bold">
-                        Trang chủ
+                <td colspan="2"
+                    class="auto-style3 , colordanhmuc"
+                    style="vertical-align: middle">
+                    <a href="LichSuMuaHang.html" class="linkdanhmuc" style="color: black;font-weight:bold">
+                        Lịch Sử Mua Hàng
                     </a>
-                    >
-                    <a href="LienHe.html" class="linkdanhmuc" style="color:black">
-                        Liên Hệ
-                    </a>
-                </td>
+                    
             </tr>
             <tr>
-                <td class="padding">
-                    <img src="images/MapBesties.png" />
+                <td style="height:10px;"></td>
+            </tr>
+            <tr>
+                <td class="danhmuctrai" style="align-content: center; background-color:whitesmoke">
+                    <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px">
+                        <img src="images/ava.png" style="vertical-align:bottom; width:60px" />
+                        <a href="#" class="menutrai">Nguyễn Thị Bảo Phương</a>
+                    </p>
+                    <hr />
+                    <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px">
+                        <img src="images/ava.png" style="vertical-align:bottom; width:50px" />
+                        <a href="#" class="menutrai">Tài khoản của tôi</a>
+                    </p>
+                    <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px">
+                        <img src="images/history.png" style="vertical-align:middle; height:30px; padding:15px" />
+                        <a href="#" class="menutrai">Lịch sử mua hàng</a>
+                    </p>
+                    <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px; margin-left:-50px">
+                        <img src="images/signout.png" style="vertical-align:middle; height:30px; padding:15px" />
+                        <a href="#" class="menutrai">Đăng xuất</a>
+                    </p>
                 </td>
-
-                <td class="padding">
-                    <table cellpadding="8" cellspacing="8" >W
+                <td style="padding:50px 70px">
+                    <table>
                         <tr>
-                            <td >
-                                Chúng tôi luôn sẵn sàng hỗ trợ, mọi thông tin về hàng hoá, dịch vụ, góp ý, thắc mắc, hợp tác,…                            
-                             
+                            <td>
+                                <a href="#">
+                                    <img src="https://product.hstatic.net/1000379579/product/bici-innisfree-volcanic_293299c111004bd6aa345605155a561f_master.jpg" style="width:190px"
+                                         onmouseover="this.src='https://product.hstatic.net/1000379579/product/bici-innisfree-volcanic2_39afd8e29ca34d989e1325bb3bf0f2f1_master.jpg'"
+                                         onmouseout="this.src='https://product.hstatic.net/1000379579/product/bici-innisfree-volcanic_293299c111004bd6aa345605155a561f_master.jpg'" />
+                                </a>
                             </td>
+                            <td>
+                                <a href="#" class="lichsu-tensp" style="margin-left:-120px">Sữa Rửa Mặt Innisfree Jeju Volcanic Pore Cleansing Foam EX</a><br /><br /><br />
+                                <p style="font-size:20px; text-align:left; font-weight:bold; margin-left:-120px">x 1</p><br /><br /><br />
+                                <p style="font-size:20px; text-align:end; font-weight:bold">Tổng số tiền: <g style="color:red">    169,000 đ</g></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color:gray; font-size:15px">
+                                Ký túc xá khu B ĐHQG TPHCM <br /> Oct 30, 2020
+                            </td>
+                            <td style="text-align:right">
+                                <input class="mualannua" type="button" value="Mua lần nữa" />
+                                <input class="danhgia" type="button" value="Đánh giá" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding:20px"><hr /></td>
                         </tr>
                         <tr>
                             <td>
-                                <h1>
-                                    Liên hệ
-                                </h1>
+                                <a href="#">
+                                    <img src="https://product.hstatic.net/1000379579/product/the-face-shop-ink-graffi-brush-pen-liner-bici-cosmetic14-min_ea5c92508b2a4d71907c44a3c0f1bd82_master.jpg" style="width:190px; height:200px"
+                                         onmouseover="this.src='https://product.hstatic.net/1000379579/product/the-face-shop-ink-graffi-brush-pen-liner-bici-cosmetic4-min_8ac5733b4be14042af323795fa132a69_master.jpg'"
+                                         onmouseout="this.src='https://product.hstatic.net/1000379579/product/the-face-shop-ink-graffi-brush-pen-liner-bici-cosmetic14-min_ea5c92508b2a4d71907c44a3c0f1bd82_master.jpg'" />
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#" class="lichsu-tensp" style="margin-left:-120px">Kẻ Mắt Nước Ink Graffi Brush Pen Liner The Face Shop</a><br /><br /><br />
+                                <p style="font-size:20px; text-align:left; font-weight:bold; margin-left:-120px">x 1</p><br /><br /><br />
+                                <p style="font-size:20px; text-align:end; font-weight:bold">Tổng số tiền: <g style="color:red">    153,000 đ</g></p>
                             </td>
                         </tr>
                         <tr>
-                            <td> <hr width="100"/></td>
+                            <td style="color:gray; font-size:15px">
+                                Ký túc xá khu B ĐHQG TPHCM <br /> Sep 30, 2020
+                            </td>
+                            <td style="text-align:right">
+                                <input class="mualannua" type="button" value="Mua lần nữa" />
+                                <input class="danhgia" type="button" value="Đánh giá" />
+                            </td>
                         </tr>
                         <tr>
-                            <td>                                
-                                    Địa chỉ chúng tôi
-                                    <br />
-                                    <strong>Showroom: 1 Võ Văn Ngân, Phường Linh Trung, Quận Thủ Đức, TP Hồ Chí Minh</strong>                               
-                            </td>
+                            <td colspan="2" style="padding:20px"><hr /></td>
                         </tr>
                         <tr>
                             <td>
-                                Email
-                                <br />
-                                <strong>cskh@besties.vn</strong>
+                                <a href="#">
+                                    <img src="https://product.hstatic.net/1000379579/product/black-rouge-ver-7-18_e7e0b43fe37e404e9107076acaace15c_master.jpg"
+                                         style="width:190px"
+                                         onmouseover="this.src='https://product.hstatic.net/1000379579/product/son-kem-li-black-rouge-air-fit-velvet-tint-ver-7-bici-cosmetics-2_25d71736e42b409093e16b9fb5b42d9a_master.jpg'"
+                                         onmouseout="this.src='https://product.hstatic.net/1000379579/product/black-rouge-ver-7-18_e7e0b43fe37e404e9107076acaace15c_master.jpg'" />
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#" class="lichsu-tensp" style="margin-left:-120px">Son Kem Lì Black Rouge Air Fit Velvet Tint Ver.7 VELVET CROWN</a><br /><br /><br />
+                                <p style="font-size:20px; text-align:left; font-weight:bold; margin-left:-120px">x 1</p><br /><br /><br />
+                                <p style="font-size:20px; text-align:end; font-weight:bold">Tổng số tiền: <g style="color:red">    129,000 đ</g></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                Hotline
-                                <br />
-
-                                <strong>1900 0274</strong>
+                            <td style="color:gray; font-size:15px">
+                                Ký túc xá khu B ĐHQG TPHCM <br /> Sep 30, 2020
                             </td>
+                            <td style="text-align:right">
+                                <input class="mualannua" type="button" value="Mua lần nữa" />
+                                <input class="danhgia" type="button" value="Đánh giá" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding:20px"><hr /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="https://product.hstatic.net/1000379579/product/e9f57fa8320b5bdf8d3a9982770636a1_21bcdabe712f42eb9c196e9ebca5de74_master.jpg" style="width:190px"
+                                         onmouseover="this.src='https://product.hstatic.net/1000379579/product/2-22_e7be771741e242d98a41b89911279793_master.jpg'"
+                                         onmouseout="this.src='https://product.hstatic.net/1000379579/product/e9f57fa8320b5bdf8d3a9982770636a1_21bcdabe712f42eb9c196e9ebca5de74_master.jpg'" />
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#" class="lichsu-tensp" style="margin-left:-120px">Tẩy Trang Bioderma H2O</a><br /><br /><br />
+                                <p style="font-size:20px; text-align:left; font-weight:bold; margin-left:-120px">x 1</p><br /><br /><br />
+                                <p style="font-size:20px; text-align:end; font-weight:bold">Tổng số tiền: <g style="color:red">    239,000 đ</g></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color:gray; font-size:15px">
+                                Ký túc xá khu B ĐHQG TPHCM <br /> Sep 30, 2020
+                            </td>
+                            <td style="text-align:right">
+                                <input class="mualannua" type="button" value="Mua lần nữa" />
+                                <input class="danhgia" type="button" value="Đánh giá" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding:20px"><hr /></td>
                         </tr>
                     </table>
                 </td>
             </tr>
         </tbody>
+
         <tfoot>
             <tr>
                 <td colspan="2" style="background-color:#FCDADA">
                     <table>
                         <tr>
                             <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none;"><strong>THÔNG TIN LIÊN HỆ</strong></a></p>
+                                <p><a href="LienHe.html" style="text-decoration:none"><strong>THÔNG TIN LIÊN HỆ</strong></a></p>
                                 <div>
                                     <p><strong>BESTIES COSMETICS</strong> <br /> Số 1 Võ Văn Ngân,Linh Trung,<br /> Thủ Đức, TP HCM</p>
                                     <p>Hotline: 1900 0274</p>
@@ -349,7 +531,7 @@
 
                             </td>
                             <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none;"><strong>VỀ CHÚNG TÔI</strong></a></p>
+                                <p><a href="#" style="text-decoration:none"><strong>VỀ CHÚNG TÔI</strong></a></p>
                                 <div style="padding-left:18px">
                                     <p><a href="#">Giới thiệu <strong>Besties.vn</strong></a></p>
                                     <p><a href="#">Tuyển dụng</a></p>
@@ -359,7 +541,7 @@
 
                             </td>
                             <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none;"><strong>CHĂM SÓC KHÁCH HÀNG</strong></a></p>
+                                <p><a href="#" style="text-decoration:none"><strong>CHĂM SÓC KHÁCH HÀNG</strong></a></p>
                                 <div style="margin-left:-13px">
                                     <p><a href="#">Các câu hỏi thường gặp</a></p>
                                     <p><a href="#">Hướng dẫn đặt hàng</a></p>

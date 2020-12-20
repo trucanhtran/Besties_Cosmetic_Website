@@ -194,6 +194,85 @@
         table tbody tr td table tr td a img{
             margin:10px 5px;
         }
+        /* Fixed sidenav, full height */
+        .sidenav {
+            height: 100%;
+            font-weight: bold;
+            width: 280px;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: whitesmoke;
+            color: black;
+            overflow-x: hidden;
+            padding-top: 20px;
+            line-height: 30px;
+        }
+
+            /* Style the sidenav links and the dropdown button */
+            .sidenav a,
+            .dropdown-btn {
+                padding: 6px 8px 6px 16px;
+                line-height: 30px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 15px;
+                color: black;
+                display: block;
+                border: none;
+                background: none;
+                width: 100%;
+                text-align: left;
+                cursor: pointer;
+                outline: none;
+            }
+
+                /* On mouse-over */
+                .sidenav a:hover,
+                .dropdown-btn:hover {
+                    color: #ffa5a5;
+                }
+        /* Main content */
+        .main {
+            margin-left: 200px; /* Same as the width of the sidenav */
+            font-size: 20px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        /* Add an active class to the active dropdown button */
+        .active {
+            background-color: #e8e8e8;
+            color: black;
+        }
+
+        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+        .dropdown-container {
+            display: none;
+            background-color: #eeeded;
+            padding-left: 30px;
+            font-weight: lighter;
+        }
+
+            .dropdown-container a {
+                font-weight: 400;
+                font-size: 14px;
+            }
+        /* Optional: Style the caret down icon */
+        .fa-caret-down {
+            float: right;
+            padding-right: 8px;
+        }
+
+
+        .img{
+            overflow:hidden;
+        }
+        .img:hover{
+            opacity:0.5;
+        }
+        .contentreview p{
+            font-family:Arial;
+        }
     </style>
 </head>
 <body>
@@ -203,18 +282,25 @@
             <tr>
                 <td colspan="2">
                     <div class="container">
-                        <div class="login">
-                            <a href="#">Đăng ký </a>
-                            /
-                            <a href="#">Đăng nhập</a>
+                        <div class="container">
+                            <div class="login" style="text-align:center">
+                                <a href="dangky.html">Đăng ký </a>
+                                /
+                                <a href="DangNhap.html">Đăng nhập</a>
+                            </div>
+                            <div class="besties">
+                                <a href="HomePage.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
+                            </div>
+                            <div style="margin-top: 2px; padding: 10px">
+                                <form action="Search.html">
+                                    <input type="Search"
+                                           id="Search"
+                                           name="q"
+                                           placeholder="Search" />
+                                </form>
+                            </div>
+                            <a href="Cart.html"><img src="images/cart.png" class="cart" width="10%" /></a>
                         </div>
-                        <div class="besties">
-                            <img src="images/logobesties.png" class="logo" width="20%" />
-                        </div>
-                        <div style="margin-top:2px;padding:10px">
-                            <input type="Search" id="Search" placeholder="Search" />
-                        </div>
-                        <a href="#"><img src="images/cart.png" class="cart" width="10%" /></a>
                     </div>
                 </td>
             </tr>
@@ -222,47 +308,37 @@
                 <td colspan="2">
                     <div id="menu" style="font-family:'Arial'">
                         <ul>
-                            <li><a href="TrangChu.html" style="text-decoration:none">TRANG CHỦ</a> </li>
-                            <li>
-                                <a href="#">BLACK FRIDAY</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">FLASH SALE</a></li>
-                                    <li><a href="#">WEEK SALE</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">HOT TREND</a>
-                            </li>
+                            <li><a href="HomePage.html">TRANG CHỦ</a> </li>
                             <li>
                                 <a href="#" style="text-decoration:none">MAKE UP</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">FACE MAKE UP</a></li>
-                                    <li><a href="#">LIPS MAKE UP</a></li>
-                                    <li><a href="#">EYES MAKE UP</a></li>
+                                <ul class="sub-menu" style="z-index:9999">
+                                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#" style="text-decoration:none">SKINCARE</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">SỮA RỬA MẶT</a></li>
-                                    <li><a href="#">KEM CHỐNG NẮNG</a></li>
-                                    <li><a href="#">MẶT NẠ</a></li>
-                                    <li><a href="#">TẨY TRANG</a></li>
-                                    <li><a href="#">TẨY TẾ BÀO CHẾT</a></li>
-                                    <li><a href="#">ESSENCE - SERUM - AMPOULE</a></li>
+                                <ul class="sub-menu" style="z-index:9999">
+                                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
+                                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                                    <li><a href="MatNa.html">MẶT NẠ</a></li>
+                                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                                    <li><a href="Lotion.html">LOTION</a></li>
+                                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                                    <li><a href="Toner.html">TONER</a></li>
+                                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#" style="text-decoration:none">KHÁC</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">CHĂM SÓC RĂNG MIỆNG</a></li>
-                                    <li><a href="#">BỘ KIT SẢN PHẨM</a></li>
-                                    <li><a href="#">MẪU THỬ SAMPLE</a></li>
-                                </ul>
+                                <a href="Other.html" style="text-decoration:none">KHÁC</a>
                             </li>
                             <li>
                                 <a href="#" style="text-decoration:none">CẨM NANG</a>
-                                <ul class="sub-menu">
+                                <ul class="sub-menu" style="z-index:9999">
                                     <li><a href="Review.html">REVIEWS</a></li>
                                     <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
                                     <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
@@ -282,24 +358,93 @@
             </tr>
             <tr>
                 <td colspan="2" class="auto-style3 , colordanhmuc" style="vertical-align:middle;">
-                    <a href="#" class="linkdanhmuc" style="color:black">
+                    <a href="#" class="linkdanhmuc" style="color:black;font-weight:bold">
                         Cẩm nang
                     </a>
                     >
-                    <a href="#" class="linkdanhmuc" style="color:black">
+                    <a href="Review.html" class="linkdanhmuc" style="color:black">
                         <b>Reviews</b>
                     </a>
                 </td>
             </tr>
             <tr>
-                <th class="auto-style1" style="align-content:center;" valign="top">
-                    <div style="border: thin solid lightgray; padding:20px 10px">
-                        <p class="danhmuc">BÀI VIẾT MỚI NHẤT</p>
-                        <hr />
+                <td style="height:10px;"></td>
+            </tr>
+            <tr>
+                <td class="auto-style1" style="align-content: center">
+                    <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
+                    <hr />
+                    <div class="sidenav">
+                        <button class="dropdown-btn" onclick="location.href='HomePage.html'">
+                            TRANG CHỦ
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div></div>
+                        <button class="dropdown-btn">
+                            MAKE UP
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="FaceMakeup.html">FACE MAKE UP</a>
+                            <a href="LipsMakeup.html">LIPS MAKE UP</a>
+                            <a href="EyesMakeup.html">EYES MAKE UP</a>
+                        </div>
+                        <button class="dropdown-btn">
+                            SKIN CARE
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="SuaRuaMat.html">SỮA RỬA MẶT</a>
+                            <a href="KemChongNang.html">KEM CHỐNG NẮNG</a>
+                            <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
+                            <a href="KemDuongMat.html">KEM DƯỠNG MẮT</a>
+                            <a href="MatNa.html">MẶT NẠ</a>
+                            <a href="MatNaNgu.html">MẶT NẠ NGỦ</a>
+                            <a href="Lotion.html">LOTION</a>
+                            <a href="TayTrang.html">TẨY TRANG</a>
+                            <a href="Toner.html">TONER</a>
+                            <a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a>
+                            <a href="Serum.html">ESSENCE - SERUM - AMPOULE</a>
+                        </div>
+                        <button class="dropdown-btn" onclick="location.href='Other.html'">
+                            KHÁC
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                        </div>
+                        <button class="dropdown-btn">
+                            CẨM NANG
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="Review.html">REVIEWS</a>
+                            <a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a>
+                            <a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a>
+                        </div>
+                        <button class="dropdown-btn" onclick="location.href='LienHe.html'">
+                            LIÊN HỆ
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div></div>
                     </div>
+                    <script>
+                      //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                      var dropdown = document.getElementsByClassName("dropdown-btn");
+                      var i;
 
-                </th>
-                
+                      for (i = 0; i < dropdown.length; i++) {
+                          dropdown[i].addEventListener("click", function () {
+                              this.classList.toggle("active");
+                              var dropdownContent = this.nextElementSibling;
+                              if (dropdownContent.style.display === "block") {
+                                  dropdownContent.style.display = "none";
+                              } else {
+                                  dropdownContent.style.display = "block";
+                              }
+                          });
+                      }
+                    </script>
+                </td>
                 <td rowspan="2">
                     <table>
                         <tr>
@@ -308,10 +453,10 @@
                         <tr>
                             <td>
                                 <a href="#">
-                                    <img src="images/reviews/bongtaytrang.jpg" />
+                                    <img class="img" src="images/reviews/bongtaytrang.jpg" />
                                 </a>
                             </td>
-                            <td>
+                            <td class="contentreview">
                                 <a href="#">
                                     <h1>
                                         Review bông tẩy trang Silcot siêu hot
@@ -329,12 +474,17 @@
                             </td>
                         </tr>
                         <tr>
+                            <td colspan="2">
+                                <hr style="margin:20px 10px" />
+                            </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <a href="#">
-                                    <img src="images/reviews/son3ce.jpg" />
+                                    <img class="img"  src="images/reviews/son3ce.jpg" />
                                 </a>
                             </td>
-                            <td>
+                            <td class="contentreview">
                                 <a href="#">
                                     <h1>
                                         [Review] Son 3CE Velvet Lip Tint Going Right (màu cam hồng đất)
@@ -352,12 +502,17 @@
                             </td>
                         </tr>
                         <tr>
+                            <td colspan="2">
+                                <hr style="margin:20px 10px" />
+                            </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <a href="#">
-                                    <img src="images/reviews/facialtoner.jpg" />
+                                    <img class="img"  src="images/reviews/facialtoner.jpg" />
                                 </a>
                             </td>
-                            <td>
+                            <td class="contentreview">
                                 <a href="#">
                                     <h1>
                                         Review Simple Kind To Skin Soothing Facial Toner
@@ -374,12 +529,17 @@
                             </td>
                         </tr>
                         <tr>
+                            <td colspan="2">
+                                <hr style="margin:20px 10px" />
+                            </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <a href="#">
-                                    <img src="images/reviews/kemtrimun.jpg" />
+                                    <img class="img"  src="images/reviews/kemtrimun.jpg" />
                                 </a>
                             </td>
-                            <td>
+                            <td class="contentreview">
                                 <a href="#">
                                     <h1>
                                         Review kem trị mụn và vết thâm Ciracle Red Spot Cream
@@ -395,12 +555,17 @@
                             </td>
                         </tr>
                         <tr>
+                            <td colspan="2">
+                                <hr style="margin:20px 10px" />
+                            </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <a href="#">
-                                    <img src="images/reviews/sosanh.jpg" />
+                                    <img class="img"  src="images/reviews/sosanh.jpg" />
                                 </a>
                             </td>
-                            <td>
+                            <td class="contentreview">
                                 <a href="#">
                                     <h1>
                                         So sánh kem che khuyết điểm Mac pro longwear và Maybelline Instant Age Rewind
@@ -419,37 +584,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <a href="#">
-                                    <img src="images/reviews/lotion.jpg" />
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <h1>
-                                        Review Lotion trị mụn Rapid Clear Acne Defense Face Lotion
-
-                                    </h1>
-                                </a>
-                                <p>
-                                    Người viết: Giang Le 22.06.2019
-
-                                </p>
-                                <p>
-                                    Bạn thích dùng các sản phẩm tẩy tế bào chết vật lý hay hóa học? Cá nhân tớ thì ưu ái hóa học hơn, đặc...
-
-
-
-                                </p>
+                            <td colspan="2">
+                                <hr style="margin:20px 10px" />
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <a href="#">
-                                    <img src="images/reviews/serum.jpg" />
+                                    <img class="img"  src="images/reviews/serum.jpg" />
                                 </a>
                             </td>
-                            <td>
+                            <td class="contentreview">
                                 <a href="#">
                                     <h1>
                                         Chưa Từng Nghĩ Serum Bergamo Luxury Gold Lại Có Tác Dụng Bất Ngờ Đến Vậy!
@@ -466,34 +611,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <a href="#">
-                                    <img src="images/reviews/tebaogoc.jpg" />
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <h1>
-                                        [Review] Tế bào gốc ELDAS EG TOX PROGRAM
-
-                                    </h1>
-                                </a>
-                                <p>
-                                    Người viết: Giang Le 22.06.2019
-
-                                </p>
-                                <p>
-                                    Tế bào gốc Eldas – 1 sản phẩm được đầu tư và nghiên cứu vô cùng kĩ lượng của thương hiệu Coreana Hàn Quốc –...
-                                </p>
+                            <td colspan="2">
+                                <hr style="margin:20px 10px" />
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <a href="#">
-                                    <img src="images/reviews/lip.jpg" />
+                                    <img class="img"  src="images/reviews/lip.jpg" />
                                 </a>
                             </td>
-                            <td>
+                            <td class="contentreview">
                                 <a href="#">
                                     <h1>
                                         "Đọ Tài" Cân Bằng Ngang Sức Của Dòng Son Kem Aritaum Satin Pencil Lip Lacquer
@@ -512,29 +640,7 @@
                             </td>
                         </tr>
 
-                        <tr>
-                            <td>
-                                <a href="#">
-                                    <img src="images/reviews/sanpham.jpg" />
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <h1>
-                                        Tất tần tật những công dụng tuyệt vời về các sản phẩm dưỡng của Benton
 
-                                    </h1>
-                                </a>
-                                <p>
-                                    Người viết: asA SasA 22.06.2019
-
-                                </p>
-                                <p>
-                                    Benton được biết đến là 1 hãng mỹ phẩm tập trung về các sản phẩm dưỡng da với các thành phần thiên nhiên như lô...
-
-                                </p>
-                            </td>
-                        </tr>
                     </table>
                 </td>
             </tr>

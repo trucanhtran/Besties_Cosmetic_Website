@@ -74,13 +74,16 @@
     <Content Include="dangky.html" />
     <Content Include="DangNhap.html" />
     <Content Include="DoiTra.html" />
-    <Content Include="DoiTra3.html" />
     <Content Include="EyesMakeup.html" />
+    <Content Include="FaceMakeup.html" />
     <Content Include="flickity.css" />
+    <Content Include="HomePage.html" />
+    <Content Include="images\ava.png" />
     <Content Include="images\BG4.jpg" />
     <Content Include="images\Cerave.jpg" />
     <Content Include="images\facebook.png" />
     <Content Include="images\GG.png" />
+    <Content Include="images\history.png" />
     <Content Include="images\KCN.JPG" />
     <Content Include="images\MapBesties.png" />
     <Content Include="images\reviews\bongtaytrang.jpg" />
@@ -93,16 +96,16 @@
     <Content Include="images\reviews\son3ce.jpg" />
     <Content Include="images\reviews\sosanh.jpg" />
     <Content Include="images\reviews\tebaogoc.jpg" />
+    <Content Include="images\signout.png" />
     <Content Include="images\TT.JPG" />
     <Content Include="images\X.png" />
+    <Content Include="LichSuMuaHang.html" />
     <Content Include="LienHe.html" />
     <Content Include="magicslideshow.css" />
     <Content Include="magicslideshow.js" />
     <Content Include="myjs\Slider.js" />
     <Content Include="Review.html" />
-    <Content Include="test.html" />
     <Content Include="ThanhToan.html" />
-    <Content Include="TrangChu.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

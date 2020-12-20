@@ -11,7 +11,7 @@
 .star {
   position: relative;
   display: inline-block;
-  transition: color 0.2s ease;
+  transition: color 0.5s ease;
   color: #fddb3a;
 }
 

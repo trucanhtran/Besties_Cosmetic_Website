@@ -264,12 +264,12 @@
     </style>
     <script>
       var app = angular.module("angularApp", []);
-      app.controller("KemDuongMatController", function ($scope, $http) {
+      app.controller("TayTeBaoChetController", function ($scope, $http) {
         const page = parseInt(window.location.href.split("?page=")[1]) || 1;
         const totalPerPage = 18;
         $http({
           method: "GET",
-          url: "http://localhost:3000/kemDuongMat",
+          url: "http://localhost:3000/tayTeBaoChet",
         }).then(
           function mySucces(respone) {
             $scope.datas = respone.data.slice(
@@ -388,8 +388,8 @@
                       <b>Make up</b>
                   </a>
                   >
-                  <a href="KemDuongMat.html" class="linkdanhmuc" style="color: black">
-                      <b>Kem Dưỡng Mắt</b>
+                  <a href="KemTayTeBaoChet.html" class="linkdanhmuc" style="color: black">
+                      <b>Kem Tẩy Tế Bào Chết</b>
                   </a>
               </td>
           </tr>
@@ -475,7 +475,7 @@
                   <div>
                       <div style="width: 100%"
                            ng-app="angularApp"
-                           ng-controller="KemDuongMatController"
+                           ng-controller="TayTeBaoChetController"
                            class="products-table">
                           <div class="tungsanpham"
                                style="display: inline-block"
@@ -503,7 +503,7 @@
                           <div class="wrap-paging">
                               <div class="item-paging" ng-repeat="item in total">
                                   <a class="page"
-                                     ng-href="{{'KemDuongMat.html?page=' + (item+1)}}">{{(item+1)}}</a>
+                                     ng-href="{{'KemtTayTeBaoChet.html?page=' + (item+1)}}">{{(item+1)}}</a>
                               </div>
                           </div>
                       </div>
