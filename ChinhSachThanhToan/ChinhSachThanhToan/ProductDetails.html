@@ -147,7 +147,9 @@
                       </div>
                       <div class="display-style">
                         <div class="display-style">
-                          <div class="product-detail-comment">300</div>
+                          <div class="product-detail-comment">
+                            {{percentPrice}}
+                          </div>
                           <div>Đánh giá</div>
                         </div>
                         <div class="col-style">|</div>
@@ -162,13 +164,17 @@
                         <div class="product-detail-price-text">
                           Giá thị trường:
                         </div>
-                        <div class="product-detail-price-number">đ678.000</div>
+                        <div class="product-detail-price-number">
+                          đ{{priceOriginal}}
+                        </div>
                       </div>
                       <div class="product-detail-price-2">
                         <div class="product-detail-price-real">
                           {{detail.Giaban}}
                         </div>
-                        <div class="product-detail-price-tag">Tiết kiệm 8%</div>
+                        <div class="product-detail-price-tag">
+                          Tiết kiệm {{percentPrice}}%
+                        </div>
                       </div>
                     </div>
                     <div>
