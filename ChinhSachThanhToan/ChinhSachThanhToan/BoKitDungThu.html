@@ -508,11 +508,17 @@
                   <img
                     ng-src="{{data.image}}"
                     class="image"
-                    style="width: 300px; height: 300px; padding: 10px"
+                    style="width: 300px; height: 300px"
                     onerror="showNoImage(this)"
                   /><br />
                   <div class="ellipsis-title">
-                    <div class="tensp">{{data.TenSP}}</div>
+                    <div style="text-align: center">
+                      <a
+                        class="tensp"
+                        ng-href="{{'ProductDetails.html?&cat='+data.category+'&id=' + data.id}}"
+                        >{{data.TenSP}}</a
+                      >
+                    </div>
                   </div>
                   <br />
                   <div class="giaban">

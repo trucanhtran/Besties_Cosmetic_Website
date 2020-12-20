@@ -17,9 +17,9 @@
 
 .star:before {
   content: "\2605";
-  width: 100px;
-  height: 100px;
-  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
 }
 
 .star:hover,

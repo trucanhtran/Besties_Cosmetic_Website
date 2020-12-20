@@ -16,6 +16,7 @@ var tayTrang = require('./TayTrang.json');
 var tonerNuocHoaHong = require('./TonerNuocHoaHong.json');
 var triMunTriTham = require('./TriMunTriTham.json');
 var xitKhoang = require('./XitKhoang.json');
+var allProducts = require('./all_products.json');
 
 module.exports = function() {
   return {
@@ -37,5 +38,6 @@ module.exports = function() {
     tonerNuocHoaHong: tonerNuocHoaHong,
     triMunTriTham: triMunTriTham,
     xitKhoang: xitKhoang,
+    allProducts: allProducts,
   }
 }

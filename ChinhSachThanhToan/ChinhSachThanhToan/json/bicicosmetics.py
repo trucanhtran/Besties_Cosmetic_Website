@@ -40,9 +40,10 @@ class WriteToJson:
 
 
 class Bicicosmetics:
-    def __init__(self, url, category):
+    def __init__(self, url, category, all_products):
         self.url = url + category[0]
         self.category = category
+        self.all_products = all_products
 
     def base_soup(self, link):
         html_content = requests.get(link).text
@@ -105,6 +106,21 @@ class Bicicosmetics:
             product_detail["Giaban"] = original_price.find(
                 'del').string
 
+    # parse description
+    def parse_description(self, detail, product_detail):
+        description = detail.select("div.pro-short-des > p")
+        if description != None:
+            product_detail["short_description"] = description[0].text
+            return
+        product_detail["short_description"] = None
+
+    def parse_product_description(self, detail, product_detail):
+        description = detail.select("div.product-description")
+        if description != None:
+            product_detail["long_description"] = str(description[0])
+            return
+        product_detail["long_description"] = None
+
     # parse a product to get detail
     def parse_product(self, product):
         product_detail = {}
@@ -120,6 +136,9 @@ class Bicicosmetics:
             if product_detail["Giaban"] == None:
                 return
             product_detail["category"] = self.category[1]
+
+            self.parse_description(detail, product_detail)
+            self.parse_product_description(detail, product_detail)
 
             images = detail.select(
                 'a[class="product-gallery__thumb-placeholder"]')
@@ -155,7 +174,8 @@ class Bicicosmetics:
             category_obj = ''.join(
                 [x.text for x in category_obj.find_all("a")])
             product_detail["DanhMuc"] = category_obj
-            product_detail["Id"] = str(uuid4())
+            product_detail["id"] = str(uuid4())
+            product_detail["link"] = product
             print("End parse detail this link:" + product)
 
         except:
@@ -165,12 +185,17 @@ class Bicicosmetics:
     def main(self):
         products = self.get_products_paging()
         products_link = self.get_link_paging_products(products)
-        # return [self.parse_product("https://bicicosmetics.vn/collections/skincare/products/kem-chong-nang-hang-ngay-innisfree-intensive-triple-shield-sunscreen-spf50-pa-50ml")]
+        # return [self.parse_product("https://bicicosmetics.vn/collections/lips-make-up/products/hot-new-son-kem-li-black-rouge-cream-matte-rouge")]
         arr_products = []
         for products in products_link:
             for product in products:
                 try:
-                    arr_products.append(self.parse_product(product))
+                    obj_product = self.parse_product(product)
+                    if obj_product["TenSP"] != None:
+                        # append to each product json
+                        arr_products.append(obj_product)
+                        # append to all products
+                        all_products.append(obj_product)
                 except:
                     print(product)
                     continue
@@ -212,15 +237,22 @@ categories = [
     ['tri-mun-tri-tham', 'TriMunTriTham'],
     ['bo-kit-dung-thu', 'BoKitDungThu'],
     ['other', 'Other'],
+
+
 ]
 url = "https://bicicosmetics.vn/collections/"
+all_products = []
 for cat in categories:
-    base = Bicicosmetics(url, cat)
+    base = Bicicosmetics(url, cat, all_products)
     data = base.main()
 
     file_json = WriteToJson(data, cat[1])
     file_json.start()
 
+file_json = WriteToJson(all_products, "all_products")
+file_json.start()
 
+# base = Bicicosmetics(url, categories[0], all_products)
+# data = base.main()
 # file_csv = WriteCsvFile(data)
 # file_csv.start()

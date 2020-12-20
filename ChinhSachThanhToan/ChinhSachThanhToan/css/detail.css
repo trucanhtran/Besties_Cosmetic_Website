@@ -1,0 +1,252 @@
+.wrap-phase1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 14px;
+}
+.wrap-phase2 {
+  display: flex;
+  width: 100%;
+}
+.wrap-phase3 {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.wrap-detail-img {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.wrap-detail-info {
+  display: flex;
+  width: 50%;
+}
+.list-images {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.sub-image {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+}
+.product-detail {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.product-detail > .product-title {
+  font-weight: bold;
+  font-size: 34px;
+}
+.display-style {
+  display: flex;
+}
+.col-style {
+  padding: 0 6px 0 6px;
+}
+.product-detail-comment {
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: underline;
+}
+.product-detail-price {
+  padding-top: 6px;
+  display: flex;
+  align-items: center;
+}
+.product-detail-price-2 {
+  padding-top: 6px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.product-detail-price-text {
+  font-weight: 400;
+  font-size: 22px;
+}
+.product-detail-price-number {
+  font-weight: bold;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.product-detail-price-real {
+  font-weight: bold;
+  color: red;
+  font-size: 30px;
+}
+.product-detail-price-tag {
+  margin-left: 8px;
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 4px;
+  background-color: red;
+  color: white;
+}
+.wrap-extra-info {
+  display: flex;
+  align-items: center;
+}
+.extra-item {
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 0 4px 0 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+.wrap-length-style {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-length-style {
+  padding: 2px;
+  border-radius: 8px;
+  margin: 0;
+  width: 30px;
+  outline: none;
+  margin-left: 12px;
+}
+.wrap-button-style {
+  display: flex;
+  margin-top: 30px;
+}
+.btn-cart {
+  padding: 4px 10px 4px 10px;
+  border-radius: 4px;
+  font-size: 22px;
+  background-color: pink;
+  border: 1px soliD PINK;
+  outline: none;
+}
+.btn-cart:hover {
+  background-color: #fcdada;
+  border: 1px soliD PINK;
+}
+.btn-cart:active {
+  box-shadow: 3px 4px pink;
+  outline: none;
+}
+.group-btn1 {
+  margin-right: 20px;
+}
+.wrap-short-description {
+  font-size: 11px;
+}
+.wrap-left {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  border: 1px solid black;
+}
+.wrap-center {
+  display: flex;
+  width: 4%;
+}
+.wrap-right {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  border: 1px solid black;
+  height: fit-content;
+}
+.info-title {
+  padding: 10px;
+  background-color: darkgray;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+.info-description {
+  padding: 10px;
+  word-break: break-word;
+}
+.info-description p {
+  font-size: 14px;
+}
+.info-description h1 {
+  font-size: 28px;
+}
+.info-description h2 {
+  font-size: 16px;
+}
+.wrap-comment-style {
+  display: flex;
+  width: 68%;
+  border: 1px solid black;
+  flex-direction: column;
+}
+.evaluate {
+  padding: 10px;
+  background-color: darkgray;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+.box-comment {
+  padding: 10px;
+}
+.textarea-content {
+  width: 100%;
+  height: 150px;
+}
+.wrap-btn-evaluate {
+  text-align: center;
+  padding: 10px;
+}
+
+/* relation */
+.wrap-relation {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.relation-img {
+  padding: 10px;
+}
+.relation-img1 {
+  width: 100px;
+  height: 100px;
+}
+.wrap-relation-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.relation-title {
+  padding: 10px;
+  text-align: center;
+  background-color: darkgray;
+  font-weight: bold;
+}
+.relation-price {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.relation-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.relation-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 11px;
+}
+p img {
+  width: 400px;
+  height: 400px;
+}
