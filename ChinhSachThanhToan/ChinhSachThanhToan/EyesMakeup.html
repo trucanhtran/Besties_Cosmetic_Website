@@ -4,12 +4,9 @@
     <meta charset="utf-8" />
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
-
+    <link rel="stylesheet" href="css/cacsanpham.css" type="text/css" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
-      .auto-style1 {
-        width: 274px;
-      }
 
       .auto-style3 {
         height: 50px;
@@ -29,6 +26,8 @@
       table tr td .login {
         margin-top: 30px;
         text-align: center;
+        padding:10px;
+        width:230px;
         color: black;
         border-radius: 8px;
       }
@@ -263,25 +262,7 @@
         -webkit-line-clamp: 2;
         padding: 0px 20px 0px 0px;
       }
-      .wrap-paging {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        padding-top: 40px;
-      }
-      .item-paging {
-        padding: 4px;
-      }
-      .item-paging > a {
-        color: black;
-        text-decoration: none;
-      }
-      .item-paging > a:hover {
-        color: #ffa5a5;
-      }
-      /*.item-paging > a:visited {
-        color: #393e46;
-      }*/
+      
     </style>
     <script>
       var app = angular.module("angularApp", []);
@@ -402,7 +383,7 @@
             class="auto-style3 , colordanhmuc"
             style="vertical-align: middle"
           >
-            <a href="TrangChu.html" class="linkdanhmuc" style="color: black">
+            <a href="TrangChu.html" class="linkdanhmuc" style="color: black; font-weight:bold">
               Trang chủ
             </a>
             >
@@ -416,10 +397,10 @@
           </td>
         </tr>
         <tr>
-          <td>Sort by</td>
+          <td></td>
         </tr>
         <tr>
-          <td class="auto-style1" style="align-content: center">
+          <td class="danhmuctrai" style="align-content: center">
             <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
             <hr />
             <div class="sidenav">
@@ -505,7 +486,6 @@
             </script>
           </td>
           <td>
-            Muốn tìm gì: <input ng-model="search" />
             <div>
               <div
                 style="width: 100%"
@@ -514,23 +494,28 @@
                 class="products-table"
               >
                 <div
+                     class="tungsanpham"
                   style="display: inline-block"
                   ng-repeat="eye in eyes | filter:search"
                 >
                   <img
                     ng-src="{{eye.image}}"
-                    style="width: 300px; height: 300px; padding: 10px"
+                    class="image"
+                    style="width: 300px; height: 300px"
                     onerror="showNoImage(this)"
                   /><br />
-                  <div class="ellipsis-title">{{eye.TenSP}}</div>
+                  <div class="ellipsis-title"><div class="tensp">{{eye.TenSP}}</div></div>
                   <br />
-                  {{eye.Giaban}}<br />
+                  <div class="giaban">
+                      {{eye.Giaban}}
+                      <br />
+                      <input class="addtocart" type="button" value="ADD TO CART" />
+                  </div><br />
                 </div>
                 <div class="wrap-paging">
                   <div class="item-paging" ng-repeat="item in total">
-                    <a ng-href="{{'EyesMakeup.html?page=' + (item+1)}}"
-                      >{{ (item+1)+ ' |'}}</a
-                    >
+                    <a class="page" ng-href="{{'EyesMakeup.html?page=' + (item+1)}}"
+                      >{{(item+1)}}</a>
                   </div>
                 </div>
               </div>

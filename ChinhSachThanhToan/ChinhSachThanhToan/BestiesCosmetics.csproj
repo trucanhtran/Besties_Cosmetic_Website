@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\cacsanpham.css" />
     <Content Include="css\cssdoitra.css" />
     <Content Include="css\cssheader.css" />
     <Content Include="css\cssslide.css" />
@@ -95,6 +96,7 @@
     <Content Include="images\reviews\tebaogoc.jpg" />
     <Content Include="images\TT.JPG" />
     <Content Include="images\X.png" />
+    <Content Include="LichSuMuaHang.html" />
     <Content Include="LienHe.html" />
     <Content Include="magicslideshow.css" />
     <Content Include="magicslideshow.js" />
