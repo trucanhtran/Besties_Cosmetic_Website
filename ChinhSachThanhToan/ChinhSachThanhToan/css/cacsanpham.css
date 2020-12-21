@@ -1,8 +1,5 @@
 .tensp {
   text-decoration: none;
-  padding: 10px 0px;
-  text-align: center;
-  margin-left: 60px;
   color: black;
   height: 60px;
   z-index: 1;
@@ -17,7 +14,9 @@
   text-align: center;
   margin-left: 20px;
   font-family: iciel "#9Slide03 IcielSamsung Sharp Bo";
-  font-size: 18px;
+  font-size: 22px;
+  font-weight:bold;
+  color:red;
 }
 .image {
   padding: 20px;
@@ -25,7 +24,7 @@
   transition: transform 0.2s;
 }
 .image:hover {
-  transform: scale(1.15);
+  transform: scale(1.10);
 }
 .addtocart {
   background-color: black;
@@ -71,4 +70,7 @@
   border: none;
   font-weight: bold;
   cursor: pointer;
+}
+.ellipsis-title{
+    margin-left:auto;
 }
