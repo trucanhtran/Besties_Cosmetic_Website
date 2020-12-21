@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/cart.css" />
     <script src="./js/jquery.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
+    <script src="https://use.fontawesome.com/2888652aa3.js"></script>
+    <script src="./js/cart.js"></script>
   </head>
   <body>
     <table>
@@ -111,7 +113,12 @@
             <div class="wrap-cart">
               <div class="wrap-cart-title">
                 <div class="cart-title-name">Giỏ hàng</div>
-                <div class="cart-title-number">(2 sản phẩm)</div>
+                <div class="cart-title-number">
+                  (<span id="id_cart_number" class="cart-title-number-1"
+                    >2</span
+                  >
+                  sản phẩm)
+                </div>
               </div>
               <div class="wrap-cart-table">
                 <div class="cart-left">
@@ -145,8 +152,19 @@
                             sẽ khiến bạn bất ngờ.
                           </div>
                           <div class="group-btn-img">
-                            <div class="image-title4">Yêu thích</div>
-                            <div class="image-title5">Xoá</div>
+                            <div
+                              class="image-title4"
+                              onclick="favouriteCartItem()"
+                            >
+                              <i class="fa fa-heart" aria-hidden="true"></i> Yêu
+                              thích
+                            </div>
+                            <div
+                              class="image-title5"
+                              onclick="removeCartItem()"
+                            >
+                              <i class="fa fa-times" aria-hidden="true"></i> Xoá
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -159,7 +177,10 @@
                   </div>
                   <div class="cart-left-4">
                     <div class="style-btn-add-cart">
-                      <a href="" class="continue-add-cart">Tiếp tục mua hàng</a>
+                      <a class="continue-add-cart" onclick="goBack()"
+                        ><i class="fa fa-angle-left" aria-hidden="true"></i>
+                        Tiếp tục mua hàng</a
+                      >
                     </div>
                     <div>
                       <a href="Other.html" class="order-cart"

@@ -137,21 +137,13 @@
   padding: 6px;
   display: flex;
   align-items: center;
+  outline: none;
 }
 
 /* button */
 .continue-add-cart {
-  padding: 10px;
-  border: 1px solid pink;
-  background-color: pink;
   text-decoration: none;
-  color: white;
-  font-weight: normal;
-  border-radius: 20px;
-  outline: none;
-}
-.continue-add-cart:hover {
-  background-color: palevioletred;
+  cursor: pointer;
 }
 .order-cart {
   padding: 10px;
@@ -167,7 +159,7 @@
   background-color: palevioletred;
 }
 .style-btn-add-cart {
-  margin-right: 20px;
+  width: 80%;
 }
 
 /* img */
@@ -201,18 +193,13 @@
   font-size: 12px;
 }
 .image-title4 {
-  border: 1px solid lightpink;
-  border-radius: 10px;
   padding: 4px;
-  background-color: lightpink;
-  outline: none;
-  color: white;
+  margin-right: 80px;
 }
 .image-title5 {
-  border: 1px solid lightpink;
-  border-radius: 10px;
   padding: 4px;
-  background-color: lightpink;
-  outline: none;
-  color: white;
+}
+
+.cart-title-number-1 {
+  padding-right: 4px;
 }
