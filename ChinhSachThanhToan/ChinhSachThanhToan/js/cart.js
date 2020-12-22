@@ -25,8 +25,7 @@ function getTotalCart() {
 
 $(function() {
   $("#id_cart_number").text(getTotalCart())
-
-
+  $("#id_cart_number_icon").text(getTotalCart())
 });
 
 function goBack() {
@@ -73,10 +72,14 @@ appCart.controller("CartController", function ($scope) {
 
 function totalTempPrice(scope, datas) {
   if (datas.length === 0) return 0;
-  scope.totalTempPrice = datas.map(function(item) {return item.total}).reduce((a, b) => a + b, 0)
+  scope.totalTempPrice = formatCurrency(datas.map(function(item) {return item.total}).reduce((a, b) => a + b, 0))
 }
 
 function totalPrice(scope, datas) {
   if (datas.length === 0) return 0;
-  scope.totalPrice = datas.map(function(item) {return item.total}).reduce((a, b) => a + b, 0)
+  scope.totalPrice = formatCurrency(datas.map(function(item) {return item.total}).reduce((a, b) => a + b, 0))
+}
+
+function formatCurrency(price) {
+  return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price);
 }

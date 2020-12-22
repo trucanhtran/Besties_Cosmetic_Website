@@ -58,7 +58,7 @@
   box-shadow: 1px 2px palevioletred;
 }
 .cart-right-name {
-  margin-right: 20px;
+  margin-right: 1px;
 }
 .cart-right-price {
   color: red;
@@ -204,4 +204,23 @@
 
 .cart-title-number-1 {
   padding-right: 4px;
+}
+
+/* notification */
+.wrap-notification {
+  position: relative;
+}
+.notification {
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 36px;
+  width: 18px;
+  height: 18px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  top: -8px;
+  left: 28px;
 }
