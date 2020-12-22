@@ -54,15 +54,22 @@ appCart.controller("CartController", function ($scope) {
     totalPrice($scope, newStoredNames);
   }
 
-  $scope.changeCount = function(id, $event) {
-    
-  }
+  $scope.calCurrencyTotal = function(priceTotal, id) {  
+    const storedNames = JSON.parse(localStorage.getItem("bicicosmetics"));
+    const datas = storedNames !== null ? [...storedNames] : 0
+    const newStored = datas.map(function(item) {
+      return {
+        ...item,
+        count: item.id === id ? priceTotal : item.count,
+        total: item.id === id ? parseInt(priceTotal) * parseInt(item.price.replace(",","").replace("₫", "")) : item.total
+      }
+    })
+    localStorage.setItem("bicicosmetics", JSON.stringify(newStored));
+    $scope.carts = newStored;
+    totalTempPrice($scope, newStored);
+    totalPrice($scope, newStored);
+  };
 });
-
-function changeCountCart(value) {
-  const price = parseInt(document.getElementById("id_cart_price").textContent.replace("₫", "").replace(",", ""));
-  document.getElementById("id_currency_total").textContent = Number(parseInt(value) * price).toFixed(0).toLocaleString() + "đ"
-}
 
 function totalTempPrice(scope, datas) {
   if (datas.length === 0) return 0;

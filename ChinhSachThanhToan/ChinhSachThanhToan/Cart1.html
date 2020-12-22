@@ -166,7 +166,8 @@
                           type="number"
                           id="number_product"
                           value="{{cart.count}}"
-                          onchange="changeCountCart(this.value)"
+                          ng-model="priceTotal"
+                          ng-change="calCurrencyTotal(priceTotal, cart.id)"
                           min="0"
                         />
                       </div>
