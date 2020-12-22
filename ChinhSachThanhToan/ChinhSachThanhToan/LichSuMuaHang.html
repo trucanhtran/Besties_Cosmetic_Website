@@ -2,11 +2,17 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Lịch Sử Mua Hàng</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
         .auto-style1 {
             width: 274px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            height: auto;
+            padding-bottom: 0;
         }
 
         .auto-style3 {
@@ -26,9 +32,11 @@
         }
 
         table tr td .login {
+            width: 200px;
+            padding-top: 10px;
+            text-align: center;
             color: black;
             border-radius: 8px;
-            align-items: center;
         }
 
             table tr td .login:hover {
@@ -219,10 +227,11 @@
             float: right;
             padding-right: 8px;
         }
+
         .lichsu-tensp {
             font-weight: bold;
             text-decoration: none;
-            margin-left:50px;
+            margin-left: 50px;
             color: black;
             width: 300px;
             height: 100px
@@ -265,6 +274,7 @@
                 border: 2px solid black;
                 cursor: pointer;
             }
+
         .danhmuc:hover {
             background-color: lightgray;
         }
@@ -295,13 +305,13 @@
                 <td colspan="2">
                     <div class="container">
                         <div class="container">
-                            <div class="login" style="text-align:center">
-                                <a href="dangky.html">Đăng ký </a>
-                                /
-                                <a href="DangNhap.html">Đăng nhập</a>
+                            <div class="login" style="text-align:center; cursor:pointer" onclick="window.location.href='LichSuMuaHang.html'">
+                                <a><img src="images/ava.png" style="margin-top:-5px; width:20%" /></a>
+
+                                <a style="vertical-align:top">Bảo Phương</a>
                             </div>
                             <div class="besties">
-                                <a href="HomePage.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
+                                <a href="HomePage2.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
                             </div>
                             <div style="margin-top: 2px; padding: 10px">
                                 <form action="Search.html">
@@ -320,7 +330,7 @@
                 <td colspan="2">
                     <div id="menu" style="font-family:'Arial'">
                         <ul>
-                            <li><a href="HomePage.html">TRANG CHỦ</a> </li>
+                            <li><a href="HomePage2.html">TRANG CHỦ</a> </li>
                             <li>
                                 <a href="#" style="text-decoration:none">MAKE UP</a>
                                 <ul class="sub-menu" style="z-index:9999">
@@ -388,20 +398,20 @@
                 <td class="danhmuctrai" style="align-content: center; background-color:whitesmoke">
                     <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px">
                         <img src="images/ava.png" style="vertical-align:bottom; width:60px" />
-                        <a href="#" class="menutrai">Nguyễn Thị Bảo Phương</a>
+                        <a href="LichSuMuaHang.html" class="menutrai">Nguyễn Thị Bảo Phương</a>
                     </p>
                     <hr />
                     <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px">
                         <img src="images/ava.png" style="vertical-align:bottom; width:50px" />
-                        <a href="#" class="menutrai">Tài khoản của tôi</a>
+                        <a href="LichSuMuaHang.html" class="menutrai">Tài khoản của tôi</a>
                     </p>
                     <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px">
                         <img src="images/history.png" style="vertical-align:middle; height:30px; padding:15px" />
-                        <a href="#" class="menutrai">Lịch sử mua hàng</a>
+                        <a href="LichSuMuaHang.html" class="menutrai">Lịch sử mua hàng</a>
                     </p>
                     <p class="danhmuc" style="line-height: 60px; vertical-align:bottom; margin-top:20px; margin-left:-50px">
                         <img src="images/signout.png" style="vertical-align:middle; height:30px; padding:15px" />
-                        <a href="#" class="menutrai">Đăng xuất</a>
+                        <a href="HomePage.html" class="menutrai">Đăng xuất</a>
                     </p>
                 </td>
                 <td style="padding:50px 70px">

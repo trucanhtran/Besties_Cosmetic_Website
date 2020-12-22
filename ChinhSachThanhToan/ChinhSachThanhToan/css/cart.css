@@ -50,12 +50,12 @@
   outline: none;
 }
 .btn-order:hover {
-  background-color: deeppink;
+  background-color: #ffdada;
   color: white;
   outline: none;
 }
 .btn-order:active {
-  box-shadow: 1px 2px palevioletred;
+  box-shadow: 1px 2px black;
 }
 .cart-right-name {
   margin-right: 1px;
@@ -147,16 +147,17 @@
 }
 .order-cart {
   padding: 10px;
-  border: 1px solid pink;
-  background-color: pink;
+  border: 1px solid #ffa5a5;
+  background-color: #ffa5a5;
   text-decoration: none;
   color: white;
+  cursor:pointer;
   font-weight: normal;
   border-radius: 20px;
   outline: none;
 }
 .order-cart:hover {
-  background-color: palevioletred;
+  background-color: #fcdada;
 }
 .style-btn-add-cart {
   width: 80%;

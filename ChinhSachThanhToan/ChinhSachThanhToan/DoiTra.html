@@ -2,32 +2,41 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Chính Sách Đổi Trả</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
         .auto-style1 {
             width: 274px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            height: auto;
+            padding-bottom: 0;
         }
 
         .auto-style3 {
             height: 50px;
             padding-left: 50px;
         }
+
         body {
             font-family: "Roboto", sans-serif;
-            margin-top:10px;
+            margin-top: 10px;
         }
 
         table tr td .container {
             display: flex;
             justify-content: center;
-            padding-top:5px;
+            padding-top: 5px;
         }
 
         table tr td .login {
+            width: 200px;
+            padding-top: 10px;
+            text-align: center;
             color: black;
             border-radius: 8px;
-            align-items: center;
         }
 
             table tr td .login:hover {
@@ -59,7 +68,7 @@
         table tr td div input {
             margin-top: 30px;
             border-radius: 8px;
-            padding:10px;
+            padding: 10px;
         }
 
         table tr td .cart {
@@ -68,9 +77,11 @@
             margin-top: 7px;
             margin-right: 30px;
         }
-        table tr td .cart:hover{
-            cursor:pointer;
-        }
+
+            table tr td .cart:hover {
+                cursor: pointer;
+            }
+
         table tr td #search {
             background-image: url(images/find.png);
             background-repeat: no-repeat;
@@ -233,7 +244,6 @@
             float: right;
             padding-right: 8px;
         }
-
     </style>
 
 </head>
@@ -244,13 +254,13 @@
                 <td colspan="2">
                     <div class="container">
                         <div class="container">
-                            <div class="login" style="text-align:center">
-                                <a href="dangky.html">Đăng ký </a>
-                                /
-                                <a href="DangNhap.html">Đăng nhập</a>
+                            <div class="login" style="text-align:center; cursor:pointer" onclick="window.location.href='LichSuMuaHang.html'">
+                                <a><img src="images/ava.png" style="margin-top:-5px; width:20%" /></a>
+
+                                <a style="vertical-align:top">Bảo Phương</a>
                             </div>
                             <div class="besties">
-                                <a href="HomePage.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
+                                <a href="HomePage2.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
                             </div>
                             <div style="margin-top: 2px; padding: 10px">
                                 <form action="Search.html">
@@ -269,7 +279,7 @@
                 <td colspan="2">
                     <div id="menu" style="font-family:'Arial'">
                         <ul>
-                            <li><a href="HomePage.html">TRANG CHỦ</a> </li>
+                            <li><a href="HomePage2.html">TRANG CHỦ</a> </li>
                             <li>
                                 <a href="#" style="text-decoration:none">MAKE UP</a>
                                 <ul class="sub-menu" style="z-index:9999">
@@ -325,7 +335,7 @@
                 <td colspan="2"
                     class="auto-style3 , colordanhmuc"
                     style="vertical-align: middle">
-                    <a href="HomePage.html" class="linkdanhmuc" style="color: black;font-weight:bold">
+                    <a href="HomePage2.html" class="linkdanhmuc" style="color: black;font-weight:bold">
                         Trang chủ
                     </a>
                     >
@@ -342,79 +352,81 @@
                 <td style="height:10px;"></td>
             </tr>
             <tr>
-                <td class="auto-style1" style="align-content: center">
-                    <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
-                    <hr />
-                    <div class="sidenav">
-                        <button class="dropdown-btn" onclick="location.href='HomePage.html'">
-                            TRANG CHỦ
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div></div>
-                        <button class="dropdown-btn">
-                            MAKE UP
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="FaceMakeup.html">FACE MAKE UP</a>
-                            <a href="LipsMakeup.html">LIPS MAKE UP</a>
-                            <a href="EyesMakeup.html">EYES MAKE UP</a>
+                <td style="align-content: center">
+                    <div class="auto-style1">
+                        <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
+                        <hr />
+                        <div class="sidenav">
+                            <button class="dropdown-btn" onclick="location.href='HomePage2.html'">
+                                TRANG CHỦ
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div></div>
+                            <button class="dropdown-btn">
+                                MAKE UP
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="FaceMakeup.html">FACE MAKE UP</a>
+                                <a href="LipsMakeup.html">LIPS MAKE UP</a>
+                                <a href="EyesMakeup.html">EYES MAKE UP</a>
+                            </div>
+                            <button class="dropdown-btn">
+                                SKIN CARE
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="SuaRuaMat.html">SỮA RỬA MẶT</a>
+                                <a href="KemChongNang.html">KEM CHỐNG NẮNG</a>
+                                <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
+                                <a href="KemDuongMat.html">KEM DƯỠNG MẮT</a>
+                                <a href="MatNa.html">MẶT NẠ</a>
+                                <a href="MatNaNgu.html">MẶT NẠ NGỦ</a>
+                                <a href="Lotion.html">LOTION</a>
+                                <a href="TayTrang.html">TẨY TRANG</a>
+                                <a href="Toner.html">TONER</a>
+                                <a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a>
+                                <a href="Serum.html">ESSENCE - SERUM - AMPOULE</a>
+                            </div>
+                            <button class="dropdown-btn" onclick="location.href='Other.html'">
+                                KHÁC
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                            </div>
+                            <button class="dropdown-btn">
+                                CẨM NANG
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="Review.html">REVIEWS</a>
+                                <a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a>
+                                <a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a>
+                            </div>
+                            <button class="dropdown-btn" onclick="location.href='LienHe.html'">
+                                LIÊN HỆ
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div></div>
                         </div>
-                        <button class="dropdown-btn">
-                            SKIN CARE
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="SuaRuaMat.html">SỮA RỬA MẶT</a>
-                            <a href="KemChongNang.html">KEM CHỐNG NẮNG</a>
-                            <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
-                            <a href="KemDuongMat.html">KEM DƯỠNG MẮT</a>
-                            <a href="MatNa.html">MẶT NẠ</a>
-                            <a href="MatNaNgu.html">MẶT NẠ NGỦ</a>
-                            <a href="Lotion.html">LOTION</a>
-                            <a href="TayTrang.html">TẨY TRANG</a>
-                            <a href="Toner.html">TONER</a>
-                            <a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a>
-                            <a href="Serum.html">ESSENCE - SERUM - AMPOULE</a>
-                        </div>
-                        <button class="dropdown-btn" onclick="location.href='Other.html'">
-                            KHÁC
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                        </div>
-                        <button class="dropdown-btn">
-                            CẨM NANG
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="Review.html">REVIEWS</a>
-                            <a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a>
-                            <a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a>
-                        </div>
-                        <button class="dropdown-btn" onclick="location.href='LienHe.html'">
-                            LIÊN HỆ
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div></div>
-                    </div>
-                    <script>
-                      //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-                      var dropdown = document.getElementsByClassName("dropdown-btn");
-                      var i;
+                        <script>
+                            //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                            var dropdown = document.getElementsByClassName("dropdown-btn");
+                            var i;
 
-                      for (i = 0; i < dropdown.length; i++) {
-                          dropdown[i].addEventListener("click", function () {
-                              this.classList.toggle("active");
-                              var dropdownContent = this.nextElementSibling;
-                              if (dropdownContent.style.display === "block") {
-                                  dropdownContent.style.display = "none";
-                              } else {
-                                  dropdownContent.style.display = "block";
-                              }
-                          });
-                      }
-                    </script>
+                            for (i = 0; i < dropdown.length; i++) {
+                                dropdown[i].addEventListener("click", function () {
+                                    this.classList.toggle("active");
+                                    var dropdownContent = this.nextElementSibling;
+                                    if (dropdownContent.style.display === "block") {
+                                        dropdownContent.style.display = "none";
+                                    } else {
+                                        dropdownContent.style.display = "block";
+                                    }
+                                });
+                            }
+                        </script>
+                    </div>
                 </td>
                 <td>
                     <h1>Chính sách đổi hàng</h1>
