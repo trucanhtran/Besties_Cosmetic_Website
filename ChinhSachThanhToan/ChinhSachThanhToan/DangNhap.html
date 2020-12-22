@@ -1,119 +1,154 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Đăng Nhập</title>
     <link rel="shortcut icon" href="images/logotitle.png" />
     <style type="text/css">
-        body {
-            font-family: '#9Slide03 Open Sans';
-        }
+      body {
+        font-family: "#9Slide03 Open Sans";
+      }
 
-        table {
-            border: 1px solid black;
-            width: 500px;
-            padding: 15px;
-            font-size: 18px;
-            border-radius: 5px;
-            border-color: lightgray;
-        }
+      table {
+        border: 1px solid black;
+        width: 500px;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 5px;
+        border-color: lightgray;
+      }
 
-            table tr td {
-                padding: 5px;
-            }
+      table tr td {
+        padding: 5px;
+      }
 
-        h1 {
-            font-family: '#9Slide03 Quicksand'
-        }
+      h1 {
+        font-family: "#9Slide03 Quicksand";
+      }
 
-        input.dangnhap {
-            font-size: 20px;
-            background-color: #ffa5a5;
-            width: 620px;
-            height: 40px;
-            text-align: center;
-            border: none;
-            color: white;
-            font-weight: bold;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+      input.dangnhap {
+        font-size: 20px;
+        background-color: #ffa5a5;
+        width: 620px;
+        height: 40px;
+        text-align: center;
+        border: none;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div align="center">
-        <a href="HomePage2.html"><img src="images/logobesties.png" style="width:300px" /></a>
+      <a href="/"><img src="images/logobesties.png" style="width: 300px" /></a>
     </div>
     <br />
     <form>
-        <table align="center">
-            <tr>
-                <td>
-                    Đăng nhập với:
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div style="display:flex">
-                        <div style=" margin:5px">
-                            <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt=""></a>
-
-                        </div>
-                        <div style=" margin:5px">
-                            <a target="_blank" href="https://www.google.com/gmail/"><img src="images/GG.png" alt=""></a>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><hr /></td>
-            </tr>
-            <tr>
-                <td><label style="color:#ffa5a5; font-size:40px; font-weight:bold;text-align:center">ĐĂNG NHẬP</label></td>
-            </tr>
-            <tr>
-                <td>
-                    <label><b>Email hoặc Số điện thoại</b></label>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <input type="email" style="padding: 12px 5px; width:600px; margin: 8px 0">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label><b>Mật khẩu</b></label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="password" style="padding: 12px 5px ;width:600px; margin: 8px 0">
-                </td>
-            </tr>
-            <tr>
-
-                <td>
-                    <div>
-                        <label><input value="1" checked="checked" type="checkbox"> Nhớ mật khẩu </label>
-                        <a style="color:#3d7ea6; text-decoration:none; font-weight:bold; float:right" href="#">Quên mật khẩu</a>
-                    </div>
-
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input class="dangnhap" type="button" value="Đăng nhập" onclick="alert('Đăng nhập thành công!'); window.location.href='HomePage2.html'"/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Bạn chưa có tài khoản?
-                    <a style="color:#3d7ea6; text-decoration:none; font-weight:bold" href="dangky.html">ĐĂNG KÝ NGAY</a>
-
-                </td>
-            </tr>
-        </table>
+      <table align="center">
+        <tr>
+          <td>Đăng nhập với:</td>
+        </tr>
+        <tr>
+          <td>
+            <div style="display: flex">
+              <div style="margin: 5px">
+                <a target="_blank" href="https://www.facebook.com/"
+                  ><img src="images/facebook.png" alt=""
+                /></a>
+              </div>
+              <div style="margin: 5px">
+                <a target="_blank" href="https://www.google.com/gmail/"
+                  ><img src="images/GG.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><hr /></td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              style="
+                color: #ffa5a5;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+              "
+              >ĐĂNG NHẬP</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Email hoặc Số điện thoại</b></label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <input
+              type="email"
+              style="padding: 12px 5px; width: 600px; margin: 8px 0"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Mật khẩu</b></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="password"
+              style="padding: 12px 5px; width: 600px; margin: 8px 0"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <label
+                ><input value="1" checked="checked" type="checkbox" /> Nhớ mật
+                khẩu
+              </label>
+              <a
+                style="
+                  color: #3d7ea6;
+                  text-decoration: none;
+                  font-weight: bold;
+                  float: right;
+                "
+                href="#"
+                >Quên mật khẩu</a
+              >
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              class="dangnhap"
+              type="button"
+              value="Đăng nhập"
+              onclick="alert('Đăng nhập thành công!'); window.location.href='/'"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bạn chưa có tài khoản?
+            <a
+              style="color: #3d7ea6; text-decoration: none; font-weight: bold"
+              href="dangky.html"
+              >ĐĂNG KÝ NGAY</a
+            >
+          </td>
+        </tr>
+      </table>
     </form>
-</body>
+  </body>
 </html>

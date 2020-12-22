@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProductDetail</title>
@@ -17,114 +17,132 @@
     <script src="./js/detail.js"></script>
     <script src="./js/cart.js"></script>
     <style>
+      table tr td .login {
+        width: 200px;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+        border-radius: 8px;
+      }
 
-        table tr td .login {
-            width: 200px;
-            padding-top: 10px;
-            text-align: center;
-            color: black;
-            border-radius: 8px;
-        }
+      table tr td .login:hover {
+        background-color: whitesmoke;
+      }
 
-            table tr td .login:hover {
-                background-color: whitesmoke;
-            }
+      table tr td .login a {
+        text-decoration: none;
+        color: black;
+      }
 
-            table tr td .login a {
-                text-decoration: none;
-                color: black;
-            }
+      table tr td .login a:hover {
+        color: #ffa5a5;
+        font-weight: bold;
+        border: 1px solid whitesmoke;
+      }
 
-                table tr td .login a:hover {
-                    color: #ffa5a5;
-                    font-weight: bold;
-                    border: 1px solid whitesmoke;
-                }
-
-        .btn-cart:hover {
-            color: white;
-        }
+      .btn-cart:hover {
+        color: white;
+      }
     </style>
-</head>
+  </head>
   <body>
     <table>
-        <thead class="cssheader">
-            <tr>
-                <td colspan="2">
-                    <div class="container">
-                        <div class="container">
-                            <div class="login" style="text-align:center; cursor:pointer" onclick="window.location.href='LichSuMuaHang.html'">
-                                <a><img src="images/ava.png" style="margin-top:-5px; width:20%" /></a>
+      <thead class="cssheader">
+        <tr>
+          <td colspan="2">
+            <div class="container">
+              <div class="container">
+                <div
+                  class="login"
+                  style="text-align: center; cursor: pointer"
+                  onclick="window.location.href='LichSuMuaHang.html'"
+                >
+                  <a
+                    ><img
+                      src="images/ava.png"
+                      style="margin-top: -5px; width: 20%"
+                  /></a>
 
-                                <a style="vertical-align:top">Bảo Phương</a>
-                            </div>
-                            <div class="besties">
-                                <a href="HomePage2.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
-                            </div>
-                            <div style="margin-top: 2px; padding: 10px">
-                                <form action="Search.html">
-                                    <input type="Search"
-                                           id="Search"
-                                           name="q"
-                                           placeholder="Search" />
-                                </form>
-                            </div>
-                            <a href="Cart.html"><img src="images/cart.png" class="cart" width="10%" /></a>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <div id="menu" style="font-family: 'Arial'">
-                        <ul>
-                            <li><a href="HomePage2.html">TRANG CHỦ</a></li>
-                            <li>
-                                <a href="#" style="text-decoration: none">MAKE UP</a>
-                                <ul class="sub-menu" style="z-index: 9999">
-                                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
-                                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
-                                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration: none">SKINCARE</a>
-                                <ul class="sub-menu" style="z-index: 9999">
-                                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
-                                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
-                                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
-                                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
-                                    <li><a href="MatNa.html">MẶT NẠ</a></li>
-                                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
-                                    <li><a href="Lotion.html">LOTION</a></li>
-                                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
-                                    <li><a href="Toner.html">TONER</a></li>
-                                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
-                                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="Other.html" style="text-decoration: none">KHÁC</a>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration: none">CẨM NANG</a>
-                                <ul class="sub-menu" style="z-index: 9999">
-                                    <li><a href="Review.html">REVIEWS</a></li>
-                                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
-                                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="LienHe.html" style="text-decoration: none">LIÊN HỆ</a>
-                            </li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-            </tr>
-        </thead>
+                  <a style="vertical-align: top">Bảo Phương</a>
+                </div>
+                <div class="besties">
+                  <a href="/"
+                    ><img
+                      src="images/logobesties.png"
+                      class="logo"
+                      style="width: 20%"
+                  /></a>
+                </div>
+                <div style="margin-top: 2px; padding: 10px">
+                  <form action="Search.html">
+                    <input
+                      type="Search"
+                      id="Search"
+                      name="q"
+                      placeholder="Search"
+                    />
+                  </form>
+                </div>
+                <a href="Cart.html"
+                  ><img src="images/cart.png" class="cart" width="10%"
+                /></a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="menu" style="font-family: 'Arial'">
+              <ul>
+                <li><a href="/">TRANG CHỦ</a></li>
+                <li>
+                  <a href="#" style="text-decoration: none">MAKE UP</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">SKINCARE</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
+                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                    <li><a href="MatNa.html">MẶT NẠ</a></li>
+                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                    <li><a href="Lotion.html">LOTION</a></li>
+                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                    <li><a href="Toner.html">TONER</a></li>
+                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="Other.html" style="text-decoration: none">KHÁC</a>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">CẨM NANG</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="Review.html">REVIEWS</a></li>
+                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="LienHe.html" style="text-decoration: none"
+                    >LIÊN HỆ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </thead>
       <tbody ng-app="angularApp" ng-controller="DetailController">
         <tr>
           <td colspan="2"><hr /></td>
@@ -229,16 +247,21 @@
                       >
                         {{detail.short_description}}
                       </div>
-                      <div class="wrap-button-style" >
+                      <div class="wrap-button-style">
                         <div class="group-btn1">
-                          <button class="btn-cart" onclick="addToCart()" style="font-family:Quicksand; cursor:pointer">
+                          <button
+                            class="btn-cart"
+                            onclick="addToCart()"
+                            style="font-family: Quicksand; cursor: pointer"
+                          >
                             Giỏ hàng
                           </button>
                         </div>
                         <div class="btn-cart">
                           <a
                             href="Cart.html"
-                            class="btn-buy-right-now" style="text-decoration:none; color:white;"
+                            class="btn-buy-right-now"
+                            style="text-decoration: none; color: white"
                             onclick="addToCart()"
                             >Mua ngay</a
                           >

@@ -78,7 +78,7 @@
     <Content Include="FaceMakeup.html" />
     <Content Include="flickity.css" />
     <Content Include="HomePage.html" />
-    <Content Include="HomePage2.html" />
+    <Content Include="/" />
     <Content Include="images\ava.png" />
     <Content Include="images\BG4.jpg" />
     <Content Include="images\Cerave.jpg" />
