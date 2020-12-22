@@ -1,277 +1,23 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
-    <link rel="stylesheet" href="css/csscart.css" type="text/csss" />
-    <style type="text/css">
-      .auto-style1 {
-        width: 274px;
-      }
-
-      .auto-style3 {
-        height: 50px;
-        padding-left: 50px;
-      }
-
-      body {
-        font-family: "Roboto", sans-serif;
-        margin-top: 10px;
-      }
-
-      table tr td .container {
-        display: flex;
-        justify-content: center;
-      }
-
-      table tr td .login {
-        margin-top: 30px;
-        text-align: center;
-        color: black;
-        border-radius: 8px;
-      }
-
-      table tr td .login:hover {
-        background-color: whitesmoke;
-      }
-
-      table tr td .login a {
-        text-decoration: none;
-        color: black;
-      }
-
-      table tr td .login a:hover {
-        color: #ffa5a5;
-        font-weight: bold;
-        border: 1px solid whitesmoke;
-      }
-
-      table tr td .besties {
-        flex-grow: 1;
-        width: 20%;
-        text-align: center;
-        margin: 1%;
-      }
-
-      table tr td .logo {
-        margin-top: -10px;
-      }
-
-      table tr td div input {
-        margin-top: 30px;
-        border-radius: 8px;
-        padding: 10px;
-      }
-
-      table tr td .cart {
-        width: 40px;
-        height: 30px;
-        margin-top: 7px;
-        margin-right: 30px;
-      }
-
-      table tr td .cart:hover {
-        cursor: pointer;
-      }
-
-      table tr td #search {
-        background-image: url(images/find.png);
-        background-repeat: no-repeat;
-        background-position: 200px;
-      }
-
-      .cssheader form table {
-        border: none;
-      }
-
-      .cssheader form table tr td div a {
-        text-decoration: none;
-      }
-
-      .cssheader * {
-        margin: 0;
-        padding: 0;
-      }
-
-      .cssheader table tr td #menu ul {
-        background: white;
-        color: black;
-        text-align: center;
-        list-style-type: none;
-        border: none;
-      }
-
-      .cssheader table tr td #menu ul li {
-        display: inline-block;
-        width: 160px;
-        height: 40px;
-        line-height: 40px;
-        margin-left: -5px;
-      }
-
-      .cssheader table tr td #menu ul li a {
-        text-decoration: none;
-        color: black;
-        display: block;
-      }
-
-      .cssheader table tr td #menu ul li a:hover {
-        background: whitesmoke;
-        color: #ffa5a5;
-        font-weight: bold;
-      }
-      .cssheader table tr td #menu ul li ul {
-        list-style-type: none;
-        background: white;
-        text-align: center;
-      }
-
-      .cssheader table tr td #menu ul li ul li {
-        color: black;
-        display: inline-block;
-        font-size: 10px;
-        border: 1px;
-        width: 160px;
-        height: 15px;
-        margin-left: -5px;
-      }
-
-      .cssheader table tr td #menu ul li ul li a {
-        text-decoration: none;
-        color: black;
-        display: block;
-      }
-
-      .cssheader table tr td #menu ul li ul li a:hover {
-        background: whitesmoke;
-        color: gray;
-        font-weight: bold;
-      }
-
-      .cssheader table tr td .sub-menu {
-        display: none;
-        position: absolute;
-      }
-
-      .cssheader table tr td #menu li {
-        position: relative; /*hiển thị gần menu mẹ*/
-      }
-
-      .cssheader table tr td #menu li:hover .sub-menu {
-        display: block;
-      }
-
-      .cssheader table tr td .sub-menu li {
-        margin-left: 0 !important;
-      }
-      /* tbody*/
-
-      table.receipt {
-        width: 40%;
-        border-color: whitesmoke;
-      }
-      table.receipt .myreceipt {
-        height: 3px;
-        padding-top: 15px;
-        background-color: #ffa5a5;
-      }
-      table.receipt .myreceipt div {
-        text-align: center;
-        width: fit-content;
-        padding-bottom: 10px;
-        color: #fff;
-      }
-      .btn-order {
-        background-color: #ffa5a5;
-        border: none;
-        border-radius: 10px;
-        height: 30px;
-        width: 150px;
-        color: white;
-        margin: 10px 10px;
-        padding-left: 0px;
-      }
-      .btn-order:hover {
-        background-color: whitesmoke;
-        color: black;
-      }
-
-      .button-order {
-        margin-left: 500px;
-      }
-
-      /* Fixed sidenav, full height */
-      .sidenav {
-        height: 100%;
-        font-weight: bold;
-        width: 280px;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: whitesmoke;
-        color: black;
-        overflow-x: hidden;
-        padding-top: 20px;
-        line-height: 30px;
-      }
-
-      /* Style the sidenav links and the dropdown button */
-      .sidenav a,
-      .dropdown-btn {
-        padding: 6px 8px 6px 16px;
-        line-height: 30px;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 15px;
-        color: black;
-        display: block;
-        border: none;
-        background: none;
-        width: 100%;
-        text-align: left;
-        cursor: pointer;
-        outline: none;
-      }
-
-      /* On mouse-over */
-      .sidenav a:hover,
-      .dropdown-btn:hover {
-        color: #ffa5a5;
-      }
-      /* Main content */
-      .main {
-        margin-left: 200px; /* Same as the width of the sidenav */
-        font-size: 20px; /* Increased text to enable scrolling */
-        padding: 0px 10px;
-      }
-
-      /* Add an active class to the active dropdown button */
-      .active {
-        background-color: #e8e8e8;
-        color: black;
-      }
-      /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-      .dropdown-container {
-        display: none;
-        background-color: #eeeded;
-        padding-left: 30px;
-        font-weight: lighter;
-      }
-      .dropdown-container a {
-        font-weight: 400;
-        font-size: 14px;
-      }
-      /* Optional: Style the caret down icon */
-      .fa-caret-down {
-        float: right;
-        padding-right: 8px;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menu_detail.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="https://use.fontawesome.com/2888652aa3.js"></script>
+    <script src="./js/cart.js"></script>
   </head>
   <body>
-    <table class="cart">
+    <table>
       <thead class="cssheader">
         <tr>
           <td colspan="2">
@@ -294,9 +40,12 @@
                   />
                 </form>
               </div>
-              <a href="#"
-                ><img src="images/cart.png" class="cart" width="10%"
-              /></a>
+              <div class="wrap-notification">
+                <a href="#"
+                  ><img src="images/cart.png" class="cart" width="10%"
+                /></a>
+                <div class="notification" id="id_cart_number_icon">0</div>
+              </div>
             </div>
           </td>
         </tr>
@@ -304,47 +53,53 @@
           <td colspan="2">
             <div id="menu" style="font-family: 'Arial'">
               <ul>
-                <li><a href="HomePage.html">TRANG CHỦ</a></li>
+                <li><a href="TrangChu.html">TRANG CHỦ</a></li>
                 <li>
-                  <a href="#" style="text-decoration: none">MAKE UP</a>
-                  <ul class="sub-menu" style="z-index: 9999">
-                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
-                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                  <a href="#">BLACK FRIDAY</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">FLASH SALE</a></li>
+                    <li><a href="#">WEEK SALE</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">HOT TREND</a>
+                </li>
+                <li>
+                  <a href="#">MAKE UP</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">FACE MAKE UP</a></li>
+                    <li><a href="#">LIPS MAKE UP</a></li>
                     <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#" style="text-decoration: none">SKINCARE</a>
-                  <ul class="sub-menu" style="z-index: 9999">
-                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
-                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
-                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
-                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
-                    <li><a href="MatNa.html">MẶT NẠ</a></li>
-                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
-                    <li><a href="Lotion.html">LOTION</a></li>
-                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
-                    <li><a href="Toner.html">TONER</a></li>
-                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
-                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
+                  <a href="#">SKINCARE</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">SỮA RỬA MẶT</a></li>
+                    <li><a href="#">KEM CHỐNG NẮNG</a></li>
+                    <li><a href="#">MẶT NẠ</a></li>
+                    <li><a href="#">TẨY TRANG</a></li>
+                    <li><a href="#">TẨY TẾ BÀO CHẾT</a></li>
+                    <li><a href="#">ESSENCE - SERUM - AMPOULE</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="Other.html" style="text-decoration: none">KHÁC</a>
+                  <a href="#">KHÁC</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">CHĂM SÓC RĂNG MIỆNG</a></li>
+                    <li><a href="#">BỘ KIT SẢN PHẨM</a></li>
+                    <li><a href="#">MẪU THỬ SAMPLE</a></li>
+                  </ul>
                 </li>
                 <li>
-                  <a href="#" style="text-decoration: none">CẨM NANG</a>
-                  <ul class="sub-menu" style="z-index: 9999">
+                  <a href="#">CẨM NANG</a>
+                  <ul class="sub-menu">
                     <li><a href="Review.html">REVIEWS</a></li>
                     <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
                     <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
                   </ul>
                 </li>
-                <li>
-                  <a href="LienHe.html" style="text-decoration: none"
-                    >LIÊN HỆ</a
-                  >
-                </li>
+                <li><a href="LienHe.html">LIÊN HỆ</a></li>
               </ul>
             </div>
           </td>
@@ -353,52 +108,114 @@
           <td></td>
         </tr>
       </thead>
-      <tbody>
+      <tbody ng-app="cartApp" ng-controller="CartController">
         <tr>
-          <td colspan="2">
-            <span>Giỏ hàng</span>
-            <span>(2 sản phẩm)</span>
-          </td>
+          <td colspan="2"><hr /></td>
         </tr>
         <tr>
           <td>
-            <table>
-              <tr>
-                <td>Sản phẩm</td>
-                <td>Giá</td>
-                <td>Số lượng</td>
-                <td>Thành tiền</td>
-              </tr>
-              <tr>
-                <td colspan="4"><hr /></td>
-              </tr>
-            </table>
-          </td>
-          <td>
-            <table class="receipt" border="1px" cellspacing="0">
-              <tr>
-                <td class="myreceipt">
-                  <div>Hóa đơn của bạn</div>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3">
-                  <div><span>Tạm tính:</span> <span>500.000đ</span></div>
-                  <div><span>Tổng tiền:</span> <span>500.000đ</span></div>
-
-                  <button class="btn-order">Tiến hành đặt hàng</button>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="#"><img src="images/back.png" width="20px" /></a>
-            <span>Tiếp tục mua hàng</span>
-            <span class="button-order"
-              ><button class="btn-order">Tiến hành đặt hàng</button></span
-            >
+            <div class="wrap-cart">
+              <div class="wrap-cart-title">
+                <div class="cart-title-name">Giỏ hàng</div>
+                <div class="cart-title-number">
+                  (<span id="id_cart_number" class="cart-title-number-1"
+                    >2</span
+                  >
+                  sản phẩm)
+                </div>
+              </div>
+              <div class="wrap-cart-table">
+                <div class="cart-left">
+                  <div class="cart-left-1">
+                    <div class="cart-left-2">
+                      <div class="product-title">Sản phẩm</div>
+                      <div class="price-title">Giá</div>
+                      <div class="length-title">Số lượng</div>
+                      <div class="currency-title">Thành tiền</div>
+                    </div>
+                    <div class="cart-left-3" ng-repeat="cart in carts">
+                      <div hidden id="id_product_cart_id">{{cart.id}}</div>
+                      <div class="cart-left-2-item">
+                        <div class="image-title1">
+                          <img class="sm-img" src="{{cart.image}}" />
+                        </div>
+                        <div class="wrap-info-img">
+                          <div class="image-title2 ellipsis-img-title">
+                            {{cart.title}}
+                          </div>
+                          <div class="image-title3 ellipsis-img-description">
+                            {{cart.description}}
+                          </div>
+                          <div class="group-btn-img">
+                            <div
+                              class="image-title4"
+                              onclick="favouriteCartItem()"
+                            >
+                              <i class="fa fa-heart" aria-hidden="true"></i> Yêu
+                              thích
+                            </div>
+                            <div
+                              class="image-title5"
+                              ng-click="removeCartItem(cart.id)"
+                            >
+                              <i class="fa fa-times" aria-hidden="true"></i> Xoá
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="price" id="id_cart_price">{{cart.price}}</div>
+                      <div class="length">
+                        <input
+                          type="number"
+                          id="number_product"
+                          value="{{cart.count}}"
+                          ng-model="priceTotal"
+                          ng-change="calCurrencyTotal(priceTotal, cart.id)"
+                          min="0"
+                        />
+                      </div>
+                      <div class="currency" id="id_currency_total">
+                        {{ cart.total.toFixed(0).toLocaleString()}}đ
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart-left-4">
+                    <div class="style-btn-add-cart">
+                      <a class="continue-add-cart" onclick="goBack()"
+                        ><i class="fa fa-angle-left" aria-hidden="true"></i>
+                        Tiếp tục mua hàng</a
+                      >
+                    </div>
+                    <div>
+                      <a href="Other.html" class="order-cart"
+                        >Tiến hành đặt hàng</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-middle"></div>
+                <div class="cart-right">
+                  <div class="cart-right-title">Hoá đơn của bạn</div>
+                  <div class="cart-right-content">
+                    <div class="cart-right-item">
+                      <div class="cart-right-name">Tạm tính:</div>
+                      <div class="cart-right-price" id="id_temp_total_price">
+                        {{totalTempPrice}}
+                      </div>
+                    </div>
+                    <div class="cart-right-item">
+                      <div class="cart-right-name">Tổng tiền:</div>
+                      <div class="cart-right-price" id="id_total_price">
+                        {{totalPrice}}
+                      </div>
+                    </div>
+                    <div>
+                      <button class="btn-order">Tiến hành đặt hàng</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
         </tr>
       </tbody>
