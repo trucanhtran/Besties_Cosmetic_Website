@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from bs4 import BeautifulSoup  # using this lib to scrape data
 import requests
 import csv

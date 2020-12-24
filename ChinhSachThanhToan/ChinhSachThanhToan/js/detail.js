@@ -15,7 +15,7 @@ app.controller("DetailController", function ($scope, $http, $sce) {
   const catName = rawCatName[0].toLocaleLowerCase() + rawCatName.slice(1);
   $http({
     method: "GET",
-    url: "http://localhost:3000/" + catName + "?id=" + id,
+    url: "http://biocosmetics.tk:3000/" + catName + "?id=" + id,
   }).then(
     function mySucces(response) {
       $scope.detail = response.data[0];
@@ -31,7 +31,7 @@ app.controller("DetailController", function ($scope, $http, $sce) {
 
   $http({
     method: "GET",
-    url: "http://localhost:3000/" + catName,
+    url: "http://biocosmetics.tk:3000/" + catName,
   }).then(
     function mySucces(response) {
       $scope.relations = response.data.slice(0,10);

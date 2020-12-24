@@ -1,546 +1,664 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Chính Sách Đổi Trả</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
-        .auto-style1 {
-            width: 274px;
-        }
+      .auto-style1 {
+        width: 274px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: auto;
+        padding-bottom: 0;
+      }
 
-        .auto-style3 {
-            height: 50px;
-            padding-left: 50px;
-        }
-        body {
-            font-family: "Roboto", sans-serif;
-            margin-top:10px;
-        }
+      .auto-style3 {
+        height: 50px;
+        padding-left: 50px;
+      }
 
-        table tr td .container {
-            display: flex;
-            justify-content: center;
-            padding-top:5px;
-        }
+      body {
+        font-family: "Roboto", sans-serif;
+        margin-top: 10px;
+      }
 
-        table tr td .login {
-            color: black;
-            border-radius: 8px;
-            align-items: center;
-        }
+      table tr td .container {
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+      }
 
-            table tr td .login:hover {
-                background-color: whitesmoke;
-            }
+      table tr td .login {
+        width: 200px;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+        border-radius: 8px;
+      }
 
-            table tr td .login a {
-                text-decoration: none;
-                color: black;
-            }
+      table tr td .login:hover {
+        background-color: whitesmoke;
+      }
 
-                table tr td .login a:hover {
-                    color: #ffa5a5;
-                    font-weight: bold;
-                    border: 1px solid whitesmoke;
-                }
+      table tr td .login a {
+        text-decoration: none;
+        color: black;
+      }
 
-        table tr td .besties {
-            flex-grow: 1;
-            width: 20%;
-            text-align: center;
-            margin: 1%;
-        }
+      table tr td .login a:hover {
+        color: #ffa5a5;
+        font-weight: bold;
+        border: 1px solid whitesmoke;
+      }
 
-        table tr td .logo {
-            margin-top: -10px;
-        }
+      table tr td .besties {
+        flex-grow: 1;
+        width: 20%;
+        text-align: center;
+        margin: 1%;
+      }
 
-        table tr td div input {
-            margin-top: 30px;
-            border-radius: 8px;
-            padding:10px;
-        }
+      table tr td .logo {
+        margin-top: -10px;
+      }
 
-        table tr td .cart {
-            width: 40px;
-            height: 30px;
-            margin-top: 7px;
-            margin-right: 30px;
-        }
-        table tr td .cart:hover{
-            cursor:pointer;
-        }
-        table tr td #search {
-            background-image: url(images/find.png);
-            background-repeat: no-repeat;
-            background-position: 200px;
-        }
+      table tr td div input {
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 10px;
+      }
 
+      table tr td .cart {
+        width: 40px;
+        height: 30px;
+        margin-top: 7px;
+        margin-right: 30px;
+      }
 
-        .cssheader form table {
-            border: none;
-        }
+      table tr td .cart:hover {
+        cursor: pointer;
+      }
 
-            .cssheader form table tr td div a {
-                text-decoration: none;
-            }
+      table tr td #search {
+        background-image: url(images/find.png);
+        background-repeat: no-repeat;
+        background-position: 200px;
+      }
 
-        .cssheader * {
-            margin: 0;
-            padding: 0;
-        }
+      .cssheader form table {
+        border: none;
+      }
 
-        .cssheader table tr td #menu ul {
-            background: white;
-            color: black;
-            text-align: center;
-            list-style-type: none;
-            border: none;
-        }
+      .cssheader form table tr td div a {
+        text-decoration: none;
+      }
 
-            .cssheader table tr td #menu ul li {
-                display: inline-block;
-                width: 160px;
-                height: 40px;
-                line-height: 40px;
-                margin-left: -5px;
-            }
+      .cssheader * {
+        margin: 0;
+        padding: 0;
+      }
 
-                .cssheader table tr td #menu ul li a {
-                    text-decoration: none;
-                    color: black;
-                    display: block;
-                }
+      .cssheader table tr td #menu ul {
+        background: white;
+        color: black;
+        text-align: center;
+        list-style-type: none;
+        border: none;
+      }
 
-                    .cssheader table tr td #menu ul li a:hover {
-                        background: whitesmoke;
-                        color: #ffa5a5;
-                        font-weight: bold;
-                    }
+      .cssheader table tr td #menu ul li {
+        display: inline-block;
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: -5px;
+      }
 
+      .cssheader table tr td #menu ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
 
-                .cssheader table tr td #menu ul li ul {
-                    list-style-type: none;
-                    background: white;
-                    text-align: center;
-                }
+      .cssheader table tr td #menu ul li a:hover {
+        background: whitesmoke;
+        color: #ffa5a5;
+        font-weight: bold;
+      }
 
-                    .cssheader table tr td #menu ul li ul li {
-                        color: black;
-                        display: inline-block;
-                        font-size: 13px;
-                        border: 1px;
-                        width: 160px;
-                        height: 15px;
-                        margin-left: -5px;
-                    }
+      .cssheader table tr td #menu ul li ul {
+        list-style-type: none;
+        background: white;
+        text-align: center;
+      }
 
-                        .cssheader table tr td #menu ul li ul li a {
-                            text-decoration: none;
-                            color: black;
-                            display: block;
-                        }
+      .cssheader table tr td #menu ul li ul li {
+        color: black;
+        display: inline-block;
+        font-size: 13px;
+        border: 1px;
+        width: 160px;
+        height: 15px;
+        margin-left: -5px;
+      }
 
-                            .cssheader table tr td #menu ul li ul li a:hover {
-                                background: whitesmoke;
-                                color: gray;
-                                font-weight: bold;
-                            }
+      .cssheader table tr td #menu ul li ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
 
-        .cssheader table tr td .sub-menu {
-            display: none;
-            position: absolute;
-        }
+      .cssheader table tr td #menu ul li ul li a:hover {
+        background: whitesmoke;
+        color: gray;
+        font-weight: bold;
+      }
 
-        .cssheader table tr td #menu li {
-            position: relative; /*hiển thị gần menu mẹ*/
-        }
+      .cssheader table tr td .sub-menu {
+        display: none;
+        position: absolute;
+      }
 
-            .cssheader table tr td #menu li:hover .sub-menu {
-                display: block;
-            }
+      .cssheader table tr td #menu li {
+        position: relative; /*hiển thị gần menu mẹ*/
+      }
 
-        .cssheader table tr td .sub-menu li {
-            margin-left: 0 !important;
-        }
+      .cssheader table tr td #menu li:hover .sub-menu {
+        display: block;
+      }
 
-        /* Fixed sidenav, full height */
-        .sidenav {
-            height: 100%;
-            font-weight: bold;
-            width: 280px;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: whitesmoke;
-            color: black;
-            overflow-x: hidden;
-            padding-top: 20px;
-            line-height: 30px;
-        }
+      .cssheader table tr td .sub-menu li {
+        margin-left: 0 !important;
+      }
 
-            /* Style the sidenav links and the dropdown button */
-            .sidenav a,
-            .dropdown-btn {
-                padding: 6px 8px 6px 16px;
-                line-height: 30px;
-                text-decoration: none;
-                font-weight: 500;
-                font-size: 15px;
-                color: black;
-                display: block;
-                border: none;
-                background: none;
-                width: 100%;
-                text-align: left;
-                cursor: pointer;
-                outline: none;
-            }
+      /* Fixed sidenav, full height */
+      .sidenav {
+        height: 100%;
+        font-weight: bold;
+        width: 280px;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: whitesmoke;
+        color: black;
+        overflow-x: hidden;
+        padding-top: 20px;
+        line-height: 30px;
+      }
 
-                /* On mouse-over */
-                .sidenav a:hover,
-                .dropdown-btn:hover {
-                    color: #ffa5a5;
-                }
-        /* Main content */
-        .main {
-            margin-left: 200px; /* Same as the width of the sidenav */
-            font-size: 20px; /* Increased text to enable scrolling */
-            padding: 0px 10px;
-        }
+      /* Style the sidenav links and the dropdown button */
+      .sidenav a,
+      .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        line-height: 30px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+        color: black;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
 
-        /* Add an active class to the active dropdown button */
-        .active {
-            background-color: #e8e8e8;
-            color: black;
-        }
+      /* On mouse-over */
+      .sidenav a:hover,
+      .dropdown-btn:hover {
+        color: #ffa5a5;
+      }
+      /* Main content */
+      .main {
+        margin-left: 200px; /* Same as the width of the sidenav */
+        font-size: 20px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+      }
 
-        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-        .dropdown-container {
-            display: none;
-            background-color: #eeeded;
-            padding-left: 30px;
-            font-weight: lighter;
-        }
+      /* Add an active class to the active dropdown button */
+      .active {
+        background-color: #e8e8e8;
+        color: black;
+      }
 
-            .dropdown-container a {
-                font-weight: 400;
-                font-size: 14px;
-            }
-        /* Optional: Style the caret down icon */
-        .fa-caret-down {
-            float: right;
-            padding-right: 8px;
-        }
+      /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+      .dropdown-container {
+        display: none;
+        background-color: #eeeded;
+        padding-left: 30px;
+        font-weight: lighter;
+      }
 
+      .dropdown-container a {
+        font-weight: 400;
+        font-size: 14px;
+      }
+      /* Optional: Style the caret down icon */
+      .fa-caret-down {
+        float: right;
+        padding-right: 8px;
+      }
     </style>
-
-</head>
-<body>
+  </head>
+  <body>
     <table>
-        <thead class="cssheader">
-            <tr>
-                <td colspan="2">
-                    <div class="container">
-                        <div class="container">
-                            <div class="login" style="text-align:center">
-                                <a href="dangky.html">Đăng ký </a>
-                                /
-                                <a href="DangNhap.html">Đăng nhập</a>
-                            </div>
-                            <div class="besties">
-                                <a href="HomePage.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
-                            </div>
-                            <div style="margin-top: 2px; padding: 10px">
-                                <form action="Search.html">
-                                    <input type="Search"
-                                           id="Search"
-                                           name="q"
-                                           placeholder="Search" />
-                                </form>
-                            </div>
-                            <a href="Cart.html"><img src="images/cart.png" class="cart" width="10%" /></a>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <div id="menu" style="font-family:'Arial'">
-                        <ul>
-                            <li><a href="HomePage.html">TRANG CHỦ</a> </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">MAKE UP</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
-                                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
-                                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">SKINCARE</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
-                                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
-                                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
-                                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
-                                    <li><a href="MatNa.html">MẶT NẠ</a></li>
-                                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
-                                    <li><a href="Lotion.html">LOTION</a></li>
-                                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
-                                    <li><a href="Toner.html">TONER</a></li>
-                                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
-                                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="Other.html" style="text-decoration:none">KHÁC</a>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">CẨM NANG</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="Review.html">REVIEWS</a></li>
-                                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
-                                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="LienHe.html" style="text-decoration:none">LIÊN HỆ</a> </li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                </td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="2" style="text-align:justify">
-                    <img src="images/BannerDoiTra.png" style="width:100%" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2"
-                    class="auto-style3 , colordanhmuc"
-                    style="vertical-align: middle">
-                    <a href="HomePage.html" class="linkdanhmuc" style="color: black;font-weight:bold">
-                        Trang chủ
-                    </a>
+      <thead class="cssheader">
+        <tr>
+          <td colspan="2">
+            <div class="container">
+              <div class="container">
+                <div
+                  class="login"
+                  style="text-align: center; cursor: pointer"
+                  onclick="window.location.href='LichSuMuaHang.html'"
+                >
+                  <a
+                    ><img
+                      src="images/ava.png"
+                      style="margin-top: -5px; width: 20%"
+                  /></a>
+
+                  <a style="vertical-align: top">Bảo Phương</a>
+                </div>
+                <div class="besties">
+                  <a href="/"
+                    ><img
+                      src="images/logobesties.png"
+                      class="logo"
+                      style="width: 20%"
+                  /></a>
+                </div>
+                <div style="margin-top: 2px; padding: 10px">
+                  <form action="Search.html">
+                    <input
+                      type="Search"
+                      id="Search"
+                      name="q"
+                      placeholder="Search"
+                    />
+                  </form>
+                </div>
+                <a href="Cart.html"
+                  ><img src="images/cart.png" class="cart" width="10%"
+                /></a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="menu" style="font-family: 'Arial'">
+              <ul>
+                <li><a href="/">TRANG CHỦ</a></li>
+                <li>
+                  <a href="#" style="text-decoration: none">MAKE UP</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">SKINCARE</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
+                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                    <li><a href="MatNa.html">MẶT NẠ</a></li>
+                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                    <li><a href="Lotion.html">LOTION</a></li>
+                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                    <li><a href="Toner.html">TONER</a></li>
+                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="Other.html" style="text-decoration: none">KHÁC</a>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">CẨM NANG</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="Review.html">REVIEWS</a></li>
+                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="LienHe.html" style="text-decoration: none"
+                    >LIÊN HỆ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2" style="text-align: justify">
+            <img src="images/BannerDoiTra.png" style="width: 100%" />
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="auto-style3 , colordanhmuc"
+            style="vertical-align: middle"
+          >
+            <a
+              href="/"
+              class="linkdanhmuc"
+              style="color: black; font-weight: bold"
+            >
+              Trang chủ
+            </a>
+            >
+            <a href="#" class="linkdanhmuc" style="color: black">
+              <b>Skin Care</b>
+            </a>
+            >
+            <a href="Toner.html" class="linkdanhmuc" style="color: black">
+              <b>Toner</b>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 10px"></td>
+        </tr>
+        <tr>
+          <td style="align-content: center">
+            <div class="auto-style1">
+              <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
+              <hr />
+              <div class="sidenav">
+                <button class="dropdown-btn" onclick="location.href='/'">
+                  TRANG CHỦ
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div></div>
+                <button class="dropdown-btn">
+                  MAKE UP
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="FaceMakeup.html">FACE MAKE UP</a>
+                  <a href="LipsMakeup.html">LIPS MAKE UP</a>
+                  <a href="EyesMakeup.html">EYES MAKE UP</a>
+                </div>
+                <button class="dropdown-btn">
+                  SKIN CARE
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="SuaRuaMat.html">SỮA RỬA MẶT</a>
+                  <a href="KemChongNang.html">KEM CHỐNG NẮNG</a>
+                  <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
+                  <a href="KemDuongMat.html">KEM DƯỠNG MẮT</a>
+                  <a href="MatNa.html">MẶT NẠ</a>
+                  <a href="MatNaNgu.html">MẶT NẠ NGỦ</a>
+                  <a href="Lotion.html">LOTION</a>
+                  <a href="TayTrang.html">TẨY TRANG</a>
+                  <a href="Toner.html">TONER</a>
+                  <a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a>
+                  <a href="Serum.html">ESSENCE - SERUM - AMPOULE</a>
+                </div>
+                <button
+                  class="dropdown-btn"
+                  onclick="location.href='Other.html'"
+                >
+                  KHÁC
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container"></div>
+                <button class="dropdown-btn">
+                  CẨM NANG
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="Review.html">REVIEWS</a>
+                  <a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a>
+                  <a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a>
+                </div>
+                <button
+                  class="dropdown-btn"
+                  onclick="location.href='LienHe.html'"
+                >
+                  LIÊN HỆ
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div></div>
+              </div>
+              <script>
+                //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                var dropdown = document.getElementsByClassName("dropdown-btn");
+                var i;
+
+                for (i = 0; i < dropdown.length; i++) {
+                  dropdown[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                      dropdownContent.style.display = "none";
+                    } else {
+                      dropdownContent.style.display = "block";
+                    }
+                  });
+                }
+              </script>
+            </div>
+          </td>
+          <td>
+            <h1>Chính sách đổi hàng</h1>
+            <p><b>CHÍNH SÁCH ĐỔI HÀNG</b></p>
+            <br />
+            <ol type="1">
+              <li>
+                Điều khoản chung:
+                <ul>
+                  <li>
+                    Sản phẩm đã mua sẽ không được hoàn lại tiền trong mọi trường
+                    hợp.
+                  </li>
+                  <li>Mỗi sản phẩm chỉ được đổi 1 lần .</li>
+                  <li>
+                    Việc đổi trả hàng hóa sẽ tùy thuộc theo quyết định cuối cùng
+                    của Ban Quản lý và sẽ dựa trên mức giá tại cửa hàng thời
+                    điểm đó hoặc sản phẩm có giá trị tương đương.
+                  </li>
+                  <li>
+                    Ban quản lý có quyền đánh giá tình trạng hàng trả lại / hàng
+                    bị lỗi trước khi thực hiện bất kỳ việc sửa chữa hoặc đổi
+                    hàng.
+                  </li>
+                  <li>
+                    Ban quản lý có quyền sửa đổi các chính sách và điều kiện của
+                    cửa hàng đối với các mặt hàng khuyến mại và chương trình đặc
+                    biệt tại bất kỳ thời điểm nào.
+                  </li>
+                  <li>
+                    Sản phẩm đổi phải có giá bằng hoặc cao hơn giá sản phẩm đã
+                    mua. Khách hàng sẽ không được hoàn lại tiền thừa nếu sản
+                    phẩm đổi có giá thấp hơn sản phẩm đã mua.
+                  </li>
+                </ul>
+                <br />
+              </li>
+              <li>
+                Điều kiện đổi hàng:
+                <ul>
+                  <li><b>Không áp dụng đổi cho các sản phẩm Sale</b></li>
+                  <li>Sản phẩm chưa qua sử dụng.</li>
+                  <li>
+                    Sản phẩm còn nguyên tem nhãn , hộp sản phẩm đi kèm (nếu có)
+                  </li>
+                  <li>Khách hàng có hóa đơn mua hàng đầy đủ từ BESTIES</li>
+                  <li>
+                    Hàng không bị lỗi do quá trình lưu giữ, vận chuyển của người
+                    sử dụng .
+                  </li>
+                </ul>
+                <br />
+              </li>
+              <li>
+                Địa điểm áp dụng đổi hàng:
+                <ul>
+                  <li>Tại cửa hàng khách hàng đã mua sản phẩm</li>
+                  <li>Tại các cửa hàng trong cùng hệ thống với BESTIES</li>
+                </ul>
+                <br />
+              </li>
+              <li>
+                Thời hạn áp dụng đổi hàng và các trường hợp không áp dụng:
+                <ul>
+                  <li>
+                    Trong vòng 3 ngày kể từ ngày mua sản phẩm trên hóa đơn mua
+                    hàng hoặc nhận được sản phẩm từ bên giao hàng .
+                  </li>
+                  <li>
+                    Không áp dụng chính sách đổi hàng cho các sản phẩm giảm giá
+                    tại Cửa hàng
+                  </li>
+                  <li>Online , giảm giá theo chương trình FLASH SALE</li>
+                  <li>Sản phẩm đã bị bóc tem nhãn, seal ( nếu có ).</li>
+                  <li>
+                    Sản phẩm khách đã thử hoặc đã sử dụng từ 1 lần trở lên.
+                  </li>
+                  <li>
+                    Bao bì, vỏ hộp sản phẩm bị hư hỏng, trầy xước do lỗi từ phía
+                    khách hàng
+                  </li>
+                  <li>
+                    Sản phẩm không phải mua từ BESTIES COSMETIC (Không còn giữ,
+                    mất hóa đơn mua hàng)
+                  </li>
+                  <li>
+                    Bị kích ứng sản phẩm do bảo quản , sử dụng sai cách và do cơ
+                    địa .
+                  </li>
+                </ul>
+                <br />
+              </li>
+              <li>
+                Cách thức đổi trả:
+                <ul>
+                  <li>Liên hệ qua hotline 1900 0274</li>
+                  <li>
+                    Khách hàng cần phải thông báo cho nhân viên BESTIES COSMETIC
+                    lí do đổi trả và địa chỉ, số điện thoại liên lạc chính xác
+                    để BESTIES COSMETIC có thể thực hiện quy trình đổi trả sản
+                    phẩm một cách nhanh chóng nhất .
+                  </li>
+                  <li>
+                    Khách ở khu vực Hồ Chí Minh , BESTIES COSMETIC khuyến khích
+                    khách đến Showroom để nhân viên có thể check lại sản phẩm và
+                    khách có thể xem & lựa chọn đổi sản phẩm đúng theo ý của quý
+                    khách.
+                  </li>
+                  <li>
+                    Khách ở tỉnh, Quý khách có thể Liên hệ với BESTIES COSMETIC
+                    về sản phẩm , mã đơn hàng ,… để BESTIES kiểm tra và xử lý
+                    sớm nhất
+                  </li>
+                  <li>
+                    BESTIES COSMETIC quan tâm đến sự hài lòng của khách hàng và
+                    mong muốn nâng cao chất lượng dịch vụ, BESTIES COSMETIC nhận
+                    đổi trả sản phẩm miễn phí cho khách hàng theo đúng quy định
+                    nêu trên .
+                  </li>
+                </ul>
+                <br />
+              </li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2" style="background-color: #fcdada">
+            <table>
+              <tr>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="LienHe.html" style="text-decoration: none"
+                      ><strong>THÔNG TIN LIÊN HỆ</strong></a
                     >
-                    <a href="#" class="linkdanhmuc" style="color: black">
-                        <b>Skin Care</b>
-                    </a>
+                  </p>
+                  <div>
+                    <p>
+                      <strong>BESTIES COSMETICS</strong> <br />
+                      Số 1 Võ Văn Ngân,Linh Trung,<br />
+                      Thủ Đức, TP HCM
+                    </p>
+                    <p>Hotline: 1900 0274</p>
+                    <p>Email: cskh@besties.vn</p>
+                  </div>
+                </td>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>VỀ CHÚNG TÔI</strong></a
                     >
-                    <a href="Toner.html" class="linkdanhmuc" style="color: black">
-                        <b>Toner</b>
-                    </a>
+                  </p>
+                  <div style="padding-left: 18px">
+                    <p>
+                      <a href="#">Giới thiệu <strong>Besties.vn</strong></a>
+                    </p>
+                    <p><a href="#">Tuyển dụng</a></p>
+                    <p><a href="#">Chính sách bảo mật</a></p>
+                    <p><a href="#">Điều khoản sử dụng</a></p>
+                  </div>
                 </td>
-            </tr>
-            <tr>
-                <td style="height:10px;"></td>
-            </tr>
-            <tr>
-                <td class="auto-style1" style="align-content: center">
-                    <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
-                    <hr />
-                    <div class="sidenav">
-                        <button class="dropdown-btn" onclick="location.href='HomePage.html'">
-                            TRANG CHỦ
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div></div>
-                        <button class="dropdown-btn">
-                            MAKE UP
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="FaceMakeup.html">FACE MAKE UP</a>
-                            <a href="LipsMakeup.html">LIPS MAKE UP</a>
-                            <a href="EyesMakeup.html">EYES MAKE UP</a>
-                        </div>
-                        <button class="dropdown-btn">
-                            SKIN CARE
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="SuaRuaMat.html">SỮA RỬA MẶT</a>
-                            <a href="KemChongNang.html">KEM CHỐNG NẮNG</a>
-                            <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
-                            <a href="KemDuongMat.html">KEM DƯỠNG MẮT</a>
-                            <a href="MatNa.html">MẶT NẠ</a>
-                            <a href="MatNaNgu.html">MẶT NẠ NGỦ</a>
-                            <a href="Lotion.html">LOTION</a>
-                            <a href="TayTrang.html">TẨY TRANG</a>
-                            <a href="Toner.html">TONER</a>
-                            <a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a>
-                            <a href="Serum.html">ESSENCE - SERUM - AMPOULE</a>
-                        </div>
-                        <button class="dropdown-btn" onclick="location.href='Other.html'">
-                            KHÁC
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                        </div>
-                        <button class="dropdown-btn">
-                            CẨM NANG
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="Review.html">REVIEWS</a>
-                            <a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a>
-                            <a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a>
-                        </div>
-                        <button class="dropdown-btn" onclick="location.href='LienHe.html'">
-                            LIÊN HỆ
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div></div>
-                    </div>
-                    <script>
-                      //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-                      var dropdown = document.getElementsByClassName("dropdown-btn");
-                      var i;
-
-                      for (i = 0; i < dropdown.length; i++) {
-                          dropdown[i].addEventListener("click", function () {
-                              this.classList.toggle("active");
-                              var dropdownContent = this.nextElementSibling;
-                              if (dropdownContent.style.display === "block") {
-                                  dropdownContent.style.display = "none";
-                              } else {
-                                  dropdownContent.style.display = "block";
-                              }
-                          });
-                      }
-                    </script>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>CHĂM SÓC KHÁCH HÀNG</strong></a
+                    >
+                  </p>
+                  <div style="margin-left: -13px">
+                    <p><a href="#">Các câu hỏi thường gặp</a></p>
+                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
+                    <p><a href="#">Vận chuyển</a></p>
+                  </div>
                 </td>
-                <td>
-                    <h1>Chính sách đổi hàng</h1>
-                    <p><b>CHÍNH SÁCH ĐỔI HÀNG</b></p>
-                    <br />
-                    <ol type="1">
-                        <li>
-                            Điều khoản chung:
-                            <ul>
-                                <li>Sản phẩm đã mua sẽ không được hoàn lại tiền trong mọi trường hợp.</li>
-                                <li>Mỗi sản phẩm chỉ được đổi 1 lần .</li>
-                                <li>Việc đổi trả hàng hóa sẽ tùy thuộc theo quyết định cuối cùng của Ban Quản lý và sẽ dựa trên mức giá tại cửa hàng thời điểm đó hoặc sản phẩm có giá trị tương đương.</li>
-                                <li>Ban quản lý có quyền đánh giá tình trạng hàng trả lại / hàng bị lỗi trước khi thực hiện bất kỳ việc sửa chữa hoặc đổi hàng.</li>
-                                <li>Ban quản lý có quyền sửa đổi các chính sách và điều kiện của cửa hàng đối với các mặt hàng khuyến mại và chương trình đặc biệt tại bất kỳ thời điểm nào.</li>
-                                <li>Sản phẩm đổi phải có giá bằng hoặc cao hơn giá sản phẩm đã mua. Khách hàng sẽ không được hoàn lại tiền thừa nếu sản phẩm đổi có giá thấp hơn sản phẩm đã mua.</li>
-                            </ul>
-                            <br />
-                        </li>
-                        <li>
-                            Điều kiện đổi hàng:
-                            <ul>
-                                <li><b>Không áp dụng đổi cho các sản phẩm Sale</b></li>
-                                <li>Sản phẩm chưa qua sử dụng.</li>
-                                <li>Sản phẩm còn nguyên tem nhãn , hộp sản phẩm đi kèm (nếu có)</li>
-                                <li>Khách hàng có hóa đơn mua hàng đầy đủ từ BESTIES</li>
-                                <li>Hàng không bị lỗi do quá trình lưu giữ, vận chuyển của người sử dụng .</li>
-                            </ul>
-                            <br />
-                        </li>
-                        <li>
-                            Địa điểm áp dụng đổi hàng:
-                            <ul>
-                                <li>Tại cửa hàng khách hàng đã mua sản phẩm</li>
-                                <li>Tại các cửa hàng trong cùng hệ thống với BESTIES</li>
-                            </ul>
-                            <br />
-                        </li>
-                        <li>
-                            Thời hạn áp dụng đổi hàng và các trường hợp không áp dụng:
-                            <ul>
-                                <li>Trong vòng 3 ngày kể từ ngày mua sản phẩm trên hóa đơn mua hàng hoặc nhận được sản phẩm từ bên giao hàng .</li>
-                                <li>Không áp dụng chính sách đổi hàng cho các sản phẩm giảm giá tại Cửa hàng</li>
-                                <li>Online , giảm giá theo chương trình FLASH SALE</li>
-                                <li>Sản phẩm đã bị bóc tem nhãn, seal ( nếu có ).</li>
-                                <li>Sản phẩm khách đã thử hoặc đã sử dụng từ 1 lần trở lên.</li>
-                                <li>Bao bì, vỏ hộp sản phẩm bị hư hỏng, trầy xước do lỗi từ phía khách hàng</li>
-                                <li>Sản phẩm không phải mua từ BESTIES COSMETIC (Không còn giữ, mất hóa đơn mua hàng)</li>
-                                <li>Bị kích ứng sản phẩm do bảo quản , sử dụng sai cách và do cơ địa .</li>
-                            </ul>
-                            <br />
-                        </li>
-                        <li>
-                            Cách thức đổi trả:
-                            <ul>
-                                <li>Liên hệ qua hotline 1900 0274</li>
-                                <li>Khách hàng cần phải thông báo cho nhân viên BESTIES COSMETIC  lí do đổi trả và địa chỉ, số điện thoại liên lạc chính xác để BESTIES COSMETIC  có thể thực hiện quy trình đổi trả sản phẩm một cách nhanh chóng nhất .</li>
-                                <li>Khách ở khu vực Hồ Chí Minh , BESTIES COSMETIC  khuyến khích khách đến Showroom để nhân viên có thể check lại sản phẩm và khách có thể xem & lựa chọn đổi sản phẩm đúng theo ý của quý khách.</li>
-                                <li>Khách ở tỉnh, Quý khách có thể Liên hệ với BESTIES COSMETIC  về sản phẩm , mã đơn hàng ,… để BESTIES kiểm tra và xử lý sớm nhất</li>
-                                <li>BESTIES COSMETIC  quan tâm đến sự hài lòng của khách hàng và mong muốn nâng cao chất lượng dịch vụ, BESTIES COSMETIC nhận đổi trả sản phẩm miễn phí cho khách hàng theo đúng quy định nêu trên .</li>
-                            </ul>
-                            <br />
-                        </li>
-                    </ol>
+                <td style="text-align: end">
+                  <div>
+                    <img src="images/fb.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/ins.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/yt.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                  </div>
                 </td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td colspan="2" style="background-color:#FCDADA">
-                    <table>
-                        <tr>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="LienHe.html" style="text-decoration:none"><strong>THÔNG TIN LIÊN HỆ</strong></a></p>
-                                <div>
-                                    <p><strong>BESTIES COSMETICS</strong> <br /> Số 1 Võ Văn Ngân,Linh Trung,<br /> Thủ Đức, TP HCM</p>
-                                    <p>Hotline: 1900 0274</p>
-                                    <p>Email: cskh@besties.vn</p>
-                                </div>
-
-                            </td>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none"><strong>VỀ CHÚNG TÔI</strong></a></p>
-                                <div style="padding-left:18px">
-                                    <p><a href="#">Giới thiệu <strong>Besties.vn</strong></a></p>
-                                    <p><a href="#">Tuyển dụng</a></p>
-                                    <p><a href="#">Chính sách bảo mật</a></p>
-                                    <p><a href="#">Điều khoản sử dụng</a></p>
-                                </div>
-
-                            </td>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none"><strong>CHĂM SÓC KHÁCH HÀNG</strong></a></p>
-                                <div style="margin-left:-13px">
-                                    <p><a href="#">Các câu hỏi thường gặp</a></p>
-                                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
-                                    <p><a href="#">Vận chuyển</a></p>
-                                </div>
-
-                            </td>
-                            <td style="text-align:end">
-                                <div>
-                                    <img src="images/fb.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                    <img src="images/ins.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                    <img src="images/yt.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="4" style="text-align:left">
-                                <hr />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" style="text-align:left">
-                                <img src="images/logobesties.png" style="width:40%" />
-                            </td>
-                            <td style="text-align:right">
-                                Copy right © 2020 Cosmetics. All right reserved<br />
-                                <img src="images/bct.png" style="width:30%" />
-                            </td>
-                        </tr>
-                    </table>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: left">
+                  <hr />
                 </td>
-            </tr>
-        </tfoot>
+              </tr>
+              <tr>
+                <td colspan="3" style="text-align: left">
+                  <img src="images/logobesties.png" style="width: 40%" />
+                </td>
+                <td style="text-align: right">
+                  Copy right © 2020 Cosmetics. All right reserved<br />
+                  <img src="images/bct.png" style="width: 30%" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tfoot>
     </table>
-</body>
+  </body>
 </html>

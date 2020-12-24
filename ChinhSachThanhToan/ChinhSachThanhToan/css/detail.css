@@ -135,7 +135,6 @@
 .btn-cart:hover {
   background-color: #fcdada;
   border: 1px solid #fcdada;
-  color: black;
   font-weight: bold;
 }
 .btn-cart:active {
@@ -271,4 +270,7 @@ p img {
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+.btn-buy-right-now{
+    color:black;
 }

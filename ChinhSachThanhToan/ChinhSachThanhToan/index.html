@@ -1,0 +1,956 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Trang Chủ</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <link rel="stylesheet" href="css/cacsanpham.css" type="text/css" />
+    <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="magicslideshow.css" />
+    <link rel="stylesheet" type="text/css" href="css/cssslide.css" />
+    <script type="text/javascript" src="myjs/Slider.js"></script>
+    <script src="magicslideshow.js" type="text/javascript"></script>
+    <style type="text/css">
+      .auto-style1 {
+        width: 274px;
+      }
+
+      .auto-style3 {
+        height: 50px;
+        padding-left: 50px;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        margin-top: 10px;
+      }
+
+      table tr td .container {
+        display: flex;
+        justify-content: center;
+      }
+
+      table tr td .login {
+        width: 200px;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+        border-radius: 8px;
+      }
+
+      table tr td .login:hover {
+        background-color: whitesmoke;
+      }
+
+      table tr td .login a {
+        text-decoration: none;
+        color: black;
+      }
+
+      table tr td .login a:hover {
+        color: #ffa5a5;
+        font-weight: bold;
+        border: 1px solid whitesmoke;
+      }
+
+      table tr td .besties {
+        flex-grow: 1;
+        width: 20%;
+        text-align: center;
+        margin: 1%;
+      }
+
+      table tr td .logo {
+        margin-top: -10px;
+      }
+
+      table tr td div input {
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 10px;
+      }
+
+      table tr td .cart {
+        width: 40px;
+        height: 30px;
+        margin-top: 7px;
+        margin-right: 30px;
+      }
+
+      table tr td .cart:hover {
+        cursor: pointer;
+      }
+
+      table tr td #search {
+        background-image: url(images/find.png);
+        background-repeat: no-repeat;
+        background-position: 200px;
+      }
+
+      .cssheader form table {
+        border: none;
+      }
+
+      .cssheader form table tr td div a {
+        text-decoration: none;
+      }
+
+      .cssheader * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .cssheader table tr td #menu ul {
+        background: white;
+        color: black;
+        text-align: center;
+        list-style-type: none;
+        border: none;
+      }
+
+      .cssheader table tr td #menu ul li {
+        display: inline-block;
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: -5px;
+      }
+
+      .cssheader table tr td #menu ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+
+      .cssheader table tr td #menu ul li a:hover {
+        background: whitesmoke;
+        color: #ffa5a5;
+        font-weight: bold;
+      }
+
+      .cssheader table tr td #menu ul li ul {
+        list-style-type: none;
+        background: white;
+        text-align: center;
+      }
+
+      .cssheader table tr td #menu ul li ul li {
+        color: black;
+        display: inline-block;
+        font-size: 10px;
+        border: 1px;
+        width: 160px;
+        height: 15px;
+        margin-left: -5px;
+      }
+
+      .cssheader table tr td #menu ul li ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+
+      .cssheader table tr td #menu ul li ul li a:hover {
+        background: whitesmoke;
+        color: gray;
+        font-weight: bold;
+      }
+
+      .cssheader table tr td .sub-menu {
+        display: none;
+        position: absolute;
+      }
+
+      .cssheader table tr td #menu li {
+        position: relative; /*hiển thị gần menu mẹ*/
+      }
+
+      .cssheader table tr td #menu li:hover .sub-menu {
+        display: block;
+      }
+
+      .cssheader table tr td .sub-menu li {
+        margin-left: 0 !important;
+      }
+
+      .home-tensp a {
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: gray;
+        width: 100px;
+      }
+
+      .home-tensp a:hover {
+        color: #ffa5a5;
+      }
+
+      .home-image {
+        transition: transform 0.2s;
+        border-radius: 15px;
+      }
+
+      .home-image:hover {
+        transform: scale(1.15);
+      }
+
+      .home-hottrend {
+        border-radius: 15px;
+      }
+
+      .home-hottrend:hover {
+        background-color: #fcdada;
+      }
+
+      .head {
+        color: grey;
+      }
+
+      .head:hover {
+        color: #ffa5a5;
+        cursor: pointer;
+      }
+
+      .hangmoive-danhmuc {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: black;
+      }
+
+      .hangmoive-danhmuc:hover {
+        cursor: pointer;
+        color: grey;
+      }
+
+      .button {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        transition: transform 0.2s;
+      }
+
+      .button:hover {
+        transform: scale(1.15);
+        background-color: #ffa5a5;
+        cursor: pointer;
+      }
+
+      .content {
+        font-family: "#9Slide03 Open Sans";
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead class="cssheader">
+        <tr>
+          <td colspan="2">
+            <div class="container">
+              <div class="container">
+                <div class="login" style="text-align: center">
+                  <a href="dangky.html">Đăng ký </a>
+                  /
+                  <a href="DangNhap.html">Đăng nhập</a>
+                </div>
+                <div class="besties">
+                  <a href="/"
+                    ><img
+                      src="images/logobesties.png"
+                      class="logo"
+                      style="width: 20%"
+                  /></a>
+                </div>
+                <div style="margin-top: 2px; padding: 10px">
+                  <form action="Search.html">
+                    <input
+                      type="Search"
+                      id="Search"
+                      name="q"
+                      placeholder="Search"
+                    />
+                  </form>
+                </div>
+                <a href="Cart.html"
+                  ><img src="images/cart.png" class="cart" width="10%"
+                /></a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="menu" style="font-family: 'Arial'">
+              <ul>
+                <li><a href="/">TRANG CHỦ</a></li>
+                <li>
+                  <a href="#" style="text-decoration: none">MAKE UP</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">SKINCARE</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
+                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                    <li><a href="MatNa.html">MẶT NẠ</a></li>
+                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                    <li><a href="Lotion.html">LOTION</a></li>
+                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                    <li><a href="Toner.html">TONER</a></li>
+                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="Other.html" style="text-decoration: none">KHÁC</a>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">CẨM NANG</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="Review.html">REVIEWS</a></li>
+                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="LienHe.html" style="text-decoration: none"
+                    >LIÊN HỆ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">
+            <div
+              class="MagicSlideshow"
+              data-options="slide-duration:1500;effect:random;"
+              style="text-align: justify"
+            >
+              <img src="banner/h1.png" style="width: 100%; cursor: pointer" />
+              <img src="banner/h2.png" style="width: 100%; cursor: pointer" />
+              <img src="banner/h3.png" style="width: 100%; cursor: pointer" />
+            </div>
+          </td>
+        </tr>
+        <tr style="background-color: whitesmoke">
+          <td colspan="4" style="padding: 20px">
+            <p style="font-size: 30px; font-weight: bold; color: #ffa5a5">
+              <marquee behavior="alternate" scrollamount="20"
+                >HOT TREND</marquee
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/4-27_50ea4ebb018a41598f47cf22a3002f88_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/2-22_e7be771741e242d98a41b89911279793_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/4-27_50ea4ebb018a41598f47cf22a3002f88_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#"
+                        >Nước Tẩy Trang Bioderma Dành Cho Da Nhạy Cảm 500ml
+                        Sensibio H2O</a
+                      >
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">364,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/son-thoi-li-3ce-mood-recipe-on-and-on-bici-cosmetics-4_2a99d7aafb394d2ab6b8889ae968bb9b_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/son-thoi-li-3ce-mood-recipe-on-and-on-bici-cosmetics_3ebec55b79c74d36a5b49f37b152adc9_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/son-thoi-li-3ce-mood-recipe-on-and-on-bici-cosmetics-4_2a99d7aafb394d2ab6b8889ae968bb9b_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#">Son Thỏi Lì 3CE Mood Recipe On And On</a>
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">249,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/sivanna-105-a_0da05409845c46e49ebe15fa28c276d9_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/sivanna-105-e-1_936cd3fe29364a1b9a77205726f7774c_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/sivanna-105-a_0da05409845c46e49ebe15fa28c276d9_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#"
+                        >Phấn Má Hồng Sivanna Colors Your Cheek Enhancer
+                        DU-105</a
+                      >
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">87,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/122501764_2763919537261590_3943539393013591207_o_d2f0191d58204521a14bd3e65d0caf2e_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/70894028_212907996380232_6861938859781713812_n_02e760727aa84d05a382af1d71bd014a_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/122501764_2763919537261590_3943539393013591207_o_d2f0191d58204521a14bd3e65d0caf2e_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#">Son Kem Lì Merzy Bite The Beat Mellow Tint</a>
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">139,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/rtyry_eb2e374477d64963892c3be7b5b38775_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/106392202_293696775086979_5440682012306038949_n_87d525d6013d4c638fb5cd7ffad862e1_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/rtyry_eb2e374477d64963892c3be7b5b38775_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#"
+                        >Kem chống nắng The Saem Eco Earth Light Sun Cream
+                        SPF50+/PA++++</a
+                      >
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">149,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/kem-nen-nyx-professional-makeup-foundation-bicicosmeticsvn-28_d490af74b54d40199f1814e54475a694_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/61927476_2804302272920086_43180093660463104_n_769d3db771b640e3afc7f4aeca6af6ed_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/kem-nen-nyx-professional-makeup-foundation-bicicosmeticsvn-28_d490af74b54d40199f1814e54475a694_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#"
+                        >Kem Nền NYX Professional Makeup Can’t Stop Won’t Stop
+                        Full ...</a
+                      >
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">389,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/1-min_730b19e6f2544ee38e2114c75cb33555_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/e5b3fc83c70e4d4d8c5cbe15c26b8777_00f85aab8e054fec82636df64c4ef1bf_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/1-min_730b19e6f2544ee38e2114c75cb33555_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#"
+                        >Set Son Sivanna Colors Colorful Unicorn Magic Lipstick
+                        ...</a
+                      >
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">209,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 300px;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <a href="#">
+                      <img
+                        class="home-image"
+                        src="https://product.hstatic.net/1000379579/product/bici-innisfree-volcanic_293299c111004bd6aa345605155a561f_master.jpg"
+                        style="width: 190px; border-radius: 15px"
+                        onmouseover="this.src='https://product.hstatic.net/1000379579/product/bici-innisfree-volcanic2_39afd8e29ca34d989e1325bb3bf0f2f1_master.jpg'"
+                        onmouseout="this.src='https://product.hstatic.net/1000379579/product/bici-innisfree-volcanic_293299c111004bd6aa345605155a561f_master.jpg'"
+                      /> </a
+                    ><br />
+                    <p class="home-tensp">
+                      <a href="#"
+                        >Sữa Rửa Mặt Innisfree Jeju Volcanic Pore Cleansing Foam
+                        EX</a
+                      >
+                    </p>
+                    <br />
+                    <p style="font-size: 16px">169,000đ</p>
+                    <input
+                      class="addtocart"
+                      type="button"
+                      value="ADD TO CART"
+                    />
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 10px"></td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <p>
+                <img
+                  src="banner/h6.png"
+                  style="width: 1400px; cursor: pointer; text-align: center"
+                />
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr style="background-color: whitesmoke">
+          <td colspan="4" style="padding: 20px">
+            <p style="font-size: 30px; font-weight: bold; color: #ffa5a5">
+              <marquee direction="right" behavior="alternate" scrollamount="20"
+                >HÀNG MỚI VỀ</marquee
+              >
+            </p>
+          </td>
+        </tr>
+        <tr style="text-align: center">
+          <td style="text-align: center">
+            <table>
+              <tr>
+                <td>
+                  <div
+                    style="
+                      margin: 10px;
+                      padding: 10px;
+                      width: 100%;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <table>
+                      <tr>
+                        <td style="padding-top: 27px">
+                          <a href="#">
+                            <img
+                              class="home-image"
+                              src="../images/Cerave.jpg"
+                              style="height: 300px; width: 300px"
+                              onmouseover="this.src='https://duocphambachmai.com/wp-content/uploads/2019/04/sua-rua-mat-cerave-foaming-facial-cleanser-355ml-mau-moi-3.jpg'"
+                              onmouseout="this.src='../images/Cerave.jpg'"
+                            />
+                          </a>
+                        </td>
+                        <td class="tdcontent">
+                          <div>
+                            <a href="#" class="hangmoive-danhmuc"
+                              >Sữa rửa mặt</a
+                            >
+                            <br />
+                            <br />
+                            <p class="head">
+                              Sữa Rửa Mặt CeraVe Foaming Facial Cleanser
+                            </p>
+                            <br />
+                            <p class="content">
+                              <b><i>CeraVe Foaming Facial Cleanser</i></b> là
+                              sữa rửa mặt được phát triển bởi các bác sĩ da liễu
+                              tại Mỹ, luôn là sữa rửa mặt được khuyên dùng hàng
+                              ngày vì độ dịu nhẹ cũng như khả năng làm sạch da
+                              lý tưởng.
+                            </p>
+                            <form action="#">
+                              <input
+                                type="submit"
+                                value="Xem chi tiết"
+                                class="button"
+                              />
+                            </form>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 100%;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <table>
+                      <tr>
+                        <td class="tdcontent">
+                          <div>
+                            <a href="#" class="hangmoive-danhmuc">Tẩy trang</a>
+                            <br />
+                            <br />
+                            <p class="head">
+                              Nước Tẩy Trang The Saem Healing Tea Garden
+                              Cleansing Water 300ml
+                            </p>
+                            <br />
+                            <p class="content">
+                              <b
+                                ><i
+                                  >Nước Tẩy Trang The Saem Healing Tea Garden
+                                  Cleansing Water</i
+                                ></b
+                              >
+                              là sản phẩm dành cho da thường, da khô, da dầu
+                              mụn… Giúp tẩy trang, loại bỏ bụi bẩn, cân bằng da
+                              mang đến cho bạn 1 làn da sạch khỏe
+                            </p>
+                            <form action="#">
+                              <input
+                                type="submit"
+                                value="Xem chi tiết"
+                                class="button"
+                              />
+                            </form>
+                          </div>
+                        </td>
+                        <td style="padding-top: 27px">
+                          <a href="#">
+                            <img
+                              class="home-image"
+                              src="../images/TT.jpg"
+                              style="height: 300px"
+                              onmouseover="this.src='https://product.hstatic.net/1000328823/product/thiet_ke_khong_ten_4765f1519d2c4fe4bf27e4f51986719b_master.png'"
+                              onmouseout="this.src='../images/TT.jpg'"
+                            />
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div
+                    style="
+                      text-align: center;
+                      margin: 10px;
+                      padding: 10px;
+                      width: 100%;
+                      height: 380px;
+                    "
+                    class="home-hottrend"
+                  >
+                    <table>
+                      <tr>
+                        <td style="padding-top: 27px">
+                          <a href="#">
+                            <img
+                              class="home-image"
+                              src="../images/KCN.jpg"
+                              style="height: 300px"
+                              onmouseover="this.src='https://product.hstatic.net/1000387659/product/upload_08eba965201e44fca4931c9f8ccd6186_1024x1024.jpg'"
+                              onmouseout="this.src='../images/KCN.jpg'"
+                            />
+                          </a>
+                        </td>
+                        <td class="tdcontent">
+                          <div>
+                            <a href="#" class="hangmoive-danhmuc"
+                              >Kem chống nắng</a
+                            >
+                            <br />
+                            <br />
+                            <p class="head">
+                              SKem Chống Nắng The SAEM Eco Earth Power Sun Cream
+                              SPF50+ PA++++
+                            </p>
+                            <br />
+                            <p class="content">
+                              <b
+                                ><i
+                                  >Kem Chống Nắng The SAEM Eco Earth Power Pink
+                                  Sun Cream SPF50+ PA++++</i
+                                ></b
+                              >
+                              nhẹ giúp bảo vệ 100% da khỏi tia cực tím và làm
+                              dịu da nhờ bột màu hồng calamine. Các thành phần
+                              cây thảo dược giúp bảo vệ da khỏi các tác hại bên
+                              ngoài, duy trì tình trạng da khỏe mạnh, sạch sẽ.
+                            </p>
+                            <form action="#">
+                              <input
+                                type="submit"
+                                value="Xem chi tiết"
+                                class="button"
+                              />
+                            </form>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">
+            <table>
+              <tr>
+                <td>
+                  <div
+                    class="MagicSlideshow"
+                    data-options="selectors: bottom; selectors-style: thumbnails; selectors-size: 50px;"
+                  >
+                    <img src="banner/h1.png" data-thumb-image="banner/h1.png" />
+                    <img src="banner/h2.png" data-thumb-image="banner/h2.png" />
+                    <img src="banner/h3.png" data-thumb-image="banner/h3.png" />
+                    <img
+                      src="banner/h4.png"
+                      data-thumb-image="banner/h4.png"
+                      style="width: 200%"
+                    />
+                    <img src="banner/h6.png" data-thumb-image="banner/h6.png" />
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" style="background-color: #fcdada">
+            <table>
+              <tr>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>THÔNG TIN LIÊN HỆ</strong></a
+                    >
+                  </p>
+                  <div style="margin-left: -20px">
+                    <p>
+                      <strong>BESTIES COSMETICS</strong> <br />
+                      Số 1 Võ Văn Ngân,Linh Trung,<br />
+                      Thủ Đức, TP HCM
+                    </p>
+                    <p>Hotline: 1900 0274</p>
+                    <p>Email: cskh@besties.vn</p>
+                  </div>
+                </td>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>VỀ CHÚNG TÔI</strong></a
+                    >
+                  </p>
+                  <div>
+                    <p>
+                      <a href="#">Giới thiệu <strong>Besties.vn</strong></a>
+                    </p>
+                    <p><a href="#">Tuyển dụng</a></p>
+                    <p><a href="#">Chính sách bảo mật</a></p>
+                    <p><a href="#">Điều khoản sử dụng</a></p>
+                  </div>
+                </td>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>CHĂM SÓC KHÁCH HÀNG</strong></a
+                    >
+                  </p>
+                  <div style="margin-left: -40px">
+                    <p><a href="#">Các câu hỏi thường gặp</a></p>
+                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
+                    <p><a href="#">Vận chuyển</a></p>
+                  </div>
+                </td>
+                <td style="text-align: end">
+                  <div>
+                    <img src="images/fb.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/ins.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/yt.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: left">
+                  <hr />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" style="text-align: left">
+                  <img src="images/logobesties.png" style="width: 40%" />
+                </td>
+                <td style="text-align: right">
+                  Copy right © 2020 Cosmetics. All right reserved<br />
+                  <img src="images/bct.png" style="width: 30%" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

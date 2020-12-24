@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProductDetail</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
@@ -15,6 +16,34 @@
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/detail.js"></script>
     <script src="./js/cart.js"></script>
+    <style>
+      table tr td .login {
+        width: 200px;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+        border-radius: 8px;
+      }
+
+      table tr td .login:hover {
+        background-color: whitesmoke;
+      }
+
+      table tr td .login a {
+        text-decoration: none;
+        color: black;
+      }
+
+      table tr td .login a:hover {
+        color: #ffa5a5;
+        font-weight: bold;
+        border: 1px solid whitesmoke;
+      }
+
+      .btn-cart:hover {
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <table>
@@ -23,13 +52,21 @@
           <td colspan="2">
             <div class="container">
               <div class="container">
-                <div class="login" style="text-align: center">
-                  <a href="dangky.html">Đăng ký </a>
-                  /
-                  <a href="DangNhap.html">Đăng nhập</a>
+                <div
+                  class="login"
+                  style="text-align: center; cursor: pointer"
+                  onclick="window.location.href='LichSuMuaHang.html'"
+                >
+                  <a
+                    ><img
+                      src="images/ava.png"
+                      style="margin-top: -5px; width: 20%"
+                  /></a>
+
+                  <a style="vertical-align: top">Bảo Phương</a>
                 </div>
                 <div class="besties">
-                  <a href="HomePage.html"
+                  <a href="/"
                     ><img
                       src="images/logobesties.png"
                       class="logo"
@@ -57,7 +94,7 @@
           <td colspan="2">
             <div id="menu" style="font-family: 'Arial'">
               <ul>
-                <li><a href="HomePage.html">TRANG CHỦ</a></li>
+                <li><a href="/">TRANG CHỦ</a></li>
                 <li>
                   <a href="#" style="text-decoration: none">MAKE UP</a>
                   <ul class="sub-menu" style="z-index: 9999">
@@ -212,7 +249,11 @@
                       </div>
                       <div class="wrap-button-style">
                         <div class="group-btn1">
-                          <button class="btn-cart" onclick="addToCart()">
+                          <button
+                            class="btn-cart"
+                            onclick="addToCart()"
+                            style="font-family: Quicksand; cursor: pointer"
+                          >
                             Giỏ hàng
                           </button>
                         </div>
@@ -220,6 +261,7 @@
                           <a
                             href="Cart.html"
                             class="btn-buy-right-now"
+                            style="text-decoration: none; color: white"
                             onclick="addToCart()"
                             >Mua ngay</a
                           >

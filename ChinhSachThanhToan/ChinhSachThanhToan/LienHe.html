@@ -1,398 +1,457 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Liên Hệ</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
     <style type="text/css">
-        .auto-style1 {
-            width: 274px;
-        }
+      .auto-style1 {
+        width: 274px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: auto;
+        padding-bottom: 0;
+      }
 
-        .auto-style3 {
-            height: 50px;
-            padding-left: 50px;
-        }
+      .auto-style3 {
+        height: 50px;
+        padding-left: 50px;
+      }
 
-        body {
-            font-family: "Roboto", sans-serif;
-            margin-top: 10px;
-        }
+      body {
+        font-family: "Roboto", sans-serif;
+        margin-top: 10px;
+      }
 
-        table tr td .container {
-            display: flex;
-            justify-content: center;
-        }
+      table tr td .container {
+        display: flex;
+        justify-content: center;
+      }
 
-        table tr td .login {
-            margin-top: 30px;
-            text-align: center;
-            color: black;
-            border-radius: 8px;
-        }
+      table tr td .login {
+        width: 200px;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+        border-radius: 8px;
+      }
 
-            table tr td .login:hover {
-                background-color: whitesmoke;
-            }
+      table tr td .login:hover {
+        background-color: whitesmoke;
+      }
 
-            table tr td .login a {
-                text-decoration: none;
-                color: black;
-            }
+      table tr td .login a {
+        text-decoration: none;
+        color: black;
+      }
 
-                table tr td .login a:hover {
-                    color: #ffa5a5;
-                    font-weight: bold;
-                    border: 1px solid whitesmoke;
-                }
+      table tr td .login a:hover {
+        color: #ffa5a5;
+        font-weight: bold;
+        border: 1px solid whitesmoke;
+      }
 
-        table tr td .besties {
-            flex-grow: 1;
-            width: 20%;
-            text-align: center;
-            margin: 1%;
-        }
+      table tr td .besties {
+        flex-grow: 1;
+        width: 20%;
+        text-align: center;
+        margin: 1%;
+      }
 
-        table tr td .logo {
-            margin-top: -10px;
-        }
+      table tr td .logo {
+        margin-top: -10px;
+      }
 
-        table tr td div input {
-            margin-top: 30px;
-            border-radius: 8px;
-            padding: 10px;
-        }
+      table tr td div input {
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 10px;
+      }
 
-        table tr td .cart {
-            width: 40px;
-            height: 30px;
-            margin-top: 7px;
-            margin-right: 30px;
-        }
+      table tr td .cart {
+        width: 40px;
+        height: 30px;
+        margin-top: 7px;
+        margin-right: 30px;
+      }
 
-            table tr td .cart:hover {
-                cursor: pointer;
-            }
+      table tr td .cart:hover {
+        cursor: pointer;
+      }
 
-        table tr td #search {
-            background-image: url(images/find.png);
-            background-repeat: no-repeat;
-            background-position: 200px;
-        }
+      table tr td #search {
+        background-image: url(images/find.png);
+        background-repeat: no-repeat;
+        background-position: 200px;
+      }
 
+      .cssheader form table {
+        border: none;
+      }
 
-        .cssheader form table {
-            border: none;
-        }
+      .cssheader form table tr td div a {
+        text-decoration: none;
+      }
 
-            .cssheader form table tr td div a {
-                text-decoration: none;
-            }
+      .cssheader * {
+        margin: 0;
+        padding: 0;
+      }
 
-        .cssheader * {
-            margin: 0;
-            padding: 0;
-        }
+      .cssheader table tr td #menu ul {
+        background: white;
+        color: black;
+        text-align: center;
+        list-style-type: none;
+        border: none;
+      }
 
-        .cssheader table tr td #menu ul {
-            background: white;
-            color: black;
-            text-align: center;
-            list-style-type: none;
-            border: none;
-        }
+      .cssheader table tr td #menu ul li {
+        display: inline-block;
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: -5px;
+      }
 
-            .cssheader table tr td #menu ul li {
-                display: inline-block;
-                width: 160px;
-                height: 40px;
-                line-height: 40px;
-                margin-left: -5px;
-            }
+      .cssheader table tr td #menu ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
 
-                .cssheader table tr td #menu ul li a {
-                    text-decoration: none;
-                    color: black;
-                    display: block;
-                }
+      .cssheader table tr td #menu ul li a:hover {
+        background: whitesmoke;
+        color: #ffa5a5;
+        font-weight: bold;
+      }
 
-                    .cssheader table tr td #menu ul li a:hover {
-                        background: whitesmoke;
-                        color: #ffa5a5;
-                        font-weight: bold;
-                    }
+      .cssheader table tr td #menu ul li ul {
+        list-style-type: none;
+        background: white;
+        text-align: center;
+      }
 
+      .cssheader table tr td #menu ul li ul li {
+        color: black;
+        display: inline-block;
+        font-size: 10px;
+        border: 1px;
+        width: 160px;
+        height: 15px;
+        margin-left: -5px;
+      }
 
-                .cssheader table tr td #menu ul li ul {
-                    list-style-type: none;
-                    background: white;
-                    text-align: center;
-                }
+      .cssheader table tr td #menu ul li ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
 
-                    .cssheader table tr td #menu ul li ul li {
-                        color: black;
-                        display: inline-block;
-                        font-size: 10px;
-                        border: 1px;
-                        width: 160px;
-                        height: 15px;
-                        margin-left: -5px;
-                    }
+      .cssheader table tr td #menu ul li ul li a:hover {
+        background: whitesmoke;
+        color: gray;
+        font-weight: bold;
+      }
 
-                        .cssheader table tr td #menu ul li ul li a {
-                            text-decoration: none;
-                            color: black;
-                            display: block;
-                        }
+      .cssheader table tr td .sub-menu {
+        display: none;
+        position: absolute;
+      }
 
-                            .cssheader table tr td #menu ul li ul li a:hover {
-                                background: whitesmoke;
-                                color: gray;
-                                font-weight: bold;
-                            }
+      .cssheader table tr td #menu li {
+        position: relative; /*hiển thị gần menu mẹ*/
+      }
 
-        .cssheader table tr td .sub-menu {
-            display: none;
-            position: absolute;
-        }
+      .cssheader table tr td #menu li:hover .sub-menu {
+        display: block;
+      }
 
-        .cssheader table tr td #menu li {
-            position: relative; /*hiển thị gần menu mẹ*/
-        }
+      .cssheader table tr td .sub-menu li {
+        margin-left: 0 !important;
+      }
 
-            .cssheader table tr td #menu li:hover .sub-menu {
-                display: block;
-            }
+      .padding {
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-top: 30px;
+        font-size: 18px;
+        font-family: iciel "#9Slide03 IcielSamsung Sharp Bo";
+        vertical-align: middle;
+      }
 
-        .cssheader table tr td .sub-menu li {
-            margin-left: 0 !important;
-        }
-        .padding {
-            padding-right: 20px;
-            padding-bottom: 30px;
-            padding-left: 30px;
-            padding-top: 30px;
-            font-size: 18px;
-            font-family: iciel '#9Slide03 IcielSamsung Sharp Bo';
-            vertical-align:middle;
-        }
-        .dropdown-container {
-            display: none;
-            background-color: #eeeded;
-            padding-left: 30px;
-            font-weight: lighter;
-        }
+      .dropdown-container {
+        display: none;
+        background-color: #eeeded;
+        padding-left: 30px;
+        font-weight: lighter;
+      }
 
-            .dropdown-container a {
-                font-weight: 400;
-                font-size: 14px;
-            }
-        /* Optional: Style the caret down icon */
-        .fa-caret-down {
-            float: right;
-            padding-right: 8px;
-        }
+      .dropdown-container a {
+        font-weight: 400;
+        font-size: 14px;
+      }
+      /* Optional: Style the caret down icon */
+      .fa-caret-down {
+        float: right;
+        padding-right: 8px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <table>
-        <thead class="cssheader">
-            <tr>
-                <td colspan="2">
-                    <div class="container">
-                        <div class="container">
-                            <div class="login" style="text-align:center">
-                                <a href="dangky.html">Đăng ký </a>
-                                /
-                                <a href="DangNhap.html">Đăng nhập</a>
-                            </div>
-                            <div class="besties">
-                                <a href="HomePage.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
-                            </div>
-                            <div style="margin-top: 2px; padding: 10px">
-                                <form action="Search.html">
-                                    <input type="Search"
-                                           id="Search"
-                                           name="q"
-                                           placeholder="Search" />
-                                </form>
-                            </div>
-                            <a href="Cart.html"><img src="images/cart.png" class="cart" width="10%" /></a>
-                        </div>
-                    </div>
+      <thead class="cssheader">
+        <tr>
+          <td colspan="2">
+            <div class="container">
+              <div class="container">
+                <div
+                  class="login"
+                  style="text-align: center; cursor: pointer"
+                  onclick="window.location.href='LichSuMuaHang.html'"
+                >
+                  <a
+                    ><img
+                      src="images/ava.png"
+                      style="margin-top: -5px; width: 20%"
+                  /></a>
+
+                  <a style="vertical-align: top">Bảo Phương</a>
+                </div>
+                <div class="besties">
+                  <a href="/"
+                    ><img
+                      src="images/logobesties.png"
+                      class="logo"
+                      style="width: 20%"
+                  /></a>
+                </div>
+                <div style="margin-top: 2px; padding: 10px">
+                  <form action="Search.html">
+                    <input
+                      type="Search"
+                      id="Search"
+                      name="q"
+                      placeholder="Search"
+                    />
+                  </form>
+                </div>
+                <a href="Cart.html"
+                  ><img src="images/cart.png" class="cart" width="10%"
+                /></a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="menu" style="font-family: 'Arial'">
+              <ul>
+                <li><a href="/">TRANG CHỦ</a></li>
+                <li>
+                  <a href="#" style="text-decoration: none">MAKE UP</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">SKINCARE</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
+                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                    <li><a href="MatNa.html">MẶT NẠ</a></li>
+                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                    <li><a href="Lotion.html">LOTION</a></li>
+                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                    <li><a href="Toner.html">TONER</a></li>
+                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="Other.html" style="text-decoration: none">KHÁC</a>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">CẨM NANG</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="Review.html">REVIEWS</a></li>
+                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="LienHe.html" style="text-decoration: none"
+                    >LIÊN HỆ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2" style="text-align: justify">
+            <img src="images/BannerDoiTra.png" width="100%" />
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="auto-style3 , colordanhmuc"
+            style="vertical-align: middle"
+          >
+            <a
+              href="/"
+              class="linkdanhmuc"
+              style="color: black; font-weight: bold"
+            >
+              Trang chủ
+            </a>
+            >
+            <a
+              href="LienHe.html"
+              class="linkdanhmuc"
+              style="color: black; font-weight: bold"
+            >
+              Liên Hệ
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="padding">
+            <img src="images/MapBesties.png" />
+          </td>
+
+          <td class="padding">
+            <table cellpadding="8" cellspacing="8">
+              <tr>
+                <td>
+                  Chúng tôi luôn sẵn sàng hỗ trợ, mọi thông tin về hàng hoá,
+                  dịch vụ, góp ý, thắc mắc, hợp tác,…
                 </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <div id="menu" style="font-family:'Arial'">
-                        <ul>
-                            <li><a href="HomePage.html">TRANG CHỦ</a> </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">MAKE UP</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
-                                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
-                                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">SKINCARE</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
-                                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
-                                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
-                                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
-                                    <li><a href="MatNa.html">MẶT NẠ</a></li>
-                                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
-                                    <li><a href="Lotion.html">LOTION</a></li>
-                                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
-                                    <li><a href="Toner.html">TONER</a></li>
-                                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
-                                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="Other.html" style="text-decoration:none">KHÁC</a>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">CẨM NANG</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="Review.html">REVIEWS</a></li>
-                                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
-                                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="LienHe.html" style="text-decoration:none">LIÊN HỆ</a> </li>
-                        </ul>
-                    </div>
+              </tr>
+              <tr>
+                <td>
+                  <h1>Liên hệ</h1>
                 </td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="2" style="text-align:justify">
-                    <img src="images/BannerDoiTra.png" width="100%" />
+              </tr>
+              <tr>
+                <td><hr width="100" /></td>
+              </tr>
+              <tr>
+                <td>
+                  Địa chỉ chúng tôi
+                  <br />
+                  <strong
+                    >Showroom: 1 Võ Văn Ngân, Phường Linh Trung, Quận Thủ Đức,
+                    TP Hồ Chí Minh</strong
+                  >
                 </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="auto-style3 , colordanhmuc" style="vertical-align:middle;">
-                    <a href="HomePage.html" class="linkdanhmuc" style="color:black; font-weight:bold">
-                        Trang chủ
-                    </a>
+              </tr>
+              <tr>
+                <td>
+                  Email
+                  <br />
+                  <strong>cskh@besties.vn</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Hotline
+                  <br />
+
+                  <strong>1900 0274</strong>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" style="background-color: #fcdada">
+            <table>
+              <tr>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>THÔNG TIN LIÊN HỆ</strong></a
                     >
-                    <a href="LienHe.html" class="linkdanhmuc" style="color:black">
-                        Liên Hệ
-                    </a>
+                  </p>
+                  <div>
+                    <p>
+                      <strong>BESTIES COSMETICS</strong> <br />
+                      Số 1 Võ Văn Ngân,Linh Trung,<br />
+                      Thủ Đức, TP HCM
+                    </p>
+                    <p>Hotline: 1900 0274</p>
+                    <p>Email: cskh@besties.vn</p>
+                  </div>
                 </td>
-            </tr>
-            <tr>
-                <td class="padding">
-                    <img src="images/MapBesties.png" />
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>VỀ CHÚNG TÔI</strong></a
+                    >
+                  </p>
+                  <div style="padding-left: 18px">
+                    <p>
+                      <a href="#">Giới thiệu <strong>Besties.vn</strong></a>
+                    </p>
+                    <p><a href="#">Tuyển dụng</a></p>
+                    <p><a href="#">Chính sách bảo mật</a></p>
+                    <p><a href="#">Điều khoản sử dụng</a></p>
+                  </div>
                 </td>
-
-                <td class="padding">
-                    <table cellpadding="8" cellspacing="8" >W
-                        <tr>
-                            <td >
-                                Chúng tôi luôn sẵn sàng hỗ trợ, mọi thông tin về hàng hoá, dịch vụ, góp ý, thắc mắc, hợp tác,…                            
-                             
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h1>
-                                    Liên hệ
-                                </h1>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> <hr width="100"/></td>
-                        </tr>
-                        <tr>
-                            <td>                                
-                                    Địa chỉ chúng tôi
-                                    <br />
-                                    <strong>Showroom: 1 Võ Văn Ngân, Phường Linh Trung, Quận Thủ Đức, TP Hồ Chí Minh</strong>                               
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Email
-                                <br />
-                                <strong>cskh@besties.vn</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Hotline
-                                <br />
-
-                                <strong>1900 0274</strong>
-                            </td>
-                        </tr>
-                    </table>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>CHĂM SÓC KHÁCH HÀNG</strong></a
+                    >
+                  </p>
+                  <div style="margin-left: -13px">
+                    <p><a href="#">Các câu hỏi thường gặp</a></p>
+                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
+                    <p><a href="#">Vận chuyển</a></p>
+                  </div>
                 </td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2" style="background-color:#FCDADA">
-                    <table>
-                        <tr>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none;"><strong>THÔNG TIN LIÊN HỆ</strong></a></p>
-                                <div>
-                                    <p><strong>BESTIES COSMETICS</strong> <br /> Số 1 Võ Văn Ngân,Linh Trung,<br /> Thủ Đức, TP HCM</p>
-                                    <p>Hotline: 1900 0274</p>
-                                    <p>Email: cskh@besties.vn</p>
-                                </div>
-
-                            </td>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none;"><strong>VỀ CHÚNG TÔI</strong></a></p>
-                                <div style="padding-left:18px">
-                                    <p><a href="#">Giới thiệu <strong>Besties.vn</strong></a></p>
-                                    <p><a href="#">Tuyển dụng</a></p>
-                                    <p><a href="#">Chính sách bảo mật</a></p>
-                                    <p><a href="#">Điều khoản sử dụng</a></p>
-                                </div>
-
-                            </td>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none;"><strong>CHĂM SÓC KHÁCH HÀNG</strong></a></p>
-                                <div style="margin-left:-13px">
-                                    <p><a href="#">Các câu hỏi thường gặp</a></p>
-                                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
-                                    <p><a href="#">Vận chuyển</a></p>
-                                </div>
-
-                            </td>
-                            <td style="text-align:end">
-                                <div>
-                                    <img src="images/fb.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                    <img src="images/ins.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                    <img src="images/yt.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="4" style="text-align:left">
-                                <hr />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" style="text-align:left">
-                                <img src="images/logobesties.png" style="width:40%" />
-                            </td>
-                            <td style="text-align:right">
-                                Copy right © 2020 Cosmetics. All right reserved<br />
-                                <img src="images/bct.png" style="width:30%" />
-                            </td>
-                        </tr>
-                    </table>
+                <td style="text-align: end">
+                  <div>
+                    <img src="images/fb.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/ins.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/yt.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                  </div>
                 </td>
-            </tr>
-        </tfoot>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: left">
+                  <hr />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" style="text-align: left">
+                  <img src="images/logobesties.png" style="width: 40%" />
+                </td>
+                <td style="text-align: right">
+                  Copy right © 2020 Cosmetics. All right reserved<br />
+                  <img src="images/bct.png" style="width: 30%" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tfoot>
     </table>
-</body>
+  </body>
 </html>

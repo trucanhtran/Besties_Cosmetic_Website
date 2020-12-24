@@ -1,14 +1,29 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <title></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
-    <link rel="stylesheet" href="css/cacsanpham.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh Toán</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
     <link rel="stylesheet" href="css/cssdoitra.css" type="text/css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menu_detail.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="https://use.fontawesome.com/2888652aa3.js"></script>
+    <script src="./js/cart.js"></script>
     <style type="text/css">
       .auto-style1 {
         width: 274px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: auto;
+        padding-bottom: 0;
       }
 
       .auto-style3 {
@@ -27,7 +42,8 @@
       }
 
       table tr td .login {
-        margin-top: 30px;
+        width: 200px;
+        padding-top: 10px;
         text-align: center;
         color: black;
         border-radius: 8px;
@@ -167,6 +183,7 @@
       .cssheader table tr td .sub-menu li {
         margin-left: 0 !important;
       }
+
       /* Fixed sidenav, full height */
       .sidenav {
         height: 100%;
@@ -225,6 +242,7 @@
         padding-left: 30px;
         font-weight: lighter;
       }
+
       .dropdown-container a {
         font-weight: 400;
         font-size: 14px;
@@ -234,64 +252,7 @@
         float: right;
         padding-right: 8px;
       }
-
-      /* css for products table */
-      table.products-table {
-        border: 1px solid black;
-      }
-      table.products-table > tbody > tr > td {
-        border: 1px solid black;
-      }
-      .wrap-product-images {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
-      .product-image {
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-      }
-      .ellipsis-title {
-        width: 300px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        padding: 0px 20px 0px 0px;
-      }
     </style>
-    <script>
-      var app = angular.module("angularApp", []);
-      app.controller("KitController", function ($scope, $http) {
-        const page = parseInt(window.location.href.split("?page=")[1]) || 1;
-        const totalPerPage = 18;
-        $http({
-          method: "GET",
-          url: "http://localhost:3000/boKitDungThu",
-        }).then(
-          function mySucces(respone) {
-            $scope.datas = respone.data.slice(
-              (page - 1) * totalPerPage,
-              page * totalPerPage
-            );
-
-            const totalPage = Math.ceil(respone.data.length / totalPerPage);
-            $scope.total = [...Array(totalPage).keys()];
-          },
-          function myError(respone) {
-            $scope.dataError = respone.statusText;
-          }
-        );
-      });
-
-      function showNoImage(image) {
-        image.onerror = "";
-        image.src = "./images/no_image.jpg";
-        return true;
-      }
-    </script>
   </head>
   <body>
     <table>
@@ -299,20 +260,42 @@
         <tr>
           <td colspan="2">
             <div class="container">
-              <div class="login" style="text-align: center">
-                <a href="#">Đăng ký </a>
-                /
-                <a href="#">Đăng nhập</a>
+              <div class="container">
+                <div
+                  class="login"
+                  style="text-align: center; cursor: pointer"
+                  onclick="window.location.href='LichSuMuaHang.html'"
+                >
+                  <a
+                    ><img
+                      src="images/ava.png"
+                      style="margin-top: -5px; width: 20%"
+                  /></a>
+
+                  <a style="vertical-align: top">Bảo Phương</a>
+                </div>
+                <div class="besties">
+                  <a href="/"
+                    ><img
+                      src="images/logobesties.png"
+                      class="logo"
+                      style="width: 20%"
+                  /></a>
+                </div>
+                <div style="margin-top: 2px; padding: 10px">
+                  <form action="Search.html">
+                    <input
+                      type="Search"
+                      id="Search"
+                      name="q"
+                      placeholder="Search"
+                    />
+                  </form>
+                </div>
+                <a href="Cart.html"
+                  ><img src="images/cart.png" class="cart" width="10%"
+                /></a>
               </div>
-              <div class="besties">
-                <img src="images/logobesties.png" class="logo" width="20%" />
-              </div>
-              <div style="margin-top: 2px; padding: 10px">
-                <input type="Search" id="Search" placeholder="Search" />
-              </div>
-              <a href="#"
-                ><img src="images/cart.png" class="cart" width="10%"
-              /></a>
             </div>
           </td>
         </tr>
@@ -320,54 +303,47 @@
           <td colspan="2">
             <div id="menu" style="font-family: 'Arial'">
               <ul>
-                <li><a href="TrangChu.html">TRANG CHỦ</a></li>
+                <li><a href="/">TRANG CHỦ</a></li>
                 <li>
-                  <a href="#">BLACK FRIDAY</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">FLASH SALE</a></li>
-                    <li><a href="#">WEEK SALE</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">HOT TREND</a>
-                </li>
-                <li>
-                  <a href="#">MAKE UP</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">FACE MAKE UP</a></li>
-                    <li><a href="#">LIPS MAKE UP</a></li>
+                  <a href="#" style="text-decoration: none">MAKE UP</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
                     <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">SKINCARE</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
                     <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                    <li><a href="MatNa.html">MẶT NẠ</a></li>
+                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                    <li><a href="Lotion.html">LOTION</a></li>
+                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                    <li><a href="Toner.html">TONER</a></li>
+                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">SKINCARE</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">SỮA RỬA MẶT</a></li>
-                    <li><a href="#">KEM CHỐNG NẮNG</a></li>
-                    <li><a href="#">MẶT NẠ</a></li>
-                    <li><a href="#">TẨY TRANG</a></li>
-                    <li><a href="#">TẨY TẾ BÀO CHẾT</a></li>
-                    <li><a href="#">ESSENCE - SERUM - AMPOULE</a></li>
-                  </ul>
+                  <a href="Other.html" style="text-decoration: none">KHÁC</a>
                 </li>
                 <li>
-                  <a href="#">KHÁC</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">CHĂM SÓC RĂNG MIỆNG</a></li>
-                    <li><a href="#">BỘ KIT SẢN PHẨM</a></li>
-                    <li><a href="#">MẪU THỬ SAMPLE</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">CẨM NANG</a>
-                  <ul class="sub-menu">
+                  <a href="#" style="text-decoration: none">CẨM NANG</a>
+                  <ul class="sub-menu" style="z-index: 9999">
                     <li><a href="Review.html">REVIEWS</a></li>
                     <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
                     <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
                   </ul>
                 </li>
-                <li><a href="LienHe.html">LIÊN HỆ</a></li>
+                <li>
+                  <a href="LienHe.html" style="text-decoration: none"
+                    >LIÊN HỆ</a
+                  >
+                </li>
               </ul>
             </div>
           </td>
@@ -376,7 +352,7 @@
           <td></td>
         </tr>
       </thead>
-      <tbody>
+      <tbody ng-app="cartApp" ng-controller="CartController">
         <tr>
           <td colspan="2" style="text-align: justify">
             <img src="images/BannerDoiTra.png" width="100%" />
@@ -386,159 +362,149 @@
           <td
             colspan="2"
             class="auto-style3 , colordanhmuc"
-            style="vertical-align: middle"
+            style="vertical-align: middle; font-weight: bold"
           >
-            <a href="TrangChu.html" class="linkdanhmuc" style="color: black">
-              Trang chủ
-            </a>
+            <a href="/" class="linkdanhmuc" style="color: black"> Trang chủ </a>
             >
-            <a href="#" class="linkdanhmuc" style="color: black">
-              <b>Make up</b>
-            </a>
-            >
-            <a href="KemDuongDa.html" class="linkdanhmuc" style="color: black">
-              <b>Kem Dưỡng Da</b>
+            <a href="Payment.html" class="linkdanhmuc" style="color: black">
+              <b>Thanh toán</b>
             </a>
           </td>
         </tr>
         <tr>
-          <td>Sort by</td>
+          <td style="height: 10px"></td>
         </tr>
         <tr>
-          <td class="auto-style1" style="align-content: center">
-            <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
-            <hr />
-            <div class="sidenav">
-              <button class="dropdown-btn" href="TrangChu.html">
-                TRANG CHỦ
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div></div>
-              <button class="dropdown-btn">
-                BLACK FRIDAY
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">FLASH SALE</a>
-                <a href="#">WEEK SALE</a>
-              </div>
-              <button class="dropdown-btn">
-                HOT TREND
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div></div>
-              <button class="dropdown-btn">
-                MAKE UP
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">FACE MAKE UP</a>
-                <a href="#">LIPS MAKE UP</a>
-                <a href="EyesMakeup.html">EYES MAKE UP</a>
-                <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
-              </div>
-              <button class="dropdown-btn">
-                SKIN CARE
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">SỮA RỬA MẶT</a>
-                <a href="#">KEM CHỐNG NẮNG</a>
-                <a href="#">MẶT NẠ</a>
-                <a href="#">TẨY TRANG</a>
-                <a href="#">TẨY TẾ BÀO CHẾT</a>
-                <a href="#">ESSENCE - SERUM - AMPOULE</a>
-              </div>
-              <button class="dropdown-btn">
-                KHÁC
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">CHĂM SÓC RĂNG MIỆNG</a>
-                <a href="#">BỘ KIT SẢN PHẨM</a>
-                <a href="#">MẪU THỬ SAMPLE</a>
-              </div>
-              <button class="dropdown-btn">
-                CẨM NANG
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-container">
-                <a href="#">REVIEWS</a>
-                <a href="#">CHÍNH SÁCH ĐỔI TRẢ</a>
-                <a href="#">CHÍNH SÁCH THANH TOÁN</a>
-              </div>
-              <button class="dropdown-btn">
-                LIÊN HỆ
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div></div>
-            </div>
-            <script>
-              //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-              var dropdown = document.getElementsByClassName("dropdown-btn");
-              var i;
-
-              for (i = 0; i < dropdown.length; i++) {
-                dropdown[i].addEventListener("click", function () {
-                  this.classList.toggle("active");
-                  var dropdownContent = this.nextElementSibling;
-                  if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none";
-                  } else {
-                    dropdownContent.style.display = "block";
-                  }
-                });
-              }
-            </script>
-          </td>
+          <td colspan="2"><hr /></td>
+        </tr>
+        <tr>
           <td>
-            Muốn tìm gì: <input ng-model="search" />
-            <div>
-              <div
-                style="width: 100%"
-                ng-app="angularApp"
-                ng-controller="KitController"
-                class="products-table"
-              >
-                <div
-                  class="tungsanpham"
-                  style="display: inline-block"
-                  ng-repeat="data in datas | filter:search"
-                >
-                  <img
-                    ng-src="{{data.image}}"
-                    class="image"
-                    style="width: 300px; height: 300px"
-                    onerror="showNoImage(this)"
-                  /><br />
-                  <div class="ellipsis-title">
-                    <div style="text-align: center">
-                      <a
-                        class="tensp"
-                        ng-href="{{'ProductDetails.html?&cat='+data.category+'&id=' + data.id}}"
-                        >{{data.TenSP}}</a
-                      >
+            <div class="wrap-cart">
+              <div class="wrap-cart-title">
+                <div class="cart-title-name">Thanh Toán</div>
+                <div class="cart-title-number">
+                  (<span id="id_cart_number" class="cart-title-number-1"
+                    >2</span
+                  >
+                  sản phẩm)
+                </div>
+              </div>
+              <div class="wrap-cart-table">
+                <div class="cart-left">
+                  <div class="cart-left-1">
+                    <div
+                      class="cart-left-2"
+                      style="
+                        background-color: whitesmoke;
+                        color: #ffa5a5;
+                        font-weight: 900;
+                      "
+                    >
+                      <div class="product-title">Sản phẩm</div>
+                      <div class="price-title">Giá</div>
+                      <div class="length-title">Số lượng</div>
+                      <div class="currency-title">Thành tiền</div>
+                    </div>
+                    <div class="cart-left-3" ng-repeat="cart in carts">
+                      <div hidden id="id_product_cart_id">{{cart.id}}</div>
+                      <div class="cart-left-2-item">
+                        <div class="image-title1">
+                          <img class="sm-img" src="{{cart.image}}" />
+                        </div>
+                        <div class="wrap-info-img">
+                          <div class="image-title2 ellipsis-img-title">
+                            {{cart.title}}
+                          </div>
+                          <div class="image-title3 ellipsis-img-description">
+                            {{cart.description}}
+                          </div>
+                          <div class="group-btn-img">
+                            <div
+                              class="image-title4"
+                              onclick="favouriteCartItem()"
+                            >
+                              <i class="fa fa-heart" aria-hidden="true"></i> Yêu
+                              thích
+                            </div>
+                            <div
+                              class="image-title5"
+                              ng-click="removeCartItem(cart.id)"
+                            >
+                              <i class="fa fa-times" aria-hidden="true"></i> Xoá
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="price" id="id_cart_price">{{cart.price}}</div>
+                      <div class="length">
+                        <input
+                          type="number"
+                          id="number_product"
+                          value="{{cart.count}}"
+                          ng-model="priceTotal"
+                          ng-change="calCurrencyTotal(priceTotal, cart.id)"
+                          min="0"
+                        />
+                      </div>
+                      <div class="currency" id="id_currency_total">
+                        {{ cart.total.toFixed(0).toLocaleString()}}đ
+                      </div>
                     </div>
                   </div>
-                  <br />
-                  <div class="giaban">
-                    {{data.Giaban}}
-                    <br />
-                    <input
-                      type="button"
-                      value="ADD TO CART"
-                      class="addtocart"
-                    />
+                  <div class="cart-left-4">
+                    <div class="style-btn-add-cart"></div>
+                    <div></div>
                   </div>
                 </div>
-                <br />
-                <div class="wrap-paging">
-                  <div class="item-paging" ng-repeat="item in total">
-                    <a
-                      class="page"
-                      ng-href="{{'BoKitDungThu.html?page=' + (item+1)}}"
-                      >{{(item+1)}}</a
+                <div class="cart-middle"></div>
+                <div
+                  class="cart-right"
+                  style="justify-content: center; width: 400px"
+                >
+                  <div
+                    class="cart-right-title"
+                    style="
+                      background-color: whitesmoke;
+                      color: #ffa5a5;
+                      font-weight: 900;
+                    "
+                  >
+                    Hoá đơn của bạn
+                  </div>
+                  <div class="cart-right-content">
+                    <div class="cart-right-item">
+                      <div class="cart-right-name">Tạm tính:</div>
+                      <div class="cart-right-price" id="id_temp_total_price">
+                        {{totalTempPrice}}
+                      </div>
+                    </div>
+                    <div class="cart-right-item">
+                      <div class="cart-right-name">Tổng tiền:</div>
+                      <div class="cart-right-price" id="id_total_price">
+                        {{totalPrice}}
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        color: #ffa5a5;
+                        font-weight: bold;
+                        margin: 10px 0px;
+                      "
                     >
+                      Phương thức thanh toán
+                    </div>
+                    <div>
+                      <img
+                        src="images/momo.jpg"
+                        style="width: 20%; cursor: pointer; border-radius: 10px"
+                        onclick="window.location.href='https://momo.vn/'"
+                      />
+                      <img
+                        src="images/bidv.png"
+                        style="width: 20%; cursor: pointer; border-radius: 5px"
+                        onclick="window.location.href='https://bidvsmartbanking.vn/'"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>

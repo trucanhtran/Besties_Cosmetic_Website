@@ -1,536 +1,608 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Chính Sách Thanh Toán</title>
+    <link rel="shortcut icon" href="images/logotitle.png" />
     <link rel="stylesheet" href="css/cssthanhtoan.css" type="text/css" />
     <style type="text/css">
-        .auto-style1 {
-            width: 274px;
-        }
+      .auto-style1 {
+        width: 274px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: auto;
+        padding-bottom: 0;
+      }
 
-        .auto-style3 {
-            height: 50px;
-            padding-left: 50px;
-        }
+      .auto-style3 {
+        height: 50px;
+        padding-left: 50px;
+      }
 
-        body {
-            font-family: "Roboto", sans-serif;
-            margin-top: 10px;
-        }
+      body {
+        font-family: "Roboto", sans-serif;
+        margin-top: 10px;
+      }
 
-        table tr td .container {
-            display: flex;
-            justify-content: center;
-        }
+      table tr td .container {
+        display: flex;
+        justify-content: center;
+      }
 
-        table tr td .login {
-            margin-top: 30px;
-            text-align: center;
-            color: black;
-            border-radius: 8px;
-        }
+      table tr td .login {
+        width: 200px;
+        padding-top: 10px;
+        text-align: center;
+        color: black;
+        border-radius: 8px;
+      }
 
-            table tr td .login:hover {
-                background-color: whitesmoke;
-            }
+      table tr td .login:hover {
+        background-color: whitesmoke;
+      }
 
-            table tr td .login a {
-                text-decoration: none;
-                color: black;
-            }
+      table tr td .login a {
+        text-decoration: none;
+        color: black;
+      }
 
-                table tr td .login a:hover {
-                    color: #ffa5a5;
-                    font-weight: bold;
-                    border: 1px solid whitesmoke;
-                }
+      table tr td .login a:hover {
+        color: #ffa5a5;
+        font-weight: bold;
+        border: 1px solid whitesmoke;
+      }
 
-        table tr td .besties {
-            flex-grow: 1;
-            width: 20%;
-            text-align: center;
-            margin: 1%;
-        }
+      table tr td .besties {
+        flex-grow: 1;
+        width: 20%;
+        text-align: center;
+        margin: 1%;
+      }
 
-        table tr td .logo {
-            margin-top: -10px;
-        }
+      table tr td .logo {
+        margin-top: -10px;
+      }
 
-        table tr td div input {
-            margin-top: 30px;
-            border-radius: 8px;
-            padding: 10px;
-        }
+      table tr td div input {
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 10px;
+      }
 
-        table tr td .cart {
-            width: 40px;
-            height: 30px;
-            margin-top: 7px;
-            margin-right: 30px;
-        }
+      table tr td .cart {
+        width: 40px;
+        height: 30px;
+        margin-top: 7px;
+        margin-right: 30px;
+      }
 
-            table tr td .cart:hover {
-                cursor: pointer;
-            }
+      table tr td .cart:hover {
+        cursor: pointer;
+      }
 
-        table tr td #search {
-            background-image: url(images/find.png);
-            background-repeat: no-repeat;
-            background-position: 200px;
-        }
+      table tr td #search {
+        background-image: url(images/find.png);
+        background-repeat: no-repeat;
+        background-position: 200px;
+      }
 
+      .cssheader form table {
+        border: none;
+      }
 
-        .cssheader form table {
-            border: none;
-        }
+      .cssheader form table tr td div a {
+        text-decoration: none;
+      }
 
-            .cssheader form table tr td div a {
-                text-decoration: none;
-            }
+      .cssheader * {
+        margin: 0;
+        padding: 0;
+      }
 
-        .cssheader * {
-            margin: 0;
-            padding: 0;
-        }
+      .cssheader table tr td #menu ul {
+        background: white;
+        color: black;
+        text-align: center;
+        list-style-type: none;
+        border: none;
+      }
 
-        .cssheader table tr td #menu ul {
-            background: white;
-            color: black;
-            text-align: center;
-            list-style-type: none;
-            border: none;
-        }
+      .cssheader table tr td #menu ul li {
+        display: inline-block;
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: -5px;
+      }
 
-            .cssheader table tr td #menu ul li {
-                display: inline-block;
-                width: 160px;
-                height: 40px;
-                line-height: 40px;
-                margin-left: -5px;
-            }
+      .cssheader table tr td #menu ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
 
-                .cssheader table tr td #menu ul li a {
-                    text-decoration: none;
-                    color: black;
-                    display: block;
-                }
+      .cssheader table tr td #menu ul li a:hover {
+        background: whitesmoke;
+        color: #ffa5a5;
+        font-weight: bold;
+      }
 
-                    .cssheader table tr td #menu ul li a:hover {
-                        background: whitesmoke;
-                        color: #ffa5a5;
-                        font-weight: bold;
-                    }
+      .cssheader table tr td #menu ul li ul {
+        list-style-type: none;
+        background: white;
+        text-align: center;
+      }
 
+      .cssheader table tr td #menu ul li ul li {
+        color: black;
+        display: inline-block;
+        font-size: 10px;
+        border: 1px;
+        width: 160px;
+        height: 15px;
+        margin-left: -5px;
+      }
 
-                .cssheader table tr td #menu ul li ul {
-                    list-style-type: none;
-                    background: white;
-                    text-align: center;
-                }
+      .cssheader table tr td #menu ul li ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
 
-                    .cssheader table tr td #menu ul li ul li {
-                        color: black;
-                        display: inline-block;
-                        font-size: 10px;
-                        border: 1px;
-                        width: 160px;
-                        height: 15px;
-                        margin-left: -5px;
-                    }
+      .cssheader table tr td #menu ul li ul li a:hover {
+        background: whitesmoke;
+        color: gray;
+        font-weight: bold;
+      }
 
-                        .cssheader table tr td #menu ul li ul li a {
-                            text-decoration: none;
-                            color: black;
-                            display: block;
-                        }
+      .cssheader table tr td .sub-menu {
+        display: none;
+        position: absolute;
+      }
 
-                            .cssheader table tr td #menu ul li ul li a:hover {
-                                background: whitesmoke;
-                                color: gray;
-                                font-weight: bold;
-                            }
+      .cssheader table tr td #menu li {
+        position: relative; /*hiển thị gần menu mẹ*/
+      }
 
-        .cssheader table tr td .sub-menu {
-            display: none;
-            position: absolute;
-        }
+      .cssheader table tr td #menu li:hover .sub-menu {
+        display: block;
+      }
 
-        .cssheader table tr td #menu li {
-            position: relative; /*hiển thị gần menu mẹ*/
-        }
+      .cssheader table tr td .sub-menu li {
+        margin-left: 0 !important;
+      }
 
-            .cssheader table tr td #menu li:hover .sub-menu {
-                display: block;
-            }
+      /* Fixed sidenav, full height */
+      .sidenav {
+        height: 100%;
+        font-weight: bold;
+        width: 280px;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: whitesmoke;
+        color: black;
+        overflow-x: hidden;
+        padding-top: 20px;
+        line-height: 30px;
+      }
 
-        .cssheader table tr td .sub-menu li {
-            margin-left: 0 !important;
-        }
+      /* Style the sidenav links and the dropdown button */
+      .sidenav a,
+      .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        line-height: 30px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+        color: black;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
 
-        /* Fixed sidenav, full height */
-        .sidenav {
-            height: 100%;
-            font-weight: bold;
-            width: 280px;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: whitesmoke;
-            color: black;
-            overflow-x: hidden;
-            padding-top: 20px;
-            line-height: 30px;
-        }
+      /* On mouse-over */
+      .sidenav a:hover,
+      .dropdown-btn:hover {
+        color: #ffa5a5;
+      }
+      /* Main content */
+      .main {
+        margin-left: 200px; /* Same as the width of the sidenav */
+        font-size: 20px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+      }
 
-            /* Style the sidenav links and the dropdown button */
-            .sidenav a,
-            .dropdown-btn {
-                padding: 6px 8px 6px 16px;
-                line-height: 30px;
-                text-decoration: none;
-                font-weight: 500;
-                font-size: 15px;
-                color: black;
-                display: block;
-                border: none;
-                background: none;
-                width: 100%;
-                text-align: left;
-                cursor: pointer;
-                outline: none;
-            }
+      /* Add an active class to the active dropdown button */
+      .active {
+        background-color: #e8e8e8;
+        color: black;
+      }
 
-                /* On mouse-over */
-                .sidenav a:hover,
-                .dropdown-btn:hover {
-                    color: #ffa5a5;
-                }
-        /* Main content */
-        .main {
-            margin-left: 200px; /* Same as the width of the sidenav */
-            font-size: 20px; /* Increased text to enable scrolling */
-            padding: 0px 10px;
-        }
+      /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+      .dropdown-container {
+        display: none;
+        background-color: #eeeded;
+        padding-left: 30px;
+        font-weight: lighter;
+      }
 
-        /* Add an active class to the active dropdown button */
-        .active {
-            background-color: #e8e8e8;
-            color: black;
-        }
-
-        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-        .dropdown-container {
-            display: none;
-            background-color: #eeeded;
-            padding-left: 30px;
-            font-weight: lighter;
-        }
-
-            .dropdown-container a {
-                font-weight: 400;
-                font-size: 14px;
-            }
-        /* Optional: Style the caret down icon */
-        .fa-caret-down {
-            float: right;
-            padding-right: 8px;
-        }
-
-
+      .dropdown-container a {
+        font-weight: 400;
+        font-size: 14px;
+      }
+      /* Optional: Style the caret down icon */
+      .fa-caret-down {
+        float: right;
+        padding-right: 8px;
+      }
     </style>
-
-</head>
-<body>
+  </head>
+  <body>
     <table>
-        <thead class="cssheader">
-            <tr>
-                <td colspan="2">
-                    <div class="container">
-                        <div class="container">
-                            <div class="login" style="text-align:center">
-                                <a href="dangky.html">Đăng ký </a>
-                                /
-                                <a href="DangNhap.html">Đăng nhập</a>
-                            </div>
-                            <div class="besties">
-                                <a href="HomePage.html"><img src="images/logobesties.png" class="logo" style="width:20%" /></a>
-                            </div>
-                            <div style="margin-top: 2px; padding: 10px">
-                                <form action="Search.html">
-                                    <input type="Search"
-                                           id="Search"
-                                           name="q"
-                                           placeholder="Search" />
-                                </form>
-                            </div>
-                            <a href="Cart.html"><img src="images/cart.png" class="cart" width="10%" /></a>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <div id="menu" style="font-family:'Arial'">
-                        <ul>
-                            <li><a href="HomePage.html">TRANG CHỦ</a> </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">MAKE UP</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
-                                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
-                                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">SKINCARE</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
-                                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
-                                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
-                                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
-                                    <li><a href="MatNa.html">MẶT NẠ</a></li>
-                                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
-                                    <li><a href="Lotion.html">LOTION</a></li>
-                                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
-                                    <li><a href="Toner.html">TONER</a></li>
-                                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
-                                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="Other.html" style="text-decoration:none">KHÁC</a>
-                            </li>
-                            <li>
-                                <a href="#" style="text-decoration:none">CẨM NANG</a>
-                                <ul class="sub-menu" style="z-index:9999">
-                                    <li><a href="Review.html">REVIEWS</a></li>
-                                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
-                                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="LienHe.html" style="text-decoration:none">LIÊN HỆ</a> </li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                </td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="2" style="text-align:justify">
-                    <img src="images/BannerDoiTra.png" width="100%" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="auto-style3 , colordanhmuc" style="vertical-align:middle; font-weight:bold">
-                    <a href="HomePage.html" class="linkdanhmuc" style="color:black">
-                        Trang chủ
-                    </a>
+      <thead class="cssheader">
+        <tr>
+          <td colspan="2">
+            <div class="container">
+              <div class="container">
+                <div
+                  class="login"
+                  style="text-align: center; cursor: pointer"
+                  onclick="window.location.href='LichSuMuaHang.html'"
+                >
+                  <a
+                    ><img
+                      src="images/ava.png"
+                      style="margin-top: -5px; width: 20%"
+                  /></a>
+
+                  <a style="vertical-align: top">Bảo Phương</a>
+                </div>
+                <div class="besties">
+                  <a href="/"
+                    ><img
+                      src="images/logobesties.png"
+                      class="logo"
+                      style="width: 20%"
+                  /></a>
+                </div>
+                <div style="margin-top: 2px; padding: 10px">
+                  <form action="Search.html">
+                    <input
+                      type="Search"
+                      id="Search"
+                      name="q"
+                      placeholder="Search"
+                    />
+                  </form>
+                </div>
+                <a href="Cart.html"
+                  ><img src="images/cart.png" class="cart" width="10%"
+                /></a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="menu" style="font-family: 'Arial'">
+              <ul>
+                <li><a href="/">TRANG CHỦ</a></li>
+                <li>
+                  <a href="#" style="text-decoration: none">MAKE UP</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="FaceMakeup.html">FACE MAKE UP</a></li>
+                    <li><a href="LipsMakeup.html">LIPS MAKE UP</a></li>
+                    <li><a href="EyesMakeup.html">EYES MAKE UP</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">SKINCARE</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="SuaRuaMat.html">SỮA RỬA MẶT</a></li>
+                    <li><a href="KemChongNang.html">KEM CHỐNG NẮNG</a></li>
+                    <li><a href="KemDuongDa.html">KEM DƯỠNG DA</a></li>
+                    <li><a href="KemDuongMat.html">KEM DƯỠNG MẮT</a></li>
+                    <li><a href="MatNa.html">MẶT NẠ</a></li>
+                    <li><a href="MatNaNgu.html">MẶT NẠ NGỦ</a></li>
+                    <li><a href="Lotion.html">LOTION</a></li>
+                    <li><a href="TayTrang.html">TẨY TRANG</a></li>
+                    <li><a href="Toner.html">TONER</a></li>
+                    <li><a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a></li>
+                    <li><a href="Serum.html">ESSENCE - SERUM - AMPOULE</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="Other.html" style="text-decoration: none">KHÁC</a>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none">CẨM NANG</a>
+                  <ul class="sub-menu" style="z-index: 9999">
+                    <li><a href="Review.html">REVIEWS</a></li>
+                    <li><a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                    <li><a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="LienHe.html" style="text-decoration: none"
+                    >LIÊN HỆ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2" style="text-align: justify">
+            <img src="images/BannerDoiTra.png" width="100%" />
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="auto-style3 , colordanhmuc"
+            style="vertical-align: middle; font-weight: bold"
+          >
+            <a href="/" class="linkdanhmuc" style="color: black"> Trang chủ </a>
+            >
+            <a href="ThanhToan.html" class="linkdanhmuc" style="color: black">
+              <b>Chính sách thanh toán</b>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 10px"></td>
+        </tr>
+        <tr>
+          <td style="align-content: center">
+            <div class="auto-style1">
+              <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
+              <hr />
+              <div class="sidenav">
+                <button class="dropdown-btn" onclick="location.href='/'">
+                  TRANG CHỦ
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div></div>
+                <button class="dropdown-btn">
+                  MAKE UP
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="FaceMakeup.html">FACE MAKE UP</a>
+                  <a href="LipsMakeup.html">LIPS MAKE UP</a>
+                  <a href="EyesMakeup.html">EYES MAKE UP</a>
+                </div>
+                <button class="dropdown-btn">
+                  SKIN CARE
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="SuaRuaMat.html">SỮA RỬA MẶT</a>
+                  <a href="KemChongNang.html">KEM CHỐNG NẮNG</a>
+                  <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
+                  <a href="KemDuongMat.html">KEM DƯỠNG MẮT</a>
+                  <a href="MatNa.html">MẶT NẠ</a>
+                  <a href="MatNaNgu.html">MẶT NẠ NGỦ</a>
+                  <a href="Lotion.html">LOTION</a>
+                  <a href="TayTrang.html">TẨY TRANG</a>
+                  <a href="Toner.html">TONER</a>
+                  <a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a>
+                  <a href="Serum.html">ESSENCE - SERUM - AMPOULE</a>
+                </div>
+                <button
+                  class="dropdown-btn"
+                  onclick="location.href='Other.html'"
+                >
+                  KHÁC
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container"></div>
+                <button class="dropdown-btn">
+                  CẨM NANG
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="Review.html">REVIEWS</a>
+                  <a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a>
+                  <a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a>
+                </div>
+                <button
+                  class="dropdown-btn"
+                  onclick="location.href='LienHe.html'"
+                >
+                  LIÊN HỆ
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div></div>
+              </div>
+              <script>
+                //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                var dropdown = document.getElementsByClassName("dropdown-btn");
+                var i;
+
+                for (i = 0; i < dropdown.length; i++) {
+                  dropdown[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                      dropdownContent.style.display = "none";
+                    } else {
+                      dropdownContent.style.display = "block";
+                    }
+                  });
+                }
+              </script>
+            </div>
+          </td>
+          <td>
+            <h1>Chính sách thanh toán</h1>
+            <p><b>CHÍNH SÁCH THANH TOÁN</b></p>
+            <br />
+            <div>
+              <p>
+                Có 2 hình thức thanh toán, khách hàng có thể lựa chọn hình thức
+                thuận tiện và phù hợp với mình nhất:
+              </p>
+              <br />
+              <p>
+                <b>Cách 1:</b> Thanh toán khi nhận hàng (COD), khách hàng xem
+                hàng tại nhà, thanh toán tiền mặt cho nhân viên giao nhận hàng.
+              </p>
+              <br />
+              <p>
+                <b>Cách 2:</b> Chuyển khoản trước. Quý khách vui lòng KHÔNG
+                chuyển khoản trước khi nhân viên Besties gọi xác nhận
+              </p>
+              <br />
+              <p>
+                . Trần Thị Trúc Anh – Ngân hàng Vietcombank – 0071000928661
+                <br />
+                – CHI NHÁNH GIÔ GIA TỰ (PHÒNG GIAO DỊCH SỐ 9 – QUẬN 10)
+              </p>
+              <br />
+              <p>
+                . Trần Thị Trúc Anh – Ngân hàng Vietcombank – 0071000928661
+                <br />
+                – CHI NHÁNH GIÔ GIA TỰ (PHÒNG GIAO DỊCH SỐ 9 – QUẬN 10)
+              </p>
+              <br />
+              <p>
+                <b><i>*Lưu ý:</i></b>
+              </p>
+              <br />
+              <p>
+                + Nội dung chuyển khoản ghi rõ họ tên. Sau khi chuyển khoản,
+                chúng tôi sẽ liên hệ xác nhận và tiến hành giao hàng. Nếu sau
+                thời gian thỏa thuận mà chúng tôi không giao hàng hoặc không
+                phản hồi lại, quý khách có thể gửi khiếu nại trực tiếp về địa
+                chỉ trụ sở và yêu cầu bồi thường nếu chứng minh được sự chậm trễ
+                làm ảnh hưởng đến kinh doanh của quý khách.
+              </p>
+              <br />
+              <p>
+                + Besties dùng dịch vụ giao hàng nên anh/chị sẽ nhận được hàng
+                trong 2 - 3 ngày đối với HCM và 3 - 7 ngày đối với tỉnh (không
+                bao gồm ngày T7 -CN), sau khi Bici xác nhận đơn hàng ạ.
+              </p>
+              <br />
+              <p>
+                Shipper sẽ giao hàng TRONG GIỜ HÀNH CHÍNH TỪ 9H - 17H và giao
+                theo tuyến bất kì anh/chị nhé.
+              </p>
+              <br />
+              <p>
+                <img class="img" src="../images/X.png" />
+                <img class="img" src="../images/X.png" />
+                <img class="img" src="../images/X.png" />
+                KHÔNG GIAO HÀNG BUỔI TỐI, KHÔNG GIAO HÀNG CHIỀU THỨ 7, CHỦ NHẬT
+                VÀ CÁC NGÀY LỄ.
+              </p>
+              <br />
+              <p>
+                + Đối với khách hàng có nhu cầu mua số lượng lớn để kinh doanh
+                hoặc buôn sỉ vui lòng liên hệ trực tiếp với chúng tôi để có
+                chính sách giá cả hợp lý. Và việc thanh toán sẽ được thực hiện
+                theo hợp đồng.
+              </p>
+              <br />
+              <p>
+                Chúng tôi cam kết kinh doanh minh bạch, hợp pháp, bán hàng chất
+                lượng, có nguồn gốc!
+              </p>
+              <br />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2" style="background-color: #fcdada">
+            <table>
+              <tr>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="LienHe.html" style="text-decoration: none"
+                      ><strong>THÔNG TIN LIÊN HỆ</strong></a
                     >
-                    <a href="ThanhToan.html" class="linkdanhmuc" style="color:black">
-                        <b>Chính sách thanh toán</b>
-                    </a>
+                  </p>
+                  <div>
+                    <p>
+                      <strong>BESTIES COSMETICS</strong> <br />
+                      Số 1 Võ Văn Ngân,Linh Trung,<br />
+                      Thủ Đức, TP HCM
+                    </p>
+                    <p>Hotline: 1900 0274</p>
+                    <p>Email: cskh@besties.vn</p>
+                  </div>
                 </td>
-            </tr>
-            <tr>
-                <td style="height:10px;"></td>
-            </tr>
-            <tr>
-                <td class="auto-style1" style="align-content: center">
-                    <p class="danhmuc" style="line-height: 60px">DANH MỤC TRANG</p>
-                    <hr />
-                    <div class="sidenav">
-                        <button class="dropdown-btn" onclick="location.href='HomePage.html'">
-                            TRANG CHỦ
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div></div>
-                        <button class="dropdown-btn">
-                            MAKE UP
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="FaceMakeup.html">FACE MAKE UP</a>
-                            <a href="LipsMakeup.html">LIPS MAKE UP</a>
-                            <a href="EyesMakeup.html">EYES MAKE UP</a>
-                        </div>
-                        <button class="dropdown-btn">
-                            SKIN CARE
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="SuaRuaMat.html">SỮA RỬA MẶT</a>
-                            <a href="KemChongNang.html">KEM CHỐNG NẮNG</a>
-                            <a href="KemDuongDa.html">KEM DƯỠNG DA</a>
-                            <a href="KemDuongMat.html">KEM DƯỠNG MẮT</a>
-                            <a href="MatNa.html">MẶT NẠ</a>
-                            <a href="MatNaNgu.html">MẶT NẠ NGỦ</a>
-                            <a href="Lotion.html">LOTION</a>
-                            <a href="TayTrang.html">TẨY TRANG</a>
-                            <a href="Toner.html">TONER</a>
-                            <a href="KemTayTeBaoChet.html">TẨY TẾ BÀO CHẾT</a>
-                            <a href="Serum.html">ESSENCE - SERUM - AMPOULE</a>
-                        </div>
-                        <button class="dropdown-btn" onclick="location.href='Other.html'">
-                            KHÁC
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                        </div>
-                        <button class="dropdown-btn">
-                            CẨM NANG
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-container">
-                            <a href="Review.html">REVIEWS</a>
-                            <a href="DoiTra.html">CHÍNH SÁCH ĐỔI TRẢ</a>
-                            <a href="ThanhToan.html">CHÍNH SÁCH THANH TOÁN</a>
-                        </div>
-                        <button class="dropdown-btn" onclick="location.href='LienHe.html'">
-                            LIÊN HỆ
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div></div>
-                    </div>
-                    <script>
-                      //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-                      var dropdown = document.getElementsByClassName("dropdown-btn");
-                      var i;
-
-                      for (i = 0; i < dropdown.length; i++) {
-                          dropdown[i].addEventListener("click", function () {
-                              this.classList.toggle("active");
-                              var dropdownContent = this.nextElementSibling;
-                              if (dropdownContent.style.display === "block") {
-                                  dropdownContent.style.display = "none";
-                              } else {
-                                  dropdownContent.style.display = "block";
-                              }
-                          });
-                      }
-                    </script>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>VỀ CHÚNG TÔI</strong></a
+                    >
+                  </p>
+                  <div style="padding-left: 18px">
+                    <p>
+                      <a href="#">Giới thiệu <strong>Besties.vn</strong></a>
+                    </p>
+                    <p><a href="#">Tuyển dụng</a></p>
+                    <p><a href="#">Chính sách bảo mật</a></p>
+                    <p><a href="#">Điều khoản sử dụng</a></p>
+                  </div>
                 </td>
-                <td>
-                    <h1>Chính sách thanh toán</h1>
-                    <p><b>CHÍNH SÁCH THANH TOÁN</b></p>
-                    <br />
-                    <div>
-                        <p>Có 2 hình thức thanh toán, khách hàng có thể lựa chọn hình thức thuận tiện và phù hợp với mình nhất:</p>
-                        <br />
-                        <p><b>Cách 1:</b> Thanh toán khi nhận hàng (COD), khách hàng xem hàng tại nhà, thanh toán tiền mặt cho nhân viên giao nhận hàng.</p>
-                        <br />
-                        <p><b>Cách 2:</b> Chuyển khoản trước. Quý khách vui lòng KHÔNG chuyển khoản trước khi nhân viên Besties gọi xác nhận</p>
-                        <br />
-                        <p>
-                            . Trần Thị Trúc Anh – Ngân hàng Vietcombank – 0071000928661 <br />
-                            – CHI NHÁNH GIÔ GIA TỰ (PHÒNG GIAO DỊCH SỐ 9 – QUẬN 10)
-                        </p>
-                        <br />
-                        <p>
-                            . Trần Thị Trúc Anh – Ngân hàng Vietcombank – 0071000928661 <br />
-                            – CHI NHÁNH GIÔ GIA TỰ (PHÒNG GIAO DỊCH SỐ 9 – QUẬN 10)
-                        </p>
-                        <br />
-                        <p>
-                            <b><i>*Lưu ý:</i></b>
-                        </p>
-                        <br />
-                        <p>
-                            + Nội dung chuyển khoản ghi rõ họ tên. Sau khi chuyển khoản, chúng tôi sẽ liên hệ xác nhận và tiến hành giao hàng. Nếu sau thời gian thỏa thuận mà chúng tôi không giao hàng hoặc không phản hồi lại, quý khách có thể gửi khiếu nại trực tiếp về địa chỉ trụ sở và yêu cầu bồi thường nếu chứng minh được sự chậm trễ làm ảnh hưởng đến kinh doanh của quý khách.
-                        </p>
-                        <br />
-                        <p>
-                            + Besties dùng dịch vụ giao hàng nên anh/chị sẽ nhận được hàng trong 2 - 3 ngày đối với HCM và 3 - 7 ngày đối với tỉnh (không bao gồm ngày T7 -CN), sau khi Bici xác nhận đơn hàng ạ.
-                        </p>
-                        <br />
-                        <p>
-                            Shipper sẽ giao hàng TRONG GIỜ HÀNH CHÍNH TỪ 9H - 17H và giao theo tuyến bất kì anh/chị nhé.
-                        </p>
-                        <br />
-                        <p>
-                            <img class="img" src="../images/X.png" />
-                            <img class="img" src="../images/X.png" />
-                            <img class="img" src="../images/X.png" />
-                            KHÔNG GIAO HÀNG BUỔI TỐI, KHÔNG GIAO HÀNG CHIỀU THỨ 7, CHỦ NHẬT VÀ CÁC NGÀY LỄ.
-                        </p>
-                        <br />
-                        <p>
-                            + Đối với khách hàng có nhu cầu mua số lượng lớn để kinh doanh hoặc buôn sỉ vui lòng liên hệ trực tiếp với chúng tôi để có chính sách giá cả hợp lý. Và việc thanh toán sẽ được thực hiện theo hợp đồng.
-                        </p>
-                        <br />
-                        <p>
-
-                            Chúng tôi cam kết kinh doanh minh bạch, hợp pháp, bán hàng chất lượng, có nguồn gốc!
-                        </p>
-                        <br />
-                    </div>
+                <td class="diva" style="line-height: 40px">
+                  <p>
+                    <a href="#" style="text-decoration: none"
+                      ><strong>CHĂM SÓC KHÁCH HÀNG</strong></a
+                    >
+                  </p>
+                  <div style="margin-left: -13px">
+                    <p><a href="#">Các câu hỏi thường gặp</a></p>
+                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
+                    <p><a href="#">Vận chuyển</a></p>
+                  </div>
                 </td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td colspan="2" style="background-color:#FCDADA">
-                    <table>
-                        <tr>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="LienHe.html" style="text-decoration:none"><strong>THÔNG TIN LIÊN HỆ</strong></a></p>
-                                <div>
-                                    <p><strong>BESTIES COSMETICS</strong> <br /> Số 1 Võ Văn Ngân,Linh Trung,<br /> Thủ Đức, TP HCM</p>
-                                    <p>Hotline: 1900 0274</p>
-                                    <p>Email: cskh@besties.vn</p>
-                                </div>
-
-                            </td>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none"><strong>VỀ CHÚNG TÔI</strong></a></p>
-                                <div style="padding-left:18px">
-                                    <p><a href="#">Giới thiệu <strong>Besties.vn</strong></a></p>
-                                    <p><a href="#">Tuyển dụng</a></p>
-                                    <p><a href="#">Chính sách bảo mật</a></p>
-                                    <p><a href="#">Điều khoản sử dụng</a></p>
-                                </div>
-
-                            </td>
-                            <td class="diva" style="line-height:40px">
-                                <p><a href="#" style="text-decoration:none"><strong>CHĂM SÓC KHÁCH HÀNG</strong></a></p>
-                                <div style="margin-left:-13px">
-                                    <p><a href="#">Các câu hỏi thường gặp</a></p>
-                                    <p><a href="#">Hướng dẫn đặt hàng</a></p>
-                                    <p><a href="#">Vận chuyển</a></p>
-                                </div>
-
-                            </td>
-                            <td style="text-align:end">
-                                <div>
-                                    <img src="images/fb.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                    <img src="images/ins.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                    <img src="images/yt.png" style="margin-top:60px" /> &nbsp;&nbsp;
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="4" style="text-align:left">
-                                <hr />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" style="text-align:left">
-                                <img src="images/logobesties.png" style="width:40%" />
-                            </td>
-                            <td style="text-align:right">
-                                Copy right © 2020 Cosmetics. All right reserved<br />
-                                <img src="images/bct.png" style="width:30%" />
-                            </td>
-                        </tr>
-                    </table>
+                <td style="text-align: end">
+                  <div>
+                    <img src="images/fb.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/ins.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                    <img src="images/yt.png" style="margin-top: 60px" />
+                    &nbsp;&nbsp;
+                  </div>
                 </td>
-            </tr>
-        </tfoot>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: left">
+                  <hr />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" style="text-align: left">
+                  <img src="images/logobesties.png" style="width: 40%" />
+                </td>
+                <td style="text-align: right">
+                  Copy right © 2020 Cosmetics. All right reserved<br />
+                  <img src="images/bct.png" style="width: 30%" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tfoot>
     </table>
-</body>
+  </body>
 </html>

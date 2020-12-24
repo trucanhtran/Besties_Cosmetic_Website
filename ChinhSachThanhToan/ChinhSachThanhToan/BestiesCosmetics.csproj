@@ -78,6 +78,7 @@
     <Content Include="FaceMakeup.html" />
     <Content Include="flickity.css" />
     <Content Include="HomePage.html" />
+    <Content Include="/" />
     <Content Include="images\ava.png" />
     <Content Include="images\BG4.jpg" />
     <Content Include="images\Cerave.jpg" />
@@ -104,6 +105,7 @@
     <Content Include="magicslideshow.css" />
     <Content Include="magicslideshow.js" />
     <Content Include="myjs\Slider.js" />
+    <Content Include="Payment.html" />
     <Content Include="Review.html" />
     <Content Include="ThanhToan.html" />
     <Content Include="Web.config" />
